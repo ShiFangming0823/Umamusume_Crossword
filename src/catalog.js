@@ -1,4 +1,5 @@
 import { validateCharacters, validateLevel } from './game.js';
+import { validateClueBank } from './clue-bank.js';
 async function getJSON(url) {
   const response = await fetch(url, { cache: 'no-store' });
   if (!response.ok) throw new Error(`Cannot load ${url.pathname}: ${response.status}`);
@@ -6,8 +7,15 @@ async function getJSON(url) {
 }
 export async function loadCatalog() {
   const root = new URL('../data/', import.meta.url);
-  const [registry, manifest] = await Promise.all([getJSON(new URL('characters.json', root)), getJSON(new URL('levels/index.json', root))]);
+  const [registry, bank] = await Promise.all([getJSON(new URL('characters.json', root)), getJSON(new URL('clues.json', root))]);
   validateCharacters(registry);
+  validateClueBank(bank,registry.characters);
+  return {bank,characters:registry.characters};
+}
+// Historical fixed grids remain available to maintenance tools and regression fixtures.
+export async function loadLegacyCatalog() {
+  const root = new URL('../data/', import.meta.url);
+  const [registry, manifest] = await Promise.all([getJSON(new URL('characters.json', root)), getJSON(new URL('levels/index.json', root))]);
   if (manifest.schemaVersion !== 1 || !Array.isArray(manifest.levels)) throw new Error('Invalid level manifest');
   const ids = new Set();
   const levels = await Promise.all(manifest.levels.filter((e) => e.enabled !== false).map(async (entry) => {

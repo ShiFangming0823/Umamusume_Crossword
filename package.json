@@ -1,6 +1,6 @@
 {
   "name": "umamusume-crossword",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,6 +9,7 @@
     "build:worker": "node scripts/build-worker.mjs",
     "preview": "node scripts/serve.mjs --dist",
     "test": "node --test --test-isolation=none",
+    "benchmark": "node scripts/benchmark-generator.mjs",
     "check:data": "node scripts/check-data.mjs"
   }
 }

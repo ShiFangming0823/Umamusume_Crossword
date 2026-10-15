@@ -2,147 +2,64 @@
 
 [简体中文](README.md) · **English** · [日本語](README.ja.md)
 
-A multilingual crossword game with Umamusume character names as answers. The project uses native HTML, CSS and JavaScript, with JSON files for puzzles, the character dictionary and clue sources. Game logic is separate from DOM interaction.
-
-The interface and clues support Simplified Chinese, English and Japanese. Answers can use English letters or katakana, independently of the interface language. The current catalog contains four collections, eight puzzles and a dictionary of 97 characters.
+A randomized browser crossword using Umamusume character names. The frontend uses native HTML, CSS and JavaScript ES modules. JSON stores runners and localized clues; optional anonymous statistics use a Cloudflare Worker and D1 behind a same-origin API.
 
 ## Features
 
-| Feature | Behavior |
-| --- | --- |
-| Puzzle selection | Select a collection, answer script and individual puzzle |
-| Assisted mode | Fully correct words turn green and reveal all three character names; name lookups are unlimited |
-| Answer assistance | Assisted offers unlimited answer views without filling the board. Challenge reveals up to three distinct words, fills and locks them in green. The timer continues; repeat views are free |
-| Challenge mode | Hide correctness for unrevealed answers until completion; allow three nonempty name searches per game, including misses. Searches and answer reveals have separate allowances |
-| Early ending | Either mode can end the game, stop the timer and reveal the full solution, separately from a successful completion |
-| Name lookup | Search Chinese, English, kana, partial names and dictionary aliases; results show all three names |
-| Input | Keyboard navigation, direction switching at crossings, whole-word paste and Japanese IME support |
-| Settings | Interface-language and play-mode changes preserve the board, timer and used allowances; applying a different puzzle or answer script starts a new game |
-| Cloud statistics | Starts, successful completions and average solve times by puzzle revision; separate all-Challenge results and multilingual display |
+- Four collections: Starter, Advanced, Epithets and Cinderella Gray. Each game samples runners, generates a connected grid, then draws a clue per runner. There is no fixed-level selector.
+- Chinese, English and Japanese interface and clues; independently selectable English-letter or katakana answers.
+- Large grids have 10 across and 10 down; small grids have 6 each. Desktop and mobile default to large and small respectively, with manual override. Cells can be resized and grids scrolled horizontally.
+- Assisted mode marks correct words and shows trilingual names, with unlimited lookup and answer viewing. Challenge mode hides correctness for unrevealed words, allows three searches and three distinct answer reveals; revealed words are filled, marked green and locked.
+- Either mode can end early and reveal the solution. Settings and single-answer help do not pause time. Changing interface language or mode preserves state; applying a different collection, script or size, or generating a new game, resets it.
+- Local PNG export supports blank grids, current entries and post-game solutions. Current-language clues, game URL and an offline QR code are included; playing time and status are optional.
+- GitHub Issue and email contribution links appear in the game and result dialog.
+- Eight collection/size statistics buckets show starts, successful games and mean successful time. Answer scripts are combined; counts represent games, not unique visitors.
 
-Timing starts when a game session is created and stops on success or confirmed early ending. Settings, search and answer dialogs do not pause it. Searches and Challenge reveals use separate allowances; switching modes does not restore either allowance. Assisted answer views do not consume Challenge reveals. Challenge-revealed cells stay locked across mode changes. Games with any answer views count toward total completions but not no-answer-help Challenge statistics.
+## Development
 
-## Development environment and commands
-
-The project is verified with Node.js 24. It has no third-party npm dependencies and requires no dependency installation. Browsers need ES Modules, the Fetch API and native `<dialog>` support.
-
-```sh
-npm run dev
-```
-
-The development server runs at `http://localhost:5173/`. Open the app over HTTP so that modules and JSON data can load.
+Use Node.js 24. No npm dependency installation is required; the QR encoder is vendored with its MIT license. Run over HTTP in a browser supporting modules, Fetch, Web Workers, Canvas and native dialog.
 
 | Command | Purpose |
 | --- | --- |
-| `npm run dev` | Serve the project root locally |
-| `npm run check:data` | Check puzzles, the dictionary, paired puzzles and source consistency |
-| `npm test` | Run game-logic and data regression tests with Node.js’s built-in test runner |
-| `npm run build` | Validate data and regenerate the static `dist/` output |
-| `npm run build:worker` | Generate puzzle revisions and solutions for the statistics Worker |
-| `npm run preview` | Serve `dist/` locally after building |
+| npm run dev | Source preview at http://localhost:5173/ |
+| npm run check:data | Validate runners, random clue bank and legacy fixtures |
+| npm test | Rules, generated grids, localization, API and real SQLite regressions |
+| npm run benchmark | Measure all 16 collection/script/size combinations |
+| npm run build:worker | Generate server candidate pools and legacy compatibility data; commit outputs |
+| npm run build | Validate and recreate dist/; tests run separately |
+| npm run preview | Serve an existing dist/ build |
 
-Use `npm.cmd` instead of `npm` where needed in Windows PowerShell. `启动游戏.cmd` is a Windows shortcut for development preview. The server reads the `PORT` environment variable; development and output previews both default to port 5173, so use different ports when running them together.
+PowerShell can use npm.cmd. Both preview commands default to port 5173; use PORT to run them together.
 
-## Code structure
+## Architecture
 
-```text
-.
-├── index.html                   # Page structure and dialogs
-├── src/
-│   ├── main.js                  # DOM rendering, input, settings and session orchestration
-│   ├── game.js                  # State, evaluation, normalization, search and validation
-│   ├── catalog.js               # Manifest and enabled-puzzle loading
-│   ├── analytics.js             # Anonymous game reports, retry outbox and cache
-│   ├── analytics-config.js      # Public API origin and production origin
-│   ├── analytics-protocol.js    # Content revisions and solution conversion
-│   ├── i18n.js                  # Interface strings and placeholder substitution
-│   └── style.css                # Page, grid and responsive styles
-├── data/
-│   ├── characters.json          # Names in three languages, aliases and sources
-│   ├── levels/                  # Manifest, grids, answers and multilingual clues
-│   ├── epithets.json            # Epithet mapping and clue translations
-│   └── cinderella-gray.json     # Story clues, character names and per-clue sources
-├── schemas/                     # JSON Schemas
-├── functions/api/               # Same-origin Pages API forwarding to the Worker
-├── worker/                      # Statistics API, D1 configuration and migrations
-├── wrangler.jsonc               # Pages output and STATS service binding
-├── _routes.json                 # Invoke Pages Functions only for /api/*
-├── scripts/                     # Local server, data checking and static build
-├── tests/                       # Game, data, statistics and SQLite tests
-├── docs/                        # Puzzle maintenance and source references
-└── .vscode/settings.json         # Editor associations for JSON Schemas
-```
+main.js coordinates DOM, input methods, focus, settings and GameSession. game.js contains DOM-free rules, normalization, search, timing, allowances and board validation. catalog.js and clue-bank.js load and validate the JSON bank. generator.js performs bounded randomized restart search; generator-worker.js runs it off the main thread. i18n.js and random-i18n.js provide interface translations. export.js draws printable PNGs with the vendored offline QR encoder.
 
-## Runtime architecture
+The generator samples without replacement and checks matching crossings, word boundaries, side adjacency, connectivity and direction quotas. Scoring favors compact grids. Maximum edges are 30 cells for small grids and 40 for large ones. A busy button appears immediately, with delayed loading feedback after 400ms. The checked-in development-machine benchmark completed 800 generations with no failures and group means around 3–19ms; this excludes Worker startup and does not describe mobile performance.
 
-`catalog.js` reads the character dictionary and `data/levels/index.json`, loads enabled puzzles and validates their data through `game.js`. `main.js` passes the selected puzzle to `GameSession`, creates the grid, binds input handlers and renders clues.
+GameSession accepts an injected clock. completed means the session ended; success requires finishReason === 'solved', whereas 'revealed' means early termination. Reloading does not restore the grid. Local storage holds language preference, recent clue IDs and temporary statistics reports.
 
-`game.js` has no DOM access. `GameSession` owns letters, timing, play mode, lookup usage, revealed answers and termination state. The module also implements answer evaluation, search and text normalization. Its clock can be injected for deterministic timing tests.
+## Data maintenance
 
-The `finishReason` field distinguishes `solved` from `revealed`: the former means every answer is correct; the latter means an early ending with the solution exposed. `session.completed` means the session has ended and does not, on its own, indicate success.
+characters.json owns standard trilingual names and aliases. clues.json associates stable character IDs with categorized, sourced, trilingual clue records. The current bank covers 97 characters and 275 records. Ordinary and story clues offer alternatives; epithet clues retain authentic titles, including both game and towel titles when available. Starter and Advanced may share runners, but use category-scoped clues and different dimension weights.
 
-The interface-language preference is stored under `tracen-ui-language` in `localStorage`. Board contents, timing and allowances remain in memory and are not restored after a reload. Each reported game gets a random ID; failed reports use a temporary local outbox. No accounts, device fingerprints or persistent visitor IDs are used.
+Add all zh-CN, en and ja text, a stable clue ID, categories, dimension and sources. Review factual accuracy and uniqueness manually: a duplicate-text check cannot establish semantic uniqueness. English answers remove punctuation/spaces and become uppercase; katakana preserves small kana and long-vowel marks. Cinderella Gray originals use their fictional character names rather than real-horse counterparts.
 
-Production requests use same-origin `/api/` routes. A Pages Function calls the independent Worker through its `STATS` service binding; the Worker accesses D1 through `DB`. Database triggers maintain aggregates and prevent duplicate counts. Early endings do not count as wins. Public endpoints expose aggregates only. Local and preview builds do not write production statistics by default; reporting failures never block play. See [deployment and maintenance](docs/统计服务部署与维护.md) (Chinese).
+The eight old fixed grids remain historical fixtures and are not loaded during play. After changing bank content, run check:data, build:worker, test and build. Commit worker/pool.generated.js and any changed worker/levels.generated.js; do not hand-edit generated files or commit dist/, credentials or local databases.
 
-## Puzzle data and localization
+## Statistics and upgrades
 
-Each puzzle is an independent JSON file. Current puzzles have 11 across and 11 down entries. English and katakana versions of the same puzzle share a character roster but use separate layouts; numbering, positions and directions may differ. Match entries through `characterId`.
+analytics.js handles reporting, retries and caching. /api/v2/ forwards through the Pages Function STATS binding to a Worker with a DB binding. Starts validate submitted grids and retain only a solution hash; successful finishes verify letters. D1 stores no IP addresses, search text or answer details. Random run IDs deduplicate reports; temporary local outbox data may include the pending board. Statistics failures never prevent play; local previews do not write production statistics by default.
 
-| Collection | `difficulty` | English grid | Katakana grid |
-| --- | --- | --- | --- |
-| Starter | `beginner` | 24×24 | 19×20 |
-| Advanced | `advanced` | 25×25 | 19×19 |
-| Signature Epithets | `epithets` | 23×24 | 20×18 |
-| Cinderella Gray | `cinderella` | 23×23 | 20×20 |
+For v0.7, apply 0002_random_stats.sql, deploy the Worker, then deploy the frontend. Legacy tables and APIs remain available, and old fixed-grid totals are not mixed with random-puzzle totals. Publishing frontend changes alone is insufficient for this upgrade.
 
-`difficulty` is a legacy field name for the puzzle collection, independent of Assisted/Challenge play mode. Language and data conventions are:
+## Further documentation
 
-| Field | Convention |
-| --- | --- |
-| `title`, `description`, `clues` | Require `zh-CN`, `en` and `ja` strings |
-| `answerLanguage` | `en` for English letters; `ja` for katakana |
-| `grid.layout` | `#` for blocked cells; `.` for answer cells |
-| `row`, `column` | Zero-based answer-start coordinates |
-| `characterId` | Reference to a character ID in `characters.json` |
-| `answer` | Canonical answer matching the normalized character name in the answer language |
+- [Contributor/agent guide](AGENTS.md)
+- [Random bank, algorithm, export and benchmarking](docs/随机题库与生成算法.md)
+- [Benchmark report](docs/generator-benchmark.json)
+- [Statistics deployment and maintenance](docs/统计服务部署与维护.md)
+- [Legacy format](docs/关卡数据格式.md)
+- [Epithet sources](docs/二つ名来源与映射.md) and [Cinderella Gray sources](docs/芦毛灰姑娘题库与来源.md)
 
-English answers are uppercase with spaces and punctuation removed. Katakana retains small kana and the long-vowel mark, with one character per cell. Input normalization supports halfwidth kana, hiragana and combining voiced marks. Search aliases do not change canonical answers.
-
-Interface strings live in `src/i18n.js`, clues in puzzle files and names in the character dictionary. Maintain these separately. A name translation change may also require updates to clue references and source records.
-
-## Adding and maintaining puzzles
-
-1. Add any missing characters, names in all three languages and search aliases to `data/characters.json`.
-2. Use an existing puzzle and the [Level Schema](schemas/level.schema.json) to author a grid, answer coordinates, character references, and titles and clues in all three languages.
-3. Register a unique ID and filename in `data/levels/index.json`. Manifest order controls menu order; `enabled: false` disables a puzzle.
-4. Use `*-en` and `*-kana` ID suffixes for paired versions, keeping their collection and character roster consistent. Grids are explicitly maintained in JSON; the application validates and renders them.
-5. Update thematic source records. Epithet and Cinderella Gray clues must stay synchronized with their respective source JSON files.
-6. Run data checks, tests and the build, then confirm that puzzles and build output load correctly.
-
-Adding a puzzle within an existing collection normally requires data changes only. Adding a new collection also requires updates to the `index.html` menu, translated collection labels, category validation in `game.js` and the level Schema.
-
-Grid validation checks translations, character references, canonical answers, bounds, crossings, unlisted letter runs, cell coverage, numbering and connectivity. Build-time checks also verify paired character rosters and thematic source consistency. Disabled puzzles still participate in maintenance checks but are not loaded by the web app.
-
-## Building and testing
-
-```sh
-npm run check:data
-npm test
-npm run build
-npm run preview
-```
-
-The build uses Node.js file operations without transpiling or bundling JavaScript. It recreates `dist/` and copies `index.html`, `favicon.svg`, `src/` and `data/`. Modules and data use relative URLs and run in a static HTTP environment. Building does not automatically run tests; execute `npm test` separately.
-
-Tests cover input normalization, answer evaluation, timing and state changes, search and reveal allowances, early ending, translation completeness, and regressions in puzzle categories, paired versions and character translations. Run data checks even for content-only puzzle changes.
-
-## References
-
-This is an unofficial fan project. Some character translations and Chinese/English epithet clues are project conventions or original translations. The name dictionary is not a complete, live official character database.
-
-- [Puzzle data format and maintenance](docs/关卡数据格式.md) (Chinese)
-- [Epithet sources and mapping](docs/二つ名来源与映射.md) (Chinese)
-- [Cinderella Gray puzzles and per-clue sources](docs/芦毛灰姑娘题库与来源.md) (Chinese)
-
-The latter two documents contain answers and story details.
+Unofficial fan project. Some names and translated epithets are project conventions, not official translations. Source documents contain solutions and story spoilers.

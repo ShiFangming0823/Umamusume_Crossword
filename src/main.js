@@ -1,4 +1,6 @@
 import { loadCatalog } from './catalog.js';
+import { CATEGORIES, SIZES } from './generator.js';
+import { downloadPuzzle } from './export.js';
 import { GameSession, cellKey, entryCells, normalizeAnswer, feedbackFor, formatTime, LANGUAGES } from './game.js';
 import { translate } from './i18n.js';
 import { AnalyticsClient } from './analytics.js';
@@ -8,10 +10,13 @@ const $ = (id) => document.getElementById(id);
 let language = 'zh-CN';
 try { const saved = localStorage.getItem('tracen-ui-language'); if (LANGUAGES.includes(saved)) language = saved; } catch { /* Private storage may be unavailable. */ }
 const t = (key, params) => translate(language, key, params);
-let levels = [], characters = [], characterMap = new Map(), session = null, previewLevel = null, loadFailed = false;
+let bank = null, characters = [], characterMap = new Map(), session = null, previewLevel = null, loadFailed = false;
 let active = null, activeKey = '', activeDirection = 'across', forceRestart = false, noteKey = '';
 let inputs = new Map(), containers = new Map(), members = new Map();
-let draft = { difficulty:'beginner', answerLanguage:'en', levelId:'', mode:'easy' };
+const automaticSize = matchMedia('(max-width: 760px)').matches ? 'small' : 'large';
+let draft = { difficulty:'beginner', answerLanguage:'en', boardSize:automaticSize, mode:'easy' };
+let generating=false, cellSize=automaticSize==='small'?32:30;
+let clueHistory={}; try { clueHistory=JSON.parse(localStorage.getItem('tracen-last-clues')||'{}');if(!clueHistory||typeof clueHistory!=='object'||Array.isArray(clueHistory))clueHistory={}; } catch { /* Optional recent-clue history. */ }
 let searchState = { status:'initial', results:[], query:'' };
 let revealedEntryId = null;
 let runHandle = null;
@@ -59,7 +64,7 @@ function renderStrings() {
     const [row,column] = key.split(',').map(Number);
     input.setAttribute('aria-label', t('cellLabel', {row:row+1,column:column+1}));
   }
-  if (levels.length) { renderSetup(); renderGame(); renderSearch(); renderAnswerDialog(); refreshStatistics(); }
+  if (bank) { renderSetup(); renderGame(); renderSearch(); renderAnswerDialog(); refreshStatistics(); }
   else $('load-status').textContent = t(loadFailed ? 'loadError' : 'loading');
 }
 
@@ -70,42 +75,45 @@ function setLanguage(value) {
   renderStrings();
 }
 
-function syncDraft(source = 'level') {
-  let available = levels.filter((level) => level.difficulty === draft.difficulty && level.answerLanguage === draft.answerLanguage);
-  noteKey = '';
-  if (!available.length) {
-    const alternative = source === 'answer'
-      ? levels.find((level) => level.answerLanguage === draft.answerLanguage)
-      : levels.find((level) => level.difficulty === draft.difficulty);
-    if (alternative) {
-      noteKey = source === 'answer' ? 'adjustedCategory' : 'adjustedAnswer';
-      draft.difficulty = alternative.difficulty; draft.answerLanguage = alternative.answerLanguage;
-      available = levels.filter((level) => level.difficulty === draft.difficulty && level.answerLanguage === draft.answerLanguage);
-    }
-  }
-  if (!available.some((level) => level.id === draft.levelId)) draft.levelId = available[0]?.id || '';
-  renderSetup();
-}
-
+function selectedScope() { return {random:true,difficulty:draft.difficulty,boardSize:draft.boardSize}; }
+const statsKey=level=>level.difficulty+':'+level.boardSize;
 function renderSetup() {
-  if (!levels.length) return;
-  $('difficulty-select').value = draft.difficulty; $('answer-select').value = draft.answerLanguage;
-  const available = levels.filter((level) => level.difficulty === draft.difficulty && level.answerLanguage === draft.answerLanguage);
-  const select = $('level-select'); select.replaceChildren();
-  for (const level of available) {
-    const option = document.createElement('option'); option.value = level.id; option.textContent = level.title[language]; select.append(option);
-  }
-  if (!available.length) { const option = document.createElement('option'); option.textContent = t('emptyLevels'); option.value=''; select.append(option); }
-  select.value = draft.levelId;
-  const level = levels.find((level) => level.id === draft.levelId);
-  $('level-description').textContent = level?.description[language] || '';
-  $('level-summary').textContent = level ? t('selectionSummary', { rows:level.grid.rows,columns:level.grid.columns,
-    across:level.entries.filter((e)=>e.direction==='across').length,down:level.entries.filter((e)=>e.direction==='down').length }) : '';
-  $('selection-note').hidden = !noteKey; $('selection-note').textContent = noteKey ? t(noteKey) : '';
-  $('start-button').disabled = !level;
-  $('start-button-label').textContent = t(!session ? 'start' : forceRestart || level?.id !== session.level.id ? 'startNew' : 'apply');
-  $('cancel-setup').hidden = !session;
-  if (level) void loadStatistics(level, 'setup-statistics');
+  if(!bank)return;
+  $('difficulty-slider').value=CATEGORIES.indexOf(draft.difficulty);
+  $('difficulty-slider').setAttribute('aria-valuetext',t(draft.difficulty));
+  document.querySelectorAll('[data-category]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.category===draft.difficulty));b.disabled=generating;});
+  document.querySelectorAll('input[name="answer-script"]').forEach(r=>{r.checked=r.value===draft.answerLanguage;r.disabled=generating;});
+  document.querySelectorAll('input[name="board-size"]').forEach(r=>{r.checked=r.value===draft.boardSize;r.disabled=generating;});
+  $('difficulty-slider').disabled=generating;
+  document.querySelectorAll('input[name="mode"]').forEach(r=>{r.checked=r.value===draft.mode;r.disabled=generating;});
+  $('level-description').textContent=t('setupDescription');
+  $('level-summary').textContent=t('randomSummary',{n:SIZES[draft.boardSize]});
+  $('selection-note').hidden=!noteKey;$('selection-note').textContent=noteKey?t(noteKey):'';
+  $('start-button').disabled=generating;$('start-button').setAttribute('aria-busy',String(generating));
+  const changed=!session||['difficulty','answerLanguage','boardSize'].some(k=>draft[k]!==session.level[k]);
+  $('start-button-label').textContent=t(generating?'generating':!session?'start':changed||forceRestart?'startNew':'apply');
+  $('cancel-setup').hidden=!session;$('cancel-setup').disabled=generating;
+  void loadStatistics(selectedScope(),'setup-statistics');
+}
+async function generateGame() {
+  if(generating||!bank)return;
+  generating=true;noteKey='';if(!setup.open)setup.showModal();renderSetup();
+  const slow=setTimeout(()=>{$('generation-state').hidden=false;},400);
+  try {
+    const seed=crypto.getRandomValues(new Uint32Array(1))[0];
+    const level=await new Promise((resolve,reject)=>{
+      const worker=new Worker(new URL('./generator-worker.js',import.meta.url),{type:'module'});
+      const timeout=setTimeout(()=>{worker.terminate();reject(new Error('Generation timeout'));},10000);
+      const done=(value,error)=>{clearTimeout(timeout);worker.terminate();error?reject(error):resolve(value);};
+      worker.onmessage=({data})=>{if(data.puzzle)done(data.puzzle);else if(data.error)done(null,new Error(data.error));};
+      worker.onerror=error=>done(null,error);
+      worker.postMessage({bank,characters,difficulty:draft.difficulty,answerLanguage:draft.answerLanguage,boardSize:draft.boardSize,seed,previousClues:clueHistory});
+    });
+    for(const e of level.entries)clueHistory[e.characterId]=e.clueId;
+    try{localStorage.setItem('tracen-last-clues',JSON.stringify(clueHistory));}catch{/* Optional history. */}
+    setup.close();launch(level,draft.mode);forceRestart=false;
+  } catch(error){console.error(error);noteKey='generationFailed';if(!setup.open)setup.showModal();}
+  finally{clearTimeout(slow);$('generation-state').hidden=true;generating=false;renderSetup();}
 }
 
 function paintStatistics(element, result = { status: 'loading' }) {
@@ -120,26 +128,24 @@ function paintStatistics(element, result = { status: 'loading' }) {
       const item = document.createElement('div'), dt = document.createElement('dt'), dd = document.createElement('dd'); dt.textContent = t(label); dd.textContent = value; item.append(dt,dd); metrics.append(item);
     }
     element.append(metrics);
-    const challenge = document.createElement('p'); challenge.textContent = t('statsChallenge', { n:result.challengeSolved.toLocaleString(language),
-      time:result.challengeAverageMs === null ? t('statsNoCompletions') : formatTime(result.challengeAverageMs) }); element.append(challenge);
+
   }
   if (analytics.enabled) {
     const note = document.createElement('small'); note.textContent = t('statsPrivacy'); element.append(note);
     const button = document.createElement('button'); button.type = 'button'; button.className = 'text-button statistics-refresh'; button.textContent = t('statsRefresh');
-    button.addEventListener('click', () => { const level = levels.find((level) => level.id === element.dataset.level); if (level) void loadStatistics(level,element.id,true); }); element.append(button);
+    button.addEventListener('click', () => { const level = JSON.parse(element.dataset.scope || 'null'); if (level) void loadStatistics(level,element.id,true); }); element.append(button);
   }
 }
 async function loadStatistics(level, elementId, force = false) {
   const element = $(elementId); if (!element) return;
   const request = String(++statisticsRequest); element.dataset.request = request;
-  element.dataset.level = level.id; paintStatistics(element, force ? undefined : statistics.get(level.id));
-  const result = await analytics.stats(level, force); statistics.set(level.id, result);
-  if (element.dataset.level === level.id && element.dataset.request === request) paintStatistics(element, result);
+  const scopeKey=statsKey(level);element.dataset.level=scopeKey;element.dataset.scope=JSON.stringify({random:true,difficulty:level.difficulty,boardSize:level.boardSize});paintStatistics(element,force?undefined:statistics.get(scopeKey));
+  const result = await analytics.stats(level, force); statistics.set(scopeKey, result);
+  if (element.dataset.level === scopeKey && element.dataset.request === request) paintStatistics(element, result);
 }
 function refreshStatistics() {
   if (currentLevel()) void loadStatistics(currentLevel(), 'level-statistics');
-  const selected = levels.find((level) => level.id === draft.levelId);
-  if (selected) void loadStatistics(selected, 'setup-statistics');
+  if(bank)void loadStatistics(selectedScope(),'setup-statistics');
 }
 window.addEventListener('online', () => { void analytics.flush(); refreshStatistics(); });
 document.addEventListener('visibilitychange', () => { if (!document.hidden) { void analytics.flush(); refreshStatistics(); } });
@@ -149,7 +155,7 @@ function openSetup(replay = false) {
   finish.close();
   forceRestart = replay;
   const level = currentLevel();
-  if (level) draft = { difficulty:level.difficulty, answerLanguage:level.answerLanguage,levelId:level.id,mode:currentMode() };
+  if (level) draft = { difficulty:level.difficulty, answerLanguage:level.answerLanguage,boardSize:level.boardSize,mode:currentMode() };
   document.querySelector(`input[name="mode"][value="${draft.mode}"]`).checked = true;
   noteKey = ''; renderSetup(); setup.showModal();
 }
@@ -160,9 +166,9 @@ setInterval(updateTimer, 250);
 function renderGame() {
   const level = currentLevel(); if (!level || !active) return;
   const { solved, greenCells } = feedback();
-  $('level-title').textContent = level.title[language];
+  $('level-title').textContent = t(level.difficulty)+' · '+t(level.boardSize==='small'?'smallBoard':'largeBoard');
   $('level-category').textContent = `${t(level.difficulty)} / ${t(level.answerLanguage === 'en' ? 'answerEn':'answerJa')}`;
-  $('board-label').textContent = level.title[language];
+  $('board-label').textContent = t('randomSeed')+': '+level.seed;
   $('game-status').textContent = t(!session ? 'ready' : solutionView() ? 'ended' : session.completed ? 'finished' : 'playing');
   $('easy-mode').setAttribute('aria-pressed', String(currentMode()==='easy'));
   $('hard-mode').setAttribute('aria-pressed', String(currentMode()==='hard'));
@@ -256,7 +262,7 @@ function activate(entry,key,focus = true) {
     if (top<list.scrollTop) list.scrollTop=top;
     else if (bottom>list.scrollTop+list.clientHeight) list.scrollTop=bottom-list.clientHeight;
   }
-  if (focus&&session&&!session.completed) inputs.get(key)?.focus({preventScroll:true});
+  if (focus&&session&&!session.completed) { inputs.get(key)?.focus({preventScroll:true}); const cell=containers.get(key),scroll=$('board').parentElement; if(cell){const x=cell.offsetLeft-$('board').offsetLeft;if(x<scroll.scrollLeft)scroll.scrollLeft=x;else if(x+cell.offsetWidth>scroll.scrollLeft+scroll.clientWidth)scroll.scrollLeft=x+cell.offsetWidth-scroll.clientWidth;} }
 }
 function chooseCell(key,toggle = false) {
   const options=members.get(key); if (!options) return;
@@ -317,6 +323,7 @@ function buildBoard(level,enabled = false) {
   const starts=new Map(level.entries.map((e)=>[cellKey(e.row,e.column),e.number]));
   const board=$('board'); board.replaceChildren(); board.style.gridTemplateColumns=`repeat(${level.grid.columns},minmax(0,1fr))`;
   board.style.aspectRatio=`${level.grid.columns} / ${level.grid.rows}`;
+  board.style.width=String(level.grid.columns*cellSize)+'px';board.style.setProperty('--cell-size',cellSize+'px');
   board.classList.toggle('kana-board',level.answerLanguage==='ja');
   level.grid.layout.forEach((row,r)=>[...row].forEach((char,c)=>{
     const cell=document.createElement('div'); cell.className='cell'; board.append(cell);
@@ -360,7 +367,7 @@ function launch(level,mode) {
   session=new GameSession(level,mode);previewLevel=level;searchState={status:'initial',results:[],query:''};$('search-input').value='';
   runHandle=analytics.begin(session); refreshStatistics();
   buildBoard(level,true);renderGame();renderSearch();
-  for(const id of ['lookup','choose-level','restart'])$(id).disabled=false;
+  for(const id of ['lookup','choose-level','restart','download-puzzle'])$(id).disabled=false;
   activate(active,activeKey);$('clue-list').scrollTop=0;announce(t('startedAnnouncement'));
 }
 function applyMode(mode) {
@@ -386,18 +393,17 @@ function renderSearch() {
 }
 
 for(const id of ['ui-language','setup-language'])$(id).addEventListener('change',(event)=>setLanguage(event.target.value));
-$('difficulty-select').addEventListener('change',(event)=>{draft.difficulty=event.target.value;syncDraft('difficulty');});
-$('answer-select').addEventListener('change',(event)=>{draft.answerLanguage=event.target.value;syncDraft('answer');});
-$('level-select').addEventListener('change',(event)=>{draft.levelId=event.target.value;noteKey='';renderSetup();});
+$('difficulty-slider').addEventListener('input',event=>{draft.difficulty=CATEGORIES[Number(event.target.value)];renderSetup();});
+document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{draft.difficulty=button.dataset.category;renderSetup();}));
+for(const [name,field] of [['answer-script','answerLanguage'],['board-size','boardSize']])document.querySelectorAll('input[name="'+name+'"]').forEach(r=>r.addEventListener('change',()=>{draft[field]=r.value;renderSetup();}));
 document.querySelectorAll('input[name="mode"]').forEach((radio)=>radio.addEventListener('change',()=>{draft.mode=radio.value;}));
-$('start-form').addEventListener('submit',(event)=>{
-  event.preventDefault();const level=levels.find((e)=>e.id===draft.levelId);if(!level)return;
-  draft.mode=new FormData(event.currentTarget).get('mode');setup.close();
-  if(!session||forceRestart||session.level.id!==level.id)launch(level,draft.mode);else applyMode(draft.mode);
-  forceRestart=false;
+$('start-form').addEventListener('submit',event=>{
+  event.preventDefault();if(generating)return;draft.mode=new FormData(event.currentTarget).get('mode');
+  if(!session||forceRestart||['difficulty','answerLanguage','boardSize'].some(k=>draft[k]!==session.level[k]))void generateGame();
+  else{setup.close();applyMode(draft.mode);}
 });
-setup.addEventListener('cancel',(event)=>{if(!session)event.preventDefault();});
-$('cancel-setup').addEventListener('click',()=>setup.close());
+setup.addEventListener('cancel',event=>{if(!session||generating)event.preventDefault();});
+$('cancel-setup').addEventListener('click',()=>{if(!generating)setup.close();});
 $('choose-level').addEventListener('click',()=>openSetup());
 $('easy-mode').addEventListener('click',()=>applyMode('easy'));
 $('hard-mode').addEventListener('click',()=>applyMode('hard'));
@@ -405,7 +411,7 @@ for(const direction of ['across','down'])$(`${direction}-tab`).addEventListener(
 $('change-direction').addEventListener('click',toggleDirection);
 $('restart').addEventListener('click',()=>$('restart-dialog').showModal());
 $('cancel-restart').addEventListener('click',()=>$('restart-dialog').close());
-$('confirm-restart').addEventListener('click',()=>{$('restart-dialog').close();launch(session.level,session.mode);});
+$('confirm-restart').addEventListener('click',()=>{$('restart-dialog').close();draft={difficulty:session.level.difficulty,answerLanguage:session.level.answerLanguage,boardSize:session.level.boardSize,mode:session.mode};forceRestart=true;void generateGame();});
 $('review-board').addEventListener('click',()=>finish.close());
 $('play-again').addEventListener('click',()=>openSetup(true));
 $('lookup').addEventListener('click',()=>{renderSearch();searchDialog.showModal();$('search-input').focus();});
@@ -432,9 +438,11 @@ $('confirm-end').addEventListener('click',()=>{
   for(const [key,input] of inputs){input.value=session.values[key]||'';input.readOnly=true;}
   renderGame();announce(t('endedAnnouncement',{time:formatTime(session.elapsed)}));finish.showModal();
 });
+function openExport(){if(!session)return;finish.close();$('solution-export-option').hidden=!session.completed;$('solution-export-option').querySelector('input').disabled=!session.completed;document.querySelector('input[name="export-type"][value="blank"]').checked=true;$('export-status').textContent='';$('export-dialog').showModal();}
+$('download-puzzle').addEventListener('click',openExport);$('finish-download').addEventListener('click',openExport);
+$('close-export').addEventListener('click',()=>$('export-dialog').close());
+$('export-form').addEventListener('submit',async event=>{event.preventDefault();if(!session)return;const button=$('export-save');button.disabled=true;$('export-status').textContent=t('exportBusy');try{await downloadPuzzle({level:session.level,session,language,type:new FormData(event.currentTarget).get('export-type'),includeTime:$('export-time').checked,t});$('export-status').textContent='';}catch(error){console.error(error);$('export-status').textContent=t('exportFailed');}finally{button.disabled=false;}});
+for(const [id,delta] of [['zoom-in',4],['zoom-out',-4]])$(id).addEventListener('click',()=>{cellSize=Math.max(28,Math.min(56,cellSize+delta));if(currentLevel()){$('board').style.width=currentLevel().grid.columns*cellSize+'px';$('board').style.setProperty('--cell-size',cellSize+'px');}});
 renderStrings();setup.showModal();
-try {
-  const catalog=await loadCatalog();levels=catalog.levels;characters=catalog.characters;characterMap=new Map(characters.map((c)=>[c.id,c]));
-  previewLevel=levels[0];draft.levelId=previewLevel.id;draft.difficulty=previewLevel.difficulty;draft.answerLanguage=previewLevel.answerLanguage;
-  buildBoard(previewLevel);$('load-status').textContent='';$('load-status').hidden=true;renderStrings();
-} catch(error) { loadFailed=true;$('load-status').textContent=t('loadError');console.error(error); }
+try{const catalog=await loadCatalog();bank=catalog.bank;characters=catalog.characters;characterMap=new Map(characters.map(c=>[c.id,c]));$('load-status').textContent='';$('load-status').hidden=true;renderStrings();}
+catch(error){loadFailed=true;$('load-status').textContent=t('loadError');console.error(error);}

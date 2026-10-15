@@ -1,10 +1,12 @@
 import { readFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import { validateCharacters, validateLevel } from '../src/game.js';
+import { validateClueBank } from '../src/clue-bank.js';
 const root = new URL('../data/', import.meta.url);
 const read = async (path) => JSON.parse(await readFile(new URL(path, root), 'utf8'));
 export async function checkData() {
   const registry = validateCharacters(await read('characters.json'));
+  const bank = validateClueBank(await read('clues.json'),registry.characters);
   const manifest = await read('levels/index.json');
   if (manifest.schemaVersion !== 1 || !Array.isArray(manifest.levels) || !manifest.levels.length) throw new Error('Invalid level manifest');
   const seen = new Set(), levels = [];
@@ -43,9 +45,9 @@ export async function checkData() {
     const character = registry.characters.find((character) => character.id === entry.characterId);
     if (['zh-CN', 'en', 'ja'].some((lang) => character.names[lang] !== row.names?.[lang])) throw new Error(`Cinderella name/source mismatch: ${entry.characterId}`);
   }
-  return { characters:registry.characters,levels,manifest };
+  return { characters:registry.characters,levels,manifest,bank };
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  const {characters,levels} = await checkData();
-  console.log(`Validated ${levels.length} trilingual levels and ${characters.length} character records.`);
+  const {characters,levels,bank} = await checkData();
+  console.log(`Validated ${characters.length} characters, ${bank.records.reduce((n,r)=>n+r.clues.length,0)} trilingual random clues and ${levels.length} legacy grids.`);
 }

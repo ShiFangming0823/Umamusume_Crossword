@@ -1,3 +1,4 @@
+import { randomMessages } from './random-i18n.js';
 export const messages = {
   'zh-CN': {
     sourceRepository:'查看 GitHub 开源仓库（在新标签页打开）',
@@ -153,6 +154,7 @@ export const messages = {
     endActionNote:'途中終了すると、時間を止めて盤面の全解答を表示します。',
   },
 };
+for (const lang of Object.keys(messages)) { Object.assign(messages[lang], randomMessages[lang]); messages[lang].fanNote=messages[lang].fanNote.replace('v0.6.1','v0.7.0'); }
 export function translate(language, key, values = {}) {
   const template = messages[language]?.[key] ?? messages['zh-CN'][key];
   if (template === undefined) throw new Error(`Unknown translation key: ${key}`);

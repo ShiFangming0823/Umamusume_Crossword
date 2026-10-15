@@ -1,0 +1,34 @@
+name: 投稿马娘提示词 / Suggest a clue
+description: 为随机填字题库补充有明确对应角色的提示与资料来源。
+title: "[提示投稿] "
+body:
+  - type: input
+    id: character
+    attributes:
+      label: 马娘名字 / Character name
+      description: 中文、英文或片假名均可，请明确具体角色。
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议题组 / Collection
+      options:
+        - 入门级 / Starter
+        - 进阶级 / Advanced
+        - 二つ名 / Epithets
+        - 芦毛灰姑娘 / Cinderella Gray
+  - type: textarea
+    id: clue
+    attributes:
+      label: 提示词 / Clue
+      description: 请提供能明确锁定角色的事实；中英日三语译文均欢迎。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 资料来源 / Sources
+      description: 请附官方页面、比赛记录，或具体动画集数、漫画话数与情节；不要上传未获授权的整章漫画。
+    validations:
+      required: true

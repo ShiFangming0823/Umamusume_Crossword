@@ -1,3 +1,4 @@
+import { boardSubmission } from './random-protocol.js';
 import { MAX_RUN_MS, levelRevision } from './analytics-protocol.js';
 
 const PREFIX = 'tracen-stats-pending-v1:';
@@ -28,6 +29,10 @@ export class AnalyticsClient {
   }
   begin(session) {
     if (!this.enabled) return null;
+    if(session.level.random){
+      const record={protocol:2,runId:this.uuid(),difficulty:session.level.difficulty,boardSize:session.level.boardSize,board:boardSubmission(session.level),createdAt:this.now(),startSent:false,finish:null};
+      this.pending.set(record.runId,record);this.persist(record);void this.flush();return{record,ready:Promise.resolve(record)};
+    }
     const record = { runId: this.uuid(), levelId: session.level.id, startMode: session.mode,
       createdAt: this.now(), startSent: false, finish: null, revision: null };
     const handle = { record, ready: levelRevision(session.level).then((revision) => {
@@ -41,6 +46,7 @@ export class AnalyticsClient {
     // Snapshot before a new game can replace the current session.
     const finish = { outcome: session.finishReason, elapsedMs: Math.round(session.elapsed), finishedMode: session.finishedMode,
       everAssisted: session.everAssisted, lookupCount: session.lookupCount, revealCount: session.revealedEntries.size };
+    if(handle.record.protocol===2){delete finish.finishedMode;delete finish.everAssisted;delete finish.lookupCount;delete finish.revealCount;}
     if (finish.outcome === 'solved') finish.values = { ...session.values };
     return handle.ready.then((record) => {
       if (!record) return;
@@ -70,12 +76,12 @@ export class AnalyticsClient {
       if (this.now() - record.createdAt > MAX_RUN_MS) { this.pending.delete(record.runId); this.persist(record, true); continue; }
       try {
         if (!record.startSent) {
-          await this.request('/api/runs/start', { runId: record.runId, levelId: record.levelId, revision: record.revision, startMode: record.startMode });
+          await this.request(record.protocol===2?'/api/v2/runs/start':'/api/runs/start',record.protocol===2?{runId:record.runId,difficulty:record.difficulty,boardSize:record.boardSize,board:record.board}:{runId:record.runId,levelId:record.levelId,revision:record.revision,startMode:record.startMode});
           record.startSent = true; this.persist(record);
           this.invalidate(record);
         }
         if (record.finish) {
-          await this.request('/api/runs/finish', { runId: record.runId, levelId: record.levelId, revision: record.revision, ...record.finish });
+          await this.request(record.protocol===2?'/api/v2/runs/finish':'/api/runs/finish',record.protocol===2?{runId:record.runId,difficulty:record.difficulty,boardSize:record.boardSize,...record.finish}:{runId:record.runId,levelId:record.levelId,revision:record.revision,...record.finish});
           this.invalidate(record);
         }
         this.pending.delete(record.runId); this.persist(record, true);
@@ -90,20 +96,20 @@ export class AnalyticsClient {
     } else this.failures = 0;
   }
   invalidate(record) {
-    const key = `${record.levelId}:${record.revision}`;
+    const key=record.protocol===2?`random:${record.difficulty}:${record.boardSize}`:`${record.levelId}:${record.revision}`;
     this.cache.delete(key); this.reads.delete(key); this.epochs.set(key,(this.epochs.get(key) || 0) + 1); this.onChange(record.levelId);
   }
   async stats(level, force = false) {
     if (!this.enabled) return { status: 'disabled' };
     try {
-      const revision = await levelRevision(level), key = `${level.id}:${revision}`, cached = this.cache.get(key);
+      const random=Boolean(level.random),revision=random?'':await levelRevision(level),key=random?`random:${level.difficulty}:${level.boardSize}`:`${level.id}:${revision}`,cached=this.cache.get(key);
       if (!force && cached && this.now() - cached.at < 30000) return { status: 'ok', ...cached.data };
       if (!this.reads.has(key)) {
         const epoch = this.epochs.get(key) || 0;
-        const pending = this.request(`/api/stats?levelId=${encodeURIComponent(level.id)}&revision=${revision}`).then((data) => {
+        const pending = this.request(random?`/api/v2/stats?difficulty=${encodeURIComponent(level.difficulty)}&boardSize=${encodeURIComponent(level.boardSize)}`:`/api/stats?levelId=${encodeURIComponent(level.id)}&revision=${revision}`).then((data) => {
           if (!Number.isSafeInteger(data.starts) || !Number.isSafeInteger(data.solved) || data.solved > data.starts ||
-              !Number.isSafeInteger(data.challengeSolved) || data.challengeSolved > data.solved ||
-              !(data.averageMs === null || Number.isFinite(data.averageMs)) || !(data.challengeAverageMs === null || Number.isFinite(data.challengeAverageMs))) throw new Error('Invalid statistics response');
+              (!random&&(!Number.isSafeInteger(data.challengeSolved)||data.challengeSolved>data.solved)) || data.starts<0 || data.solved<0 ||
+              !(data.averageMs === null || (Number.isFinite(data.averageMs)&&data.averageMs>=0)) || (!random&&!(data.challengeAverageMs === null || Number.isFinite(data.challengeAverageMs))) || (random&&(data.difficulty!==level.difficulty||data.boardSize!==level.boardSize))) throw new Error('Invalid statistics response');
           if ((this.epochs.get(key) || 0) === epoch) this.cache.set(key, { at: this.now(), data }); return data;
         }).finally(() => { if (this.reads.get(key) === pending) this.reads.delete(key); });
         this.reads.set(key, pending);
