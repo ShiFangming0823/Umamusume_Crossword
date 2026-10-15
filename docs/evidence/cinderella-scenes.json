@@ -1,0 +1,2010 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-16",
+  "records": [
+    {
+      "clueId": "oguri-cap-cinderella-original",
+      "characterId": "oguri-cap",
+      "scene": {
+        "medium": "anime",
+        "reference": "第3话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://anime-cinderellagray.com/story/?ep=3",
+        "https://anime-cinderellagray.com/character/?type=0&i=0"
+      ]
+    },
+    {
+      "clueId": "oguri-cap-cinderella-mothers-knee-care",
+      "characterId": "oguri-cap",
+      "scene": {
+        "medium": "anime",
+        "reference": "第2话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://anime-cinderellagray.com/story/?ep=2",
+        "https://anime-cinderellagray.com/character/?type=0&i=0"
+      ]
+    },
+    {
+      "clueId": "oguri-cap-cinderella-gold-junior-transfer",
+      "characterId": "oguri-cap",
+      "scene": {
+        "medium": "anime",
+        "reference": "第6话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://anime-cinderellagray.com/story/?ep=6",
+        "https://anime-cinderellagray.com/character/?type=0&i=0"
+      ]
+    },
+    {
+      "clueId": "oguri-cap-cinderella-no-classic-registration",
+      "characterId": "oguri-cap",
+      "scene": {
+        "medium": "anime",
+        "reference": "第8话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://anime-cinderellagray.com/character/?type=0&i=0"
+      ]
+    },
+    {
+      "clueId": "oguri-cap-cinderella-mile-jc-back-to-back",
+      "characterId": "oguri-cap",
+      "scene": {
+        "medium": "manga",
+        "reference": "第109-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=0"
+      ]
+    },
+    {
+      "clueId": "oguri-cap-cinderella-last-run-revival",
+      "characterId": "oguri-cap",
+      "scene": {
+        "medium": "manga",
+        "reference": "第202-209R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://arthanblog.com/ucg-yj-210/",
+        "https://anime-cinderellagray.com/character/?type=0&i=0"
+      ]
+    },
+    {
+      "clueId": "oguri-cap-cinderella-kitahara-midnight-question",
+      "characterId": "oguri-cap",
+      "scene": {
+        "medium": "manga",
+        "reference": "第198R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://arthanblog.com/ucg-c22/",
+        "https://anime-cinderellagray.com/character/?type=0&i=0"
+      ]
+    },
+    {
+      "clueId": "belno-light-cinderella-original",
+      "characterId": "belno-light",
+      "scene": {
+        "medium": "anime",
+        "reference": "第3话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Belno_Light",
+        "https://anime-cinderellagray.com/story/?ep=3",
+        "https://anime-cinderellagray.com/character/?type=0&i=1"
+      ]
+    },
+    {
+      "clueId": "belno-light-cinderella-support-transfer-exam",
+      "characterId": "belno-light",
+      "scene": {
+        "medium": "anime",
+        "reference": "第6话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Belno_Light",
+        "https://anime-cinderellagray.com/story/?ep=6",
+        "https://anime-cinderellagray.com/character/?type=0&i=1"
+      ]
+    },
+    {
+      "clueId": "belno-light-cinderella-foreign-team-investigation",
+      "characterId": "belno-light",
+      "scene": {
+        "medium": "anime",
+        "reference": "第16话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Belno_Light",
+        "https://anime-cinderellagray.com/story/?ep=16",
+        "https://anime-cinderellagray.com/character/?type=0&i=1"
+      ]
+    },
+    {
+      "clueId": "belno-light-cinderella-supporters-declaration",
+      "characterId": "belno-light",
+      "scene": {
+        "medium": "manga",
+        "reference": "第199R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Belno_Light",
+        "https://arthanblog.com/ucg-yj199r/",
+        "https://anime-cinderellagray.com/character/?type=0&i=1"
+      ]
+    },
+    {
+      "clueId": "belno-light-cinderella-postscript-assistant",
+      "characterId": "belno-light",
+      "scene": {
+        "medium": "manga",
+        "reference": "第210R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Belno_Light",
+        "https://heysay.hatenadiary.jp/entry/2025/12/25/000154",
+        "https://anime-cinderellagray.com/character/?type=0&i=1"
+      ]
+    },
+    {
+      "clueId": "fujimasa-march-cinderella-original",
+      "characterId": "fujimasa-march",
+      "scene": {
+        "medium": "anime",
+        "reference": "第2话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Fujimasa_March",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=2",
+        "https://anime-cinderellagray.com/character/?type=0&i=4"
+      ]
+    },
+    {
+      "clueId": "fujimasa-march-cinderella-mount-kinka-promise",
+      "characterId": "fujimasa-march",
+      "scene": {
+        "medium": "anime",
+        "reference": "第4话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Fujimasa_March",
+        "https://anime-cinderellagray.com/story/?ep=4",
+        "https://anime-cinderellagray.com/character/?type=0&i=4"
+      ]
+    },
+    {
+      "clueId": "fujimasa-march-cinderella-telephone-japans-best",
+      "characterId": "fujimasa-march",
+      "scene": {
+        "medium": "manga",
+        "reference": "第30R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Fujimasa_March",
+        "https://anime-cinderellagray.com/character/?type=0&i=4"
+      ]
+    },
+    {
+      "clueId": "fujimasa-march-cinderella-gifu-crown-comeback",
+      "characterId": "fujimasa-march",
+      "scene": {
+        "medium": "anime",
+        "reference": "第14话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Fujimasa_March",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=14",
+        "https://anime-cinderellagray.com/character/?type=0&i=4"
+      ]
+    },
+    {
+      "clueId": "fujimasa-march-cinderella-walk-dancer-roommate",
+      "characterId": "fujimasa-march",
+      "scene": {
+        "medium": "manga",
+        "reference": "第2-16R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Fujimasa_March",
+        "https://anime-cinderellagray.com/character/?type=0&i=4"
+      ]
+    },
+    {
+      "clueId": "norn-ace-cinderella-original",
+      "characterId": "norn-ace",
+      "scene": {
+        "medium": "anime",
+        "reference": "第4话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/story/?ep=4",
+        "https://anime-cinderellagray.com/character/?type=0&i=5"
+      ]
+    },
+    {
+      "clueId": "norn-ace-cinderella-storage-room-eviction",
+      "characterId": "norn-ace",
+      "scene": {
+        "medium": "anime",
+        "reference": "第1话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/story/?ep=1",
+        "https://anime-cinderellagray.com/character/?type=0&i=5"
+      ]
+    },
+    {
+      "clueId": "norn-ace-cinderella-oguri-plush",
+      "characterId": "norn-ace",
+      "scene": {
+        "medium": "anime",
+        "reference": "第6话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/story/?ep=6",
+        "https://anime-cinderellagray.com/character/?type=0&i=5"
+      ]
+    },
+    {
+      "clueId": "norn-ace-cinderella-race-sand-apology",
+      "characterId": "norn-ace",
+      "scene": {
+        "medium": "anime",
+        "reference": "第3话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/story/?ep=3",
+        "https://anime-cinderellagray.com/character/?type=0&i=5"
+      ]
+    },
+    {
+      "clueId": "rudy-lemono-cinderella-original",
+      "characterId": "rudy-lemono",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=0, i=6"
+      },
+      "sources": [
+        "https://umamusu.wiki/Rudy_Lemono",
+        "https://anime-cinderellagray.com/character/?type=0&i=6"
+      ]
+    },
+    {
+      "clueId": "rudy-lemono-cinderella-norn-handkerchief",
+      "characterId": "rudy-lemono",
+      "scene": {
+        "medium": "manga",
+        "reference": "第1-16R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Rudy_Lemono",
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/character/?type=0&i=6"
+      ]
+    },
+    {
+      "clueId": "mini-the-lady-cinderella-original",
+      "characterId": "mini-the-lady",
+      "scene": {
+        "medium": "anime",
+        "reference": "第3话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mini_the_Lady",
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/story/?ep=3",
+        "https://anime-cinderellagray.com/character/?type=0&i=7"
+      ]
+    },
+    {
+      "clueId": "mini-the-lady-cinderella-second-in-class",
+      "characterId": "mini-the-lady",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=0, i=7"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mini_the_Lady",
+        "https://anime-cinderellagray.com/character/?type=0&i=7"
+      ]
+    },
+    {
+      "clueId": "tamamo-cross-cinderella-original",
+      "characterId": "tamamo-cross",
+      "scene": {
+        "medium": "anime",
+        "reference": "第13话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Tamamo_Cross",
+        "https://anime-cinderellagray.com/story/?ep=13",
+        "https://anime-cinderellagray.com/character/?type=0&i=8"
+      ]
+    },
+    {
+      "clueId": "tamamo-cross-cinderella-wrong-train-kasamatsu",
+      "characterId": "tamamo-cross",
+      "scene": {
+        "medium": "anime",
+        "reference": "第4话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Tamamo_Cross",
+        "https://anime-cinderellagray.com/story/?ep=4",
+        "https://anime-cinderellagray.com/character/?type=0&i=8"
+      ]
+    },
+    {
+      "clueId": "tamamo-cross-cinderella-akitsu-takarazuka",
+      "characterId": "tamamo-cross",
+      "scene": {
+        "medium": "anime",
+        "reference": "第10话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Tamamo_Cross",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=10",
+        "https://anime-cinderellagray.com/character/?type=0&i=8"
+      ]
+    },
+    {
+      "clueId": "tamamo-cross-cinderella-surprise-forward-tactic",
+      "characterId": "tamamo-cross",
+      "scene": {
+        "medium": "anime",
+        "reference": "第12话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Tamamo_Cross",
+        "https://anime-cinderellagray.com/story/?ep=12",
+        "https://anime-cinderellagray.com/character/?type=0&i=8"
+      ]
+    },
+    {
+      "clueId": "tamamo-cross-cinderella-retirement-announcement",
+      "characterId": "tamamo-cross",
+      "scene": {
+        "medium": "anime",
+        "reference": "第20话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Tamamo_Cross",
+        "https://anime-cinderellagray.com/story/?ep=20",
+        "https://anime-cinderellagray.com/character/?type=0&i=8"
+      ]
+    },
+    {
+      "clueId": "yaeno-muteki-cinderella-original",
+      "characterId": "yaeno-muteki",
+      "scene": {
+        "medium": "anime",
+        "reference": "第8话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Yaeno_Muteki",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://anime-cinderellagray.com/character/?type=0&i=9"
+      ]
+    },
+    {
+      "clueId": "yaeno-muteki-cinderella-challenge-letter",
+      "characterId": "yaeno-muteki",
+      "scene": {
+        "medium": "manga",
+        "reference": "第22R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Yaeno_Muteki",
+        "https://anime-cinderellagray.com/character/?type=0&i=9"
+      ]
+    },
+    {
+      "clueId": "yaeno-muteki-cinderella-twelve-length-dirt-win",
+      "characterId": "yaeno-muteki",
+      "scene": {
+        "medium": "anime",
+        "reference": "第8话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Yaeno_Muteki",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://anime-cinderellagray.com/character/?type=0&i=9"
+      ]
+    },
+    {
+      "clueId": "yaeno-muteki-cinderella-kikka-creek-opponent",
+      "characterId": "yaeno-muteki",
+      "scene": {
+        "medium": "anime",
+        "reference": "第15话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Yaeno_Muteki",
+        "https://anime-cinderellagray.com/story/?ep=15",
+        "https://anime-cinderellagray.com/character/?type=0&i=9"
+      ]
+    },
+    {
+      "clueId": "yaeno-muteki-cinderella-final-autumn-tenno-win",
+      "characterId": "yaeno-muteki",
+      "scene": {
+        "medium": "manga",
+        "reference": "第183-191R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Yaeno_Muteki",
+        "https://twicomi.com/manga/yj_umaCG/1930278426201731535",
+        "https://anime-cinderellagray.com/character/?type=0&i=9"
+      ]
+    },
+    {
+      "clueId": "sakura-chiyono-o-cinderella-original",
+      "characterId": "sakura-chiyono-o",
+      "scene": {
+        "medium": "anime",
+        "reference": "第9话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Sakura_Chiyono_O",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=10"
+      ]
+    },
+    {
+      "clueId": "sakura-chiyono-o-cinderella-idol-ineligibility",
+      "characterId": "sakura-chiyono-o",
+      "scene": {
+        "medium": "manga",
+        "reference": "第26-28R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Sakura_Chiyono_O",
+        "https://anime-cinderellagray.com/character/?type=0&i=10"
+      ]
+    },
+    {
+      "clueId": "mejiro-ardan-cinderella-original",
+      "characterId": "mejiro-ardan",
+      "scene": {
+        "medium": "anime",
+        "reference": "第9话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ardan",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=11"
+      ]
+    },
+    {
+      "clueId": "mejiro-ardan-cinderella-injury-comeback",
+      "characterId": "mejiro-ardan",
+      "scene": {
+        "medium": "manga",
+        "reference": "第84-90R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ardan",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=11"
+      ]
+    },
+    {
+      "clueId": "mejiro-ardan-cinderella-ramonu-shadow",
+      "characterId": "mejiro-ardan",
+      "scene": {
+        "medium": "manga",
+        "reference": "第84R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ardan",
+        "https://kouhey.blog.jp/archives/40436903.html",
+        "https://anime-cinderellagray.com/character/?type=0&i=11"
+      ]
+    },
+    {
+      "clueId": "mejiro-ardan-cinderella-last-autumn-runner-up",
+      "characterId": "mejiro-ardan",
+      "scene": {
+        "medium": "manga",
+        "reference": "第183-189R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ardan",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=11"
+      ]
+    },
+    {
+      "clueId": "super-creek-cinderella-original",
+      "characterId": "super-creek",
+      "scene": {
+        "medium": "anime",
+        "reference": "第15话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Super_Creek",
+        "https://anime-cinderellagray.com/story/?ep=15",
+        "https://anime-cinderellagray.com/character/?type=0&i=12"
+      ]
+    },
+    {
+      "clueId": "super-creek-cinderella-arima-disqualification",
+      "characterId": "super-creek",
+      "scene": {
+        "medium": "anime",
+        "reference": "第22话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Super_Creek",
+        "https://anime-cinderellagray.com/story/?ep=22",
+        "https://anime-cinderellagray.com/character/?type=0&i=12"
+      ]
+    },
+    {
+      "clueId": "super-creek-cinderella-kyoto-return",
+      "characterId": "super-creek",
+      "scene": {
+        "medium": "manga",
+        "reference": "第90-91R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Super_Creek",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=12"
+      ]
+    },
+    {
+      "clueId": "super-creek-cinderella-second-autumn-tenno-win",
+      "characterId": "super-creek",
+      "scene": {
+        "medium": "manga",
+        "reference": "第96-101R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Super_Creek",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=12"
+      ]
+    },
+    {
+      "clueId": "super-creek-cinderella-last-spring-tenno",
+      "characterId": "super-creek",
+      "scene": {
+        "medium": "manga",
+        "reference": "第150R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Super_Creek",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=12"
+      ]
+    },
+    {
+      "clueId": "dicta-striker-cinderella-original",
+      "characterId": "dicta-striker",
+      "scene": {
+        "medium": "manga",
+        "reference": "第64-66R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dicta_Striker",
+        "https://w.atwiki.jp/aniwotawiki/pages/54943.html",
+        "https://anime-cinderellagray.com/character/?type=0&i=13"
+      ]
+    },
+    {
+      "clueId": "dicta-striker-cinderella-hakodate-record",
+      "characterId": "dicta-striker",
+      "scene": {
+        "medium": "anime",
+        "reference": "第20话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dicta_Striker",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=20",
+        "https://anime-cinderellagray.com/character/?type=0&i=13"
+      ]
+    },
+    {
+      "clueId": "dicta-striker-cinderella-bullet-shot-zone",
+      "characterId": "dicta-striker",
+      "scene": {
+        "medium": "manga",
+        "reference": "第68-75R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dicta_Striker",
+        "https://w.atwiki.jp/aniwotawiki/pages/54943.html",
+        "https://anime-cinderellagray.com/character/?type=0&i=13"
+      ]
+    },
+    {
+      "clueId": "dicta-striker-cinderella-trainer-kouchi",
+      "characterId": "dicta-striker",
+      "scene": {
+        "medium": "manga",
+        "reference": "第64-75R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dicta_Striker",
+        "https://anime-cinderellagray.com/character/?type=2&i=6",
+        "https://anime-cinderellagray.com/character/?type=0&i=13"
+      ]
+    },
+    {
+      "clueId": "dicta-striker-cinderella-classroom-black-ale",
+      "characterId": "dicta-striker",
+      "scene": {
+        "medium": "manga",
+        "reference": "第60R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dicta_Striker",
+        "https://moegirl.icu/黑色艾尔",
+        "https://anime-cinderellagray.com/character/?type=0&i=13"
+      ]
+    },
+    {
+      "clueId": "gold-city-cinderella-original",
+      "characterId": "gold-city",
+      "scene": {
+        "medium": "manga",
+        "reference": "第48-58R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Gold_City",
+        "https://anime-cinderellagray.com/character/?type=0&i=14"
+      ]
+    },
+    {
+      "clueId": "gold-city-cinderella-shampoo-question",
+      "characterId": "gold-city",
+      "scene": {
+        "medium": "manga",
+        "reference": "第50R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Gold_City",
+        "https://gorilife.com/umamusume-11/3/",
+        "https://anime-cinderellagray.com/character/?type=0&i=14"
+      ]
+    },
+    {
+      "clueId": "gold-city-cinderella-opening-derby-runner",
+      "characterId": "gold-city",
+      "scene": {
+        "medium": "manga",
+        "reference": "第1R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Gold_City",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=14"
+      ]
+    },
+    {
+      "clueId": "symboli-rudolf-cinderella-original",
+      "characterId": "symboli-rudolf",
+      "scene": {
+        "medium": "anime",
+        "reference": "第5话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Symboli_Rudolf",
+        "https://anime-cinderellagray.com/story/?ep=5",
+        "https://anime-cinderellagray.com/character/?type=0&i=15"
+      ]
+    },
+    {
+      "clueId": "symboli-rudolf-cinderella-derby-petition",
+      "characterId": "symboli-rudolf",
+      "scene": {
+        "medium": "anime",
+        "reference": "第9话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Symboli_Rudolf",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=15"
+      ]
+    },
+    {
+      "clueId": "symboli-rudolf-cinderella-maruzensky-adviser",
+      "characterId": "symboli-rudolf",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=0, i=15"
+      },
+      "sources": [
+        "https://umamusu.wiki/Symboli_Rudolf",
+        "https://anime-cinderellagray.com/character/?type=0&i=16",
+        "https://anime-cinderellagray.com/character/?type=0&i=15"
+      ]
+    },
+    {
+      "clueId": "maruzensky-cinderella-original",
+      "characterId": "maruzensky",
+      "scene": {
+        "medium": "anime",
+        "reference": "第9话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Maruzensky",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=16"
+      ]
+    },
+    {
+      "clueId": "maruzensky-cinderella-chukyo-rudolf-companion",
+      "characterId": "maruzensky",
+      "scene": {
+        "medium": "anime",
+        "reference": "第5话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Maruzensky",
+        "https://anime-cinderellagray.com/story/?ep=5",
+        "https://anime-cinderellagray.com/character/?type=0&i=16"
+      ]
+    },
+    {
+      "clueId": "mr-cb-cinderella-original",
+      "characterId": "mr-cb",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=0, i=17"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mr._C.B.",
+        "https://anime-cinderellagray.com/character/?type=0&i=17"
+      ]
+    },
+    {
+      "clueId": "mr-cb-cinderella-hannibal-popsicle",
+      "characterId": "mr-cb",
+      "scene": {
+        "medium": "manga",
+        "reference": "第92R附图"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mr._C.B.",
+        "https://umamusu.wiki/God_Hannibal",
+        "https://anime-cinderellagray.com/character/?type=0&i=17"
+      ]
+    },
+    {
+      "clueId": "toni-bianca-cinderella-original",
+      "characterId": "toni-bianca",
+      "scene": {
+        "medium": "anime",
+        "reference": "第16话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Toni_Bianca",
+        "https://anime-cinderellagray.com/story/?ep=16",
+        "https://anime-cinderellagray.com/character/?type=0&i=18"
+      ]
+    },
+    {
+      "clueId": "toni-bianca-cinderella-fracture-fifth",
+      "characterId": "toni-bianca",
+      "scene": {
+        "medium": "manga",
+        "reference": "第57-59R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Toni_Bianca",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=18"
+      ]
+    },
+    {
+      "clueId": "toni-bianca-cinderella-hospital-flowers",
+      "characterId": "toni-bianca",
+      "scene": {
+        "medium": "manga",
+        "reference": "第59-60R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Toni_Bianca",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+        "https://anime-cinderellagray.com/character/?type=0&i=18"
+      ]
+    },
+    {
+      "clueId": "toni-bianca-cinderella-second-jc-spectator",
+      "characterId": "toni-bianca",
+      "scene": {
+        "medium": "manga",
+        "reference": "第120-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Toni_Bianca",
+        "https://anime-cinderellagray.com/character/?type=0&i=18"
+      ]
+    },
+    {
+      "clueId": "obey-your-master-cinderella-original",
+      "characterId": "obey-your-master",
+      "scene": {
+        "medium": "anime",
+        "reference": "第18话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Obey_Your_Master",
+        "https://anime-cinderellagray.com/story/?ep=18",
+        "https://anime-cinderellagray.com/character/?type=0&i=19"
+      ]
+    },
+    {
+      "clueId": "obey-your-master-cinderella-belno-spy-game",
+      "characterId": "obey-your-master",
+      "scene": {
+        "medium": "manga",
+        "reference": "第49R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Obey_Your_Master",
+        "https://anime-cinderellagray.com/character/?type=0&i=19"
+      ]
+    },
+    {
+      "clueId": "obey-your-master-cinderella-training-room-video",
+      "characterId": "obey-your-master",
+      "scene": {
+        "medium": "manga",
+        "reference": "第50R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Obey_Your_Master",
+        "https://gorilife.com/umamusume-11/3/",
+        "https://anime-cinderellagray.com/character/?type=0&i=19"
+      ]
+    },
+    {
+      "clueId": "obey-your-master-cinderella-defending-jc-third",
+      "characterId": "obey-your-master",
+      "scene": {
+        "medium": "manga",
+        "reference": "第120-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Obey_Your_Master",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=19"
+      ]
+    },
+    {
+      "clueId": "moonlight-lunacy-cinderella-original",
+      "characterId": "moonlight-lunacy",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=0, i=20"
+      },
+      "sources": [
+        "https://umamusu.wiki/Moonlight_Lunacy",
+        "https://anime-cinderellagray.com/character/?type=0&i=20"
+      ]
+    },
+    {
+      "clueId": "moonlight-lunacy-cinderella-next-jc-observer",
+      "characterId": "moonlight-lunacy",
+      "scene": {
+        "medium": "manga",
+        "reference": "第120-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Moonlight_Lunacy",
+        "https://anime-cinderellagray.com/character/?type=0&i=20"
+      ]
+    },
+    {
+      "clueId": "michelle-my-baby-cinderella-original",
+      "characterId": "michelle-my-baby",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=0, i=21"
+      },
+      "sources": [
+        "https://umamusu.wiki/Michelle_My_Baby",
+        "https://anime-cinderellagray.com/character/?type=0&i=21"
+      ]
+    },
+    {
+      "clueId": "michelle-my-baby-cinderella-basketball-demo",
+      "characterId": "michelle-my-baby",
+      "scene": {
+        "medium": "manga",
+        "reference": "第48-49R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Michelle_My_Baby",
+        "https://anime-cinderellagray.com/character/?type=0&i=21"
+      ]
+    },
+    {
+      "clueId": "michelle-my-baby-cinderella-first-jc-fourth",
+      "characterId": "michelle-my-baby",
+      "scene": {
+        "medium": "manga",
+        "reference": "第52-58R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Michelle_My_Baby",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=21"
+      ]
+    },
+    {
+      "clueId": "ellerslie-pride-cinderella-original",
+      "characterId": "ellerslie-pride",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=0, i=22"
+      },
+      "sources": [
+        "https://umamusu.wiki/Ellerslie_Pride",
+        "https://anime-cinderellagray.com/character/?type=0&i=22"
+      ]
+    },
+    {
+      "clueId": "ellerslie-pride-cinderella-gold-city-fangirl",
+      "characterId": "ellerslie-pride",
+      "scene": {
+        "medium": "manga",
+        "reference": "第48-58R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Ellerslie_Pride",
+        "https://anime-cinderellagray.com/character/?type=0&i=22"
+      ]
+    },
+    {
+      "clueId": "ellerslie-pride-cinderella-folkqueen-senior",
+      "characterId": "ellerslie-pride",
+      "scene": {
+        "medium": "manga",
+        "reference": "第125-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Ellerslie_Pride",
+        "https://moegirl.icu/zh-my/平民女王",
+        "https://anime-cinderellagray.com/character/?type=0&i=22"
+      ]
+    },
+    {
+      "clueId": "inari-one-cinderella-original",
+      "characterId": "inari-one",
+      "scene": {
+        "medium": "anime",
+        "reference": "第23话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Inari_One",
+        "https://anime-cinderellagray.com/story/?ep=23",
+        "https://anime-cinderellagray.com/character/?type=0&i=23"
+      ]
+    },
+    {
+      "clueId": "inari-one-cinderella-face-no-more-defeat",
+      "characterId": "inari-one",
+      "scene": {
+        "medium": "anime",
+        "reference": "第23话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Inari_One",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=23",
+        "https://anime-cinderellagray.com/character/?type=0&i=23"
+      ]
+    },
+    {
+      "clueId": "inari-one-cinderella-mainichi-head-to-head",
+      "characterId": "inari-one",
+      "scene": {
+        "medium": "manga",
+        "reference": "第86-90R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Inari_One",
+        "https://anime-cinderellagray.com/character/?type=0&i=23"
+      ]
+    },
+    {
+      "clueId": "inari-one-cinderella-second-arima-record",
+      "characterId": "inari-one",
+      "scene": {
+        "medium": "manga",
+        "reference": "第138-143R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Inari_One",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=0&i=23"
+      ]
+    },
+    {
+      "clueId": "inari-one-cinderella-sister-and-bo-trainers",
+      "characterId": "inari-one",
+      "scene": {
+        "medium": "manga",
+        "reference": "第77-81R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Inari_One",
+        "https://anime-cinderellagray.com/character/?type=2&i=7",
+        "https://anime-cinderellagray.com/character/?type=2&i=8",
+        "https://anime-cinderellagray.com/character/?type=0&i=23"
+      ]
+    },
+    {
+      "clueId": "black-ale-cinderella-pegasus-streak-ended",
+      "characterId": "black-ale",
+      "scene": {
+        "medium": "anime",
+        "reference": "第8话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Black_Ale",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://anime-cinderellagray.com/character/?type=1&i=0"
+      ]
+    },
+    {
+      "clueId": "black-ale-cinderella-sand-play-insult",
+      "characterId": "black-ale",
+      "scene": {
+        "medium": "manga",
+        "reference": "第17-18R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Black_Ale",
+        "https://moegirl.icu/黑色艾尔",
+        "https://anime-cinderellagray.com/character/?type=1&i=0"
+      ]
+    },
+    {
+      "clueId": "black-ale-cinderella-polite-language-promise",
+      "characterId": "black-ale",
+      "scene": {
+        "medium": "manga",
+        "reference": "第21R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Black_Ale",
+        "https://moegirl.icu/黑色艾尔",
+        "https://anime-cinderellagray.com/character/?type=1&i=0"
+      ]
+    },
+    {
+      "clueId": "black-ale-cinderella-fans-treated-kindly",
+      "characterId": "black-ale",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=1, i=0"
+      },
+      "sources": [
+        "https://umamusu.wiki/Black_Ale",
+        "https://moegirl.icu/黑色艾尔",
+        "https://anime-cinderellagray.com/character/?type=1&i=0"
+      ]
+    },
+    {
+      "clueId": "meikun-tsukasa-cinderella-musaka-hairpins",
+      "characterId": "meikun-tsukasa",
+      "scene": {
+        "medium": "manga",
+        "reference": "第19R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Meikun_Tsukasa",
+        "https://anime-cinderellagray.com/character/?type=1&i=1"
+      ]
+    },
+    {
+      "clueId": "meikun-tsukasa-cinderella-reliable-honors-senior",
+      "characterId": "meikun-tsukasa",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=1, i=1"
+      },
+      "sources": [
+        "https://umamusu.wiki/Meikun_Tsukasa",
+        "https://anime-cinderellagray.com/character/?type=1&i=1"
+      ]
+    },
+    {
+      "clueId": "kraft-univer-cinderella-musaka-freckled-senior",
+      "characterId": "kraft-univer",
+      "scene": {
+        "medium": "manga",
+        "reference": "第19R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Kraft_Univer",
+        "https://anime-cinderellagray.com/character/?type=1&i=2"
+      ]
+    },
+    {
+      "clueId": "kraft-univer-cinderella-gothic-race-outfit",
+      "characterId": "kraft-univer",
+      "scene": {
+        "medium": "manga",
+        "reference": "六平队人物与胜负服资料（未限定到单一话数）"
+      },
+      "sources": [
+        "https://umamusu.wiki/Kraft_Univer",
+        "https://anime-cinderellagray.com/character/?type=1&i=2"
+      ]
+    },
+    {
+      "clueId": "kraft-univer-cinderella-stump-rescuer",
+      "characterId": "kraft-univer",
+      "scene": {
+        "medium": "manga",
+        "reference": "第31R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Kraft_Univer",
+        "https://anime-cinderellagray.com/character/?type=1&i=2"
+      ]
+    },
+    {
+      "clueId": "god-hannibal-cinderella-ice-cream-not-jersey",
+      "characterId": "god-hannibal",
+      "scene": {
+        "medium": "manga",
+        "reference": "第19R"
+      },
+      "sources": [
+        "https://umamusu.wiki/God_Hannibal",
+        "https://anime-cinderellagray.com/character/?type=1&i=3"
+      ]
+    },
+    {
+      "clueId": "god-hannibal-cinderella-stuck-in-stump",
+      "characterId": "god-hannibal",
+      "scene": {
+        "medium": "manga",
+        "reference": "第31R"
+      },
+      "sources": [
+        "https://umamusu.wiki/God_Hannibal",
+        "https://anime-cinderellagray.com/character/?type=1&i=3"
+      ]
+    },
+    {
+      "clueId": "god-hannibal-cinderella-kaiju-bug-net",
+      "characterId": "god-hannibal",
+      "scene": {
+        "medium": "manga",
+        "reference": "第76.5R"
+      },
+      "sources": [
+        "https://umamusu.wiki/God_Hannibal",
+        "https://anime-cinderellagray.com/character/?type=1&i=3"
+      ]
+    },
+    {
+      "clueId": "god-hannibal-cinderella-cb-popsicle-gift",
+      "characterId": "god-hannibal",
+      "scene": {
+        "medium": "manga",
+        "reference": "第92R附图"
+      },
+      "sources": [
+        "https://umamusu.wiki/God_Hannibal",
+        "https://anime-cinderellagray.com/character/?type=1&i=3"
+      ]
+    },
+    {
+      "clueId": "akitsu-teio-cinderella-takarazuka-defeat",
+      "characterId": "akitsu-teio",
+      "scene": {
+        "medium": "anime",
+        "reference": "第10话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Akitsu_Teio",
+        "https://anime-cinderellagray.com/story/?ep=10",
+        "https://anime-cinderellagray.com/character/?type=1&i=4"
+      ]
+    },
+    {
+      "clueId": "akitsu-teio-cinderella-hakama-front-runner",
+      "characterId": "akitsu-teio",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=1, i=4"
+      },
+      "sources": [
+        "https://umamusu.wiki/Akitsu_Teio",
+        "https://anime-cinderellagray.com/character/?type=1&i=4"
+      ]
+    },
+    {
+      "clueId": "sirius-symboli-cinderella-paddock-dance-accident",
+      "characterId": "sirius-symboli",
+      "scene": {
+        "medium": "anime",
+        "reference": "第11话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Sirius_Symboli",
+        "https://umamusu.wiki/Lord_Royal",
+        "https://anime-cinderellagray.com/story/?ep=11",
+        "https://anime-cinderellagray.com/character/?type=1&i=5"
+      ]
+    },
+    {
+      "clueId": "sirius-symboli-cinderella-europe-return",
+      "characterId": "sirius-symboli",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=1, i=5"
+      },
+      "sources": [
+        "https://umamusu.wiki/Sirius_Symboli",
+        "https://anime-cinderellagray.com/character/?type=1&i=5"
+      ]
+    },
+    {
+      "clueId": "sirius-symboli-cinderella-mainichi-second",
+      "characterId": "sirius-symboli",
+      "scene": {
+        "medium": "manga",
+        "reference": "第32-33R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Sirius_Symboli",
+        "https://w.atwiki.jp/aniwotawiki/pages/54919.html",
+        "https://anime-cinderellagray.com/character/?type=1&i=5"
+      ]
+    },
+    {
+      "clueId": "dynamu-heroine-cinderella-paddock-kick-victim",
+      "characterId": "dynamu-heroine",
+      "scene": {
+        "medium": "anime",
+        "reference": "第11话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dynamu_Heroine",
+        "https://anime-cinderellagray.com/story/?ep=11",
+        "https://anime-cinderellagray.com/character/?type=1&i=6"
+      ]
+    },
+    {
+      "clueId": "dynamu-heroine-cinderella-environment-sensitive",
+      "characterId": "dynamu-heroine",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=1, i=6"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dynamu_Heroine",
+        "https://anime-cinderellagray.com/character/?type=1&i=6"
+      ]
+    },
+    {
+      "clueId": "dynamu-heroine-cinderella-autumn-bib-five",
+      "characterId": "dynamu-heroine",
+      "scene": {
+        "medium": "anime",
+        "reference": "第12话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Dynamu_Heroine",
+        "https://plaza.rakuten.co.jp/nightknoker0/diary/202506290002/",
+        "https://anime-cinderellagray.com/story/?ep=12",
+        "https://anime-cinderellagray.com/character/?type=1&i=6"
+      ]
+    },
+    {
+      "clueId": "lord-royal-cinderella-nosebleed-scratch",
+      "characterId": "lord-royal",
+      "scene": {
+        "medium": "anime",
+        "reference": "第11话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Lord_Royal",
+        "https://anime-cinderellagray.com/story/?ep=11",
+        "https://anime-cinderellagray.com/character/?type=1&i=7"
+      ]
+    },
+    {
+      "clueId": "lord-royal-cinderella-autumn-leading-third",
+      "characterId": "lord-royal",
+      "scene": {
+        "medium": "manga",
+        "reference": "第36-43R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Lord_Royal",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=1&i=7"
+      ]
+    },
+    {
+      "clueId": "lord-royal-cinderella-imaginary-throne",
+      "characterId": "lord-royal",
+      "scene": {
+        "medium": "manga",
+        "reference": "第32-43R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Lord_Royal",
+        "https://anime-cinderellagray.com/character/?type=1&i=7"
+      ]
+    },
+    {
+      "clueId": "yamano-thousand-cinderella-tokai-derby-winner",
+      "characterId": "yamano-thousand",
+      "scene": {
+        "medium": "anime-profile",
+        "reference": "官方动画人物介绍 type=1, i=8"
+      },
+      "sources": [
+        "https://umamusu.wiki/Yamano_Thousand",
+        "https://anime-cinderellagray.com/character/?type=1&i=8"
+      ]
+    },
+    {
+      "clueId": "yamano-thousand-cinderella-gifu-rematch",
+      "characterId": "yamano-thousand",
+      "scene": {
+        "medium": "anime",
+        "reference": "第14话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Yamano_Thousand",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=14",
+        "https://anime-cinderellagray.com/character/?type=1&i=8"
+      ]
+    },
+    {
+      "clueId": "bamboo-memory-cinderella-nase-father-trainee",
+      "characterId": "bamboo-memory",
+      "scene": {
+        "medium": "manga",
+        "reference": "第102-112R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Bamboo_Memory"
+      ]
+    },
+    {
+      "clueId": "bamboo-memory-cinderella-mile-photo-finish",
+      "characterId": "bamboo-memory",
+      "scene": {
+        "medium": "manga",
+        "reference": "第109-112R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Bamboo_Memory",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ]
+    },
+    {
+      "clueId": "bamboo-memory-cinderella-dirt-developed-form",
+      "characterId": "bamboo-memory",
+      "scene": {
+        "medium": "manga",
+        "reference": "第102-108R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Bamboo_Memory",
+        "https://ja.wikipedia.org/wiki/ウマ娘_シンデレラグレイ"
+      ]
+    },
+    {
+      "clueId": "bamboo-memory-cinderella-swan-recording",
+      "characterId": "bamboo-memory",
+      "scene": {
+        "medium": "manga",
+        "reference": "第103R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Bamboo_Memory",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ]
+    },
+    {
+      "clueId": "face-no-more-cinderella-reverse-transfer",
+      "characterId": "face-no-more",
+      "scene": {
+        "medium": "anime",
+        "reference": "第23话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Face_No_More",
+        "https://anime-cinderellagray.com/story/?ep=23"
+      ]
+    },
+    {
+      "clueId": "face-no-more-cinderella-inari-wrong-names",
+      "characterId": "face-no-more",
+      "scene": {
+        "medium": "manga",
+        "reference": "第77-79R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Face_No_More"
+      ]
+    },
+    {
+      "clueId": "face-no-more-cinderella-watching-inari-tv",
+      "characterId": "face-no-more",
+      "scene": {
+        "medium": "manga",
+        "reference": "第81R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Face_No_More"
+      ]
+    },
+    {
+      "clueId": "folkqueen-cinderella-health-spa-mentor",
+      "characterId": "folkqueen",
+      "scene": {
+        "medium": "manga",
+        "reference": "第114R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Folkqueen",
+        "https://arthanblog.com/ogri-ex-3/"
+      ]
+    },
+    {
+      "clueId": "folkqueen-cinderella-not-a-second-ellerslie",
+      "characterId": "folkqueen",
+      "scene": {
+        "medium": "manga",
+        "reference": "第125-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Folkqueen",
+        "https://moegirl.icu/zh-my/平民女王"
+      ]
+    },
+    {
+      "clueId": "folkqueen-cinderella-jc-world-record",
+      "characterId": "folkqueen",
+      "scene": {
+        "medium": "manga",
+        "reference": "第128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Folkqueen",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ]
+    },
+    {
+      "clueId": "folkqueen-cinderella-heterochromia-jc",
+      "characterId": "folkqueen",
+      "scene": {
+        "medium": "manga",
+        "reference": "第125-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Folkqueen"
+      ]
+    },
+    {
+      "clueId": "thief-crow-cinderella-world-record-invader",
+      "characterId": "thief-crow",
+      "scene": {
+        "medium": "manga",
+        "reference": "第115R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Thief_Crow",
+        "https://arthanblog.com/ucg-jc9p/"
+      ]
+    },
+    {
+      "clueId": "thief-crow-cinderella-eve-pacing-duel",
+      "characterId": "thief-crow",
+      "scene": {
+        "medium": "manga",
+        "reference": "第120-121R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Thief_Crow",
+        "https://arthanblog.com/ucg-jc9p/"
+      ]
+    },
+    {
+      "clueId": "thief-crow-cinderella-postrace-eve-friendship",
+      "characterId": "thief-crow",
+      "scene": {
+        "medium": "manga",
+        "reference": "第129R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Thief_Crow",
+        "https://arthanblog.com/ucg-jc9p/"
+      ]
+    },
+    {
+      "clueId": "eve-binti-cinderella-british-front-runner",
+      "characterId": "eve-binti",
+      "scene": {
+        "medium": "manga",
+        "reference": "第120-121R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Eve_Binti",
+        "https://arthanblog.com/ucg-jc9p/"
+      ]
+    },
+    {
+      "clueId": "eve-binti-cinderella-two-thousand-meter-logic",
+      "characterId": "eve-binti",
+      "scene": {
+        "medium": "manga",
+        "reference": "第129R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Eve_Binti",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ]
+    },
+    {
+      "clueId": "eve-binti-cinderella-pink-jc-racer",
+      "characterId": "eve-binti",
+      "scene": {
+        "medium": "manga",
+        "reference": "第120-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Eve_Binti",
+        "https://arthanblog.com/ucg-jc9p/"
+      ]
+    },
+    {
+      "clueId": "carries-room-cinderella-british-arc-winner",
+      "characterId": "carries-room",
+      "scene": {
+        "medium": "manga",
+        "reference": "第115-128R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Carrie%27s_Room",
+        "https://arthanblog.com/ucg-jc9p/"
+      ]
+    },
+    {
+      "clueId": "carries-room-cinderella-shy-prince",
+      "characterId": "carries-room",
+      "scene": {
+        "medium": "manga",
+        "reference": "第115-129R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Carrie%27s_Room",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ]
+    },
+    {
+      "clueId": "mill-wakaba-cinderella-borrowed-horns",
+      "characterId": "mill-wakaba",
+      "scene": {
+        "medium": "manga",
+        "reference": "第162R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mill_Wakaba"
+      ]
+    },
+    {
+      "clueId": "mill-wakaba-cinderella-takarazuka-monster-defeat",
+      "characterId": "mill-wakaba",
+      "scene": {
+        "medium": "manga",
+        "reference": "第165-169R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mill_Wakaba",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ]
+    },
+    {
+      "clueId": "mill-wakaba-cinderella-milk-cider",
+      "characterId": "mill-wakaba",
+      "scene": {
+        "medium": "manga",
+        "reference": "第146-169R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mill_Wakaba"
+      ]
+    },
+    {
+      "clueId": "mill-wakaba-cinderella-ten-length-debut-overshadowed",
+      "characterId": "mill-wakaba",
+      "scene": {
+        "medium": "manga",
+        "reference": "第162R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mill_Wakaba",
+        "https://w.atwiki.jp/aniwotawiki/pages/59480.html"
+      ]
+    },
+    {
+      "clueId": "mill-wakaba-cinderella-after-last-arima",
+      "characterId": "mill-wakaba",
+      "scene": {
+        "medium": "manga",
+        "reference": "第209R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mill_Wakaba",
+        "https://w.atwiki.jp/aniwotawiki/pages/59480.html"
+      ]
+    },
+    {
+      "clueId": "bright-rock-cinderella-milk-supporter",
+      "characterId": "bright-rock",
+      "scene": {
+        "medium": "manga",
+        "reference": "第146-169R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Bright_Rock"
+      ]
+    },
+    {
+      "clueId": "bright-rock-cinderella-younger-of-three-friends",
+      "characterId": "bright-rock",
+      "scene": {
+        "medium": "manga",
+        "reference": "第162R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Bright_Rock"
+      ]
+    },
+    {
+      "clueId": "bright-rock-cinderella-last-jc-fourth",
+      "characterId": "bright-rock",
+      "scene": {
+        "medium": "manga",
+        "reference": "第192R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Bright_Rock",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ]
+    },
+    {
+      "clueId": "mejiro-ryan-cinderella-aka-en-do-partner",
+      "characterId": "mejiro-ryan",
+      "scene": {
+        "medium": "manga",
+        "reference": "第201R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ryan",
+        "https://arthanblog.com/ucg-yj-201/"
+      ]
+    },
+    {
+      "clueId": "mejiro-ryan-cinderella-oguri-last-rival",
+      "characterId": "mejiro-ryan",
+      "scene": {
+        "medium": "manga",
+        "reference": "第202-209R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ryan",
+        "https://arthanblog.com/ucg-yj-210/"
+      ]
+    },
+    {
+      "clueId": "mejiro-mcqueen-cinderella-musaka-recruitment",
+      "characterId": "mejiro-mcqueen",
+      "scene": {
+        "medium": "manga",
+        "reference": "第193R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_McQueen",
+        "https://arthanblog.com/ucg-193r-fp/"
+      ]
+    },
+    {
+      "clueId": "mejiro-mcqueen-cinderella-new-three-kikuka-winner",
+      "characterId": "mejiro-mcqueen",
+      "scene": {
+        "medium": "manga",
+        "reference": "第193R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Mejiro_McQueen",
+        "https://arthanblog.com/ucg-193r-fp/"
+      ]
+    },
+    {
+      "clueId": "walk-dancer-cinderella-march-roommate",
+      "characterId": "walk-dancer",
+      "scene": {
+        "medium": "manga",
+        "reference": "第2-16R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Walk_Dancer"
+      ]
+    },
+    {
+      "clueId": "walk-dancer-cinderella-debut-field-roommate",
+      "characterId": "walk-dancer",
+      "scene": {
+        "medium": "manga",
+        "reference": "第2-4R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Walk_Dancer"
+      ]
+    },
+    {
+      "clueId": "merry-beauty-cinderella-opening-derby-six-lengths",
+      "characterId": "merry-beauty",
+      "scene": {
+        "medium": "manga",
+        "reference": "第1R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Merry_Beauty",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ]
+    },
+    {
+      "clueId": "merry-beauty-cinderella-hakodate-record-runner-up",
+      "characterId": "merry-beauty",
+      "scene": {
+        "medium": "anime",
+        "reference": "第20话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Merry_Beauty",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=20"
+      ]
+    },
+    {
+      "clueId": "luna-swallow-cinderella-opening-derby-second",
+      "characterId": "luna-swallow",
+      "scene": {
+        "medium": "manga",
+        "reference": "第1R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Luna_Swallow"
+      ]
+    },
+    {
+      "clueId": "luna-swallow-cinderella-all-comers-return",
+      "characterId": "luna-swallow",
+      "scene": {
+        "medium": "manga",
+        "reference": "第82R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Luna_Swallow"
+      ]
+    },
+    {
+      "clueId": "long-live-free-cinderella-paddock-medical-help",
+      "characterId": "long-live-free",
+      "scene": {
+        "medium": "anime",
+        "reference": "第11话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Long_Live_Free",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+        "https://anime-cinderellagray.com/story/?ep=11"
+      ]
+    },
+    {
+      "clueId": "long-live-free-cinderella-spring-second",
+      "characterId": "long-live-free",
+      "scene": {
+        "medium": "manga",
+        "reference": "第25R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Long_Live_Free"
+      ]
+    },
+    {
+      "clueId": "shirogane-adieu-cinderella-arima-interference-victim",
+      "characterId": "shirogane-adieu",
+      "scene": {
+        "medium": "anime",
+        "reference": "第22话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Shirogane_Adieu",
+        "https://anime-cinderellagray.com/story/?ep=22"
+      ]
+    },
+    {
+      "clueId": "shirogane-adieu-cinderella-named-in-anime",
+      "characterId": "shirogane-adieu",
+      "scene": {
+        "medium": "anime",
+        "reference": "第22话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Shirogane_Adieu",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+        "https://anime-cinderellagray.com/story/?ep=22"
+      ]
+    },
+    {
+      "clueId": "shirley-sky-cinderella-first-jc-early-leader",
+      "characterId": "shirley-sky",
+      "scene": {
+        "medium": "manga",
+        "reference": "第52-58R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Shirley_Sky"
+      ]
+    },
+    {
+      "clueId": "shirley-sky-cinderella-british-cape-outfit",
+      "characterId": "shirley-sky",
+      "scene": {
+        "medium": "manga",
+        "reference": "第51-58R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Shirley_Sky",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ]
+    },
+    {
+      "clueId": "massive-viking-cinderella-seven-starts-five-wins",
+      "characterId": "massive-viking",
+      "scene": {
+        "medium": "anime",
+        "reference": "第11话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Massive_Viking",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+        "https://anime-cinderellagray.com/story/?ep=11"
+      ]
+    },
+    {
+      "clueId": "massive-viking-cinderella-autumn-pirate-bib-four",
+      "characterId": "massive-viking",
+      "scene": {
+        "medium": "anime",
+        "reference": "第12话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Massive_Viking",
+        "https://plaza.rakuten.co.jp/nightknoker0/diary/202506290002/",
+        "https://anime-cinderellagray.com/story/?ep=12"
+      ]
+    },
+    {
+      "clueId": "top-shunbetsu-cinderella-autumn-late-start",
+      "characterId": "top-shunbetsu",
+      "scene": {
+        "medium": "anime",
+        "reference": "第12话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Top_Shunbetsu",
+        "https://thetv.jp/news/detail/1273120/",
+        "https://ameblo.jp/beemihf/entry-12716513583.html",
+        "https://anime-cinderellagray.com/story/?ep=12"
+      ]
+    },
+    {
+      "clueId": "top-shunbetsu-cinderella-front-runner-fades",
+      "characterId": "top-shunbetsu",
+      "scene": {
+        "medium": "manga",
+        "reference": "第36-43R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Top_Shunbetsu",
+        "https://note.com/darkrockbiter/n/nd88b293738c4"
+      ]
+    },
+    {
+      "clueId": "be-true-on-pulse-cinderella-third-jc-winner",
+      "characterId": "be-true-on-pulse",
+      "scene": {
+        "medium": "manga",
+        "reference": "第192R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Be_True_On_Pulse",
+        "https://arthanblog.com/ucg-c22/"
+      ]
+    },
+    {
+      "clueId": "be-true-on-pulse-cinderella-folkqueen-recommendation",
+      "characterId": "be-true-on-pulse",
+      "scene": {
+        "medium": "manga",
+        "reference": "第192R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Be_True_On_Pulse",
+        "https://note.com/xnbmlbxkkl/n/nde55c2ec5a52",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ]
+    },
+    {
+      "clueId": "clarizza-cinderella-german-jc-representative",
+      "characterId": "clarizza",
+      "scene": {
+        "medium": "manga",
+        "reference": "第51-58R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Clarizza",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ]
+    },
+    {
+      "clueId": "clarizza-cinderella-gold-city-following-place",
+      "characterId": "clarizza",
+      "scene": {
+        "medium": "manga",
+        "reference": "第52-58R"
+      },
+      "sources": [
+        "https://umamusu.wiki/Clarizza"
+      ]
+    },
+    {
+      "clueId": "sakura-chiyono-o-cinderella-satsuki-third",
+      "characterId": "sakura-chiyono-o",
+      "scene": {
+        "medium": "anime",
+        "reference": "第8话"
+      },
+      "sources": [
+        "https://umamusu.wiki/Sakura_Chiyono_O",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://anime-cinderellagray.com/character/?type=0&i=10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,979 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-16",
+  "sources": [
+    "https://anime-cinderellagray.com/character/",
+    "https://umamusu.wiki/Category:Cinderella_Gray_Characters"
+  ],
+  "characters": [
+    {
+      "characterId": "oguri-cap",
+      "kind": "main",
+      "nameJa": "オグリキャップ",
+      "sources": [
+        "https://umamusu.wiki/Oguri_Cap",
+        "https://anime-cinderellagray.com/story/?ep=3",
+        "https://anime-cinderellagray.com/character/?type=0&i=0",
+        "https://anime-cinderellagray.com/story/?ep=2",
+        "https://anime-cinderellagray.com/story/?ep=6",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://arthanblog.com/ucg-yj-210/",
+        "https://arthanblog.com/ucg-c22/"
+      ],
+      "clueIds": [
+        "oguri-cap-cinderella-original",
+        "oguri-cap-cinderella-mothers-knee-care",
+        "oguri-cap-cinderella-gold-junior-transfer",
+        "oguri-cap-cinderella-no-classic-registration",
+        "oguri-cap-cinderella-mile-jc-back-to-back",
+        "oguri-cap-cinderella-last-run-revival",
+        "oguri-cap-cinderella-kitahara-midnight-question"
+      ]
+    },
+    {
+      "characterId": "belno-light",
+      "kind": "original",
+      "nameJa": "ベルノライト",
+      "sources": [
+        "https://umamusu.wiki/Belno_Light",
+        "https://anime-cinderellagray.com/story/?ep=3",
+        "https://anime-cinderellagray.com/character/?type=0&i=1",
+        "https://anime-cinderellagray.com/story/?ep=6",
+        "https://anime-cinderellagray.com/story/?ep=16",
+        "https://arthanblog.com/ucg-yj199r/",
+        "https://heysay.hatenadiary.jp/entry/2025/12/25/000154"
+      ],
+      "clueIds": [
+        "belno-light-cinderella-original",
+        "belno-light-cinderella-support-transfer-exam",
+        "belno-light-cinderella-foreign-team-investigation",
+        "belno-light-cinderella-supporters-declaration",
+        "belno-light-cinderella-postscript-assistant"
+      ]
+    },
+    {
+      "characterId": "fujimasa-march",
+      "kind": "original",
+      "nameJa": "フジマサマーチ",
+      "sources": [
+        "https://umamusu.wiki/Fujimasa_March",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=2",
+        "https://anime-cinderellagray.com/character/?type=0&i=4",
+        "https://anime-cinderellagray.com/story/?ep=4",
+        "https://anime-cinderellagray.com/story/?ep=14"
+      ],
+      "clueIds": [
+        "fujimasa-march-cinderella-original",
+        "fujimasa-march-cinderella-mount-kinka-promise",
+        "fujimasa-march-cinderella-telephone-japans-best",
+        "fujimasa-march-cinderella-gifu-crown-comeback",
+        "fujimasa-march-cinderella-walk-dancer-roommate"
+      ]
+    },
+    {
+      "characterId": "norn-ace",
+      "kind": "original",
+      "nameJa": "ノルンエース",
+      "sources": [
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/story/?ep=4",
+        "https://anime-cinderellagray.com/character/?type=0&i=5",
+        "https://anime-cinderellagray.com/story/?ep=1",
+        "https://anime-cinderellagray.com/story/?ep=6",
+        "https://anime-cinderellagray.com/story/?ep=3"
+      ],
+      "clueIds": [
+        "norn-ace-cinderella-original",
+        "norn-ace-cinderella-storage-room-eviction",
+        "norn-ace-cinderella-oguri-plush",
+        "norn-ace-cinderella-race-sand-apology"
+      ]
+    },
+    {
+      "characterId": "rudy-lemono",
+      "kind": "original",
+      "nameJa": "ルディレモーノ",
+      "sources": [
+        "https://umamusu.wiki/Rudy_Lemono",
+        "https://anime-cinderellagray.com/character/?type=0&i=6",
+        "https://umamusu.wiki/Norn_Ace"
+      ],
+      "clueIds": [
+        "rudy-lemono-cinderella-original",
+        "rudy-lemono-cinderella-norn-handkerchief"
+      ]
+    },
+    {
+      "characterId": "mini-the-lady",
+      "kind": "original",
+      "nameJa": "ミニーザレディ",
+      "sources": [
+        "https://umamusu.wiki/Mini_the_Lady",
+        "https://umamusu.wiki/Norn_Ace",
+        "https://anime-cinderellagray.com/story/?ep=3",
+        "https://anime-cinderellagray.com/character/?type=0&i=7"
+      ],
+      "clueIds": [
+        "mini-the-lady-cinderella-original",
+        "mini-the-lady-cinderella-second-in-class"
+      ]
+    },
+    {
+      "characterId": "tamamo-cross",
+      "kind": "main",
+      "nameJa": "タマモクロス",
+      "sources": [
+        "https://umamusu.wiki/Tamamo_Cross",
+        "https://anime-cinderellagray.com/story/?ep=13",
+        "https://anime-cinderellagray.com/character/?type=0&i=8",
+        "https://anime-cinderellagray.com/story/?ep=4",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=10",
+        "https://anime-cinderellagray.com/story/?ep=12",
+        "https://anime-cinderellagray.com/story/?ep=20"
+      ],
+      "clueIds": [
+        "tamamo-cross-cinderella-original",
+        "tamamo-cross-cinderella-wrong-train-kasamatsu",
+        "tamamo-cross-cinderella-akitsu-takarazuka",
+        "tamamo-cross-cinderella-surprise-forward-tactic",
+        "tamamo-cross-cinderella-retirement-announcement"
+      ]
+    },
+    {
+      "characterId": "yaeno-muteki",
+      "kind": "main",
+      "nameJa": "ヤエノムテキ",
+      "sources": [
+        "https://umamusu.wiki/Yaeno_Muteki",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://anime-cinderellagray.com/character/?type=0&i=9",
+        "https://anime-cinderellagray.com/story/?ep=15",
+        "https://twicomi.com/manga/yj_umaCG/1930278426201731535"
+      ],
+      "clueIds": [
+        "yaeno-muteki-cinderella-original",
+        "yaeno-muteki-cinderella-challenge-letter",
+        "yaeno-muteki-cinderella-twelve-length-dirt-win",
+        "yaeno-muteki-cinderella-kikka-creek-opponent",
+        "yaeno-muteki-cinderella-final-autumn-tenno-win"
+      ]
+    },
+    {
+      "characterId": "sakura-chiyono-o",
+      "kind": "main",
+      "nameJa": "サクラチヨノオー",
+      "sources": [
+        "https://umamusu.wiki/Sakura_Chiyono_O",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=10",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=8"
+      ],
+      "clueIds": [
+        "sakura-chiyono-o-cinderella-original",
+        "sakura-chiyono-o-cinderella-idol-ineligibility",
+        "sakura-chiyono-o-cinderella-satsuki-third"
+      ]
+    },
+    {
+      "characterId": "mejiro-ardan",
+      "kind": "main",
+      "nameJa": "メジロアルダン",
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ardan",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=11",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://kouhey.blog.jp/archives/40436903.html"
+      ],
+      "clueIds": [
+        "mejiro-ardan-cinderella-original",
+        "mejiro-ardan-cinderella-injury-comeback",
+        "mejiro-ardan-cinderella-ramonu-shadow",
+        "mejiro-ardan-cinderella-last-autumn-runner-up"
+      ]
+    },
+    {
+      "characterId": "super-creek",
+      "kind": "main",
+      "nameJa": "スーパークリーク",
+      "sources": [
+        "https://umamusu.wiki/Super_Creek",
+        "https://anime-cinderellagray.com/story/?ep=15",
+        "https://anime-cinderellagray.com/character/?type=0&i=12",
+        "https://anime-cinderellagray.com/story/?ep=22",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ],
+      "clueIds": [
+        "super-creek-cinderella-original",
+        "super-creek-cinderella-arima-disqualification",
+        "super-creek-cinderella-kyoto-return",
+        "super-creek-cinderella-second-autumn-tenno-win",
+        "super-creek-cinderella-last-spring-tenno"
+      ]
+    },
+    {
+      "characterId": "dicta-striker",
+      "kind": "original",
+      "nameJa": "ディクタストライカ",
+      "sources": [
+        "https://umamusu.wiki/Dicta_Striker",
+        "https://w.atwiki.jp/aniwotawiki/pages/54943.html",
+        "https://anime-cinderellagray.com/character/?type=0&i=13",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=20",
+        "https://anime-cinderellagray.com/character/?type=2&i=6",
+        "https://moegirl.icu/黑色艾尔"
+      ],
+      "clueIds": [
+        "dicta-striker-cinderella-original",
+        "dicta-striker-cinderella-hakodate-record",
+        "dicta-striker-cinderella-bullet-shot-zone",
+        "dicta-striker-cinderella-trainer-kouchi",
+        "dicta-striker-cinderella-classroom-black-ale"
+      ]
+    },
+    {
+      "characterId": "gold-city",
+      "kind": "main",
+      "nameJa": "ゴールドシチー",
+      "sources": [
+        "https://umamusu.wiki/Gold_City",
+        "https://anime-cinderellagray.com/character/?type=0&i=14",
+        "https://gorilife.com/umamusume-11/3/",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ],
+      "clueIds": [
+        "gold-city-cinderella-original",
+        "gold-city-cinderella-shampoo-question",
+        "gold-city-cinderella-opening-derby-runner"
+      ]
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "kind": "main",
+      "nameJa": "シンボリルドルフ",
+      "sources": [
+        "https://umamusu.wiki/Symboli_Rudolf",
+        "https://anime-cinderellagray.com/story/?ep=5",
+        "https://anime-cinderellagray.com/character/?type=0&i=15",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=16"
+      ],
+      "clueIds": [
+        "symboli-rudolf-cinderella-original",
+        "symboli-rudolf-cinderella-derby-petition",
+        "symboli-rudolf-cinderella-maruzensky-adviser"
+      ]
+    },
+    {
+      "characterId": "maruzensky",
+      "kind": "main",
+      "nameJa": "マルゼンスキー",
+      "sources": [
+        "https://umamusu.wiki/Maruzensky",
+        "https://anime-cinderellagray.com/story/?ep=9",
+        "https://anime-cinderellagray.com/character/?type=0&i=16",
+        "https://anime-cinderellagray.com/story/?ep=5"
+      ],
+      "clueIds": [
+        "maruzensky-cinderella-original",
+        "maruzensky-cinderella-chukyo-rudolf-companion"
+      ]
+    },
+    {
+      "characterId": "mr-cb",
+      "kind": "main",
+      "nameJa": "ミスターシービー",
+      "sources": [
+        "https://umamusu.wiki/Mr._C.B.",
+        "https://anime-cinderellagray.com/character/?type=0&i=17",
+        "https://umamusu.wiki/God_Hannibal"
+      ],
+      "clueIds": [
+        "mr-cb-cinderella-original",
+        "mr-cb-cinderella-hannibal-popsicle"
+      ]
+    },
+    {
+      "characterId": "toni-bianca",
+      "kind": "original",
+      "nameJa": "トニビアンカ",
+      "sources": [
+        "https://umamusu.wiki/Toni_Bianca",
+        "https://anime-cinderellagray.com/story/?ep=16",
+        "https://anime-cinderellagray.com/character/?type=0&i=18",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ],
+      "clueIds": [
+        "toni-bianca-cinderella-original",
+        "toni-bianca-cinderella-fracture-fifth",
+        "toni-bianca-cinderella-hospital-flowers",
+        "toni-bianca-cinderella-second-jc-spectator"
+      ]
+    },
+    {
+      "characterId": "obey-your-master",
+      "kind": "original",
+      "nameJa": "オベイユアマスター",
+      "sources": [
+        "https://umamusu.wiki/Obey_Your_Master",
+        "https://anime-cinderellagray.com/story/?ep=18",
+        "https://anime-cinderellagray.com/character/?type=0&i=19",
+        "https://gorilife.com/umamusume-11/3/",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ],
+      "clueIds": [
+        "obey-your-master-cinderella-original",
+        "obey-your-master-cinderella-belno-spy-game",
+        "obey-your-master-cinderella-training-room-video",
+        "obey-your-master-cinderella-defending-jc-third"
+      ]
+    },
+    {
+      "characterId": "moonlight-lunacy",
+      "kind": "original",
+      "nameJa": "ムーンライトルナシー",
+      "sources": [
+        "https://umamusu.wiki/Moonlight_Lunacy",
+        "https://anime-cinderellagray.com/character/?type=0&i=20"
+      ],
+      "clueIds": [
+        "moonlight-lunacy-cinderella-original",
+        "moonlight-lunacy-cinderella-next-jc-observer"
+      ]
+    },
+    {
+      "characterId": "michelle-my-baby",
+      "kind": "original",
+      "nameJa": "ミシェルマイベイビー",
+      "sources": [
+        "https://umamusu.wiki/Michelle_My_Baby",
+        "https://anime-cinderellagray.com/character/?type=0&i=21",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ],
+      "clueIds": [
+        "michelle-my-baby-cinderella-original",
+        "michelle-my-baby-cinderella-basketball-demo",
+        "michelle-my-baby-cinderella-first-jc-fourth"
+      ]
+    },
+    {
+      "characterId": "ellerslie-pride",
+      "kind": "original",
+      "nameJa": "エラズリープライド",
+      "sources": [
+        "https://umamusu.wiki/Ellerslie_Pride",
+        "https://anime-cinderellagray.com/character/?type=0&i=22",
+        "https://moegirl.icu/zh-my/平民女王"
+      ],
+      "clueIds": [
+        "ellerslie-pride-cinderella-original",
+        "ellerslie-pride-cinderella-gold-city-fangirl",
+        "ellerslie-pride-cinderella-folkqueen-senior"
+      ]
+    },
+    {
+      "characterId": "inari-one",
+      "kind": "main",
+      "nameJa": "イナリワン",
+      "sources": [
+        "https://umamusu.wiki/Inari_One",
+        "https://anime-cinderellagray.com/story/?ep=23",
+        "https://anime-cinderellagray.com/character/?type=0&i=23",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/character/?type=2&i=7",
+        "https://anime-cinderellagray.com/character/?type=2&i=8"
+      ],
+      "clueIds": [
+        "inari-one-cinderella-original",
+        "inari-one-cinderella-face-no-more-defeat",
+        "inari-one-cinderella-mainichi-head-to-head",
+        "inari-one-cinderella-second-arima-record",
+        "inari-one-cinderella-sister-and-bo-trainers"
+      ]
+    },
+    {
+      "characterId": "black-ale",
+      "kind": "original",
+      "nameJa": "ブラッキーエール",
+      "sources": [
+        "https://umamusu.wiki/Black_Ale",
+        "https://anime-cinderellagray.com/story/?ep=8",
+        "https://anime-cinderellagray.com/character/?type=1&i=0",
+        "https://moegirl.icu/黑色艾尔"
+      ],
+      "clueIds": [
+        "black-ale-cinderella-pegasus-streak-ended",
+        "black-ale-cinderella-sand-play-insult",
+        "black-ale-cinderella-polite-language-promise",
+        "black-ale-cinderella-fans-treated-kindly"
+      ]
+    },
+    {
+      "characterId": "meikun-tsukasa",
+      "kind": "original",
+      "nameJa": "メイクンツカサ",
+      "sources": [
+        "https://umamusu.wiki/Meikun_Tsukasa",
+        "https://anime-cinderellagray.com/character/?type=1&i=1"
+      ],
+      "clueIds": [
+        "meikun-tsukasa-cinderella-musaka-hairpins",
+        "meikun-tsukasa-cinderella-reliable-honors-senior"
+      ]
+    },
+    {
+      "characterId": "kraft-univer",
+      "kind": "original",
+      "nameJa": "クラフトユニヴァ",
+      "sources": [
+        "https://umamusu.wiki/Kraft_Univer",
+        "https://anime-cinderellagray.com/character/?type=1&i=2"
+      ],
+      "clueIds": [
+        "kraft-univer-cinderella-musaka-freckled-senior",
+        "kraft-univer-cinderella-gothic-race-outfit",
+        "kraft-univer-cinderella-stump-rescuer"
+      ]
+    },
+    {
+      "characterId": "god-hannibal",
+      "kind": "original",
+      "nameJa": "ゴッドハンニバル",
+      "sources": [
+        "https://umamusu.wiki/God_Hannibal",
+        "https://anime-cinderellagray.com/character/?type=1&i=3"
+      ],
+      "clueIds": [
+        "god-hannibal-cinderella-ice-cream-not-jersey",
+        "god-hannibal-cinderella-stuck-in-stump",
+        "god-hannibal-cinderella-kaiju-bug-net",
+        "god-hannibal-cinderella-cb-popsicle-gift"
+      ]
+    },
+    {
+      "characterId": "akitsu-teio",
+      "kind": "original",
+      "nameJa": "アキツテイオー",
+      "sources": [
+        "https://umamusu.wiki/Akitsu_Teio",
+        "https://anime-cinderellagray.com/story/?ep=10",
+        "https://anime-cinderellagray.com/character/?type=1&i=4"
+      ],
+      "clueIds": [
+        "akitsu-teio-cinderella-takarazuka-defeat",
+        "akitsu-teio-cinderella-hakama-front-runner"
+      ]
+    },
+    {
+      "characterId": "sirius-symboli",
+      "kind": "main",
+      "nameJa": "シリウスシンボリ",
+      "sources": [
+        "https://umamusu.wiki/Sirius_Symboli",
+        "https://umamusu.wiki/Lord_Royal",
+        "https://anime-cinderellagray.com/story/?ep=11",
+        "https://anime-cinderellagray.com/character/?type=1&i=5",
+        "https://w.atwiki.jp/aniwotawiki/pages/54919.html"
+      ],
+      "clueIds": [
+        "sirius-symboli-cinderella-paddock-dance-accident",
+        "sirius-symboli-cinderella-europe-return",
+        "sirius-symboli-cinderella-mainichi-second"
+      ]
+    },
+    {
+      "characterId": "dynamu-heroine",
+      "kind": "original",
+      "nameJa": "ダイナムヒロイン",
+      "sources": [
+        "https://umamusu.wiki/Dynamu_Heroine",
+        "https://anime-cinderellagray.com/story/?ep=11",
+        "https://anime-cinderellagray.com/character/?type=1&i=6",
+        "https://plaza.rakuten.co.jp/nightknoker0/diary/202506290002/",
+        "https://anime-cinderellagray.com/story/?ep=12"
+      ],
+      "clueIds": [
+        "dynamu-heroine-cinderella-paddock-kick-victim",
+        "dynamu-heroine-cinderella-environment-sensitive",
+        "dynamu-heroine-cinderella-autumn-bib-five"
+      ]
+    },
+    {
+      "characterId": "lord-royal",
+      "kind": "original",
+      "nameJa": "ロードロイヤル",
+      "sources": [
+        "https://umamusu.wiki/Lord_Royal",
+        "https://anime-cinderellagray.com/story/?ep=11",
+        "https://anime-cinderellagray.com/character/?type=1&i=7",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ],
+      "clueIds": [
+        "lord-royal-cinderella-nosebleed-scratch",
+        "lord-royal-cinderella-autumn-leading-third",
+        "lord-royal-cinderella-imaginary-throne"
+      ]
+    },
+    {
+      "characterId": "yamano-thousand",
+      "kind": "original",
+      "nameJa": "ヤマノサウザン",
+      "sources": [
+        "https://umamusu.wiki/Yamano_Thousand",
+        "https://anime-cinderellagray.com/character/?type=1&i=8",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=14"
+      ],
+      "clueIds": [
+        "yamano-thousand-cinderella-tokai-derby-winner",
+        "yamano-thousand-cinderella-gifu-rematch"
+      ]
+    },
+    {
+      "characterId": "bamboo-memory",
+      "kind": "main",
+      "nameJa": "バンブーメモリー",
+      "sources": [
+        "https://umamusu.wiki/Bamboo_Memory",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://ja.wikipedia.org/wiki/ウマ娘_シンデレラグレイ"
+      ],
+      "clueIds": [
+        "bamboo-memory-cinderella-nase-father-trainee",
+        "bamboo-memory-cinderella-mile-photo-finish",
+        "bamboo-memory-cinderella-dirt-developed-form",
+        "bamboo-memory-cinderella-swan-recording"
+      ]
+    },
+    {
+      "characterId": "face-no-more",
+      "kind": "original",
+      "nameJa": "フェイスノーモア",
+      "sources": [
+        "https://umamusu.wiki/Face_No_More",
+        "https://anime-cinderellagray.com/story/?ep=23"
+      ],
+      "clueIds": [
+        "face-no-more-cinderella-reverse-transfer",
+        "face-no-more-cinderella-inari-wrong-names",
+        "face-no-more-cinderella-watching-inari-tv"
+      ]
+    },
+    {
+      "characterId": "folkqueen",
+      "kind": "original",
+      "nameJa": "フォークイン",
+      "sources": [
+        "https://umamusu.wiki/Folkqueen",
+        "https://arthanblog.com/ogri-ex-3/",
+        "https://moegirl.icu/zh-my/平民女王",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ],
+      "clueIds": [
+        "folkqueen-cinderella-health-spa-mentor",
+        "folkqueen-cinderella-not-a-second-ellerslie",
+        "folkqueen-cinderella-jc-world-record",
+        "folkqueen-cinderella-heterochromia-jc"
+      ]
+    },
+    {
+      "characterId": "thief-crow",
+      "kind": "original",
+      "nameJa": "シーフクロー",
+      "sources": [
+        "https://umamusu.wiki/Thief_Crow",
+        "https://arthanblog.com/ucg-jc9p/"
+      ],
+      "clueIds": [
+        "thief-crow-cinderella-world-record-invader",
+        "thief-crow-cinderella-eve-pacing-duel",
+        "thief-crow-cinderella-postrace-eve-friendship"
+      ]
+    },
+    {
+      "characterId": "eve-binti",
+      "kind": "original",
+      "nameJa": "イブビンティ",
+      "sources": [
+        "https://umamusu.wiki/Eve_Binti",
+        "https://arthanblog.com/ucg-jc9p/",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ],
+      "clueIds": [
+        "eve-binti-cinderella-british-front-runner",
+        "eve-binti-cinderella-two-thousand-meter-logic",
+        "eve-binti-cinderella-pink-jc-racer"
+      ]
+    },
+    {
+      "characterId": "carries-room",
+      "kind": "original",
+      "nameJa": "キャリーズルーム",
+      "sources": [
+        "https://umamusu.wiki/Carrie%27s_Room",
+        "https://arthanblog.com/ucg-jc9p/",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ],
+      "clueIds": [
+        "carries-room-cinderella-british-arc-winner",
+        "carries-room-cinderella-shy-prince"
+      ]
+    },
+    {
+      "characterId": "mill-wakaba",
+      "kind": "original",
+      "nameJa": "ミルワカバ",
+      "sources": [
+        "https://umamusu.wiki/Mill_Wakaba",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://w.atwiki.jp/aniwotawiki/pages/59480.html"
+      ],
+      "clueIds": [
+        "mill-wakaba-cinderella-borrowed-horns",
+        "mill-wakaba-cinderella-takarazuka-monster-defeat",
+        "mill-wakaba-cinderella-milk-cider",
+        "mill-wakaba-cinderella-ten-length-debut-overshadowed",
+        "mill-wakaba-cinderella-after-last-arima"
+      ]
+    },
+    {
+      "characterId": "bright-rock",
+      "kind": "original",
+      "nameJa": "ブライトロック",
+      "sources": [
+        "https://umamusu.wiki/Bright_Rock",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報"
+      ],
+      "clueIds": [
+        "bright-rock-cinderella-milk-supporter",
+        "bright-rock-cinderella-younger-of-three-friends",
+        "bright-rock-cinderella-last-jc-fourth"
+      ]
+    },
+    {
+      "characterId": "mejiro-ryan",
+      "kind": "main",
+      "nameJa": "メジロライアン",
+      "sources": [
+        "https://umamusu.wiki/Mejiro_Ryan",
+        "https://arthanblog.com/ucg-yj-201/",
+        "https://arthanblog.com/ucg-yj-210/"
+      ],
+      "clueIds": [
+        "mejiro-ryan-cinderella-aka-en-do-partner",
+        "mejiro-ryan-cinderella-oguri-last-rival"
+      ]
+    },
+    {
+      "characterId": "mejiro-mcqueen",
+      "kind": "main",
+      "nameJa": "メジロマックイーン",
+      "sources": [
+        "https://umamusu.wiki/Mejiro_McQueen",
+        "https://arthanblog.com/ucg-193r-fp/"
+      ],
+      "clueIds": [
+        "mejiro-mcqueen-cinderella-musaka-recruitment",
+        "mejiro-mcqueen-cinderella-new-three-kikuka-winner"
+      ]
+    },
+    {
+      "characterId": "walk-dancer",
+      "kind": "original",
+      "nameJa": "ウォークダンサー",
+      "sources": [
+        "https://umamusu.wiki/Walk_Dancer"
+      ],
+      "clueIds": [
+        "walk-dancer-cinderella-march-roommate",
+        "walk-dancer-cinderella-debut-field-roommate"
+      ]
+    },
+    {
+      "characterId": "merry-beauty",
+      "kind": "original",
+      "nameJa": "メリービューティー",
+      "sources": [
+        "https://umamusu.wiki/Merry_Beauty",
+        "https://wikiwiki.jp/vip_umamusu/元馬情報",
+        "https://anime-cinderellagray.com/story/?ep=20"
+      ],
+      "clueIds": [
+        "merry-beauty-cinderella-opening-derby-six-lengths",
+        "merry-beauty-cinderella-hakodate-record-runner-up"
+      ]
+    },
+    {
+      "characterId": "luna-swallow",
+      "kind": "original",
+      "nameJa": "ルナスワロー",
+      "sources": [
+        "https://umamusu.wiki/Luna_Swallow"
+      ],
+      "clueIds": [
+        "luna-swallow-cinderella-opening-derby-second",
+        "luna-swallow-cinderella-all-comers-return"
+      ]
+    },
+    {
+      "characterId": "long-live-free",
+      "kind": "original",
+      "nameJa": "ロングリヴフリー",
+      "sources": [
+        "https://umamusu.wiki/Long_Live_Free",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+        "https://anime-cinderellagray.com/story/?ep=11"
+      ],
+      "clueIds": [
+        "long-live-free-cinderella-paddock-medical-help",
+        "long-live-free-cinderella-spring-second"
+      ]
+    },
+    {
+      "characterId": "shirogane-adieu",
+      "kind": "original",
+      "nameJa": "シロガネアデュー",
+      "sources": [
+        "https://umamusu.wiki/Shirogane_Adieu",
+        "https://anime-cinderellagray.com/story/?ep=22",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ],
+      "clueIds": [
+        "shirogane-adieu-cinderella-arima-interference-victim",
+        "shirogane-adieu-cinderella-named-in-anime"
+      ]
+    },
+    {
+      "characterId": "shirley-sky",
+      "kind": "original",
+      "nameJa": "シャーリースカイ",
+      "sources": [
+        "https://umamusu.wiki/Shirley_Sky",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ],
+      "clueIds": [
+        "shirley-sky-cinderella-first-jc-early-leader",
+        "shirley-sky-cinderella-british-cape-outfit"
+      ]
+    },
+    {
+      "characterId": "massive-viking",
+      "kind": "original",
+      "nameJa": "マッシヴバイキング",
+      "sources": [
+        "https://umamusu.wiki/Massive_Viking",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+        "https://anime-cinderellagray.com/story/?ep=11",
+        "https://plaza.rakuten.co.jp/nightknoker0/diary/202506290002/",
+        "https://anime-cinderellagray.com/story/?ep=12"
+      ],
+      "clueIds": [
+        "massive-viking-cinderella-seven-starts-five-wins",
+        "massive-viking-cinderella-autumn-pirate-bib-four"
+      ]
+    },
+    {
+      "characterId": "top-shunbetsu",
+      "kind": "original",
+      "nameJa": "トップシュンベツ",
+      "sources": [
+        "https://umamusu.wiki/Top_Shunbetsu",
+        "https://thetv.jp/news/detail/1273120/",
+        "https://ameblo.jp/beemihf/entry-12716513583.html",
+        "https://anime-cinderellagray.com/story/?ep=12",
+        "https://note.com/darkrockbiter/n/nd88b293738c4"
+      ],
+      "clueIds": [
+        "top-shunbetsu-cinderella-autumn-late-start",
+        "top-shunbetsu-cinderella-front-runner-fades"
+      ]
+    },
+    {
+      "characterId": "be-true-on-pulse",
+      "kind": "original",
+      "nameJa": "ビートゥルーオンパルス",
+      "sources": [
+        "https://umamusu.wiki/Be_True_On_Pulse",
+        "https://arthanblog.com/ucg-c22/",
+        "https://note.com/xnbmlbxkkl/n/nde55c2ec5a52",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ],
+      "clueIds": [
+        "be-true-on-pulse-cinderella-third-jc-winner",
+        "be-true-on-pulse-cinderella-folkqueen-recommendation"
+      ]
+    },
+    {
+      "characterId": "clarizza",
+      "kind": "original",
+      "nameJa": "クラリッザ",
+      "sources": [
+        "https://umamusu.wiki/Clarizza",
+        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+      ],
+      "clueIds": [
+        "clarizza-cinderella-german-jc-representative",
+        "clarizza-cinderella-gold-city-following-place"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "nameEn": "Bethe Sugar",
+      "nameJa": "ベーテシュガー",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Bethe_Sugar"
+    },
+    {
+      "nameEn": "Dynamu Painter",
+      "nameJa": "ダイナムペインター",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Dynamu_Painter"
+    },
+    {
+      "nameEn": "Fumino Nase",
+      "nameJa": "奈瀬文乃",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Fumino_Nase"
+    },
+    {
+      "nameEn": "Fuyuno Nakasumi",
+      "nameJa": "フユノナカスミ",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Fuyuno_Nakasumi"
+    },
+    {
+      "nameEn": "Ginjirou Musaka",
+      "nameJa": "六平銀次郎",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Ginjirou_Musaka"
+    },
+    {
+      "nameEn": "Hidehito Nase",
+      "nameJa": "奈瀬英人",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Hidehito_Nase"
+    },
+    {
+      "nameEn": "Hiyori Kawamura",
+      "nameJa": "川村日和",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Hiyori_Kawamura"
+    },
+    {
+      "nameEn": "Jo Kitahara",
+      "nameJa": "北原穣",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Jo_Kitahara"
+    },
+    {
+      "nameEn": "Joy Maker",
+      "nameJa": "ジョイメーカー",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Joy_Maker"
+    },
+    {
+      "nameEn": "Kouichi Shibasaki",
+      "nameJa": "柴崎宏壱",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Kouichi_Shibasaki"
+    },
+    {
+      "nameEn": "Masami Komiyama",
+      "nameJa": "小宮山勝美",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Masami_Komiyama"
+    },
+    {
+      "nameEn": "Meteor Selenus",
+      "nameJa": "メテオセレナス",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Meteor_Selenus"
+    },
+    {
+      "nameEn": "Miss Armagnac",
+      "nameJa": "ミスアルマニャック",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Miss_Armagnac"
+    },
+    {
+      "nameEn": "Okan Maker",
+      "nameJa": "オーカンメーカー",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Okan_Maker"
+    },
+    {
+      "nameEn": "Romance Bubbly",
+      "nameJa": "ロマンスバブリー",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Romance_Bubbly"
+    },
+    {
+      "nameEn": "Royal Cherry",
+      "nameJa": "ロイヤルチェリー",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Royal_Cherry"
+    },
+    {
+      "nameEn": "Run to the Top",
+      "nameJa": "ラントゥザトップ",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Run_to_the_Top"
+    },
+    {
+      "nameEn": "Satias",
+      "nameJa": "サティアス",
+      "reason": "资料对代表地区的记载冲突，暂不据此编写两条唯一剧情提示。",
+      "source": "https://umamusu.wiki/Satias"
+    },
+    {
+      "nameEn": "School Road",
+      "nameJa": "スクールロード",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/School_Road"
+    },
+    {
+      "nameEn": "Sekai Touha",
+      "nameJa": "セカイトーハー",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Sekai_Touha"
+    },
+    {
+      "nameEn": "Sensuke Fujii",
+      "nameJa": "藤井泉助",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Sensuke_Fujii"
+    },
+    {
+      "nameEn": "South Heroine",
+      "nameJa": "サウスヒロイン",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/South_Heroine"
+    },
+    {
+      "nameEn": "Tadashi Kouchi",
+      "nameJa": "小内忠",
+      "reason": "人类训练员或记者，不作为马娘答案。",
+      "source": "https://umamusu.wiki/Tadashi_Kouchi"
+    },
+    {
+      "nameEn": "Ultra Ichiban",
+      "nameJa": "ウルトライチバン",
+      "reason": "已记录登场资料，但目前未收集到两条足以独立定位的剧情事实，不用原型推测凑题。",
+      "source": "https://umamusu.wiki/Ultra_Ichiban"
+    },
+    {
+      "nameEn": "Dyna Actress",
+      "nameJa": "",
+      "reason": "本作对应登场名是ダイナムヒロイン，不用推定原型名字替代作品中的角色名字。",
+      "source": "https://umamusu.wiki/Dyna_Actress"
+    }
+  ]
+}

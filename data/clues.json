@@ -1680,7 +1680,8 @@
       "categories": [
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -1822,6 +1823,42 @@
             "https://umamusume.lantis.jp/discography/starting-gate-05/"
           ],
           "factKey": "solo-fb81ff7f0a",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-mcqueen-cinderella-musaka-recruitment",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "最终章中刚拿下菊花赏，就主动向六平提出想加入他队伍的目白家芦毛选手。",
+            "en": "In the final manga arc, this gray-haired Mejiro Kikuka winner asks to join Musaka's team.",
+            "ja": "最終章で菊花賞を制した後、六平にチーム加入を直談判した目白家の芦毛。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_McQueen",
+            "https://arthanblog.com/ucg-193r-fp/"
+          ],
+          "factKey": "cinderella-musaka-recruitment",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-mcqueen-cinderella-new-three-kikuka-winner",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画最终章被视作“新三强”之一：光明岩石、目白赖恩之外，那位新晋菊花赏冠军。",
+            "en": "The newly crowned Kikuka Sho winner named among the final arc's new three alongside Bright Rock and Mejiro Ryan.",
+            "ja": "漫画最終章、ブライトロックやメジロライアンと新三強に数えられる新たな菊花賞ウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_McQueen",
+            "https://arthanblog.com/ucg-193r-fp/"
+          ],
+          "factKey": "cinderella-new-three-kikuka-winner",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -2333,28 +2370,12 @@
     {
       "characterId": "oguri-cap",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "oguri-cap-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "笠松初胜后的胜者舞台上，跳起“笠松音头”，让众人傻眼的主角。",
-            "en": "After her first Kasamatsu victory, the heroine surprises everyone by dancing the Kasamatsu Ondo at the winning live.",
-            "ja": "カサマツで初勝利を挙げた後、ウイニングライブで「カサマツ音頭」を踊って周囲を驚かせた主人公。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Oguri_Cap"
-          ]
-        },
         {
           "id": "oguri-cap-epithet",
           "categories": [
@@ -2368,38 +2389,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "oguri-cap-story-5",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "笠松初胜后的胜者舞台，偏偏跳起让观众傻眼的“笠松音头”。",
-            "en": "After her first Kasamatsu win, she leaves the audience stunned by dancing the Kasamatsu Ondo.",
-            "ja": "笠松初勝利のウイニングライブで「笠松音頭」を踊り、観客を驚かせる。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Oguri_Cap"
-          ]
-        },
-        {
-          "id": "oguri-cap-story-6",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "从地方走向中央的芦毛主角，最初连胜者舞台的舞蹈都要诺伦来教。",
-            "en": "The gray protagonist moves from local racing to the central circuit, initially needing Norn to teach her victory-stage dancing.",
-            "ja": "地方から中央へ進む芦毛の主人公。最初はノルンにライブの踊りを教わる。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Oguri_Cap"
           ]
         },
         {
@@ -2528,6 +2517,139 @@
             "https://umamusume.jp/character/oguricap"
           ],
           "factKey": "life-game-20251222",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "oguri-cap-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "笠松初胜后的胜者舞台上，跳起“笠松音头”而让观众傻眼的主角。",
+            "en": "After her first Kasamatsu win, she bewilders the audience with the Kasamatsu Ondo at the winning live.",
+            "ja": "カサマツ初勝利のウイニングライブで、カサマツ音頭を踊って観客を驚かせた主人公。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Oguri_Cap",
+            "https://anime-cinderellagray.com/story/?ep=3",
+            "https://anime-cinderellagray.com/character/?type=0&i=0"
+          ],
+          "factKey": "cinderella-kasamatsu-ondo",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "oguri-cap-cinderella-mothers-knee-care",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "幼年因膝部问题无法行走，母亲每天替她按摩；因此觉得能站起来奔跑本身就是奇迹。",
+            "en": "Unable to walk as a child, she received daily knee massages from her mother and regards running itself as a miracle.",
+            "ja": "幼い頃は膝が悪く歩けず、母の毎日のマッサージで走れるようになり、走れること自体を奇跡と思っている。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Oguri_Cap",
+            "https://anime-cinderellagray.com/story/?ep=2",
+            "https://anime-cinderellagray.com/character/?type=0&i=0"
+          ],
+          "factKey": "cinderella-mothers-knee-care",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "oguri-cap-cinderella-gold-junior-transfer",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "与北原约定黄金少年赛“赢了去中央，输了留笠松”，最终听到他的呼喊后全力冲线。",
+            "en": "At the Gold Junior, Kitahara makes winning mean a move to Central; hearing his shout, she finally runs without hesitation.",
+            "ja": "ゴールドジュニアは勝てば中央、負ければカサマツ。北原の叫びを受けて迷いなく走り切った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Oguri_Cap",
+            "https://anime-cinderellagray.com/story/?ep=6",
+            "https://anime-cinderellagray.com/character/?type=0&i=0"
+          ],
+          "factKey": "cinderella-gold-junior-transfer",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "oguri-cap-cinderella-no-classic-registration",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "转入中央后才发现没有经典赛报名资格，即使接连战胜强敌也无法出战日本德比。",
+            "en": "After transferring to Central, she discovers that missing Classic registration bars her from the Derby despite her victories.",
+            "ja": "中央転入後、クラシック登録がないため、強敵に勝ち続けても日本ダービーに出られないと知る。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Oguri_Cap",
+            "https://anime-cinderellagray.com/story/?ep=8",
+            "https://anime-cinderellagray.com/character/?type=0&i=0"
+          ],
+          "factKey": "cinderella-no-classic-registration",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "oguri-cap-cinderella-mile-jc-back-to-back",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画中先以鼻差赢下一哩冠军赛，一周后又与平民女王争夺日本杯。",
+            "en": "In the manga she wins the Mile Championship by a nose, then challenges Folkqueen in the Japan Cup just one week later.",
+            "ja": "漫画でマイルCSをハナ差で制し、わずか1週間後のジャパンカップでフォークインと争った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Oguri_Cap",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=0"
+          ],
+          "factKey": "cinderella-mile-jc-back-to-back",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "oguri-cap-cinderella-last-run-revival",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画最终章以有马纪念为告别战，击败目白赖恩，让全场再次响起自己的名字。",
+            "en": "Her final manga race is the Arima Kinen, where she defeats Mejiro Ryan as the crowd chants her name again.",
+            "ja": "漫画最終章、有マ記念のラストランでメジロライアンを退け、再び自分の名を呼ぶ大歓声を浴びる。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Oguri_Cap",
+            "https://arthanblog.com/ucg-yj-210/",
+            "https://anime-cinderellagray.com/character/?type=0&i=0"
+          ],
+          "factKey": "cinderella-last-run-revival",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "oguri-cap-cinderella-kitahara-midnight-question",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第198R中，在北原询问是否还想跑时，把自己的脚托付给他，决定迎接最后一战。",
+            "en": "In Chapter 198 she entrusts her foot to Kitahara after he asks whether she still wants to run.",
+            "ja": "第198Rで、まだ走りたいかと問う北原に自分の足を託し、最後のレースへ向かう。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Oguri_Cap",
+            "https://arthanblog.com/ucg-c22/",
+            "https://anime-cinderellagray.com/character/?type=0&i=0"
+          ],
+          "factKey": "cinderella-kitahara-midnight-question",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -2864,28 +2986,12 @@
     {
       "characterId": "tamamo-cross",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "tamamo-cross-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "秋季天皇赏中进入“领域”，终结小栗帽中央连胜纪录的芦毛宿敌。",
-            "en": "Oguri’s gray-haired rival enters the Zone in the autumn Tenno Sho and ends her winning streak at the national level.",
-            "ja": "天皇賞（秋）で「領域」に入り、オグリの中央での連勝を止めた芦毛のライバル。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Tamamo_Cross"
-          ]
-        },
         {
           "id": "tamamo-cross-epithet",
           "categories": [
@@ -2899,38 +3005,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "tamamo-cross-story-5",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "秋季天皇赏中进入“领域”，终结小栗帽中央连胜的芦毛对手。",
-            "en": "The gray rival enters her Zone in the autumn Tenno Sho and ends Oguri's central winning streak.",
-            "ja": "天皇賞（秋）で「領域」に入り、オグリの中央連勝を止めた芦毛の相手。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Tamamo_Cross"
-          ]
-        },
-        {
-          "id": "tamamo-cross-story-6",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "小栗帽第一次遭遇中央败绩的那场秋季天皇赏，由这位“白色闪电”获胜。",
-            "en": "White Lightning wins the autumn Tenno Sho that gives Oguri her first central-circuit defeat.",
-            "ja": "オグリが中央初黒星を喫した天皇賞（秋）を制した「白い稲妻」。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Tamamo_Cross"
           ]
         },
         {
@@ -3041,6 +3115,102 @@
             "https://umamusume.jp/character/tamamocross"
           ],
           "factKey": "life-game-20251222",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "tamamo-cross-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "在两位芦毛选手首次天皇赏对决中觉醒领域，送给小栗帽中央生涯首败。",
+            "en": "She awakens her Zone in the gray-haired rivals' first Tenno Sho clash and hands Oguri her first Central defeat.",
+            "ja": "芦毛2人の初めての天皇賞対決で領域に入り、オグリに中央初の敗北を与えた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Tamamo_Cross",
+            "https://anime-cinderellagray.com/story/?ep=13",
+            "https://anime-cinderellagray.com/character/?type=0&i=8"
+          ],
+          "factKey": "cinderella-autumn-zone-first-defeat",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "tamamo-cross-cinderella-wrong-train-kasamatsu",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "坐错返程电车来到笠松，偶然看到小栗帽的比赛，从此开始留意这位同为芦毛的新星。",
+            "en": "A wrong train brings her to Kasamatsu, where seeing Oguri race makes her notice a fellow gray-haired newcomer.",
+            "ja": "帰りの電車を間違えてカサマツへ来て、偶然オグリの走りを見た同じ芦毛のウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Tamamo_Cross",
+            "https://anime-cinderellagray.com/story/?ep=4",
+            "https://anime-cinderellagray.com/character/?type=0&i=8"
+          ],
+          "factKey": "cinderella-wrong-train-kasamatsu",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "tamamo-cross-cinderella-akitsu-takarazuka",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "宝塚纪念中战胜“英里帝王”秋津帝王，让前来观战的小栗帽见识到现役最强。",
+            "en": "She defeats Akitsu Teio in the Takarazuka Kinen, showing the watching Oguri what the strongest active runner can do.",
+            "ja": "宝塚記念でアキツテイオーを破り、観戦するオグリに現役最強の走りを見せた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Tamamo_Cross",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=10",
+            "https://anime-cinderellagray.com/character/?type=0&i=8"
+          ],
+          "factKey": "cinderella-akitsu-takarazuka",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "tamamo-cross-cinderella-surprise-forward-tactic",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "秋季天皇赏一改追赶跑法，紧随皇家领主居第二，连训练员小宫山都吃了一惊。",
+            "en": "In the autumn Tenno Sho she unexpectedly sits second behind Lord Royal, astonishing even her trainer Komiyama.",
+            "ja": "天皇賞（秋）で追い込みから一転、ロードロイヤルの直後の2番手につけ、小宮山まで驚かせた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Tamamo_Cross",
+            "https://anime-cinderellagray.com/story/?ep=12",
+            "https://anime-cinderellagray.com/character/?type=0&i=8"
+          ],
+          "factKey": "cinderella-surprise-forward-tactic",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "tamamo-cross-cinderella-retirement-announcement",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "有马纪念记者会上把小栗帽单独叫出去，告诉她自己决定以这场比赛为最后一战。",
+            "en": "At the Arima press conference she privately tells Oguri that this race will be her last.",
+            "ja": "有マ記念の会見でオグリを呼び出し、このレースを最後にする決意を伝えた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Tamamo_Cross",
+            "https://anime-cinderellagray.com/story/?ep=20",
+            "https://anime-cinderellagray.com/character/?type=0&i=8"
+          ],
+          "factKey": "cinderella-retirement-announcement",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -3514,7 +3684,8 @@
       "categories": [
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -3584,6 +3755,77 @@
             "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1989.html"
           ],
           "factKey": "race-yasuda-1989-win",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "bamboo-memory-cinderella-nase-father-trainee",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画中搭档是奈濑文乃的父亲奈濑英人，曾向小栗帽发出一哩冠军赛挑战。",
+            "en": "Her Cinderella Gray trainer is Fumino Nase's father Hidehito, and she challenges Oguri to the Mile Championship.",
+            "ja": "シングレでは奈瀬文乃の父・英人が担当し、オグリにマイルCSでの対決を申し込む。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Bamboo_Memory"
+          ],
+          "factKey": "cinderella-nase-father-trainee",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "bamboo-memory-cinderella-mile-photo-finish",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "在小栗帽连斗的第一站一哩冠军赛里，与她战至照片判定，最后只差一个鼻位。",
+            "en": "In the first leg of Oguri's back-to-back races, she loses the Mile Championship only by a nose after a photo finish.",
+            "ja": "オグリの連闘初戦マイルCSで、写真判定の末わずかハナ差で敗れた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Bamboo_Memory",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報"
+          ],
+          "factKey": "cinderella-mile-photo-finish",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "bamboo-memory-cinderella-dirt-developed-form",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "长期泥地竞赛减轻蹄部负担，反而帮助她完成跑法，随后转到草地与小栗帽争雄。",
+            "en": "Dirt racing eases the load on her hooves and helps complete the running form she later uses against Oguri on turf.",
+            "ja": "蹄への負担が少ないダートで走法を完成させ、芝でオグリに挑むようになった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Bamboo_Memory",
+            "https://ja.wikipedia.org/wiki/ウマ娘_シンデレラグレイ"
+          ],
+          "factKey": "cinderella-dirt-developed-form",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "bamboo-memory-cinderella-swan-recording",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第103R用影像展现她赢下天鹅锦标赛；这位风纪委员随后成为小栗帽一哩战的重要对手。",
+            "en": "Chapter 103 shows footage of her Swan Stakes win before this disciplinary committee member becomes Oguri's key mile rival.",
+            "ja": "第103RでスワンSを勝つ映像が描かれ、後にオグリのマイル戦の強敵となる風紀委員。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Bamboo_Memory",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報"
+          ],
+          "factKey": "cinderella-swan-recording",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -4125,28 +4367,12 @@
     {
       "characterId": "yaeno-muteki",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "yaeno-muteki-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "小栗帽无法参加的那场皋月赏，由这位武术少女击败樱花千代王等对手，夺得一冠。",
-            "en": "With Oguri unable to enter the Satsuki Sho, this martial artist defeats Sakura Chiyono O and the others to take the title.",
-            "ja": "オグリが出走できなかった皐月賞で、サクラチヨノオーらを破り一冠を手にした武術少女。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Yaeno_Muteki"
-          ]
-        },
         {
           "id": "yaeno-muteki-epithet",
           "categories": [
@@ -4160,38 +4386,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "yaeno-muteki-story-5",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "在小栗帽因资格无法参加的皋月赏上，夺冠的武术少女。",
-            "en": "The martial artist who wins the Satsuki Sho that Oguri Cap is ineligible to enter.",
-            "ja": "出走資格のないオグリが参加できなかった皐月賞を制した武術の少女。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Yaeno_Muteki"
-          ]
-        },
-        {
-          "id": "yaeno-muteki-story-6",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "漫画经典赛篇里，先在皋月赏击败樱花千代王等人的同期强者。",
-            "en": "A classic-generation contender who defeats Sakura Chiyono O and others in the manga's Satsuki Sho.",
-            "ja": "漫画のクラシック編で、皐月賞にてサクラチヨノオーらを破った同期の強豪。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Yaeno_Muteki"
           ]
         },
         {
@@ -4264,6 +4458,102 @@
             "https://umamusume.lantis.jp/discography/winning-live-04/"
           ],
           "factKey": "solo-b54ccc346c",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "yaeno-muteki-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽无法参加的皋月赏，由这位武术少女击败樱花千代王等对手夺冠。",
+            "en": "With Oguri ineligible for the Satsuki Sho, this martial artist defeats Sakura Chiyono O and the others.",
+            "ja": "オグリが出られない皐月賞で、サクラチヨノオーらを破った武術少女。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Yaeno_Muteki",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=8",
+            "https://anime-cinderellagray.com/character/?type=0&i=9"
+          ],
+          "factKey": "cinderella-satsuki-crown",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "yaeno-muteki-cinderella-challenge-letter",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "向刚转入中央的小栗帽递交手写挑战书，要求在每日杯堂堂正正一决胜负。",
+            "en": "She sends the newly transferred Oguri a handwritten challenge for an honorable showdown in the Mainichi Hai.",
+            "ja": "中央へ来たばかりのオグリに、毎日杯での正々堂々の勝負を求める手書きの果たし状を渡した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Yaeno_Muteki",
+            "https://anime-cinderellagray.com/character/?type=0&i=9"
+          ],
+          "factKey": "cinderella-challenge-letter",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "yaeno-muteki-cinderella-twelve-length-dirt-win",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画改编的第8话中，她在沈丁花赏以十二马身大胜，随后才与小栗帽相遇于每日杯。",
+            "en": "In Episode 8 she wins the Jinchoge Sho by twelve lengths before facing Oguri in the Mainichi Hai.",
+            "ja": "第8話で沈丁花賞を12バ身差で勝ち、その後毎日杯でオグリと対戦した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Yaeno_Muteki",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=8",
+            "https://anime-cinderellagray.com/character/?type=0&i=9"
+          ],
+          "factKey": "cinderella-twelve-length-dirt-win",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "yaeno-muteki-cinderella-kikka-creek-opponent",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "以皋月赏冠军身份挑战3000米菊花赏，却遇上奈濑文乃与超级小溪的组合。",
+            "en": "The Satsuki Sho champion challenges 3,000 meters in the Kikuka Sho against Fumino Nase's Super Creek.",
+            "ja": "皐月賞ウマ娘として3000mの菊花賞で、奈瀬文乃とスーパークリークのコンビに挑んだ。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Yaeno_Muteki",
+            "https://anime-cinderellagray.com/story/?ep=15",
+            "https://anime-cinderellagray.com/character/?type=0&i=9"
+          ],
+          "factKey": "cinderella-kikka-creek-opponent",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "yaeno-muteki-cinderella-final-autumn-tenno-win",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第三次秋季天皇赏，进入领域后击败目白阿尔丹；赛后却仍被媒体围绕小栗帽的败北提问。",
+            "en": "In the manga's third autumn Tenno Sho she defeats Mejiro Ardan, yet the aftermath still centers on Oguri's loss.",
+            "ja": "漫画で3度目の天皇賞（秋）を制しメジロアルダンを破るが、報道はオグリの敗北に集中した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Yaeno_Muteki",
+            "https://twicomi.com/manga/yj_umaCG/1930278426201731535",
+            "https://anime-cinderellagray.com/character/?type=0&i=9"
+          ],
+          "factKey": "cinderella-final-autumn-tenno-win",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -4368,28 +4658,12 @@
     {
       "characterId": "inari-one",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "inari-one-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "漫画中从大井转入中央，后来在每日王冠与小栗帽激烈对决的江户子。",
-            "en": "In the manga, this Edo-style runner transfers from Oi to the national academy and later battles Oguri fiercely in the Mainichi Okan.",
-            "ja": "漫画で大井から中央へ移籍し、後に毎日王冠でオグリと激闘を繰り広げる江戸っ子。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Inari_One"
-          ]
-        },
         {
           "id": "inari-one-epithet",
           "categories": [
@@ -4403,38 +4677,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "inari-one-story-5",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "从大井进入中央，后来在每日王冠与小栗帽上演激斗的江户子。",
-            "en": "An Edo girl from Oi who later fights Oguri Cap in the Mainichi Okan.",
-            "ja": "大井から中央入りし、後に毎日王冠でオグリと激闘する江戸っ子。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Inari_One"
-          ]
-        },
-        {
-          "id": "inari-one-story-6",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "同是地方出身，她的起点不是笠松而是大井；漫画里与小栗帽战于每日王冠。",
-            "en": "Another local-circuit graduate, she starts at Oi rather than Kasamatsu and duels Oguri in the manga's Mainichi Okan.",
-            "ja": "地方出身でも笠松ではなく大井が出発点。漫画の毎日王冠でオグリと競り合う。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Inari_One"
           ]
         },
         {
@@ -4546,34 +4788,114 @@
           ],
           "factKey": "life-game-20251222",
           "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "inari-one-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "动画末尾以大井的江户子之姿赢下东京大赏典，随后将目光投向中央。",
+            "en": "At the anime's close, this Edo-style Oi runner wins the Tokyo Daishoten and sets her sights on Central.",
+            "ja": "アニメ終盤、大井の江戸っ子として東京大賞典を制し、中央へ目を向けた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Inari_One",
+            "https://anime-cinderellagray.com/story/?ep=23",
+            "https://anime-cinderellagray.com/character/?type=0&i=23"
+          ],
+          "factKey": "cinderella-oi-tokyo-daishoten",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "inari-one-cinderella-face-no-more-defeat",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "转入中央以前，曾在笠松的全日本马娘杯败给不再掩饰的“大井最终兵器”。",
+            "en": "Before moving to Central, the Final Weapon of Oi loses to Face No More in the All-Japan Umamusume Cup at Kasamatsu.",
+            "ja": "中央転入前、カサマツの全日本ウマ娘カップでフェイスノーモアに敗れた大井の最終兵器。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Inari_One",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=23",
+            "https://anime-cinderellagray.com/character/?type=0&i=23"
+          ],
+          "factKey": "cinderella-face-no-more-defeat",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "inari-one-cinderella-mainichi-head-to-head",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画永世三强篇中，在每日王冠最后直道与小栗帽上演寸步不让的对决。",
+            "en": "In the manga's Eternal Three arc, she fights Oguri stride for stride in the Mainichi Okan's final straight.",
+            "ja": "漫画の永世三強篇、毎日王冠の直線でオグリと一歩も譲らぬ勝負を繰り広げた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Inari_One",
+            "https://anime-cinderellagray.com/character/?type=0&i=23"
+          ],
+          "factKey": "cinderella-mainichi-head-to-head",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "inari-one-cinderella-second-arima-record",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第二次有马纪念中，以2分31秒7的纪录时间击败超级小溪，摘下年末桂冠。",
+            "en": "In the manga's second Arima Kinen, she beats Super Creek in a record 2:31.7.",
+            "ja": "漫画2度目の有マ記念で、2分31秒7のレコードを出しスーパークリークを破った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Inari_One",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=23"
+          ],
+          "factKey": "cinderella-second-arima-record",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "inari-one-cinderella-sister-and-bo-trainers",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "大井时代称檮原龙子为“姐”，转入中央后又与被自己叫作“坊”的太郎合作。",
+            "en": "She calls Oi trainer Ryuko Yusuhara big sister, then works in Central with Ryuko's son Taro, whom she calls Bo.",
+            "ja": "大井では檮原龍子を姐さんと慕い、中央では坊と呼ぶその息子・太郎と組む。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Inari_One",
+            "https://anime-cinderellagray.com/character/?type=2&i=7",
+            "https://anime-cinderellagray.com/character/?type=2&i=8",
+            "https://anime-cinderellagray.com/character/?type=0&i=23"
+          ],
+          "factKey": "cinderella-sister-and-bo-trainers",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "sakura-chiyono-o",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "sakura-chiyono-o-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本德比最后直道重新追上目白阿尔丹，把胜利献给憧憬的丸善斯基。",
-            "en": "She rallies to catch Mejiro Ardan in the Derby’s final stretch, dedicating the victory to her idol, Maruzensky.",
-            "ja": "日本ダービーの直線でメジロアルダンを差し返し、憧れのマルゼンスキーに勝利を捧げた。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Sakura_Chiyono_O"
-          ]
-        },
         {
           "id": "sakura-chiyono-o-epithet",
           "categories": [
@@ -4587,38 +4909,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "sakura-chiyono-o-story-5",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "德比直道被目白阿尔丹超越后重新反击，把冠军献给丸善斯基。",
-            "en": "She fights back after Mejiro Ardan passes her in the Derby, dedicating the win to Maruzensky.",
-            "ja": "ダービー直線でメジロアルダンに抜かれても差し返し、勝利をマルゼンスキーに捧げた。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Sakura_Chiyono_O"
-          ]
-        },
-        {
-          "id": "sakura-chiyono-o-story-6",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "为憧憬的丸善斯基争取德比之冠，在最后直道与阿尔丹激战的少女。",
-            "en": "She battles Ardan down the final straight to claim a Derby crown for her idol Maruzensky.",
-            "ja": "憧れのマルゼンスキーのため、アルダンと最後の直線で激闘してダービーを勝つ少女。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Sakura_Chiyono_O"
           ]
         },
         {
@@ -4691,6 +4981,63 @@
             "https://umamusume.lantis.jp/discography/winning-live-04/"
           ],
           "factKey": "solo-aeb8903ae9",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "sakura-chiyono-o-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "日本德比最后直道重新反超目白阿尔丹，将胜利献给憧憬的丸善斯基。",
+            "en": "She rallies past Mejiro Ardan in the Derby straight and dedicates the win to her idol Maruzensky.",
+            "ja": "日本ダービーの直線でメジロアルダンを差し返し、憧れのマルゼンスキーに勝利を捧げた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Sakura_Chiyono_O",
+            "https://anime-cinderellagray.com/story/?ep=9",
+            "https://anime-cinderellagray.com/character/?type=0&i=10"
+          ],
+          "factKey": "cinderella-derby-rally",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "sakura-chiyono-o-cinderella-idol-ineligibility",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "她的德比梦想承载着丸善斯基当年无法参赛的遗憾，因此对这场比赛格外执着。",
+            "en": "Her Derby dream carries Maruzensky's unfulfilled chance to enter, giving the race special meaning.",
+            "ja": "マルゼンスキーが出られなかった日本ダービーへの想いを受け継ぎ、その舞台に特別な意味を見出す。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Sakura_Chiyono_O",
+            "https://anime-cinderellagray.com/character/?type=0&i=10"
+          ],
+          "factKey": "cinderella-idol-ineligibility",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "sakura-chiyono-o-cinderella-satsuki-third",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽缺席的皋月赏中，她在八重无敌获胜的比赛里拿到第三名，后来才赢下德比。",
+            "en": "She finishes third in the Satsuki Sho won by Yaeno Muteki, with Oguri Cap absent, before going on to win the Derby.",
+            "ja": "オグリ不在、ヤエノムテキが勝った皐月賞では3着。その後ダービーを制する。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Sakura_Chiyono_O",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=8",
+            "https://anime-cinderellagray.com/character/?type=0&i=10"
+          ],
+          "factKey": "cinderella-satsuki-third",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -4953,28 +5300,12 @@
     {
       "characterId": "mejiro-ardan",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "mejiro-ardan-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本德比中一度冲到最前，最终惜败于樱花千代王；她用脆弱的双腿争取属于自己的光芒。",
-            "en": "She takes the lead in the Derby’s closing stretch but narrowly loses to Sakura Chiyono O, racing for her own moment despite fragile legs.",
-            "ja": "日本ダービーの直線で一度先頭に立つも、サクラチヨノオーに惜敗。繊細な脚で自分だけの輝きを求めた。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mejiro_Ardan"
-          ]
-        },
         {
           "id": "mejiro-ardan-epithet",
           "categories": [
@@ -4988,38 +5319,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "mejiro-ardan-story-2",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本德比最后直道一度领先，却被樱花千代王重新追上的目白家少女。",
-            "en": "The Mejiro girl who leads on the Derby home straight before Sakura Chiyono O catches her again.",
-            "ja": "日本ダービーの最後の直線で先頭に立つが、サクラチヨノオーに差し返されるメジロの少女。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mejiro_Ardan"
-          ]
-        },
-        {
-          "id": "mejiro-ardan-story-3",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "脆弱的双腿仍想争取自己的光芒；德比中的对手把胜利献给丸善斯基。",
-            "en": "With fragile legs, she seeks her own moment of brilliance; her Derby rival dedicates victory to Maruzensky.",
-            "ja": "脆い脚で自分だけの光を求める。ダービーの相手は勝利をマルゼンスキーに捧げた。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mejiro_Ardan"
           ]
         },
         {
@@ -5094,15 +5393,91 @@
           ],
           "factKey": "solo-528f5a9f3f",
           "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-ardan-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "日本德比一度冲到最前，却被樱花千代王差回；那双玻璃般的脚渴望留下自己的光芒。",
+            "en": "Her fragile legs carry her to the Derby lead before Sakura Chiyono O rallies past her.",
+            "ja": "ガラスの脚で日本ダービーの先頭に立つが、サクラチヨノオーに差し返された。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_Ardan",
+            "https://anime-cinderellagray.com/story/?ep=9",
+            "https://anime-cinderellagray.com/character/?type=0&i=11"
+          ],
+          "factKey": "cinderella-derby-fragile-legs",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-ardan-cinderella-injury-comeback",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "德比后长期养伤，复出赢下高松宫杯，再于每日王冠与小栗帽、稻荷一交锋的目白家选手。",
+            "en": "After a long post-Derby injury layoff, she wins the Takamatsunomiya Hai and meets Oguri and Inari in the Mainichi Okan.",
+            "ja": "ダービー後の長期療養から復帰し高松宮杯を勝ち、毎日王冠でオグリとイナリに挑んだ目白家のウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_Ardan",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=11"
+          ],
+          "factKey": "cinderella-injury-comeback",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-ardan-cinderella-ramonu-shadow",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画目白家篇中，面对姐姐拉莫娜的巨大名望，仍坚持用脆弱的双脚留下属于自己的证明。",
+            "en": "In the Mejiro-family chapter she seeks her own proof through racing despite fragile legs and her sister Ramonu's fame.",
+            "ja": "目白家の章で、姉ラモーヌの名声と繊細な脚を抱えながら、自分だけの証をレースに求める。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_Ardan",
+            "https://kouhey.blog.jp/archives/40436903.html",
+            "https://anime-cinderellagray.com/character/?type=0&i=11"
+          ],
+          "factKey": "cinderella-ramonu-shadow",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-ardan-cinderella-last-autumn-runner-up",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第三次秋季天皇赏中，她最终仅次于八重无敌，领先青竹回忆与米尔若叶。",
+            "en": "In the manga's third autumn Tenno Sho she finishes behind Yaeno Muteki but ahead of Bamboo Memory and Mill Wakaba.",
+            "ja": "漫画で3度目の天皇賞（秋）ではヤエノムテキに次ぐ2着で、バンブーメモリーとミルワカバに先着した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_Ardan",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=11"
+          ],
+          "factKey": "cinderella-last-autumn-runner-up",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "mini-the-lady",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -5114,17 +5489,21 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "笠松三人组中出点子的黑发姑娘；曾替诺伦策划干扰小栗帽的跑鞋，实际上成绩是班级第二。",
-            "en": "The dark-haired schemer in the Kasamatsu trio suggests targeting Oguri’s shoes. Despite her pranks, she ranks second in class.",
-            "ja": "カサマツの三人組の黒髪の知恵者。オグリの靴を狙う策をノルンに提案したが、実は成績はクラス二位。"
+            "zh-CN": "笠松三人组中，提出踩小栗帽脚部来妨碍比赛的黑发出谋者。",
+            "en": "The dark-haired member of the Kasamatsu trio who proposes sabotaging Oguri by stepping on her foot.",
+            "ja": "カサマツの三人組で、オグリの足を踏む妨害案を考えた黒髪の知恵者。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mini_the_Lady"
-          ]
+            "https://umamusu.wiki/Mini_the_Lady",
+            "https://umamusu.wiki/Norn_Ace",
+            "https://anime-cinderellagray.com/story/?ep=3",
+            "https://anime-cinderellagray.com/character/?type=0&i=7"
+          ],
+          "factKey": "cinderella-foot-stomp-plan",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "mini-the-lady-story-1",
+          "id": "mini-the-lady-cinderella-second-in-class",
           "categories": [
             "cinderella",
             "beginner",
@@ -5132,41 +5511,25 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "诺伦身边黑发的出谋划策者，曾在跑鞋上打主意干扰小栗帽。",
-            "en": "Norn's dark-haired schemer who plots to interfere with Oguri Cap's running shoes.",
-            "ja": "ノルンのそばで策を練る黒髪の少女。オグリのシューズに細工を企てた。"
+            "zh-CN": "总与诺伦一同行动、喜欢恶作剧，实际上座学成绩却是学年第二的马娘。",
+            "en": "Norn's mischievous companion whose classroom results place her second in the year.",
+            "ja": "ノルンとつるむいたずら好きだが、実は座学で学年2位のウマ娘。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mini_the_Lady"
-          ]
-        },
-        {
-          "id": "mini-the-lady-story-2",
-          "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "https://umamusu.wiki/Mini_the_Lady",
+            "https://anime-cinderellagray.com/character/?type=0&i=7"
           ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "看似忙于恶作剧，实际是班级成绩第二名的笠松三人组成员。",
-            "en": "A member of Kasamatsu's trio who seems occupied with pranks but ranks second in class.",
-            "ja": "イタズラばかりに見えて、実はクラス成績2位の笠松三人組の一人。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mini_the_Lady"
-          ]
+          "factKey": "cinderella-second-in-class",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "fujimasa-march",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -5178,17 +5541,21 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "在小栗帽的出道战中获胜，随后又在Junior Crown与她再战的笠松宿敌。",
-            "en": "This Kasamatsu rival wins Oguri’s debut race, then faces her again in the Junior Crown.",
-            "ja": "オグリのデビュー戦で勝利し、ジュニアクラウンで再び対決したカサマツのライバル。"
+            "zh-CN": "在小栗帽的笠松出道战中，以颈差先一步冲线的特待生。",
+            "en": "The scholarship student who beats Oguri by a neck in their Kasamatsu debut race.",
+            "ja": "カサマツのデビュー戦でオグリにクビ差で先着した特待生。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Fujimasa_March"
-          ]
+            "https://umamusu.wiki/Fujimasa_March",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=2",
+            "https://anime-cinderellagray.com/character/?type=0&i=4"
+          ],
+          "factKey": "cinderella-debut-victory",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "fujimasa-march-story-1",
+          "id": "fujimasa-march-cinderella-mount-kinka-promise",
           "categories": [
             "cinderella",
             "beginner",
@@ -5196,17 +5563,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "小栗帽初次出道便输给她；两人在Junior Crown再次相遇。",
-            "en": "She beats Oguri Cap on debut, and they meet again in the Junior Crown.",
-            "ja": "オグリのデビュー戦で勝ち、その後ジュニアクラウンで再戦する相手。"
+            "zh-CN": "在金华山顶问小栗帽的目标是什么，随后于少年皇冠赛再度与她较量。",
+            "en": "At Mount Kinka's summit she questions Oguri about her goal before their Junior Crown rematch.",
+            "ja": "金華山の山頂でオグリに目標を問い、ジュニアクラウンで再戦したライバル。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Fujimasa_March"
-          ]
+            "https://umamusu.wiki/Fujimasa_March",
+            "https://anime-cinderellagray.com/story/?ep=4",
+            "https://anime-cinderellagray.com/character/?type=0&i=4"
+          ],
+          "factKey": "cinderella-mount-kinka-promise",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "fujimasa-march-story-2",
+          "id": "fujimasa-march-cinderella-telephone-japans-best",
           "categories": [
             "cinderella",
             "beginner",
@@ -5214,23 +5584,67 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "在笠松与小栗帽较量、以迈向中央为目标的早期劲敌。",
-            "en": "An early Kasamatsu rival of Oguri Cap who sets her sights on the central circuit.",
-            "ja": "笠松でオグリと競い、中央を目指す序盤のライバル。"
+            "zh-CN": "小栗帽失去德比目标后，这位笠松宿敌通过电话鼓励她成为日本第一。",
+            "en": "After Oguri loses her Derby goal, this Kasamatsu rival calls and urges her to become Japan's best.",
+            "ja": "ダービーという目標を失ったオグリに、電話で日本一を目指せと励ましたカサマツのライバル。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Fujimasa_March"
-          ]
+            "https://umamusu.wiki/Fujimasa_March",
+            "https://anime-cinderellagray.com/character/?type=0&i=4"
+          ],
+          "factKey": "cinderella-telephone-japans-best",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "fujimasa-march-cinderella-gifu-crown-comeback",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "东海德比败给山野千里后，在岐阜王冠赏重新找回与小栗帽竞争的初心并获胜。",
+            "en": "After losing the Tokai Derby to Yamano Thousand, she recovers her competitive purpose and wins the Gifu Okan Sho.",
+            "ja": "東海ダービーでヤマノサウザンに敗れた後、岐阜王冠賞でオグリと競う原点を取り戻して勝利した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Fujimasa_March",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=14",
+            "https://anime-cinderellagray.com/character/?type=0&i=4"
+          ],
+          "factKey": "cinderella-gifu-crown-comeback",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "fujimasa-march-cinderella-walk-dancer-roommate",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画笠松篇中，漫步舞者因她的严肃表情而不敢搭话；其实两人是舍友。",
+            "en": "In the Kasamatsu manga arc, Walk Dancer is intimidated by her stern expression even though they share a room.",
+            "ja": "カサマツ篇で、厳しい表情のため同室のウォークダンサーになかなか話しかけられない。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Fujimasa_March",
+            "https://anime-cinderellagray.com/character/?type=0&i=4"
+          ],
+          "factKey": "cinderella-walk-dancer-roommate",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "michelle-my-baby",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -5242,17 +5656,19 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "日本杯来日的美国“巨神”，用强悍体格进行激烈的位置争夺；也会展示惊人的篮球本领。",
-            "en": "America’s giant arrives for the Japan Cup, using her powerful build in fierce position battles and showing remarkable basketball skills.",
-            "ja": "ジャパンカップに来日した「アメリカの巨神」。強靭な体で激しく位置を争い、驚異的なバスケの腕前も見せた。"
+            "zh-CN": "第一次日本杯以强悍身体进行位置争夺，被称作“美国巨神”的海外来客。",
+            "en": "The American Titan who uses formidable physical strength to contest positions in the first Japan Cup.",
+            "ja": "最初のジャパンカップで強靭なフィジカルを武器に位置を争う、アメリカの巨神。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Michelle_My_Baby"
-          ]
+            "https://umamusu.wiki/Michelle_My_Baby",
+            "https://anime-cinderellagray.com/character/?type=0&i=21"
+          ],
+          "factKey": "cinderella-american-titan",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "michelle-my-baby-story-1",
+          "id": "michelle-my-baby-cinderella-basketball-demo",
           "categories": [
             "cinderella",
             "beginner",
@@ -5260,17 +5676,19 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "来日参加日本杯，以美国“巨神”之姿强硬争抢位置。",
-            "en": "The American Giant who fights aggressively for position in the Japan Cup.",
-            "ja": "ジャパンカップに来日し、強引な位置取りを見せる米国の「巨神」。"
+            "zh-CN": "日本杯来日前后的介绍中，用篮球本领展示惊人体格的美国选手。",
+            "en": "The American Japan Cup visitor who demonstrates her imposing athleticism through basketball.",
+            "ja": "ジャパンカップ来日時の紹介で、バスケットボールの技と大きな体格を見せた米国代表。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Michelle_My_Baby"
-          ]
+            "https://umamusu.wiki/Michelle_My_Baby",
+            "https://anime-cinderellagray.com/character/?type=0&i=21"
+          ],
+          "factKey": "cinderella-basketball-demo",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "michelle-my-baby-story-2",
+          "id": "michelle-my-baby-cinderella-first-jc-fourth",
           "categories": [
             "cinderella",
             "beginner",
@@ -5278,42 +5696,29 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "日本杯的海外选手中，那位体格惊人、还展现篮球本领的美国来客。",
-            "en": "The imposing American Japan Cup visitor who also shows off basketball skills.",
-            "ja": "ジャパンカップの海外勢で、巨体とバスケットボールの腕前を見せる米国の来客。"
+            "zh-CN": "听命汝主夺冠的那次日本杯，她排在小栗帽之后、托尼·比安卡之前，拿到第四名。",
+            "en": "In Obey Your Master's Japan Cup win, she finishes fourth, between Oguri and Toni Bianca.",
+            "ja": "オベイユアマスターが勝ったジャパンカップで、オグリとトニビアンカの間の4着に入った。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Michelle_My_Baby"
-          ]
+            "https://umamusu.wiki/Michelle_My_Baby",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=21"
+          ],
+          "factKey": "cinderella-first-jc-fourth",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "gold-city",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "gold-city-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本杯篇参加迎战海外强者的金发模特马娘；新西兰来客艾勒斯利荣耀其实也是她的粉丝。",
-            "en": "This blonde model races against the overseas stars in the Japan Cup arc; New Zealand’s Ellerslie Pride is also her fan.",
-            "ja": "ジャパンカップ編で海外勢を迎え撃つ金髪のモデルウマ娘。ニュージーランドのエラズリープライドも彼女のファン。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Gold_City"
-          ]
-        },
         {
           "id": "gold-city-epithet",
           "categories": [
@@ -5327,38 +5732,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "gold-city-story-2",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本杯迎战海外强敌时，意外发现新西兰代表也是自己的粉丝。",
-            "en": "While facing overseas Japan Cup rivals, she discovers New Zealand's representative is her fan.",
-            "ja": "海外勢と対するジャパンカップで、ニュージーランド代表が自分のファンだと知る。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Gold_City"
-          ]
-        },
-        {
-          "id": "gold-city-story-3",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "金发模特马娘登场日本杯篇，艾勒斯利荣耀见到她便露出追星的一面。",
-            "en": "The blonde model in the Japan Cup arc whose presence makes Ellerslie Pride act like a star-struck fan.",
-            "ja": "ジャパンカップ編の金髪モデル。エラズリープライドが出会うとファンの顔になる。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Gold_City"
           ]
         },
         {
@@ -5414,65 +5787,73 @@
           ],
           "factKey": "solo-614be0609d",
           "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "gold-city-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第一次日本杯的海外来客中，艾勒斯利荣耀在场外见到她便变成了追星的粉丝。",
+            "en": "During the first Japan Cup arc, Ellerslie Pride reveals herself to be a fan of this Japanese model.",
+            "ja": "最初のジャパンカップ篇で、エラズリープライドが場外ではファンとして接する日本のモデル。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Gold_City",
+            "https://anime-cinderellagray.com/character/?type=0&i=14"
+          ],
+          "factKey": "cinderella-ellerslie-fan",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "gold-city-cinderella-shampoo-question",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "日本杯前与小栗帽併走训练，对方认真提出的问题居然是她用了什么洗发水。",
+            "en": "After training together for the Japan Cup, Oguri's serious question to her is what shampoo she uses.",
+            "ja": "ジャパンカップ前の併走後、オグリに真剣に尋ねられたのが愛用シャンプーだった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Gold_City",
+            "https://gorilife.com/umamusume-11/3/",
+            "https://anime-cinderellagray.com/character/?type=0&i=14"
+          ],
+          "factKey": "cinderella-shampoo-question",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "gold-city-cinderella-opening-derby-runner",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画开篇中央日本德比中的金发模特选手，当场冠军是愉快美貌。",
+            "en": "The blonde model racing in the manga's opening Derby, which Merry Beauty wins.",
+            "ja": "漫画冒頭の日本ダービーに出る金髪モデル。あのレースの勝者はメリービューティー。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Gold_City",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=14"
+          ],
+          "factKey": "cinderella-opening-derby-runner",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "mr-cb",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "mr-cb-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "中央篇中与鲁道夫、丸善斯基一起关注小栗帽的另一位三冠前辈，以自由奔放的跑法著称。",
-            "en": "Another Triple Crown senior watches Oguri alongside Rudolf and Maruzensky in the national-academy arc; she is known for her free-spirited racing.",
-            "ja": "中央編でルドルフ、マルゼンスキーと共にオグリを見守る、自由奔放な走りで知られるもう一人の三冠ウマ娘。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mr._C.B."
-          ]
-        },
-        {
-          "id": "mr-cb-story-1",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "漫画中央篇，与鲁道夫、丸善斯基一起关注小栗帽的另一位三冠前辈。",
-            "en": "The other Triple Crown senior who watches Oguri Cap alongside Rudolf and Maruzensky in the central arc.",
-            "ja": "中央編でルドルフやマルゼンスキーとともにオグリを見守る、もう一人の三冠の先輩。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mr._C.B."
-          ]
-        },
-        {
-          "id": "mr-cb-story-2",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "并非邀小栗帽转入中央的会长，而是与她一同关注新星、跑法自由奔放的三冠前辈。",
-            "en": "Not the president recruiting Oguri, but the free-running Triple Crown senior who also follows the new star.",
-            "ja": "オグリを勧誘した会長ではなく、同じく新星に注目する自由な走りの三冠の先輩。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Mr._C.B."
-          ]
-        },
         {
           "id": "mr-cb-official-profile-1",
           "categories": [
@@ -5580,15 +5961,52 @@
           ],
           "factKey": "solo-48f8414a4e",
           "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mr-cb-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "《灰姑娘》官方角色介绍中，被写作“史上第三位三冠马娘”的自由派前辈。",
+            "en": "The free-spirited senior described in the Cinderella Gray character guide as history's third Triple Crown winner.",
+            "ja": "シングレ公式紹介で、史上3人目の三冠ウマ娘とされる自由な先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mr._C.B.",
+            "https://anime-cinderellagray.com/character/?type=0&i=17"
+          ],
+          "factKey": "cinderella-third-triple-crown",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mr-cb-cinderella-hannibal-popsicle",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第92R附图中，神汉尼拔遇见她时送了一支冰棒；她也是鲁道夫身边的三冠前辈。",
+            "en": "In the Chapter 92 extra sketch, God Hannibal gives this Triple Crown senior a popsicle.",
+            "ja": "第92Rのおまけ絵で、ゴッドハンニバルからアイスをもらった三冠の先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mr._C.B.",
+            "https://umamusu.wiki/God_Hannibal",
+            "https://anime-cinderellagray.com/character/?type=0&i=17"
+          ],
+          "factKey": "cinderella-hannibal-popsicle",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "toni-bianca",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -5600,17 +6018,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "带着凯旋门赏冠军头衔来日本杯，把这场比赛视为生涯集大成的意大利“欧洲王者”。",
-            "en": "Italy’s European champion arrives for the Japan Cup fresh from an Arc victory, intending it to be the culmination of her racing career.",
-            "ja": "凱旋門賞を制して来日し、ジャパンカップを競走人生の集大成とする覚悟で挑んだイタリアの「欧州王者」。"
+            "zh-CN": "以凯旋门赏冠军、意大利“欧洲王者”的身份来日，将日本杯视为生涯集大成。",
+            "en": "Italy's Arc-winning European champion arrives to make the Japan Cup the culmination of her career.",
+            "ja": "凱旋門賞を制したイタリアの欧州王者として来日し、ジャパンカップを集大成とした。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Toni_Bianca"
-          ]
+            "https://umamusu.wiki/Toni_Bianca",
+            "https://anime-cinderellagray.com/story/?ep=16",
+            "https://anime-cinderellagray.com/character/?type=0&i=18"
+          ],
+          "factKey": "cinderella-arc-champion-arrival",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "toni-bianca-story-1",
+          "id": "toni-bianca-cinderella-fracture-fifth",
           "categories": [
             "cinderella",
             "beginner",
@@ -5618,17 +6039,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "已经拿下凯旋门赏，再以意大利“欧洲王者”的身份来到日本杯。",
-            "en": "An Arc winner who comes to the Japan Cup as Italy's European Champion.",
-            "ja": "凱旋門賞を制し、イタリアの「欧州王者」としてジャパンカップに来た。"
+            "zh-CN": "第一次日本杯中开启领域追赶前方两人，却因左脚受伤只能第五个冲线的意大利选手。",
+            "en": "In the first Japan Cup, this Italian contender enters her Zone but injures her left leg and finishes fifth.",
+            "ja": "最初のジャパンカップで領域に入るも左脚を故障し、5着に終わったイタリア代表。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Toni_Bianca"
-          ]
+            "https://umamusu.wiki/Toni_Bianca",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=18"
+          ],
+          "factKey": "cinderella-fracture-fifth",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "toni-bianca-story-2",
+          "id": "toni-bianca-cinderella-hospital-flowers",
           "categories": [
             "cinderella",
             "beginner",
@@ -5636,42 +6060,49 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "把来日的日本杯视为竞赛生涯集大成，肩负欧洲王者名号的意大利选手。",
-            "en": "The Italian European Champion who treats the Japan Cup as the culmination of her career.",
-            "ja": "ジャパンカップを競走人生の集大成とする、欧州王者の名を背負うイタリアの選手。"
+            "zh-CN": "带伤跑完日本杯后在东京住院，病房被日本粉丝赠送的鲜花填满的“欧洲王者”。",
+            "en": "After racing through injury in the Japan Cup, this European champion's Tokyo hospital room fills with fans' flowers.",
+            "ja": "ジャパンカップで負傷した後、東京の病室が日本のファンの花でいっぱいになった欧州王者。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Toni_Bianca"
-          ]
+            "https://umamusu.wiki/Toni_Bianca",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+            "https://anime-cinderellagray.com/character/?type=0&i=18"
+          ],
+          "factKey": "cinderella-hospital-flowers",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "toni-bianca-cinderella-second-jc-spectator",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "下一次日本杯中不再作为意大利参赛者，而与月光狂气一同在场外观看。",
+            "en": "At the next Japan Cup, the Italian former contender watches from the sidelines with Moonlight Lunacy.",
+            "ja": "次のジャパンカップではイタリアの出走者ではなく、ムーンライトルナシーと観戦する。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Toni_Bianca",
+            "https://anime-cinderellagray.com/character/?type=0&i=18"
+          ],
+          "factKey": "cinderella-second-jc-spectator",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "symboli-rudolf",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "symboli-rudolf-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "亲眼见过小栗帽跑中京杯后邀她转入中央，之后还为她争取日本德比的特别出赛资格。",
-            "en": "After watching Oguri in the Chukyo Hai, she invites her to transfer, then pursues special permission for her to enter the Derby.",
-            "ja": "中京盃でオグリの走りを見て中央へ誘い、後には日本ダービーへの特例出走を働きかけた。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Symboli_Rudolf"
-          ]
-        },
         {
           "id": "symboli-rudolf-epithet",
           "categories": [
@@ -5685,38 +6116,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "symboli-rudolf-story-2",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "亲眼看过中京杯后，向小栗帽发出转入中央邀请的学生会长。",
-            "en": "The student council president who invites Oguri Cap to the central circuit after watching the Chukyo Hai.",
-            "ja": "中京杯を見届け、オグリを中央へ誘った生徒会長。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Symboli_Rudolf"
-          ]
-        },
-        {
-          "id": "symboli-rudolf-story-3",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "为了让小栗帽参加日本德比而争取特别出赛资格的中央会长。",
-            "en": "The central academy president who seeks special Derby eligibility for Oguri Cap.",
-            "ja": "オグリの日本ダービー特例出走を実現しようと動く中央の会長。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Symboli_Rudolf"
           ]
         },
         {
@@ -5898,15 +6297,72 @@
           ],
           "factKey": "solo-0358875b6f",
           "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "symboli-rudolf-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "看完小栗帽的中京杯后，亲自向北原提出中央转入邀请的学生会长。",
+            "en": "After watching Oguri in the Chukyo Hai, this student-council president personally proposes her move to Central.",
+            "ja": "中京盃を見た後、北原にオグリの中央移籍を直接打診した生徒会長。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Symboli_Rudolf",
+            "https://anime-cinderellagray.com/story/?ep=5",
+            "https://anime-cinderellagray.com/character/?type=0&i=15"
+          ],
+          "factKey": "cinderella-chukyo-scout",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "symboli-rudolf-cinderella-derby-petition",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "为小栗帽的德比特别出赛资格向URA交涉，最终推动的是未来报名规则的修改。",
+            "en": "She petitions the URA for Oguri's Derby entry, ultimately helping change future registration rules.",
+            "ja": "オグリのダービー特例出走をURAに直訴し、将来の登録規則改定につなげた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Symboli_Rudolf",
+            "https://anime-cinderellagray.com/story/?ep=9",
+            "https://anime-cinderellagray.com/character/?type=0&i=15"
+          ],
+          "factKey": "cinderella-derby-petition",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "symboli-rudolf-cinderella-maruzensky-adviser",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "《灰姑娘》中仍有七冠“皇帝”的威严，丸善斯基则是她常常商量事情的前辈。",
+            "en": "Cinderella Gray presents this seven-crown Emperor with Maruzensky as a trusted adviser.",
+            "ja": "シングレでは七冠の皇帝として威厳を示し、マルゼンスキーを良き相談相手にする。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Symboli_Rudolf",
+            "https://anime-cinderellagray.com/character/?type=0&i=16",
+            "https://anime-cinderellagray.com/character/?type=0&i=15"
+          ],
+          "factKey": "cinderella-maruzensky-adviser",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "obey-your-master",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -5918,17 +6374,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "来日前没有GⅠ冠军，却研究并模仿强者的跑法，在日本杯同时击败玉藻十字与小栗帽的美国来客。",
-            "en": "Without a G1 win before arriving, this American studies and imitates elite runners, then beats both Tamamo Cross and Oguri in the Japan Cup.",
-            "ja": "来日前はGⅠ未勝利。強者の走りを研究・模倣し、ジャパンカップでタマモとオグリを破ったアメリカの刺客。"
+            "zh-CN": "来日前没有GⅠ冠军，却在第一次日本杯同时战胜玉藻十字与小栗帽的美国伏兵。",
+            "en": "The American outsider with no prior G1 win who beats both Tamamo and Oguri in their first Japan Cup.",
+            "ja": "GⅠ未勝利で来日し、最初のジャパンカップでタマモとオグリを破った米国の伏兵。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Obey_Your_Master"
-          ]
+            "https://umamusu.wiki/Obey_Your_Master",
+            "https://anime-cinderellagray.com/story/?ep=18",
+            "https://anime-cinderellagray.com/character/?type=0&i=19"
+          ],
+          "factKey": "cinderella-first-jc-victory",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "obey-your-master-story-1",
+          "id": "obey-your-master-cinderella-belno-spy-game",
           "categories": [
             "cinderella",
             "beginner",
@@ -5936,17 +6395,19 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "来日前没有GⅠ冠军，却在日本杯击败两位芦毛主角的美国选手。",
-            "en": "An American visitor with no prior G1 title who beats both gray stars in the Japan Cup.",
-            "ja": "来日前はGⅠ未勝利ながら、ジャパンカップで二人の芦毛を破った米国の選手。"
+            "zh-CN": "第一次日本杯前识破崭新光辉的情报调查，用轻松的外表掩藏彻底研究对手的本性。",
+            "en": "Before the first Japan Cup she sees through Belno's scouting, hiding meticulous opponent research behind a carefree manner.",
+            "ja": "最初のジャパンカップ前、ベルノの調査を見抜き、軽い態度の裏に徹底した相手研究を隠していた。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Obey_Your_Master"
-          ]
+            "https://umamusu.wiki/Obey_Your_Master",
+            "https://anime-cinderellagray.com/character/?type=0&i=19"
+          ],
+          "factKey": "cinderella-belno-spy-game",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "obey-your-master-story-2",
+          "id": "obey-your-master-cinderella-training-room-video",
           "categories": [
             "cinderella",
             "beginner",
@@ -5954,23 +6415,47 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "研究并模仿强者跑法，最终在日本杯同时战胜玉藻十字和小栗帽。",
-            "en": "She studies and imitates elite runners, then defeats Tamamo Cross and Oguri Cap in the Japan Cup.",
-            "ja": "強者の走りを研究して模倣し、ジャパンカップでタマモクロスとオグリをともに破った。"
+            "zh-CN": "房间里铺满对手资料，还反复研究小栗帽与玉藻十字的比赛录像，自称是道化师的选手。",
+            "en": "Calling herself an entertainer, she fills her room with rival data and studies footage of Oguri and Tamamo.",
+            "ja": "道化師を名乗り、部屋を相手の資料で埋め、オグリとタマモの映像を研究する選手。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Obey_Your_Master"
-          ]
+            "https://umamusu.wiki/Obey_Your_Master",
+            "https://gorilife.com/umamusume-11/3/",
+            "https://anime-cinderellagray.com/character/?type=0&i=19"
+          ],
+          "factKey": "cinderella-training-room-video",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "obey-your-master-cinderella-defending-jc-third",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第二次日本杯中以卫冕者身份再来日本，最终排在平民女王和小栗帽之后。",
+            "en": "She returns as defending Japan Cup champion in the manga and finishes behind Folkqueen and Oguri.",
+            "ja": "漫画2度目のジャパンカップに前年覇者として戻り、フォークインとオグリに次ぐ3着となった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Obey_Your_Master",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=19"
+          ],
+          "factKey": "cinderella-defending-jc-third",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "dicta-striker",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -5982,17 +6467,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "赛前主动帮小栗帽训练，不愿胜利被归因于对手状态不好；外号是“栗毛的子弹”。",
-            "en": "She helps Oguri train before their clash, refusing to win against an unprepared rival. Her nickname is the chestnut-haired bullet.",
-            "ja": "対戦前にオグリの練習を手伝い、相手の不調を言い訳にされる勝利を嫌った「栗毛の弾丸」。"
+            "zh-CN": "“栗毛的子弹”赛前主动帮助小栗帽训练，不愿让自己的胜利被归因于对手状态不佳。",
+            "en": "The chestnut bullet helps Oguri train, refusing to win because her rival was out of form.",
+            "ja": "栗毛の弾丸は、相手の不調を言い訳にされる勝利を嫌い、オグリの練習を手伝った。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Dicta_Striker"
-          ]
+            "https://umamusu.wiki/Dicta_Striker",
+            "https://w.atwiki.jp/aniwotawiki/pages/54943.html",
+            "https://anime-cinderellagray.com/character/?type=0&i=13"
+          ],
+          "factKey": "cinderella-helping-rival-train",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "dicta-striker-story-1",
+          "id": "dicta-striker-cinderella-hakodate-record",
           "categories": [
             "cinderella",
             "beginner",
@@ -6000,17 +6488,21 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "“栗毛的子弹”主动帮小栗帽训练，只想堂堂正正赢过最佳状态的对手。",
-            "en": "The Chestnut Bullet helps Oguri train because she wants to beat her at her best.",
-            "ja": "「栗毛の弾丸」は万全のオグリに勝ちたいと、自ら練習に付き合う。"
+            "zh-CN": "有马纪念篇回忆中，在函馆纪念以日本纪录击败德比冠军愉快美貌的选手。",
+            "en": "An Arima-arc flashback shows her setting a Japanese record in the Hakodate Kinen against Derby winner Merry Beauty.",
+            "ja": "有マ記念篇の回想で、函館記念を日本レコードで制し、ダービーウマ娘メリービューティーを破った。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Dicta_Striker"
-          ]
+            "https://umamusu.wiki/Dicta_Striker",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=20",
+            "https://anime-cinderellagray.com/character/?type=0&i=13"
+          ],
+          "factKey": "cinderella-hakodate-record",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "dicta-striker-story-2",
+          "id": "dicta-striker-cinderella-bullet-shot-zone",
           "categories": [
             "cinderella",
             "beginner",
@@ -6018,42 +6510,71 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "不愿胜利被归因于对手状态欠佳，赛前反而协助小栗帽备战的直率劲敌。",
-            "en": "A forthright rival who helps Oguri prepare, unwilling to have victory blamed on her opponent's poor condition.",
-            "ja": "相手の不調を勝因にされたくないため、試合前にオグリの準備を手伝う率直なライバル。"
+            "zh-CN": "与“灰色幻影”相遇的首次有马纪念中，使出领域“弾丸蹴脚”的栗毛选手。",
+            "en": "The chestnut runner whose Bullet Shot Zone appears in the first Arima Kinen alongside the Gray Phantom.",
+            "ja": "灰の怪物が現れる最初の有マ記念で、領域「弾丸蹴脚」を見せた栗毛のウマ娘。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Dicta_Striker"
-          ]
+            "https://umamusu.wiki/Dicta_Striker",
+            "https://w.atwiki.jp/aniwotawiki/pages/54943.html",
+            "https://anime-cinderellagray.com/character/?type=0&i=13"
+          ],
+          "factKey": "cinderella-bullet-shot-zone",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "dicta-striker-cinderella-trainer-kouchi",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画有马纪念篇中，搭档是身高两米、擅长精密数据分析的小内忠训练员。",
+            "en": "In the Arima manga arc her partner is Tadashi Kouchi, the two-meter-tall trainer devoted to precise data.",
+            "ja": "有マ記念篇で、身長2mで緻密なデータ分析を行う小内忠と組むウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Dicta_Striker",
+            "https://anime-cinderellagray.com/character/?type=2&i=6",
+            "https://anime-cinderellagray.com/character/?type=0&i=13"
+          ],
+          "factKey": "cinderella-trainer-kouchi",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "dicta-striker-cinderella-classroom-black-ale",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "日本杯后在教室里，轻松制住因输给小栗帽而恼火的黑色艾尔，自己则常披着连帽衫。",
+            "en": "After the Japan Cup, this hoodie-wearing classmate easily restrains an angry Black Ale in the classroom.",
+            "ja": "ジャパンカップ後の教室で、オグリに負けて苛立つブラッキーエールを軽く抑えたパーカー姿の同級生。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Dicta_Striker",
+            "https://moegirl.icu/黑色艾尔",
+            "https://anime-cinderellagray.com/character/?type=0&i=13"
+          ],
+          "factKey": "cinderella-classroom-black-ale",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "maruzensky",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "maruzensky-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本德比篇中，樱花千代王希望将胜利献给她；这位前辈自己曾因参赛资格而与德比无缘。",
-            "en": "Sakura Chiyono O hopes to dedicate her Derby victory to this senior, who was once kept out of that race by eligibility rules.",
-            "ja": "日本ダービーでチヨノオーが勝利を捧げようとした先輩。自身はかつて出走資格の壁でダービーを走れなかった。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Maruzensky"
-          ]
-        },
         {
           "id": "maruzensky-epithet",
           "categories": [
@@ -6067,38 +6588,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "maruzensky-story-2",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "自己曾因参赛资格错过德比，却成为樱花千代王在德比战斗的精神目标。",
-            "en": "She once missed the Derby through eligibility rules, but becomes Sakura Chiyono O's inspiration to win it.",
-            "ja": "自身は資格の壁でダービーに出られず、チヨノオーがそこで勝利を捧げたい先輩となる。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Maruzensky"
-          ]
-        },
-        {
-          "id": "maruzensky-story-3",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本德比篇中，樱花千代王想把获胜的荣光献给的“超级跑车”前辈。",
-            "en": "The Supercar senior to whom Sakura Chiyono O hopes to dedicate Derby glory.",
-            "ja": "日本ダービー編でサクラチヨノオーが勝利を捧げたい「スーパーカー」の先輩。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Maruzensky"
           ]
         },
         {
@@ -6172,15 +6661,53 @@
           ],
           "factKey": "1977-nippon-tampa",
           "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "maruzensky-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "樱花千代王想把德比胜利献给她，因为这位前辈当年曾被参赛资格挡在门外。",
+            "en": "Sakura Chiyono O dedicates her Derby ambition to this senior, once barred from that race by eligibility rules.",
+            "ja": "かつて出走資格でダービーに出られず、チヨノオーからその勝利を捧げられる先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Maruzensky",
+            "https://anime-cinderellagray.com/story/?ep=9",
+            "https://anime-cinderellagray.com/character/?type=0&i=16"
+          ],
+          "factKey": "cinderella-derby-dedication",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "maruzensky-cinderella-chukyo-rudolf-companion",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "中京杯看台上陪鲁道夫一起观察小栗帽，措辞带着些复古感的前辈。",
+            "en": "She accompanies Rudolf to watch Oguri at the Chukyo Hai, speaking with a distinctly old-fashioned flair.",
+            "ja": "中京盃でルドルフと共にオグリを観戦する、少し古風な言葉遣いの先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Maruzensky",
+            "https://anime-cinderellagray.com/story/?ep=5",
+            "https://anime-cinderellagray.com/character/?type=0&i=16"
+          ],
+          "factKey": "cinderella-chukyo-rudolf-companion",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "norn-ace",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -6192,17 +6719,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "从找小栗帽麻烦变成她的忠实拥趸，还亲自教她胜者舞台的舞蹈。",
-            "en": "She changes from picking on Oguri to cheering for her, even teaching her the dance for the winning live.",
-            "ja": "オグリに嫌がらせをしていたが、やがて熱心なファンとなり、ウイニングライブのダンスまで教えた。"
+            "zh-CN": "从找小栗帽麻烦转为支持她，借自家舞蹈教室的经验教她胜者舞台的舞步。",
+            "en": "After initially harassing Oguri, she uses her family's dance-studio experience to teach her winning-live choreography.",
+            "ja": "オグリへの嫌がらせから応援へ転じ、実家のダンス教室の経験を生かしてライブの踊りを教えた。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Norn_Ace"
-          ]
+            "https://umamusu.wiki/Norn_Ace",
+            "https://anime-cinderellagray.com/story/?ep=4",
+            "https://anime-cinderellagray.com/character/?type=0&i=5"
+          ],
+          "factKey": "cinderella-winning-live-teacher",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "norn-ace-story-1",
+          "id": "norn-ace-cinderella-storage-room-eviction",
           "categories": [
             "cinderella",
             "beginner",
@@ -6210,17 +6740,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "曾经找小栗帽的麻烦，后来却亲自教她胜者舞台的舞蹈。",
-            "en": "She goes from troubling Oguri Cap to personally teaching her victory-stage choreography.",
-            "ja": "オグリに嫌がらせをしたが、やがて自らウイニングライブの踊りを教える。"
+            "zh-CN": "作为小栗帽在笠松的室友，起初却把她赶到杂物间住。",
+            "en": "Oguri's Kasamatsu roommate initially banishes her to a storage room.",
+            "ja": "オグリのカサマツ時代のルームメイトだが、初めは物置部屋へ追い払った。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Norn_Ace"
-          ]
+            "https://umamusu.wiki/Norn_Ace",
+            "https://anime-cinderellagray.com/story/?ep=1",
+            "https://anime-cinderellagray.com/character/?type=0&i=5"
+          ],
+          "factKey": "cinderella-storage-room-eviction",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "norn-ace-story-2",
+          "id": "norn-ace-cinderella-oguri-plush",
           "categories": [
             "cinderella",
             "beginner",
@@ -6228,42 +6761,50 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "笠松三人组的核心，从敌意转为支持，成为小栗帽的忠实拥趸。",
-            "en": "The central figure of Kasamatsu's trio whose hostility turns into devoted support for Oguri.",
-            "ja": "笠松三人組の中心人物。敵意が応援に変わり、オグリの熱烈なファンとなる。"
+            "zh-CN": "小栗帽离开笠松前后，这位原先排斥她的粉发少女已经买来她的玩偶抱在怀里。",
+            "en": "By the time Oguri leaves Kasamatsu, this once-hostile pink-haired girl has bought a plush of her to hug.",
+            "ja": "オグリのカサマツ旅立ちの頃には、かつて嫌っていた彼女のぬいぐるみを買って抱きしめている。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Norn_Ace"
-          ]
+            "https://umamusu.wiki/Norn_Ace",
+            "https://anime-cinderellagray.com/story/?ep=6",
+            "https://anime-cinderellagray.com/character/?type=0&i=5"
+          ],
+          "factKey": "cinderella-oguri-plush",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "norn-ace-cinderella-race-sand-apology",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "被小栗帽甩在身后的比赛结束后，对方竟认真为把沙子踢到她脸上道歉，令她态度动摇。",
+            "en": "After losing to Oguri, she is disarmed when Oguri sincerely apologizes for kicking sand into her face.",
+            "ja": "オグリに敗れた後、顔に砂をかけたことを真剣に謝られ、気持ちが揺らいだ。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Norn_Ace",
+            "https://anime-cinderellagray.com/story/?ep=3",
+            "https://anime-cinderellagray.com/character/?type=0&i=5"
+          ],
+          "factKey": "cinderella-race-sand-apology",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "super-creek",
       "categories": [
-        "cinderella",
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
-        {
-          "id": "super-creek-cinderella-original",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "与奈濑文乃搭档夺得菊花赏，却在随后有马纪念中因妨碍其他选手而被取消资格。",
-            "en": "Partnered with Fumino Nase, she wins the Kikuka Sho, only to be disqualified for interference in the following Arima Kinen.",
-            "ja": "奈瀬文乃と菊花賞を制したが、続く有馬記念では進路妨害により失格となった。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Super_Creek"
-          ]
-        },
         {
           "id": "super-creek-epithet",
           "categories": [
@@ -6277,38 +6818,6 @@
           },
           "sources": [
             "https://note.com/show248379/n/n81d9ed620aa4"
-          ]
-        },
-        {
-          "id": "super-creek-story-2",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "与训练员奈濑文乃搭档夺下菊花赏，却在有马纪念因妨碍被取消资格。",
-            "en": "Partnered with trainer Fumino Nase, she wins the Kikuka Sho but is disqualified for interference in the Arima Kinen.",
-            "ja": "奈瀬文乃と菊花賞を制するも、有馬記念では走行妨害で失格となった。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Super_Creek"
-          ]
-        },
-        {
-          "id": "super-creek-story-3",
-          "categories": [
-            "cinderella"
-          ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "漫画中那位菊花赏冠军的搭档是奈濑文乃，两人随后经历有马失格的挫折。",
-            "en": "The manga's Kikuka Sho champion paired with Fumino Nase; together they face an Arima disqualification.",
-            "ja": "漫画で奈瀬文乃と組む菊花賞馬。二人は続く有馬記念で失格の挫折を味わう。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Super_Creek"
           ]
         },
         {
@@ -6420,15 +6929,110 @@
           ],
           "factKey": "life-game-20251222",
           "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "super-creek-cinderella-original",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "与年轻训练员奈濑文乃搭档，在菊花赏的3000米长距离中开花结果。",
+            "en": "With young trainer Fumino Nase, she blossoms over the 3,000 meters of the Kikuka Sho.",
+            "ja": "若きトレーナー奈瀬文乃と組み、3000mの菊花賞で才能を開花させた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Super_Creek",
+            "https://anime-cinderellagray.com/story/?ep=15",
+            "https://anime-cinderellagray.com/character/?type=0&i=12"
+          ],
+          "factKey": "cinderella-kikka-with-fumino",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "super-creek-cinderella-arima-disqualification",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第一次有马纪念中第三个冲线，却因斜行妨碍8号选手而失格。",
+            "en": "She crosses third in the first Arima Kinen but is disqualified for cutting across runner number eight.",
+            "ja": "最初の有マ記念で3位入線するも、8番の進路を妨害する斜行で失格となった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Super_Creek",
+            "https://anime-cinderellagray.com/story/?ep=22",
+            "https://anime-cinderellagray.com/character/?type=0&i=12"
+          ],
+          "factKey": "cinderella-arima-disqualification",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "super-creek-cinderella-kyoto-return",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "长期休养后的复出战是京都大赏典，以纪录时间获胜。",
+            "en": "She wins the Kyoto Daishoten in record time on her return from a long layoff.",
+            "ja": "長期休養明けの復帰戦となった京都大賞典で、レコード勝ちを収めた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Super_Creek",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=12"
+          ],
+          "factKey": "cinderella-kyoto-return",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "super-creek-cinderella-second-autumn-tenno-win",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第二次秋季天皇赏中，凭奈濑文乃制定的战术将小栗帽挡在第二名。",
+            "en": "In the manga's second autumn Tenno Sho, Fumino Nase's tactics help her hold Oguri to second place.",
+            "ja": "漫画で2度目の天皇賞（秋）では、奈瀬文乃の策とともにオグリを2着に抑えて勝利した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Super_Creek",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=12"
+          ],
+          "factKey": "cinderella-second-autumn-tenno-win",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "super-creek-cinderella-last-spring-tenno",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画中小栗帽最后一个赛季开始时，她在春季天皇赏力压稻荷一取胜。",
+            "en": "At the start of Oguri's final manga season, she defeats Inari One in the spring Tenno Sho.",
+            "ja": "漫画でオグリ最後のシーズンが始まる頃、天皇賞（春）でイナリワンを退けた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Super_Creek",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=0&i=12"
+          ],
+          "factKey": "cinderella-last-spring-tenno",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "moonlight-lunacy",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -6440,17 +7044,19 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "前一年的日本杯未能夺冠，这次带着复仇之心再度来日的“英国贵妇人”。",
-            "en": "Having missed victory in the previous Japan Cup, this British lady returns to Japan seeking redemption.",
-            "ja": "前年のジャパンカップで優勝を逃し、雪辱を期して再来日した「英国の貴婦人」。"
+            "zh-CN": "第一次日本杯海外阵容中的“英国贵妇人”，因上届未夺冠而带着复仇之心来日。",
+            "en": "The British Lady in the first Japan Cup's overseas field, returning for revenge after failing to win the previous edition.",
+            "ja": "最初のジャパンカップ海外勢の英国の貴婦人。前回勝てなかった雪辱のために来日した。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Moonlight_Lunacy"
-          ]
+            "https://umamusu.wiki/Moonlight_Lunacy",
+            "https://anime-cinderellagray.com/character/?type=0&i=20"
+          ],
+          "factKey": "cinderella-british-revenge",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "moonlight-lunacy-story-1",
+          "id": "moonlight-lunacy-cinderella-next-jc-observer",
           "categories": [
             "cinderella",
             "beginner",
@@ -6458,41 +7064,25 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "前一年在日本杯失利后，再次来日雪耻的“英国贵妇人”。",
-            "en": "The British Lady returns to Japan seeking revenge for her previous Japan Cup defeat.",
-            "ja": "前年のジャパンカップの敗北を雪辱するため再来日した「英国の貴婦人」。"
+            "zh-CN": "后一次日本杯中，她与托尼·比安卡作为观战者登场，还与同乡伊芙宾蒂相识。",
+            "en": "At the later Japan Cup she watches alongside Toni Bianca and knows fellow Briton Eve Binti.",
+            "ja": "次のジャパンカップではトニビアンカと観戦し、同郷のイブビンティとも親交がある。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Moonlight_Lunacy"
-          ]
-        },
-        {
-          "id": "moonlight-lunacy-story-2",
-          "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "https://umamusu.wiki/Moonlight_Lunacy",
+            "https://anime-cinderellagray.com/character/?type=0&i=20"
           ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "日本杯海外阵容中，带着上届未夺冠的不甘而来的英国选手。",
-            "en": "The British member of the Japan Cup overseas field driven by disappointment from the prior edition.",
-            "ja": "前回勝てなかった悔しさを抱き、ジャパンカップ海外勢に加わる英国の選手。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Moonlight_Lunacy"
-          ]
+          "factKey": "cinderella-next-jc-observer",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "belno-light",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -6504,17 +7094,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "帮小栗帽挑选跑鞋，后来通过工作人员研修考试，陪她一起前往中央的挚友。",
-            "en": "She helps Oguri choose racing shoes, then passes the staff-trainee exam so she can accompany her to the national academy.",
-            "ja": "オグリのシューズ選びを助け、スタッフ研修生の試験に合格して一緒に中央へ向かった親友。"
+            "zh-CN": "在笠松带小栗帽去挑选跑鞋；她家经营马娘专用的体育用品店。",
+            "en": "She helps Oguri select racing shoes at Kasamatsu, drawing on her family's Umamusume sporting-goods business.",
+            "ja": "カサマツでオグリのシューズ選びを助ける、ウマ娘専門スポーツ用品店の娘。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Belno_Light"
-          ]
+            "https://umamusu.wiki/Belno_Light",
+            "https://anime-cinderellagray.com/story/?ep=3",
+            "https://anime-cinderellagray.com/character/?type=0&i=1"
+          ],
+          "factKey": "cinderella-shoe-selection",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "belno-light-story-1",
+          "id": "belno-light-cinderella-support-transfer-exam",
           "categories": [
             "cinderella",
             "beginner",
@@ -6522,17 +7115,20 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "在笠松帮小栗帽挑跑鞋，通过工作人员研修考试后一路陪她去中央。",
-            "en": "She helps Oguri choose shoes at Kasamatsu, then passes staff training exams and accompanies her to the central circuit.",
-            "ja": "笠松でオグリの靴選びを手伝い、スタッフ研修試験を経て中央まで同行する。"
+            "zh-CN": "为陪小栗帽前往中央，通过的是辅助研修生编入考试，而非选手转入考试。",
+            "en": "To accompany Oguri to Central, she passes the support-trainee transfer exam rather than transferring as a racer.",
+            "ja": "オグリと中央へ行くため、競走者ではなくサポート研修生の編入試験に合格した。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Belno_Light"
-          ]
+            "https://umamusu.wiki/Belno_Light",
+            "https://anime-cinderellagray.com/story/?ep=6",
+            "https://anime-cinderellagray.com/character/?type=0&i=1"
+          ],
+          "factKey": "cinderella-support-transfer-exam",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "belno-light-story-2",
+          "id": "belno-light-cinderella-foreign-team-investigation",
           "categories": [
             "cinderella",
             "beginner",
@@ -6540,23 +7136,68 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "不以选手身份同行，而是考取工作人员资格陪伴小栗帽的笠松挚友。",
-            "en": "Oguri's close Kasamatsu friend joins her as a qualified staff member rather than a fellow racer.",
-            "ja": "選手としてではなく、スタッフ資格を得てオグリに同行する笠松の親友。"
+            "zh-CN": "第一次日本杯前，受六平指示潜入海外队伍搜集情报，注意到听命汝主的不寻常。",
+            "en": "Before the first Japan Cup, Musaka sends her undercover to study the foreign runners, including the unsettling Obey Your Master.",
+            "ja": "最初のジャパンカップ前、六平の命で海外勢を潜入調査し、オベイユアマスターの異質さに気づく。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Belno_Light"
-          ]
+            "https://umamusu.wiki/Belno_Light",
+            "https://anime-cinderellagray.com/story/?ep=16",
+            "https://anime-cinderellagray.com/character/?type=0&i=1"
+          ],
+          "factKey": "cinderella-foreign-team-investigation",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "belno-light-cinderella-supporters-declaration",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "最终章面对六平的退赛劝告，以辅助人员的身份坚定表明要支撑小栗帽完成告别战。",
+            "en": "In Chapter 199 she answers Musaka's objections by declaring her resolve to support Oguri through the final race.",
+            "ja": "第199Rで六平の反対に向き合い、サポーターとしてオグリの最後のレースを支える決意を示す。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Belno_Light",
+            "https://arthanblog.com/ucg-yj199r/",
+            "https://anime-cinderellagray.com/character/?type=0&i=1"
+          ],
+          "factKey": "cinderella-supporters-declaration",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "belno-light-cinderella-postscript-assistant",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画尾声留学归来，成为北原的助手；她从笠松就选择了支撑选手的道路。",
+            "en": "In the manga epilogue she returns from study abroad and becomes Kitahara's assistant, continuing the support path begun at Kasamatsu.",
+            "ja": "漫画の後日談では留学から戻り、北原の助手となって、カサマツから続く支える道を歩む。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Belno_Light",
+            "https://heysay.hatenadiary.jp/entry/2025/12/25/000154",
+            "https://anime-cinderellagray.com/character/?type=0&i=1"
+          ],
+          "factKey": "cinderella-postscript-assistant",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "rudy-lemono",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -6568,17 +7209,19 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "笠松三人组中的金发姑娘；跟着诺伦行动，却常被黑发同伴的恶作剧波及。",
-            "en": "The blonde member of the Kasamatsu trio follows Norn’s lead, but often gets caught up in her dark-haired friend’s pranks.",
-            "ja": "カサマツの三人組の金髪の子。ノルンと行動する一方、黒髪の仲間のいたずらに巻き込まれがち。"
+            "zh-CN": "笠松三人组中，常被迷你淑女过火的恶作剧惊到的金发姑娘。",
+            "en": "The blonde in the Kasamatsu trio who is often taken aback by Mini the Lady's excessive pranks.",
+            "ja": "カサマツの三人組で、ミニーザレディのやりすぎないたずらに引いてしまう金髪の子。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Rudy_Lemono"
-          ]
+            "https://umamusu.wiki/Rudy_Lemono",
+            "https://anime-cinderellagray.com/character/?type=0&i=6"
+          ],
+          "factKey": "cinderella-prank-restraint",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "rudy-lemono-story-1",
+          "id": "rudy-lemono-cinderella-norn-handkerchief",
           "categories": [
             "cinderella",
             "beginner",
@@ -6586,41 +7229,26 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "笠松三人组中的金发跟班，常被黑发同伴的恶作剧连累。",
-            "en": "The blonde follower in Kasamatsu's trio who often suffers from her dark-haired companion's pranks.",
-            "ja": "笠松三人組の金髪の少女。黒髪の仲間のイタズラに巻き込まれがち。"
+            "zh-CN": "笠松篇中，诺伦用她的手帕时会被她抱怨；她与诺伦、迷你淑女总是一起行动。",
+            "en": "In the Kasamatsu arc she protests when Norn uses her handkerchief; she completes the trio with Norn and Mini.",
+            "ja": "カサマツ篇でノルンにハンカチを使われて文句を言う、ノルンとミニーの仲間。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Rudy_Lemono"
-          ]
-        },
-        {
-          "id": "rudy-lemono-story-2",
-          "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "https://umamusu.wiki/Rudy_Lemono",
+            "https://umamusu.wiki/Norn_Ace",
+            "https://anime-cinderellagray.com/character/?type=0&i=6"
           ],
-          "dimension": "story",
-          "text": {
-            "zh-CN": "跟随诺伦行动的金发少女，并非策划跑鞋干扰的黑发“军师”。",
-            "en": "The blonde girl who follows Norn, rather than the dark-haired strategist behind the shoe plot.",
-            "ja": "ノルンについて行く金髪の少女で、靴の細工を考えた黒髪の策士とは別人。"
-          },
-          "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Rudy_Lemono"
-          ]
+          "factKey": "cinderella-norn-handkerchief",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
     {
       "characterId": "ellerslie-pride",
       "categories": [
-        "cinderella",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -6632,17 +7260,19 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "日本杯篇背负大洋洲夺冠夙愿的新西兰代表；场外见到黄金城市时又露出粉丝的一面。",
-            "en": "New Zealand’s representative pursues Oceania’s dream of a Japan Cup win, yet reveals her fan side when meeting Gold City off the track.",
-            "ja": "オセアニアの悲願を背負いジャパンカップに挑むニュージーランド代表。場外ではゴールドシチーのファンの顔も見せる。"
+            "zh-CN": "第一次日本杯肩负大洋洲首次夺冠愿望的“骄傲的美貌”，是新西兰的大明星。",
+            "en": "New Zealand's Proud Beauty carries Oceania's hope of a first Japan Cup victory in the initial international arc.",
+            "ja": "最初のジャパンカップでオセアニア初制覇を背負う、誇り高き美貌と呼ばれるニュージーランドの大スター。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Ellerslie_Pride"
-          ]
+            "https://umamusu.wiki/Ellerslie_Pride",
+            "https://anime-cinderellagray.com/character/?type=0&i=22"
+          ],
+          "factKey": "cinderella-oceania-first-hope",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "ellerslie-pride-story-1",
+          "id": "ellerslie-pride-cinderella-gold-city-fangirl",
           "categories": [
             "cinderella",
             "beginner",
@@ -6650,17 +7280,19 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "日本杯篇的新西兰代表，背负为大洋洲赢下这项赛事的愿望。",
-            "en": "New Zealand's Japan Cup representative carries Oceania's hope of winning the event.",
-            "ja": "ジャパンカップ編のニュージーランド代表。オセアニアの優勝への願いを背負う。"
+            "zh-CN": "赛场上是新西兰强者，场外见到黄金城市却会流露追星一面的海外代表。",
+            "en": "A formidable New Zealand runner who becomes a starstruck Gold City fan away from the track.",
+            "ja": "ニュージーランドの強豪だが、場外でゴールドシチーを見るとファンの顔になる海外代表。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Ellerslie_Pride"
-          ]
+            "https://umamusu.wiki/Ellerslie_Pride",
+            "https://anime-cinderellagray.com/character/?type=0&i=22"
+          ],
+          "factKey": "cinderella-gold-city-fangirl",
+          "verifiedAt": "2026-10-16"
         },
         {
-          "id": "ellerslie-pride-story-2",
+          "id": "ellerslie-pride-cinderella-folkqueen-senior",
           "categories": [
             "cinderella",
             "beginner",
@@ -6668,14 +7300,17 @@
           ],
           "dimension": "story",
           "text": {
-            "zh-CN": "赛场外见到黄金城市便变成粉丝，日本杯中却肩负新西兰代表的使命。",
-            "en": "She turns into a fan when meeting Gold City off track but carries New Zealand's hopes in the Japan Cup.",
-            "ja": "場外ではゴールドシチーのファンの顔を見せ、ジャパンカップではニュージーランドを背負う。"
+            "zh-CN": "后续日本杯篇中，平民女王自小憧憬、又不愿永远被拿来作比较的新西兰前辈。",
+            "en": "The New Zealand senior Folkqueen has admired since childhood but does not want to remain compared with forever.",
+            "ja": "後のジャパンカップ篇で、フォークインが幼い頃から憧れ、比較の基準にもされてきたニュージーランドの先輩。"
           },
           "sources": [
-            "https://anime-cinderellagray.com/character/",
-            "https://umamusu.wiki/Ellerslie_Pride"
-          ]
+            "https://umamusu.wiki/Ellerslie_Pride",
+            "https://moegirl.icu/zh-my/平民女王",
+            "https://anime-cinderellagray.com/character/?type=0&i=22"
+          ],
+          "factKey": "cinderella-folkqueen-senior",
+          "verifiedAt": "2026-10-16"
         }
       ]
     },
@@ -7917,7 +8552,8 @@
       "categories": [
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -7987,6 +8623,42 @@
             "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1991.html"
           ],
           "factKey": "race-takara-1991-win",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-ryan-cinderella-aka-en-do-partner",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "最终章与重视肌肉和数字的训练员赤园童一同登场，强壮的背部得到整页描绘的目白家新人。",
+            "en": "The Mejiro newcomer introduced with trainer Akaen Do in the final arc, her muscular back receiving a full-page reveal.",
+            "ja": "最終章で筋肉と数字を重んじる赤園童と登場し、背中の筋肉を1ページで描かれた目白家の新鋭。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_Ryan",
+            "https://arthanblog.com/ucg-yj-201/"
+          ],
+          "factKey": "cinderella-aka-en-do-partner",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mejiro-ryan-cinderella-oguri-last-rival",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽最后的有马纪念中，作为新世代代表追赶到第二名的短发目白家选手。",
+            "en": "The short-haired Mejiro runner representing the new generation who chases Oguri into second in her final Arima.",
+            "ja": "オグリ最後の有マ記念で、新世代を代表して追い上げ2着に入った短髪の目白家の選手。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mejiro_Ryan",
+            "https://arthanblog.com/ucg-yj-210/"
+          ],
+          "factKey": "cinderella-oguri-last-rival",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -9737,7 +10409,8 @@
       "categories": [
         "epithets",
         "beginner",
-        "advanced"
+        "advanced",
+        "cinderella"
       ],
       "clues": [
         {
@@ -9825,6 +10498,63 @@
             "https://umamusume.lantis.jp/discography/winning-live-14/"
           ],
           "factKey": "solo-12a69f4456",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "sirius-symboli-cinderella-paddock-dance-accident",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "每日王冠前在围场跳舞，不慎打到皇家领主，导致对方流鼻血而退赛。",
+            "en": "Her paddock dancing before the Mainichi Okan accidentally hits Lord Royal, causing a nosebleed and withdrawal.",
+            "ja": "毎日王冠のパドックで踊り、ロードロイヤルの顔にぶつかって鼻血と出走取消の原因を作った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Sirius_Symboli",
+            "https://umamusu.wiki/Lord_Royal",
+            "https://anime-cinderellagray.com/story/?ep=11",
+            "https://anime-cinderellagray.com/character/?type=1&i=5"
+          ],
+          "factKey": "cinderella-paddock-dance-accident",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "sirius-symboli-cinderella-europe-return",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽重赏六连胜前的强敌之一，曾在欧洲各地远征、与世界强豪较量的象征家选手。",
+            "en": "A rival during Oguri's six-Graded-win streak, this Symboli runner returns from competing across Europe.",
+            "ja": "オグリの重賞6連勝の前に立ちはだかる、欧州各地で世界の強豪と戦って帰国したシンボリ家のウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Sirius_Symboli",
+            "https://anime-cinderellagray.com/character/?type=1&i=5"
+          ],
+          "factKey": "cinderella-europe-return",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "sirius-symboli-cinderella-mainichi-second",
+          "categories": [
+            "cinderella"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第一次每日王冠中，她在小栗帽身后第二个冲线；赛前还闹出围场舞蹈风波。",
+            "en": "She finishes second to Oguri in the manga's first Mainichi Okan, after the notorious paddock dance incident.",
+            "ja": "漫画で最初の毎日王冠、パドックのダンス騒動の後にオグリに次ぐ2着へ入った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Sirius_Symboli",
+            "https://w.atwiki.jp/aniwotawiki/pages/54919.html",
+            "https://anime-cinderellagray.com/character/?type=1&i=5"
+          ],
+          "factKey": "cinderella-mainichi-second",
           "verifiedAt": "2026-10-16"
         }
       ]
@@ -17901,6 +18631,1582 @@
             "https://umamusume.jp/character/casinodrive"
           ],
           "factKey": "official-profile-3",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "black-ale",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "black-ale-cinderella-pegasus-streak-ended",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "带着四连胜迎战小栗帽中央首战，却在飞马锦标赛被她从外侧击败。",
+            "en": "Her four-race winning streak ends when Oguri passes her on the outside in Oguri's Central debut at the Pegasus Stakes.",
+            "ja": "4連勝でオグリの中央初戦ペガサスSを迎えたが、外からかわされて敗れた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Black_Ale",
+            "https://anime-cinderellagray.com/story/?ep=8",
+            "https://anime-cinderellagray.com/character/?type=1&i=0"
+          ],
+          "factKey": "cinderella-pegasus-streak-ended",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "black-ale-cinderella-sand-play-insult",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽刚转入中央时，她把笠松成绩说成“玩沙子”，换来小栗帽一本正经的纠正。",
+            "en": "She dismisses Oguri's Kasamatsu record as playing in sand, only to receive a literal-minded correction.",
+            "ja": "中央へ来たオグリのカサマツの戦績を砂遊びと呼び、真顔で訂正されてしまった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Black_Ale",
+            "https://moegirl.icu/黑色艾尔",
+            "https://anime-cinderellagray.com/character/?type=1&i=0"
+          ],
+          "factKey": "cinderella-sand-play-insult",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "black-ale-cinderella-polite-language-promise",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "输给小栗帽后履行“把嘴巴放干净”的约定，在教室里勉强改用敬语，令阿尔丹困惑。",
+            "en": "After losing to Oguri, she keeps her promise to clean up her language and awkwardly uses polite speech in class.",
+            "ja": "オグリに負けて言葉遣いを直す約束を守り、教室でぎこちなく丁寧語を使ってアルダンを困惑させた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Black_Ale",
+            "https://moegirl.icu/黑色艾尔",
+            "https://anime-cinderellagray.com/character/?type=1&i=0"
+          ],
+          "factKey": "cinderella-polite-language-promise",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "black-ale-cinderella-fans-treated-kindly",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "动画介绍中，虽然敌视从笠松转入的同班生，却对自己的粉丝很温柔的“黑色斗士”。",
+            "en": "The Black Fighter is hostile to her transferred Kasamatsu classmate but notably kind to her fans.",
+            "ja": "カサマツからの転入生には敵意を向けるが、ファンには優しい黒の闘士。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Black_Ale",
+            "https://moegirl.icu/黑色艾尔",
+            "https://anime-cinderellagray.com/character/?type=1&i=0"
+          ],
+          "factKey": "cinderella-fans-treated-kindly",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "meikun-tsukasa",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "meikun-tsukasa-cinderella-musaka-hairpins",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽刚进入六平队时登场的前辈三人组中，用发夹夹住额发、待人开朗的那位。",
+            "en": "The cheerful, hairpin-wearing senior among the three established Musaka-team runners introduced when Oguri joins.",
+            "ja": "オグリが六平チームに加わる時に登場する先輩3人組で、前髪をピンで留めた明るい子。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Meikun_Tsukasa",
+            "https://anime-cinderellagray.com/character/?type=1&i=1"
+          ],
+          "factKey": "cinderella-musaka-hairpins",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "meikun-tsukasa-cinderella-reliable-honors-senior",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "六平队里深受同学与老师信赖的优等生前辈，动画由风间万裕子配音。",
+            "en": "The Musaka-team honor student respected by both classmates and teachers, voiced in the anime by Mayuko Kazama.",
+            "ja": "クラスメイトにも教師にも信頼の厚い六平チームの優等生で、風間万裕子が演じる先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Meikun_Tsukasa",
+            "https://anime-cinderellagray.com/character/?type=1&i=1"
+          ],
+          "factKey": "cinderella-reliable-honors-senior",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "kraft-univer",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "kraft-univer-cinderella-musaka-freckled-senior",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "六平队前辈三人组中，长发遮住一只眼、脸上有雀斑的内向姑娘。",
+            "en": "The shy, freckled Musaka-team senior whose long hair covers one eye.",
+            "ja": "六平チームの先輩3人組で、長髪で片目が隠れ、そばかすがある内気な子。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Kraft_Univer",
+            "https://anime-cinderellagray.com/character/?type=1&i=2"
+          ],
+          "factKey": "cinderella-musaka-freckled-senior",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "kraft-univer-cinderella-gothic-race-outfit",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画六平队的近况描写中，穿蓝色哥特风裙装、戴条纹耳罩，时常与名君司同行的前辈。",
+            "en": "The senior seen with Meikun Tsukasa in the manga, wearing a blue gothic dress and striped ear cover.",
+            "ja": "漫画でメイクンツカサと行動し、青いゴシック調ドレスと縞模様の耳カバーを着ける先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Kraft_Univer",
+            "https://anime-cinderellagray.com/character/?type=1&i=2"
+          ],
+          "factKey": "cinderella-gothic-race-outfit",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "kraft-univer-cinderella-stump-rescuer",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "六平队休息日的插曲里，与名君司一起帮陷在树桩里的神汉尼拔脱困。",
+            "en": "In the Musaka team's downtime, she and Meikun Tsukasa help pull God Hannibal out of a tree stump.",
+            "ja": "六平チームの日常で、メイクンツカサと一緒に切り株にはまったゴッドハンニバルを助ける。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Kraft_Univer",
+            "https://anime-cinderellagray.com/character/?type=1&i=2"
+          ],
+          "factKey": "cinderella-stump-rescuer",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "god-hannibal",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "god-hannibal-cinderella-ice-cream-not-jersey",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "本该陪小栗帽练跑，却把运动服错认成冰淇淋而拿错东西，只好在场边旁观的六平队前辈。",
+            "en": "Supposed to train with Oguri, this Musaka senior brings ice cream instead of her jersey and has to watch from the sidelines.",
+            "ja": "オグリと併走するはずが、ジャージとアイスを間違えて持参し、見学になった六平チームの先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/God_Hannibal",
+            "https://anime-cinderellagray.com/character/?type=1&i=3"
+          ],
+          "factKey": "cinderella-ice-cream-not-jersey",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "god-hannibal-cinderella-stuck-in-stump",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "神秘气质的六平队前辈，却会把自己卡在树桩里，让名君司和工艺宇宙来救。",
+            "en": "This mysterious Musaka senior gets stuck in a stump and needs Meikun Tsukasa and Kraft Univer to rescue her.",
+            "ja": "ミステリアスな六平チームの先輩だが、切り株にはまりメイクンツカサとクラフトユニヴァに助けられる。"
+          },
+          "sources": [
+            "https://umamusu.wiki/God_Hannibal",
+            "https://anime-cinderellagray.com/character/?type=1&i=3"
+          ],
+          "factKey": "cinderella-stuck-in-stump",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "god-hannibal-cinderella-kaiju-bug-net",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画番外日常中，拿着捕虫网向六平报告要去抓怪兽的高个子前辈。",
+            "en": "In a manga interlude, this tall senior tells Musaka she is going kaiju hunting with a bug net.",
+            "ja": "漫画の幕間で、虫取り網を持ち、怪獣を捕まえに行くと六平に報告する長身の先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/God_Hannibal",
+            "https://anime-cinderellagray.com/character/?type=1&i=3"
+          ],
+          "factKey": "cinderella-kaiju-bug-net",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "god-hannibal-cinderella-cb-popsicle-gift",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第92R附图中，遇见千明代表就分给她一支冰棒的六平队前辈。",
+            "en": "The Musaka-team senior who gives Mr. C.B. a popsicle in the Chapter 92 extra sketch.",
+            "ja": "第92Rのおまけ絵で、ミスターシービーにアイスをあげる六平チームの先輩。"
+          },
+          "sources": [
+            "https://umamusu.wiki/God_Hannibal",
+            "https://anime-cinderellagray.com/character/?type=1&i=3"
+          ],
+          "factKey": "cinderella-cb-popsicle-gift",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "akitsu-teio",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "akitsu-teio-cinderella-takarazuka-defeat",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽观看的宝塚纪念中，以“英里帝王”身份迎战，却败给玉藻十字。",
+            "en": "The Mile Emperor who loses to Tamamo Cross in the Takarazuka Kinen watched by Oguri.",
+            "ja": "オグリが観戦する宝塚記念で、マイルの帝王として挑むもタマモクロスに敗れた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Akitsu_Teio",
+            "https://anime-cinderellagray.com/story/?ep=10",
+            "https://anime-cinderellagray.com/character/?type=1&i=4"
+          ],
+          "factKey": "cinderella-takarazuka-defeat",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "akitsu-teio-cinderella-hakama-front-runner",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "动画白色闪电篇里的“英里帝王”，穿和服袴装，以领跑为武器。",
+            "en": "The Mile Emperor in the anime's White Lightning arc wears hakama-style racewear and specializes in front-running.",
+            "ja": "白い稲妻篇のマイルの帝王。袴姿の勝負服で、逃げを武器に走る。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Akitsu_Teio",
+            "https://anime-cinderellagray.com/character/?type=1&i=4"
+          ],
+          "factKey": "cinderella-hakama-front-runner",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "dynamu-heroine",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "dynamu-heroine-cinderella-paddock-kick-victim",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第一次每日王冠前，被天狼星象征的舞蹈动作波及，却仍坚持参赛的“舞台大小姐”。",
+            "en": "The Lady of the Stage is caught by Sirius Symboli's paddock dancing but still races in the first Mainichi Okan.",
+            "ja": "最初の毎日王冠でシリウスのダンスに巻き込まれながらも出走した、舞台上のお嬢様。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Dynamu_Heroine",
+            "https://anime-cinderellagray.com/story/?ep=11",
+            "https://anime-cinderellagray.com/character/?type=1&i=6"
+          ],
+          "factKey": "cinderella-paddock-kick-victim",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "dynamu-heroine-cinderella-environment-sensitive",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "灰姑娘动画里姿态高傲、实际很怕环境变化，被称作“舞台大小姐”的选手。",
+            "en": "In the Cinderella Gray anime, the proud Lady of the Stage is actually sensitive to changes in her surroundings.",
+            "ja": "シングレのアニメで高飛車に振る舞う一方、環境の変化には弱い舞台上のお嬢様。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Dynamu_Heroine",
+            "https://anime-cinderellagray.com/character/?type=1&i=6"
+          ],
+          "factKey": "cinderella-environment-sensitive",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "dynamu-heroine-cinderella-autumn-bib-five",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽首次挑战秋季天皇赏时，穿4枠5号号码布出赛、带着舞台主角气场的选手。",
+            "en": "The stage-like contender wearing gate 4, bib 5 in Oguri's first autumn Tenno Sho.",
+            "ja": "オグリが初めて挑む天皇賞（秋）で、4枠5番をつけて走る舞台上のお嬢様。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Dynamu_Heroine",
+            "https://plaza.rakuten.co.jp/nightknoker0/diary/202506290002/",
+            "https://anime-cinderellagray.com/story/?ep=12",
+            "https://anime-cinderellagray.com/character/?type=1&i=6"
+          ],
+          "factKey": "cinderella-autumn-bib-five",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "lord-royal",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "lord-royal-cinderella-nosebleed-scratch",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "每日王冠本想展示逃跑哲学，却因被天狼星象征撞伤鼻子而无法出赛。",
+            "en": "Her front-running philosophy never gets tested in that Mainichi Okan after Sirius accidentally injures her nose.",
+            "ja": "毎日王冠で逃げの哲学を見せるはずが、シリウスに鼻をぶつけられ出走できなくなった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Lord_Royal",
+            "https://anime-cinderellagray.com/story/?ep=11",
+            "https://anime-cinderellagray.com/character/?type=1&i=7"
+          ],
+          "factKey": "cinderella-nosebleed-scratch",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "lord-royal-cinderella-autumn-leading-third",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第一次秋季天皇赏中一路领跑，被两位芦毛选手超越后仍保住第三名。",
+            "en": "She leads the first autumn Tenno Sho and holds third after the two gray-haired rivals pass her.",
+            "ja": "最初の天皇賞（秋）を逃げ、芦毛2人に抜かれた後も3着を守った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Lord_Royal",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/character/?type=1&i=7"
+          ],
+          "factKey": "cinderella-autumn-leading-third",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "lord-royal-cinderella-imaginary-throne",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "自称道路之王、会想象胜利后坐上王座的逃马；她在白色闪电篇反复与小栗帽交锋。",
+            "en": "This front-runner imagines a throne awaiting her victory and styles herself King of the Road in the White Lightning arc.",
+            "ja": "白い稲妻篇でオグリと対戦し、勝利後の玉座を夢見て道路の王を名乗る逃げウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Lord_Royal",
+            "https://anime-cinderellagray.com/character/?type=1&i=7"
+          ],
+          "factKey": "cinderella-imaginary-throne",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "yamano-thousand",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "yamano-thousand-cinderella-tokai-derby-winner",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽离开笠松后，击败藤正进行曲、夺下东海德比的地方强者。",
+            "en": "The regional rival who beats Fujimasa March to the Tokai Derby title after Oguri leaves Kasamatsu.",
+            "ja": "オグリがカサマツを去った後、フジマサマーチを破って東海ダービーを制した地方の実力者。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Yamano_Thousand",
+            "https://anime-cinderellagray.com/character/?type=1&i=8"
+          ],
+          "factKey": "cinderella-tokai-derby-winner",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "yamano-thousand-cinderella-gifu-rematch",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "动画第14话的岐阜王冠赏中，以第一人气迎战低迷的进行曲，最后却见证对方重新振作。",
+            "en": "In Episode 14's Gifu Okan Sho she is the favorite against a struggling March, only to witness March's return to form.",
+            "ja": "第14話の岐阜王冠賞で1番人気として不調のマーチと対戦し、その復活を見届けた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Yamano_Thousand",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=14",
+            "https://anime-cinderellagray.com/character/?type=1&i=8"
+          ],
+          "factKey": "cinderella-gifu-rematch",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "face-no-more",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "face-no-more-cinderella-reverse-transfer",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "与小栗帽方向相反，从中央转到笠松，在全日本马娘杯击败稻荷一的选手。",
+            "en": "Unlike Oguri, she transfers from Central to Kasamatsu and defeats Inari One in the All-Japan Umamusume Cup.",
+            "ja": "オグリとは逆に中央からカサマツへ移り、全日本ウマ娘カップでイナリワンを破った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Face_No_More",
+            "https://anime-cinderellagray.com/story/?ep=23"
+          ],
+          "factKey": "cinderella-reverse-transfer",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "face-no-more-cinderella-inari-wrong-names",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "把稻荷一叫成“鲑鱼卵猫”“饭团第二”等奇怪名字，实际上却认清了她的潜力。",
+            "en": "She teases Inari One with names such as Ikura Neko and Onigiri Second while recognizing her potential.",
+            "ja": "イナリをイクラネコやオニギリセカンドと呼びつつ、その才能を見抜いていた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Face_No_More"
+          ],
+          "factKey": "cinderella-inari-wrong-names",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "face-no-more-cinderella-watching-inari-tv",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "稻荷一转入中央后，她留在地方通过电视关心这位“大姐”的比赛。",
+            "en": "After Inari moves to Central, she stays in the regions and follows her big-sister figure's races on television.",
+            "ja": "イナリが中央に移った後も、地方でテレビを通して姉貴分のレースを見守る。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Face_No_More"
+          ],
+          "factKey": "cinderella-watching-inari-tv",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "folkqueen",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "folkqueen-cinderella-health-spa-mentor",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "在健康乐园教小栗帽正确使用岩盘浴，被对方叫作“健康乐园师父”的新西兰选手。",
+            "en": "The New Zealand runner Oguri calls her health-spa mentor after receiving advice about the hot-stone bath.",
+            "ja": "健康ランドで岩盤浴の使い方を教え、オグリに健康ランド師匠と呼ばれたニュージーランドのウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Folkqueen",
+            "https://arthanblog.com/ogri-ex-3/"
+          ],
+          "factKey": "cinderella-health-spa-mentor",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "folkqueen-cinderella-not-a-second-ellerslie",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "背负大洋洲日本杯夺冠愿望，却拒绝只做“第二个艾勒斯利荣耀”的新西兰选手。",
+            "en": "She carries Oceania's Japan Cup hopes but refuses to be merely a second Ellerslie Pride.",
+            "ja": "オセアニアのジャパンカップ制覇を背負うが、第2のエラズリープライドでは終わりたくない。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Folkqueen",
+            "https://moegirl.icu/zh-my/平民女王"
+          ],
+          "factKey": "cinderella-not-a-second-ellerslie",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "folkqueen-cinderella-jc-world-record",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第二次日本杯与小栗帽拼到最后，以2分22秒2的世界纪录率先抵达终点。",
+            "en": "She edges Oguri in the manga's second Japan Cup with a world-record time of 2:22.2.",
+            "ja": "漫画2度目のジャパンカップでオグリと最後まで競り、2分22秒2の世界レコードで先着した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Folkqueen",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報"
+          ],
+          "factKey": "cinderella-jc-world-record",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "folkqueen-cinderella-heterochromia-jc",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "那位被小栗帽当作温泉师父的新西兰来客，红金异色瞳在日本杯决战中格外醒目。",
+            "en": "The New Zealand spa mentor whose red-and-gold eyes stand out during the Japan Cup showdown.",
+            "ja": "ジャパンカップ決戦で赤と金の瞳が印象的な、オグリの健康ランド師匠。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Folkqueen"
+          ],
+          "factKey": "cinderella-heterochromia-jc",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "thief-crow",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "thief-crow-cinderella-world-record-invader",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "带着草地2400米世界纪录来到第二次日本杯，自称“私様”的美国选手。",
+            "en": "The American with a turf 2,400-meter world record who arrives for the second Japan Cup and calls herself Watashi-sama.",
+            "ja": "芝2400mの世界レコードを携えて2度目のジャパンカップに来た、私様を名乗る米国代表。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Thief_Crow",
+            "https://arthanblog.com/ucg-jc9p/"
+          ],
+          "factKey": "cinderella-world-record-invader",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "thief-crow-cinderella-eve-pacing-duel",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第二次日本杯中，与伊芙宾蒂争抢先头，把全场带入惊人的高速节奏。",
+            "en": "She duels Eve Binti for the lead and drives the manga's second Japan Cup into a blistering pace.",
+            "ja": "漫画2度目のジャパンカップでイブビンティと先頭を争い、猛烈なハイペースを作った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Thief_Crow",
+            "https://arthanblog.com/ucg-jc9p/"
+          ],
+          "factKey": "cinderella-eve-pacing-duel",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "thief-crow-cinderella-postrace-eve-friendship",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "日本杯后与伊芙宾蒂一起躺倒在草地上；赛后采访中又把她亲切地叫作“伊芙”。",
+            "en": "After the Japan Cup she collapses on the turf beside Eve Binti, then fondly calls her Eve in an interview.",
+            "ja": "ジャパンカップ後にイブビンティと芝に倒れ、取材では彼女をイブと呼ぶようになった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Thief_Crow",
+            "https://arthanblog.com/ucg-jc9p/"
+          ],
+          "factKey": "cinderella-postrace-eve-friendship",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "eve-binti",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "eve-binti-cinderella-british-front-runner",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第二次日本杯的英国“野丫头大小姐”，不肯把先头让给窃贼乌鸦。",
+            "en": "Britain's headstrong young lady in the second Japan Cup refuses to surrender the lead to Thief Crow.",
+            "ja": "2度目のジャパンカップの英国代表、じゃじゃウマお嬢様。シーフクローに先頭を譲らない。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Eve_Binti",
+            "https://arthanblog.com/ucg-jc9p/"
+          ],
+          "factKey": "cinderella-british-front-runner",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "eve-binti-cinderella-two-thousand-meter-logic",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "日本杯败北后仍乐观地宣称，若只跑2000米自己就赢了，输了的只是后面400米。",
+            "en": "After losing the Japan Cup she argues cheerfully that she won the first 2,000 meters and only lost the last 400.",
+            "ja": "ジャパンカップ後も、2000mなら勝っていた、負けたのは400mだけと明るく主張した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Eve_Binti",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+          ],
+          "factKey": "cinderella-two-thousand-meter-logic",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "eve-binti-cinderella-pink-jc-racer",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第二次日本杯与窃贼乌鸦抢跑的英国大小姐，在漫画彩色形象中头发和裙装都是鲜艳粉色。",
+            "en": "The British lady battling Thief Crow for the Japan Cup lead has vivid pink hair and a pink dress in the manga's color art.",
+            "ja": "2度目のジャパンカップでシーフクローと逃げ争いをする英国のお嬢様。カラーでは髪もドレスも鮮やかなピンク。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Eve_Binti",
+            "https://arthanblog.com/ucg-jc9p/"
+          ],
+          "factKey": "cinderella-pink-jc-racer",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "carries-room",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "carries-room-cinderella-british-arc-winner",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第二次日本杯来日的英国凯旋门赏冠军，区别于前一年那位意大利“欧洲王者”。",
+            "en": "Britain's Arc winner at the manga's second Japan Cup, following the previous year's Italian European champion.",
+            "ja": "漫画2度目のジャパンカップに来た英国の凱旋門賞ウマ娘。前年のイタリアの欧州王者とは別人。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Carrie%27s_Room",
+            "https://arthanblog.com/ucg-jc9p/"
+          ],
+          "factKey": "cinderella-british-arc-winner",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "carries-room-cinderella-shy-prince",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "英国“神秘王子”戴墨镜避开媒体，其实不是故作神秘，只是怕生。",
+            "en": "The British Mysterious Prince wears sunglasses and avoids the press because she is shy, rather than deliberately secretive.",
+            "ja": "英国のミステリアスな王子様。サングラスで取材を避けるのは秘密主義ではなく人見知りのため。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Carrie%27s_Room",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+          ],
+          "factKey": "cinderella-shy-prince",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "mill-wakaba",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "mill-wakaba-cinderella-borrowed-horns",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "友人因被小栗帽时代掩盖而放弃竞赛后，她戴上对方留下的牛角发箍，决心挑战怪物。",
+            "en": "After a friend quits racing in Oguri's shadow, she adopts the abandoned horned headband and challenges the monster.",
+            "ja": "オグリの陰で友人がレースを諦めた後、残された角のカチューシャを着けて怪物に挑む。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mill_Wakaba"
+          ],
+          "factKey": "cinderella-borrowed-horns",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mill-wakaba-cinderella-takarazuka-monster-defeat",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画后期宝塚纪念中击败小栗帽，让“夹缝世代”终于拥有自己的大赛胜利。",
+            "en": "She defeats Oguri in the late-manga Takarazuka Kinen, claiming a major triumph for the overshadowed generation.",
+            "ja": "漫画後半の宝塚記念でオグリを破り、谷間の世代に大舞台の勝利をもたらした。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mill_Wakaba",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報"
+          ],
+          "factKey": "cinderella-takarazuka-monster-defeat",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mill-wakaba-cinderella-milk-cider",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画后期常喝牛奶汽水，身边还有低一届的光明岩石帮忙准备对策的牛角发箍选手。",
+            "en": "The horned-headband challenger drinks milk soda while younger friend Bright Rock helps plan her races.",
+            "ja": "漫画後半、牛乳サイダーを好み、1つ下のブライトロックに作戦面も支えられる角カチューシャの選手。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mill_Wakaba"
+          ],
+          "factKey": "cinderella-milk-cider",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mill-wakaba-cinderella-ten-length-debut-overshadowed",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "出道战赢了十个马身，本以为能登上杂志头条，结果封面仍是小栗帽和玉藻十字。",
+            "en": "She wins her debut by ten lengths and expects the headlines, only to find Oguri and Tamamo on the magazine cover.",
+            "ja": "デビュー戦を10バ身差で勝ち、雑誌の主役を期待したが、表紙を飾ったのはオグリとタマモだった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mill_Wakaba",
+            "https://w.atwiki.jp/aniwotawiki/pages/59480.html"
+          ],
+          "factKey": "cinderella-ten-length-debut-overshadowed",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "mill-wakaba-cinderella-after-last-arima",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "看过小栗帽最后的有马纪念后，在屋顶面对光明岩石时，终于说出自己还会继续跑。",
+            "en": "After Oguri's final Arima, she tells Bright Rock on the rooftop that she will keep racing.",
+            "ja": "オグリ最後の有マ記念後、屋上でブライトロックに、もう少し走ると告げた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Mill_Wakaba",
+            "https://w.atwiki.jp/aniwotawiki/pages/59480.html"
+          ],
+          "factKey": "cinderella-after-last-arima",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "bright-rock",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "bright-rock-cinderella-milk-supporter",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画后期给米尔若叶带来喜欢的牛奶饮料、帮她制定策略的眯眼芦毛好友。",
+            "en": "The gray-haired, closed-eye friend who brings Mill Wakaba milk drinks and helps with race strategies in the later manga.",
+            "ja": "漫画後半でミルワカバに乳飲料を届け、作戦も支える糸目の芦毛の友人。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Bright_Rock"
+          ],
+          "factKey": "cinderella-milk-supporter",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "bright-rock-cinderella-younger-of-three-friends",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "米尔若叶与戴牛角发箍的好友失去竞赛热情时，她作为低一届的朋友继续留在若叶身边。",
+            "en": "The friend a year younger than Mill Wakaba who remains by her side after their horned-headband companion quits racing.",
+            "ja": "角カチューシャの仲間がレースを去った後も、1つ上のミルワカバを支え続ける友人。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Bright_Rock"
+          ],
+          "factKey": "cinderella-younger-of-three-friends",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "bright-rock-cinderella-last-jc-fourth",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第三次日本杯中，她拿到第四名，领先已失去状态的小栗帽与米尔若叶。",
+            "en": "In the manga's third Japan Cup she finishes fourth, ahead of the struggling Oguri and Mill Wakaba.",
+            "ja": "漫画3度目のジャパンカップで4着となり、不調のオグリとミルワカバに先着した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Bright_Rock",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報"
+          ],
+          "factKey": "cinderella-last-jc-fourth",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "walk-dancer",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "walk-dancer-cinderella-march-roommate",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "藤正进行曲在笠松的舍友，总被她严肃的表情吓住，双方迟迟找不到搭话机会。",
+            "en": "Fujimasa March's Kasamatsu roommate is intimidated by her stern expression, leaving both unable to start a conversation.",
+            "ja": "カサマツでフジマサマーチと同室だが、その厳しい表情に怯え、お互い話すきっかけをつかめない。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Walk_Dancer"
+          ],
+          "factKey": "cinderella-march-roommate",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "walk-dancer-cinderella-debut-field-roommate",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "也参加过小栗帽笠松出道战的选手中，与当场冠军藤正进行曲住同一间宿舍的马娘。",
+            "en": "Among the runners in Oguri's Kasamatsu debut, she shares a dorm room with that race's winner, Fujimasa March.",
+            "ja": "オグリのカサマツでのデビュー戦にも出走し、勝者フジマサマーチと同室のウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Walk_Dancer"
+          ],
+          "factKey": "cinderella-debut-field-roommate",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "merry-beauty",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "merry-beauty-cinderella-opening-derby-six-lengths",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第一话开场的日本德比，以六个马身大胜黄金城市等对手的选手。",
+            "en": "She wins the manga's opening Japanese Derby by six lengths over a field including Gold City.",
+            "ja": "漫画第1話冒頭の日本ダービーで、ゴールドシチーらを6バ身差で破った。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Merry_Beauty",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報"
+          ],
+          "factKey": "cinderella-opening-derby-six-lengths",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "merry-beauty-cinderella-hakodate-record-runner-up",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "曾是德比冠军，后来在函馆纪念回忆中败给创日本纪录的狄杜射手。",
+            "en": "A Derby winner later shown losing the Hakodate Kinen to Dicta Striker's Japanese-record performance.",
+            "ja": "ダービーウマ娘だが、函館記念の回想では日本レコードを出すディクタストライカに敗れた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Merry_Beauty",
+            "https://wikiwiki.jp/vip_umamusu/元馬情報",
+            "https://anime-cinderellagray.com/story/?ep=20"
+          ],
+          "factKey": "cinderella-hakodate-record-runner-up",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "luna-swallow",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "luna-swallow-cinderella-opening-derby-second",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画开场日本德比最后直道曾领先，却被愉快美貌甩开，最终屈居第二。",
+            "en": "She briefly leads the manga's opening Derby straight before Merry Beauty pulls clear, leaving her second.",
+            "ja": "漫画冒頭のダービー直線で一時先頭に立つが、メリービューティーに突き放され2着となる。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Luna_Swallow"
+          ],
+          "factKey": "cinderella-opening-derby-second",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "luna-swallow-cinderella-all-comers-return",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画中小栗帽伤愈复出的产经赏All Comers里，再次与她交锋的开篇德比亚军。",
+            "en": "She returns to face Oguri in the All Comers, the manga's comeback race after Oguri's injury layoff.",
+            "ja": "漫画でオグリの故障明け復帰戦となるオールカマーでも対戦する、冒頭ダービーの2着ウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Luna_Swallow"
+          ],
+          "factKey": "cinderella-all-comers-return",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "long-live-free",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "long-live-free-cinderella-paddock-medical-help",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "皇家领主被天狼星象征碰伤鼻子后，第一时间替她呼叫救护班的发箍选手。",
+            "en": "The headband-wearing runner who immediately calls for medical help when Sirius injures Lord Royal's nose.",
+            "ja": "シリウスに鼻をぶつけられたロードロイヤルのため、すぐ救護班を呼ぶカチューシャの選手。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Long_Live_Free",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+            "https://anime-cinderellagray.com/story/?ep=11"
+          ],
+          "factKey": "cinderella-paddock-medical-help",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "long-live-free-cinderella-spring-second",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "白色闪电篇之前的春季天皇赏中，她是仅次于玉藻十字的亚军，之后也常与小栗帽同场。",
+            "en": "She is runner-up to Tamamo in the spring Tenno Sho before the White Lightning arc and often races Oguri afterward.",
+            "ja": "白い稲妻篇の前の天皇賞（春）でタマモに次ぐ2着となり、その後もよくオグリと同じレースを走る。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Long_Live_Free"
+          ],
+          "factKey": "cinderella-spring-second",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "shirogane-adieu",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "shirogane-adieu-cinderella-arima-interference-victim",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "超级小溪首次有马纪念失格事件中的8号受害选手；漫画时尚未公布名字。",
+            "en": "Runner number eight obstructed in Super Creek's first Arima disqualification; her name was not yet given in the manga.",
+            "ja": "スーパークリークが最初の有マ記念で失格になった斜行の被害を受けた8番。漫画ではまだ名前がなかった。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Shirogane_Adieu",
+            "https://anime-cinderellagray.com/story/?ep=22"
+          ],
+          "factKey": "cinderella-arima-interference-victim",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "shirogane-adieu-cinderella-named-in-anime",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "动画为漫画里的“8号马娘”补上名字；在有马纪念事件中，她留着长黑发、穿系带长靴。",
+            "en": "The anime names the manga's number-eight runner, recognizable in the Arima incident by long black hair and lace-up boots.",
+            "ja": "アニメで名がついた漫画の8番ウマ娘。有マ記念の事件では長い黒髪と編み上げブーツが特徴。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Shirogane_Adieu",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+            "https://anime-cinderellagray.com/story/?ep=22"
+          ],
+          "factKey": "cinderella-named-in-anime",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "shirley-sky",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "shirley-sky-cinderella-first-jc-early-leader",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第一次日本杯前段参与领跑、最后却落到末尾的英国海外选手。",
+            "en": "The British overseas runner near the front early in the first Japan Cup who fades to the back.",
+            "ja": "最初のジャパンカップで序盤は前に出ながら、最後は後方へ沈んだ英国の海外ウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Shirley_Sky"
+          ],
+          "factKey": "cinderella-first-jc-early-leader",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "shirley-sky-cinderella-british-cape-outfit",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "听命汝主夺冠的日本杯里，穿短裙和长披风的英国代表；她不是“英国贵妇人”。",
+            "en": "The British runner in a miniskirt and long cape in Obey Your Master's Japan Cup, distinct from the British Lady.",
+            "ja": "オベイが勝ったジャパンカップで、ミニスカートと長いマントを着ける英国代表。英国の貴婦人とは別人。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Shirley_Sky",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+          ],
+          "factKey": "cinderella-british-cape-outfit",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "massive-viking",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "massive-viking-cinderella-seven-starts-five-wins",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "第一次每日王冠前，藤井记者列出的强敌中，七战五胜、眼睛常眯着的选手。",
+            "en": "The narrow-eyed runner with five wins from seven starts among the rivals Fujii identifies before the first Mainichi Okan.",
+            "ja": "最初の毎日王冠前、藤井が有力視する7戦5勝の糸目のウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Massive_Viking",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html",
+            "https://anime-cinderellagray.com/story/?ep=11"
+          ],
+          "factKey": "cinderella-seven-starts-five-wins",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "massive-viking-cinderella-autumn-pirate-bib-four",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽首次秋季天皇赏中，穿海盗风胜负服、号码为3枠4号的选手。",
+            "en": "The runner in pirate-themed racewear with gate 3, bib 4 in Oguri's first autumn Tenno Sho.",
+            "ja": "オグリ最初の天皇賞（秋）で、海賊風の勝負服を着て3枠4番で走る選手。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Massive_Viking",
+            "https://plaza.rakuten.co.jp/nightknoker0/diary/202506290002/",
+            "https://anime-cinderellagray.com/story/?ep=12"
+          ],
+          "factKey": "cinderella-autumn-pirate-bib-four",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "top-shunbetsu",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "top-shunbetsu-cinderella-autumn-late-start",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "秋季天皇赏里还在盘算领跑战术，结果开闸后一个人严重慢出闸的选手。",
+            "en": "She is still pondering front-running tactics when the autumn Tenno Sho gates open, leaving her badly behind.",
+            "ja": "天皇賞（秋）のゲート内で逃げ方を考え込み、発走で1人だけ大きく出遅れた。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Top_Shunbetsu",
+            "https://thetv.jp/news/detail/1273120/",
+            "https://ameblo.jp/beemihf/entry-12716513583.html",
+            "https://anime-cinderellagray.com/story/?ep=12"
+          ],
+          "factKey": "cinderella-autumn-late-start",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "top-shunbetsu-cinderella-front-runner-fades",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画5卷中，逃跑宣言落空后涨红脸，比赛后半又叫着“ひーん”退下来的慢出闸选手。",
+            "en": "In manga Volume 5, the delayed front-runner blushes after her failed plan and later fades with a distressed cry.",
+            "ja": "漫画5巻で逃げ宣言に反して出遅れ赤面し、後には「ひーん」と後退してしまうウマ娘。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Top_Shunbetsu",
+            "https://note.com/darkrockbiter/n/nd88b293738c4"
+          ],
+          "factKey": "cinderella-front-runner-fades",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "be-true-on-pulse",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "be-true-on-pulse-cinderella-third-jc-winner",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "漫画第三次日本杯的澳大利亚冠军，面对只跑第十一名的小栗帽显得失望。",
+            "en": "The Australian winner of the manga's third Japan Cup is disappointed by Oguri's eleventh-place performance.",
+            "ja": "漫画3度目のジャパンカップを勝ったオーストラリア代表で、11着のオグリに落胆した。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Be_True_On_Pulse",
+            "https://arthanblog.com/ucg-c22/"
+          ],
+          "factKey": "cinderella-third-jc-winner",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "be-true-on-pulse-cinderella-folkqueen-recommendation",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "听同为大洋洲选手的平民女王说起“日本怪物”而期待交手，被称作“澳大利亚英杰”。",
+            "en": "The Hero of Australia looks forward to facing Japan's monster after hearing about her from Folkqueen.",
+            "ja": "フォークインから日本の怪物の話を聞き、対決を楽しみにしていたオーストラリアの英傑。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Be_True_On_Pulse",
+            "https://note.com/xnbmlbxkkl/n/nde55c2ec5a52",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+          ],
+          "factKey": "cinderella-folkqueen-recommendation",
+          "verifiedAt": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "characterId": "clarizza",
+      "categories": [
+        "cinderella",
+        "beginner",
+        "advanced"
+      ],
+      "clues": [
+        {
+          "id": "clarizza-cinderella-german-jc-representative",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "小栗帽第一次日本杯的海外阵容里，来自德国、以迷彩轻装出赛的选手。",
+            "en": "The German representative in camouflage racewear in Oguri's first Japan Cup.",
+            "ja": "オグリ最初のジャパンカップで、迷彩柄の軽装を着るドイツ代表。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Clarizza",
+            "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
+          ],
+          "factKey": "cinderella-german-jc-representative",
+          "verifiedAt": "2026-10-16"
+        },
+        {
+          "id": "clarizza-cinderella-gold-city-following-place",
+          "categories": [
+            "cinderella",
+            "beginner",
+            "advanced"
+          ],
+          "dimension": "story",
+          "text": {
+            "zh-CN": "听命汝主赢下的日本杯中，黄金城市之后以第十三名完赛的选手。",
+            "en": "She finishes thirteenth, behind Gold City, in the Japan Cup won by Obey Your Master.",
+            "ja": "オベイユアマスターが制したジャパンカップで、ゴールドシチーに続く13着で入線した選手。"
+          },
+          "sources": [
+            "https://umamusu.wiki/Clarizza"
+          ],
+          "factKey": "cinderella-gold-city-following-place",
           "verifiedAt": "2026-10-16"
         }
       ]

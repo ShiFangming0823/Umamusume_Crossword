@@ -42,23 +42,26 @@ GameSession accepts an injected clock. completed means the session ended; succes
 
 ## Data maintenance
 
-characters.json owns standard trilingual names and aliases. clues.json associates stable character IDs with categorized, sourced, trilingual clue records. As checked on 2026-10-16, Starter and Advanced each cover 173 runners: 145 official main characters, 17 confirmed supporting Umamusume and 11 existing manga originals. The bank has 915 trilingual records, including 797 eligible clues in each ordinary collection. Ordinary and story clues offer alternatives; epithet clues retain authentic titles, including both game and towel titles when available. Starter and Advanced may share runners, but use category-scoped clues and different dimension weights.
+characters.json owns standard trilingual names and aliases. clues.json associates stable character IDs with categorized, sourced, trilingual clue records. As checked on 2026-10-16, Starter and Advanced each cover 198 runners: 145 official main characters, 17 confirmed supporting Umamusume and 36 reviewed manga originals. The bank has 1009 trilingual records, including 869 eligible clues in each ordinary collection. Cinderella Gray now has 51 candidates and 160 story clues, covering Kasamatsu through the manga finale. Ordinary and story clues offer alternatives; epithet clues retain authentic titles, including both game and towel titles when available. Starter and Advanced may share runners, but use category-scoped clues and different dimension weights.
 
 Maintain the reviewed roster.json snapshot alongside the names and clues. Add all zh-CN, en and ja text, a stable clue ID, categories, dimension and sources. New facts include factKey and verifiedAt; current-life clues also require asOf and a visible reference date. Generic traits such as working hard or running well cannot stand alone. Use identifying race years, relationships, titles or specific scenes. Song clues identify the album and solo credit; multiplayer-program clues need an additional distinguishing fact. Review factual accuracy and uniqueness manually: a duplicate-text check cannot establish semantic uniqueness. English answers remove punctuation/spaces and become uppercase; katakana preserves small kana and long-vowel marks. Cinderella Gray originals use their fictional character names rather than real-horse counterparts.
 
 The eight old fixed grids remain historical fixtures and are not loaded during play. After changing bank content, run check:data, build:worker, test and build. Commit worker/pool.generated.js and any changed worker/levels.generated.js; do not hand-edit generated files or commit dist/, credentials or local databases.
 
+The reviewed Cinderella identities and deferred entries live in `data/cinderella-roster.json`; per-clue chapter/episode references live in `docs/evidence/cinderella-scenes.json`. Offline checks enforce consistency with the playable bank. The original 22-entry fixed grids remain unchanged. New original characters also join the ordinary pools and trilingual lookup.
+
 ## Statistics and upgrades
 
 analytics.js handles reporting, retries and caching. /api/v2/ forwards through the Pages Function STATS binding to a Worker with a DB binding. Starts validate submitted grids and retain only a solution hash; successful finishes verify letters. D1 stores no IP addresses, search text or answer details. Random run IDs deduplicate reports; temporary local outbox data may include the pending board. Statistics failures never prevent play; local previews do not write production statistics by default.
 
-The v0.7.1 bank expansion needs no new D1 migration, but deploy the Worker with its expanded validation pool before the frontend.
+The v0.7.2 bank expansion needs no new D1 migration, but deploy the Worker with its expanded validation pool before the frontend.
 
 For v0.7, apply 0002_random_stats.sql, deploy the Worker, then deploy the frontend. Legacy tables and APIs remain available, and old fixed-grid totals are not mixed with random-puzzle totals. Publishing frontend changes alone is insufficient for this upgrade.
 
 ## Further documentation
 
 - [Contributor/agent guide](AGENTS.md)
+- [v0.7.2 Cinderella coverage and scene review](docs/灰姑娘题库扩充与核对.md)
 - [v0.7.1 coverage and source-review notes](docs/题库扩充与来源核对.md)
 - [Random bank, algorithm, export and benchmarking](docs/随机题库与生成算法.md)
 - [Benchmark report](docs/generator-benchmark.json)

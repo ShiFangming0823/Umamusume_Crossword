@@ -2073,6 +2073,306 @@
         "卡西诺大道"
       ],
       "source": "https://umamusume.jp/character/casinodrive"
+    },
+    {
+      "id": "black-ale",
+      "names": {
+        "zh-CN": "黑色艾尔",
+        "en": "Black Ale",
+        "ja": "ブラッキーエール"
+      },
+      "aliases": [
+        "Blacky Ale",
+        "漆黑嘶嚎",
+        "黑色佳人"
+      ],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=0"
+    },
+    {
+      "id": "meikun-tsukasa",
+      "names": {
+        "zh-CN": "名君司",
+        "en": "Meikun Tsukasa",
+        "ja": "メイクンツカサ"
+      },
+      "aliases": [],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=1"
+    },
+    {
+      "id": "kraft-univer",
+      "names": {
+        "zh-CN": "工艺宇宙",
+        "en": "Kraft Univer",
+        "ja": "クラフトユニヴァ"
+      },
+      "aliases": [
+        "力量宇宙",
+        "工藝宇宙"
+      ],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=2"
+    },
+    {
+      "id": "god-hannibal",
+      "names": {
+        "zh-CN": "神汉尼拔",
+        "en": "God Hannibal",
+        "ja": "ゴッドハンニバル"
+      },
+      "aliases": [
+        "神漢尼拔"
+      ],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=3"
+    },
+    {
+      "id": "akitsu-teio",
+      "names": {
+        "zh-CN": "秋津帝王",
+        "en": "Akitsu Teio",
+        "ja": "アキツテイオー"
+      },
+      "aliases": [
+        "Akitsu Teioh"
+      ],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=4"
+    },
+    {
+      "id": "dynamu-heroine",
+      "names": {
+        "zh-CN": "达伊纳姆女主角",
+        "en": "Dynamu Heroine",
+        "ja": "ダイナムヒロイン"
+      },
+      "aliases": [
+        "达伊纳女主角",
+        "黛娜女主角"
+      ],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=6"
+    },
+    {
+      "id": "lord-royal",
+      "names": {
+        "zh-CN": "皇家领主",
+        "en": "Lord Royal",
+        "ja": "ロードロイヤル"
+      },
+      "aliases": [],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=7"
+    },
+    {
+      "id": "yamano-thousand",
+      "names": {
+        "zh-CN": "山野千里",
+        "en": "Yamano Thousand",
+        "ja": "ヤマノサウザン"
+      },
+      "aliases": [
+        "山野南方"
+      ],
+      "source": "https://anime-cinderellagray.com/character/?type=1&i=8"
+    },
+    {
+      "id": "face-no-more",
+      "names": {
+        "zh-CN": "不再掩饰",
+        "en": "Face No More",
+        "ja": "フェイスノーモア"
+      },
+      "aliases": [
+        "费斯诺摩尔"
+      ],
+      "source": "https://umamusu.wiki/Face_No_More"
+    },
+    {
+      "id": "folkqueen",
+      "names": {
+        "zh-CN": "平民女王",
+        "en": "Folkqueen",
+        "ja": "フォークイン"
+      },
+      "aliases": [
+        "民间女王",
+        "民間女王"
+      ],
+      "source": "https://umamusu.wiki/Folkqueen"
+    },
+    {
+      "id": "thief-crow",
+      "names": {
+        "zh-CN": "窃贼乌鸦",
+        "en": "Thief Crow",
+        "ja": "シーフクロー"
+      },
+      "aliases": [
+        "盗贼乌鸦",
+        "竊賊烏鴉"
+      ],
+      "source": "https://umamusu.wiki/Thief_Crow"
+    },
+    {
+      "id": "eve-binti",
+      "names": {
+        "zh-CN": "伊芙宾蒂",
+        "en": "Eve Binti",
+        "ja": "イブビンティ"
+      },
+      "aliases": [
+        "伊芙賓蒂"
+      ],
+      "source": "https://umamusu.wiki/Eve_Binti"
+    },
+    {
+      "id": "carries-room",
+      "names": {
+        "zh-CN": "凯莉之屋",
+        "en": "Carrie's Room",
+        "ja": "キャリーズルーム"
+      },
+      "aliases": [
+        "Carries Room",
+        "凱莉之屋"
+      ],
+      "source": "https://umamusu.wiki/Carrie%27s_Room"
+    },
+    {
+      "id": "mill-wakaba",
+      "names": {
+        "zh-CN": "米尔若叶",
+        "en": "Mill Wakaba",
+        "ja": "ミルワカバ"
+      },
+      "aliases": [
+        "米尔娃卡巴",
+        "米爾若葉"
+      ],
+      "source": "https://umamusu.wiki/Mill_Wakaba"
+    },
+    {
+      "id": "bright-rock",
+      "names": {
+        "zh-CN": "光明岩石",
+        "en": "Bright Rock",
+        "ja": "ブライトロック"
+      },
+      "aliases": [
+        "亮岩",
+        "布莱特洛克"
+      ],
+      "source": "https://umamusu.wiki/Bright_Rock"
+    },
+    {
+      "id": "walk-dancer",
+      "names": {
+        "zh-CN": "漫步舞者",
+        "en": "Walk Dancer",
+        "ja": "ウォークダンサー"
+      },
+      "aliases": [],
+      "source": "https://umamusu.wiki/Walk_Dancer"
+    },
+    {
+      "id": "merry-beauty",
+      "names": {
+        "zh-CN": "愉快美貌",
+        "en": "Merry Beauty",
+        "ja": "メリービューティー"
+      },
+      "aliases": [
+        "欢乐美貌"
+      ],
+      "source": "https://umamusu.wiki/Merry_Beauty"
+    },
+    {
+      "id": "luna-swallow",
+      "names": {
+        "zh-CN": "月亮飞燕",
+        "en": "Luna Swallow",
+        "ja": "ルナスワロー"
+      },
+      "aliases": [
+        "月亮飛燕"
+      ],
+      "source": "https://umamusu.wiki/Luna_Swallow"
+    },
+    {
+      "id": "long-live-free",
+      "names": {
+        "zh-CN": "自由长存",
+        "en": "Long Live Free",
+        "ja": "ロングリヴフリー"
+      },
+      "aliases": [
+        "自由長存"
+      ],
+      "source": "https://umamusu.wiki/Long_Live_Free"
+    },
+    {
+      "id": "shirogane-adieu",
+      "names": {
+        "zh-CN": "白银告别",
+        "en": "Shirogane Adieu",
+        "ja": "シロガネアデュー"
+      },
+      "aliases": [
+        "白銀告別"
+      ],
+      "source": "https://umamusu.wiki/Shirogane_Adieu"
+    },
+    {
+      "id": "shirley-sky",
+      "names": {
+        "zh-CN": "莎莉天空",
+        "en": "Shirley Sky",
+        "ja": "シャーリースカイ"
+      },
+      "aliases": [],
+      "source": "https://umamusu.wiki/Shirley_Sky"
+    },
+    {
+      "id": "massive-viking",
+      "names": {
+        "zh-CN": "巨硕维京",
+        "en": "Massive Viking",
+        "ja": "マッシヴバイキング"
+      },
+      "aliases": [
+        "巨碩維京"
+      ],
+      "source": "https://umamusu.wiki/Massive_Viking"
+    },
+    {
+      "id": "top-shunbetsu",
+      "names": {
+        "zh-CN": "顶峰春别",
+        "en": "Top Shunbetsu",
+        "ja": "トップシュンベツ"
+      },
+      "aliases": [
+        "頂峰春別"
+      ],
+      "source": "https://umamusu.wiki/Top_Shunbetsu"
+    },
+    {
+      "id": "be-true-on-pulse",
+      "names": {
+        "zh-CN": "真诚脉动",
+        "en": "Be True On Pulse",
+        "ja": "ビートゥルーオンパルス"
+      },
+      "aliases": [
+        "Be True on Pulse",
+        "真誠脈動"
+      ],
+      "source": "https://umamusu.wiki/Be_True_On_Pulse"
+    },
+    {
+      "id": "clarizza",
+      "names": {
+        "zh-CN": "克拉莉莎",
+        "en": "Clarizza",
+        "ja": "クラリッザ"
+      },
+      "aliases": [],
+      "source": "https://umamusu.wiki/Clarizza"
     }
   ]
 }

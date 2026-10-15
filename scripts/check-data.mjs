@@ -3,12 +3,16 @@ import { pathToFileURL } from 'node:url';
 import { validateCharacters, validateLevel } from '../src/game.js';
 import { validateClueBank } from '../src/clue-bank.js';
 import { validateRosterCoverage } from './audit-roster.mjs';
+import { validateCinderellaSources } from './check-cinderella.mjs';
 const root = new URL('../data/', import.meta.url);
 const read = async (path) => JSON.parse(await readFile(new URL(path, root), 'utf8'));
 export async function checkData() {
   const registry = validateCharacters(await read('characters.json'));
   const bank = validateClueBank(await read('clues.json'),registry.characters);
   const roster = validateRosterCoverage(await read('roster.json'), registry.characters, bank);
+  const cinderellaRoster = validateCinderellaSources(await read('cinderella-roster.json'),
+    JSON.parse(await readFile(new URL('../docs/evidence/cinderella-scenes.json', import.meta.url), 'utf8')),
+    registry.characters, bank, roster);
   const manifest = await read('levels/index.json');
   if (manifest.schemaVersion !== 1 || !Array.isArray(manifest.levels) || !manifest.levels.length) throw new Error('Invalid level manifest');
   const seen = new Set(), levels = [];
@@ -47,7 +51,7 @@ export async function checkData() {
     const character = registry.characters.find((character) => character.id === entry.characterId);
     if (['zh-CN', 'en', 'ja'].some((lang) => character.names[lang] !== row.names?.[lang])) throw new Error(`Cinderella name/source mismatch: ${entry.characterId}`);
   }
-  return { characters:registry.characters,levels,manifest,bank,roster };
+  return { characters:registry.characters,levels,manifest,bank,roster,cinderellaRoster };
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const {characters,levels,bank} = await checkData();

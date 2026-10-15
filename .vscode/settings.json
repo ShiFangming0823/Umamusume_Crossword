@@ -4,6 +4,7 @@
     { "fileMatch": ["/data/levels/beginner-*.json", "/data/levels/advanced-*.json", "/data/levels/epithets-*.json", "/data/levels/cinderella-*.json"], "url": "./schemas/level.schema.json" },
     { "fileMatch": ["/data/characters.json"], "url": "./schemas/characters.schema.json" },
     { "fileMatch": ["/data/clues.json"], "url": "./schemas/clues.schema.json" },
-    { "fileMatch": ["/data/roster.json"], "url": "./schemas/roster.schema.json" }
+    { "fileMatch": ["/data/roster.json"], "url": "./schemas/roster.schema.json" },
+    { "fileMatch": ["/data/cinderella-roster.json"], "url": "./schemas/cinderella-roster.schema.json" }
   ]
 }
