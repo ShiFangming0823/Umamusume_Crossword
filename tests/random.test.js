@@ -36,7 +36,7 @@ test('bad settings and undersized pools fail clearly; no disconnected fallback i
 });
 test('clues are localized, sourced, category-scoped, and duplicates cannot point to another character',()=>{
  for(const r of bank.records)for(const category of r.categories){const clues=r.clues.filter(c=>c.categories.includes(category));assert.ok(clues.length>=(category==='epithets'?1:2));}
- const broken=structuredClone(bank);const a=broken.records.find(r=>r.categories.includes('beginner')),b=broken.records.find(r=>r!==a&&r.categories.includes('beginner'));b.clues.push({...a.clues.find(c=>c.categories.includes('beginner')),id:'duplicate-test'});
+ const broken=structuredClone(bank);const a=broken.records.find(r=>r.categories.includes('beginner')),b=broken.records.find(r=>r!==a&&r.categories.includes('beginner'));b.clues.push({...a.clues.find(c=>c.categories.includes('beginner')),id:'duplicate-test',factKey:'cross-character-duplicate'});
  assert.throws(()=>validateClueBank(broken,characters),/duplicate clue/i);
  const missing=structuredClone(bank);delete missing.records[0].clues[0].text.ja;assert.throws(()=>validateClueBank(missing,characters),/translation/);
 

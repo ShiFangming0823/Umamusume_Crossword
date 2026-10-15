@@ -3,6 +3,7 @@
     { "fileMatch": ["/data/levels/index.json"], "url": "./schemas/catalog.schema.json" },
     { "fileMatch": ["/data/levels/beginner-*.json", "/data/levels/advanced-*.json", "/data/levels/epithets-*.json", "/data/levels/cinderella-*.json"], "url": "./schemas/level.schema.json" },
     { "fileMatch": ["/data/characters.json"], "url": "./schemas/characters.schema.json" },
-    { "fileMatch": ["/data/clues.json"], "url": "./schemas/clues.schema.json" }
+    { "fileMatch": ["/data/clues.json"], "url": "./schemas/clues.schema.json" },
+    { "fileMatch": ["/data/roster.json"], "url": "./schemas/roster.schema.json" }
   ]
 }

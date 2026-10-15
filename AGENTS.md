@@ -7,7 +7,8 @@
 - 原生 HTML、CSS、JavaScript ES Modules，Node.js 24；无需 npm install。保留现有架构，避免为局部任务引入框架。
 - 二维码是保留 MIT 许可的本地第三方源码，位于 src/vendor/qrcodegen.js。不得移除许可或改成依赖外部二维码服务。
 - npm run dev：HTTP 源码预览，默认5173；npm run preview：预览 dist。PowerShell 可使用 npm.cmd，服务端口由 PORT 配置。
-- npm run check:data：验证角色、当前随机提示库和历史棋盘。
+- npm run check:data：离线验证角色、全名单覆盖、当前随机提示库和历史棋盘。
+- npm run audit:roster：只读联网对比官方新增、改名、分类和配音变更；报告差异，不自动写入题库。
 - npm run build:worker：生成 pool.generated.js 和旧版本 levels.generated.js；生成文件需要提交。
 - npm test：Node 内置测试与真实 SQLite 回归。
 - npm run benchmark：排盘性能；可传 -- --trials=50 --output=docs/generator-benchmark.json。
@@ -50,17 +51,21 @@
 
 ## 随机题库
 
+- 截至2026-10-16，入门／进阶各173位候选（主要145、辅助17、漫画原创11），各797条可用提示；全库915条。事实核对与范围见 docs/题库扩充与来源核对.md，后续变更同步三语README的数字。
 - 权威数据是 characters.json 和 clues.json；格式见 schemas/clues.schema.json 与 docs/随机题库与生成算法.md。
-- characterId、提示 id 稳定唯一。每条提示注明适用 categories、dimension、三语 text 和 sources。
+- data/roster.json保留审校过的官方ID、配音、名单分类及排除理由。未实装的已公开主要马娘也须进入普通候选池；工作人员、未确认身份者和大量无独立设定的路人不自动收录。维护名字词典时同步名单快照，避免有词条却抽不到。
+- characterId、提示 id 稳定唯一。每条提示注明适用 categories、dimension、三语 text 和可追溯的HTTP(S) sources。新增提示补事实键factKey与verifiedAt；同角色相同事实不能通过换ID重复添加。
 - 普通／剧情类别每个候选角色至少两条可用提示；称号类保持真实称号，不伪造多种称号以满足数量。
-- 提示必须能定位角色，不用空泛的「很努力」「擅长比赛」独立出题。程序检查重复文本不能取代人工事实和语义审校。
+- 禁止只用「很努力」「擅长跑步」等泛化描述。新增提示应含可锁定角色的年份与比赛、明确关系、独有称号或具体剧情等证据。程序检查重复文本不能取代人工事实和语义审校；不以同义改写凑条数。
+- horse-life近况必须带asOf与正文日期，并核实照料机构原始资料；原型马的性别、血统及养老地点不能移植成虚构角色设定。不得把现状写成永久不变的事实。
+- music只引用核实过的个人曲署名与唱片，不将合唱、配音剧、不同演唱版本混为一谈，也不收录核实日尚未发行的录音。official-program需节目日期、原始视频及区分角色的事实；多人参加同一节目本身不足以唯一定位角色。没有观看并验证的视频行为不要写入提示。
 - 入门偏重完整人物特征，进阶提高比赛记录维度的权重；两者可共享角色。不要把游玩模式混入题组难度。
 - 称号原表有游戏二つ名和毛巾二つ名时，两者一起保留。剧情题只使用作品登场角色与具体情节，不以手游名单限制，也不替换成原型马名。
 - 英文标准答案去空格标点并大写；片假名保留小假名及长音，各字符占一格。查询别名不改变标准答案。
 - 每位角色的近期提示 ID 可存本机以避开立即重复；不增加访客指纹或长期身份标识。
 - data/levels/、epithets.json、cinderella-gray.json 是历史和来源资料。维护旧资料时同步相关源引用，不把新增随机题做成固定子关卡。
 - 新增题组需同时修改 CATEGORIES、生成器、数据校验、三语滑块、Schema、服务端校验、数据库约束及测试。
-- 题库或标准名字变动后运行 build:worker 并提交生成候选池；不要手动编辑生成文件。
+- 题库或标准名字变动后运行 build:worker 并提交生成候选池；不要手动编辑生成文件。发布时先升级Worker候选池再发布前端，否则新角色的统计上报会被旧Worker拒绝；纯题库更新无需新建D1表。
 
 ## 三语、导出与可访问性
 

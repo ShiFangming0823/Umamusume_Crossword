@@ -1,0 +1,1535 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-16",
+  "source": "https://umamusume.jp/character",
+  "officialCharacters": [
+    {
+      "characterId": "special-week",
+      "officialId": "specialweek",
+      "kind": "main",
+      "nameJa": "スペシャルウィーク",
+      "nameEn": "Special Week",
+      "voiceJa": "和氣あず未",
+      "source": "https://umamusume.jp/character/specialweek"
+    },
+    {
+      "characterId": "silence-suzuka",
+      "officialId": "silencesuzuka",
+      "kind": "main",
+      "nameJa": "サイレンススズカ",
+      "nameEn": "Silence Suzuka",
+      "voiceJa": "高野麻里佳",
+      "source": "https://umamusume.jp/character/silencesuzuka"
+    },
+    {
+      "characterId": "tokai-teio",
+      "officialId": "tokaiteio",
+      "kind": "main",
+      "nameJa": "トウカイテイオー",
+      "nameEn": "Tokai Teio",
+      "voiceJa": "Machico",
+      "source": "https://umamusume.jp/character/tokaiteio"
+    },
+    {
+      "characterId": "maruzensky",
+      "officialId": "maruzensky",
+      "kind": "main",
+      "nameJa": "マルゼンスキー",
+      "nameEn": "Maruzensky",
+      "voiceJa": "Lynn",
+      "source": "https://umamusume.jp/character/maruzensky"
+    },
+    {
+      "characterId": "fuji-kiseki",
+      "officialId": "fujikiseki",
+      "kind": "main",
+      "nameJa": "フジキセキ",
+      "nameEn": "Fuji Kiseki",
+      "voiceJa": "松井恵理子",
+      "source": "https://umamusume.jp/character/fujikiseki"
+    },
+    {
+      "characterId": "oguri-cap",
+      "officialId": "oguricap",
+      "kind": "main",
+      "nameJa": "オグリキャップ",
+      "nameEn": "Oguri Cap",
+      "voiceJa": "高柳知葉",
+      "source": "https://umamusume.jp/character/oguricap"
+    },
+    {
+      "characterId": "gold-ship",
+      "officialId": "goldship",
+      "kind": "main",
+      "nameJa": "ゴールドシップ",
+      "nameEn": "Gold Ship",
+      "voiceJa": "上田瞳",
+      "source": "https://umamusume.jp/character/goldship"
+    },
+    {
+      "characterId": "vodka",
+      "officialId": "vodka",
+      "kind": "main",
+      "nameJa": "ウオッカ",
+      "nameEn": "Vodka",
+      "voiceJa": "大橋彩香",
+      "source": "https://umamusume.jp/character/vodka"
+    },
+    {
+      "characterId": "daiwa-scarlet",
+      "officialId": "daiwascarlet",
+      "kind": "main",
+      "nameJa": "ダイワスカーレット",
+      "nameEn": "Daiwa Scarlet",
+      "voiceJa": "木村千咲",
+      "source": "https://umamusume.jp/character/daiwascarlet"
+    },
+    {
+      "characterId": "taiki-shuttle",
+      "officialId": "taikishuttle",
+      "kind": "main",
+      "nameJa": "タイキシャトル",
+      "nameEn": "Taiki Shuttle",
+      "voiceJa": "大坪由佳",
+      "source": "https://umamusume.jp/character/taikishuttle"
+    },
+    {
+      "characterId": "grass-wonder",
+      "officialId": "grasswonder",
+      "kind": "main",
+      "nameJa": "グラスワンダー",
+      "nameEn": "Grass Wonder",
+      "voiceJa": "前田玲奈",
+      "source": "https://umamusume.jp/character/grasswonder"
+    },
+    {
+      "characterId": "hishi-amazon",
+      "officialId": "hishiamazon",
+      "kind": "main",
+      "nameJa": "ヒシアマゾン",
+      "nameEn": "Hishi Amazon",
+      "voiceJa": "巽悠衣子",
+      "source": "https://umamusume.jp/character/hishiamazon"
+    },
+    {
+      "characterId": "mejiro-mcqueen",
+      "officialId": "mejiromcqueen",
+      "kind": "main",
+      "nameJa": "メジロマックイーン",
+      "nameEn": "Mejiro McQueen",
+      "voiceJa": "大西沙織",
+      "source": "https://umamusume.jp/character/mejiromcqueen"
+    },
+    {
+      "characterId": "el-condor-pasa",
+      "officialId": "elcondorpasa",
+      "kind": "main",
+      "nameJa": "エルコンドルパサー",
+      "nameEn": "El Condor Pasa",
+      "voiceJa": "髙橋ミナミ",
+      "source": "https://umamusume.jp/character/elcondorpasa"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "officialId": "tmoperao",
+      "kind": "main",
+      "nameJa": "テイエムオペラオー",
+      "nameEn": "T.M. Opera O",
+      "voiceJa": "徳井青空",
+      "source": "https://umamusume.jp/character/tmoperao"
+    },
+    {
+      "characterId": "narita-brian",
+      "officialId": "naritabrian",
+      "kind": "main",
+      "nameJa": "ナリタブライアン",
+      "nameEn": "Narita Brian",
+      "voiceJa": "衣川里佳",
+      "source": "https://umamusume.jp/character/naritabrian"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "officialId": "symbolirudolf",
+      "kind": "main",
+      "nameJa": "シンボリルドルフ",
+      "nameEn": "Symboli Rudolf",
+      "voiceJa": "田所あずさ",
+      "source": "https://umamusume.jp/character/symbolirudolf"
+    },
+    {
+      "characterId": "air-groove",
+      "officialId": "airgroove",
+      "kind": "main",
+      "nameJa": "エアグルーヴ",
+      "nameEn": "Air Groove",
+      "voiceJa": "青木瑠璃子",
+      "source": "https://umamusume.jp/character/airgroove"
+    },
+    {
+      "characterId": "agnes-digital",
+      "officialId": "agnesdigital",
+      "kind": "main",
+      "nameJa": "アグネスデジタル",
+      "nameEn": "Agnes Digital",
+      "voiceJa": "鈴木みのり",
+      "source": "https://umamusume.jp/character/agnesdigital"
+    },
+    {
+      "characterId": "seiun-sky",
+      "officialId": "seiunsky",
+      "kind": "main",
+      "nameJa": "セイウンスカイ",
+      "nameEn": "Seiun Sky",
+      "voiceJa": "鬼頭明里",
+      "source": "https://umamusume.jp/character/seiunsky"
+    },
+    {
+      "characterId": "tamamo-cross",
+      "officialId": "tamamocross",
+      "kind": "main",
+      "nameJa": "タマモクロス",
+      "nameEn": "Tamamo Cross",
+      "voiceJa": "大空直美",
+      "source": "https://umamusume.jp/character/tamamocross"
+    },
+    {
+      "characterId": "fine-motion",
+      "officialId": "finemotion",
+      "kind": "main",
+      "nameJa": "ファインモーション",
+      "nameEn": "Fine Motion",
+      "voiceJa": "橋本ちなみ",
+      "source": "https://umamusume.jp/character/finemotion"
+    },
+    {
+      "characterId": "biwa-hayahide",
+      "officialId": "biwahayahide",
+      "kind": "main",
+      "nameJa": "ビワハヤヒデ",
+      "nameEn": "Biwa Hayahide",
+      "voiceJa": "近藤唯",
+      "source": "https://umamusume.jp/character/biwahayahide"
+    },
+    {
+      "characterId": "mayano-top-gun",
+      "officialId": "mayanotopgun",
+      "kind": "main",
+      "nameJa": "マヤノトップガン",
+      "nameEn": "Mayano Top Gun",
+      "voiceJa": "星谷美緒",
+      "source": "https://umamusume.jp/character/mayanotopgun"
+    },
+    {
+      "characterId": "manhattan-cafe",
+      "officialId": "manhattancafe",
+      "kind": "main",
+      "nameJa": "マンハッタンカフェ",
+      "nameEn": "Manhattan Cafe",
+      "voiceJa": "小倉唯",
+      "source": "https://umamusume.jp/character/manhattancafe"
+    },
+    {
+      "characterId": "mihono-bourbon",
+      "officialId": "mihonobourbon",
+      "kind": "main",
+      "nameJa": "ミホノブルボン",
+      "nameEn": "Mihono Bourbon",
+      "voiceJa": "長谷川育美",
+      "source": "https://umamusume.jp/character/mihonobourbon"
+    },
+    {
+      "characterId": "mejiro-ryan",
+      "officialId": "mejiroryan",
+      "kind": "main",
+      "nameJa": "メジロライアン",
+      "nameEn": "Mejiro Ryan",
+      "voiceJa": "土師亜文",
+      "source": "https://umamusume.jp/character/mejiroryan"
+    },
+    {
+      "characterId": "hishi-akebono",
+      "officialId": "hishiakebono",
+      "kind": "main",
+      "nameJa": "ヒシアケボノ",
+      "nameEn": "Hishi Akebono",
+      "voiceJa": "松嵜麗",
+      "source": "https://umamusume.jp/character/hishiakebono"
+    },
+    {
+      "characterId": "yukino-bijin",
+      "officialId": "yukinobijin",
+      "kind": "main",
+      "nameJa": "ユキノビジン",
+      "nameEn": "Yukino Bijin",
+      "voiceJa": "山本希望",
+      "source": "https://umamusume.jp/character/yukinobijin"
+    },
+    {
+      "characterId": "rice-shower",
+      "officialId": "riceshower",
+      "kind": "main",
+      "nameJa": "ライスシャワー",
+      "nameEn": "Rice Shower",
+      "voiceJa": "石見舞菜香",
+      "source": "https://umamusume.jp/character/riceshower"
+    },
+    {
+      "characterId": "ines-fujin",
+      "officialId": "inesfujin",
+      "kind": "main",
+      "nameJa": "アイネスフウジン",
+      "nameEn": "Ines Fujin",
+      "voiceJa": "長江里加",
+      "source": "https://umamusume.jp/character/inesfujin"
+    },
+    {
+      "characterId": "agnes-tachyon",
+      "officialId": "agnestachyon",
+      "kind": "main",
+      "nameJa": "アグネスタキオン",
+      "nameEn": "Agnes Tachyon",
+      "voiceJa": "上坂すみれ",
+      "source": "https://umamusume.jp/character/agnestachyon"
+    },
+    {
+      "characterId": "admire-vega",
+      "officialId": "admirevega",
+      "kind": "main",
+      "nameJa": "アドマイヤベガ",
+      "nameEn": "Admire Vega",
+      "voiceJa": "咲々木瞳",
+      "source": "https://umamusume.jp/character/admirevega"
+    },
+    {
+      "characterId": "inari-one",
+      "officialId": "inarione",
+      "kind": "main",
+      "nameJa": "イナリワン",
+      "nameEn": "Inari One",
+      "voiceJa": "井上遥乃",
+      "source": "https://umamusume.jp/character/inarione"
+    },
+    {
+      "characterId": "winning-ticket",
+      "officialId": "winningticket",
+      "kind": "main",
+      "nameJa": "ウイニングチケット",
+      "nameEn": "Winning Ticket",
+      "voiceJa": "渡部優衣",
+      "source": "https://umamusume.jp/character/winningticket"
+    },
+    {
+      "characterId": "air-shakur",
+      "officialId": "airshakur",
+      "kind": "main",
+      "nameJa": "エアシャカール",
+      "nameEn": "Air Shakur",
+      "voiceJa": "津田美波",
+      "source": "https://umamusume.jp/character/airshakur"
+    },
+    {
+      "characterId": "eishin-flash",
+      "officialId": "eishinflash",
+      "kind": "main",
+      "nameJa": "エイシンフラッシュ",
+      "nameEn": "Eishin Flash",
+      "voiceJa": "藤野彩水",
+      "source": "https://umamusume.jp/character/eishinflash"
+    },
+    {
+      "characterId": "curren-chan",
+      "officialId": "currenchan",
+      "kind": "main",
+      "nameJa": "カレンチャン",
+      "nameEn": "Curren Chan",
+      "voiceJa": "篠原侑",
+      "source": "https://umamusume.jp/character/currenchan"
+    },
+    {
+      "characterId": "kawakami-princess",
+      "officialId": "kawakamiprincess",
+      "kind": "main",
+      "nameJa": "カワカミプリンセス",
+      "nameEn": "Kawakami Princess",
+      "voiceJa": "高橋花林",
+      "source": "https://umamusume.jp/character/kawakamiprincess"
+    },
+    {
+      "characterId": "gold-city",
+      "officialId": "goldcity",
+      "kind": "main",
+      "nameJa": "ゴールドシチー",
+      "nameEn": "Gold City",
+      "voiceJa": "香坂さき",
+      "source": "https://umamusume.jp/character/goldcity"
+    },
+    {
+      "characterId": "sakura-bakushin-o",
+      "officialId": "sakurabakushino",
+      "kind": "main",
+      "nameJa": "サクラバクシンオー",
+      "nameEn": "Sakura Bakushin O",
+      "voiceJa": "三澤紗千香",
+      "source": "https://umamusume.jp/character/sakurabakushino"
+    },
+    {
+      "characterId": "seeking-the-pearl",
+      "officialId": "seekingthepearl",
+      "kind": "main",
+      "nameJa": "シーキングザパール",
+      "nameEn": "Seeking the Pearl",
+      "voiceJa": "福原綾香",
+      "source": "https://umamusume.jp/character/seekingthepearl"
+    },
+    {
+      "characterId": "shinko-windy",
+      "officialId": "shinkowindy",
+      "kind": "main",
+      "nameJa": "シンコウウインディ",
+      "nameEn": "Shinko Windy",
+      "voiceJa": "高田憂希",
+      "source": "https://umamusume.jp/character/shinkowindy"
+    },
+    {
+      "characterId": "sweep-tosho",
+      "officialId": "sweeptosho",
+      "kind": "main",
+      "nameJa": "スイープトウショウ",
+      "nameEn": "Sweep Tosho",
+      "voiceJa": "杉浦しおり",
+      "source": "https://umamusume.jp/character/sweeptosho"
+    },
+    {
+      "characterId": "super-creek",
+      "officialId": "supercreek",
+      "kind": "main",
+      "nameJa": "スーパークリーク",
+      "nameEn": "Super Creek",
+      "voiceJa": "優木かな",
+      "source": "https://umamusume.jp/character/supercreek"
+    },
+    {
+      "characterId": "smart-falcon",
+      "officialId": "smartfalcon",
+      "kind": "main",
+      "nameJa": "スマートファルコン",
+      "nameEn": "Smart Falcon",
+      "voiceJa": "大和田仁美",
+      "source": "https://umamusume.jp/character/smartfalcon"
+    },
+    {
+      "characterId": "zenno-rob-roy",
+      "officialId": "zennorobroy",
+      "kind": "main",
+      "nameJa": "ゼンノロブロイ",
+      "nameEn": "Zenno Rob Roy",
+      "voiceJa": "照井春佳",
+      "source": "https://umamusume.jp/character/zennorobroy"
+    },
+    {
+      "characterId": "tosen-jordan",
+      "officialId": "tosenjordan",
+      "kind": "main",
+      "nameJa": "トーセンジョーダン",
+      "nameEn": "Tosen Jordan",
+      "voiceJa": "鈴木絵理",
+      "source": "https://umamusume.jp/character/tosenjordan"
+    },
+    {
+      "characterId": "nakayama-festa",
+      "officialId": "nakayamafesta",
+      "kind": "main",
+      "nameJa": "ナカヤマフェスタ",
+      "nameEn": "Nakayama Festa",
+      "voiceJa": "下地紫野",
+      "source": "https://umamusume.jp/character/nakayamafesta"
+    },
+    {
+      "characterId": "narita-taishin",
+      "officialId": "naritataishin",
+      "kind": "main",
+      "nameJa": "ナリタタイシン",
+      "nameEn": "Narita Taishin",
+      "voiceJa": "渡部恵子",
+      "source": "https://umamusume.jp/character/naritataishin"
+    },
+    {
+      "characterId": "nishino-flower",
+      "officialId": "nishinoflower",
+      "kind": "main",
+      "nameJa": "ニシノフラワー",
+      "nameEn": "Nishino Flower",
+      "voiceJa": "河井晴菜",
+      "source": "https://umamusume.jp/character/nishinoflower"
+    },
+    {
+      "characterId": "haru-urara",
+      "officialId": "haruurara",
+      "kind": "main",
+      "nameJa": "ハルウララ",
+      "nameEn": "Haru Urara",
+      "voiceJa": "首藤志奈",
+      "source": "https://umamusume.jp/character/haruurara"
+    },
+    {
+      "characterId": "bamboo-memory",
+      "officialId": "bamboomemory",
+      "kind": "main",
+      "nameJa": "バンブーメモリー",
+      "nameEn": "Bamboo Memory",
+      "voiceJa": "藍原ことみ",
+      "source": "https://umamusume.jp/character/bamboomemory"
+    },
+    {
+      "characterId": "biko-pegasus",
+      "officialId": "bikopegasus",
+      "kind": "main",
+      "nameJa": "ビコーペガサス",
+      "nameEn": "Biko Pegasus",
+      "voiceJa": "田中あいみ",
+      "source": "https://umamusume.jp/character/bikopegasus"
+    },
+    {
+      "characterId": "marvelous-sunday",
+      "officialId": "marveloussunday",
+      "kind": "main",
+      "nameJa": "マーベラスサンデー",
+      "nameEn": "Marvelous Sunday",
+      "voiceJa": "三宅麻理恵",
+      "source": "https://umamusume.jp/character/marveloussunday"
+    },
+    {
+      "characterId": "matikanefukukitaru",
+      "officialId": "matikanefukukitaru",
+      "kind": "main",
+      "nameJa": "マチカネフクキタル",
+      "nameEn": "Matikanefukukitaru",
+      "voiceJa": "新田ひより",
+      "source": "https://umamusume.jp/character/matikanefukukitaru"
+    },
+    {
+      "characterId": "mr-cb",
+      "officialId": "mrcb",
+      "kind": "main",
+      "nameJa": "ミスターシービー",
+      "nameEn": "Mr. C.B.",
+      "voiceJa": "天海由梨奈",
+      "source": "https://umamusume.jp/character/mrcb"
+    },
+    {
+      "characterId": "meisho-doto",
+      "officialId": "meishodoto",
+      "kind": "main",
+      "nameJa": "メイショウドトウ",
+      "nameEn": "Meisho Doto",
+      "voiceJa": "和多田美咲",
+      "source": "https://umamusume.jp/character/meishodoto"
+    },
+    {
+      "characterId": "mejiro-dober",
+      "officialId": "mejirodober",
+      "kind": "main",
+      "nameJa": "メジロドーベル",
+      "nameEn": "Mejiro Dober",
+      "voiceJa": "久保田ひかり",
+      "source": "https://umamusume.jp/character/mejirodober"
+    },
+    {
+      "characterId": "nice-nature",
+      "officialId": "nicenature",
+      "kind": "main",
+      "nameJa": "ナイスネイチャ",
+      "nameEn": "Nice Nature",
+      "voiceJa": "前田佳織里",
+      "source": "https://umamusume.jp/character/nicenature"
+    },
+    {
+      "characterId": "king-halo",
+      "officialId": "kinghalo",
+      "kind": "main",
+      "nameJa": "キングヘイロー",
+      "nameEn": "King Halo",
+      "voiceJa": "佐伯伊織",
+      "source": "https://umamusume.jp/character/kinghalo"
+    },
+    {
+      "characterId": "matikanetannhauser",
+      "officialId": "matikanetannhauser",
+      "kind": "main",
+      "nameJa": "マチカネタンホイザ",
+      "nameEn": "Matikanetannhauser",
+      "voiceJa": "遠野ひかる",
+      "source": "https://umamusume.jp/character/matikanetannhauser"
+    },
+    {
+      "characterId": "ikuno-dictus",
+      "officialId": "ikunodictus",
+      "kind": "main",
+      "nameJa": "イクノディクタス",
+      "nameEn": "Ikuno Dictus",
+      "voiceJa": "田澤茉純",
+      "source": "https://umamusume.jp/character/ikunodictus"
+    },
+    {
+      "characterId": "mejiro-palmer",
+      "officialId": "mejiropalmer",
+      "kind": "main",
+      "nameJa": "メジロパーマー",
+      "nameEn": "Mejiro Palmer",
+      "voiceJa": "のぐちゆり",
+      "source": "https://umamusume.jp/character/mejiropalmer"
+    },
+    {
+      "characterId": "daitaku-helios",
+      "officialId": "daitakuhelios",
+      "kind": "main",
+      "nameJa": "ダイタクヘリオス",
+      "nameEn": "Daitaku Helios",
+      "voiceJa": "山根綺",
+      "source": "https://umamusume.jp/character/daitakuhelios"
+    },
+    {
+      "characterId": "twin-turbo",
+      "officialId": "twinturbo",
+      "kind": "main",
+      "nameJa": "ツインターボ",
+      "nameEn": "Twin Turbo",
+      "voiceJa": "花井美春",
+      "source": "https://umamusume.jp/character/twinturbo"
+    },
+    {
+      "characterId": "satono-diamond",
+      "officialId": "satonodiamond",
+      "kind": "main",
+      "nameJa": "サトノダイヤモンド",
+      "nameEn": "Satono Diamond",
+      "voiceJa": "立花日菜",
+      "source": "https://umamusume.jp/character/satonodiamond"
+    },
+    {
+      "characterId": "kitasan-black",
+      "officialId": "kitasanblack",
+      "kind": "main",
+      "nameJa": "キタサンブラック",
+      "nameEn": "Kitasan Black",
+      "voiceJa": "矢野妃菜喜",
+      "source": "https://umamusume.jp/character/kitasanblack"
+    },
+    {
+      "characterId": "sakura-chiyono-o",
+      "officialId": "sakurachiyonoo",
+      "kind": "main",
+      "nameJa": "サクラチヨノオー",
+      "nameEn": "Sakura Chiyono O",
+      "voiceJa": "野口瑠璃子",
+      "source": "https://umamusume.jp/character/sakurachiyonoo"
+    },
+    {
+      "characterId": "sirius-symboli",
+      "officialId": "siriussymboli",
+      "kind": "main",
+      "nameJa": "シリウスシンボリ",
+      "nameEn": "Sirius Symboli",
+      "voiceJa": "ファイルーズあい",
+      "source": "https://umamusume.jp/character/siriussymboli"
+    },
+    {
+      "characterId": "mejiro-ardan",
+      "officialId": "mejiroardan",
+      "kind": "main",
+      "nameJa": "メジロアルダン",
+      "nameEn": "Mejiro Ardan",
+      "voiceJa": "会沢紗弥",
+      "source": "https://umamusume.jp/character/mejiroardan"
+    },
+    {
+      "characterId": "yaeno-muteki",
+      "officialId": "yaenomuteki",
+      "kind": "main",
+      "nameJa": "ヤエノムテキ",
+      "nameEn": "Yaeno Muteki",
+      "voiceJa": "日原あゆみ",
+      "source": "https://umamusume.jp/character/yaenomuteki"
+    },
+    {
+      "characterId": "tsurumaru-tsuyoshi",
+      "officialId": "tsurumarutsuyoshi",
+      "kind": "main",
+      "nameJa": "ツルマルツヨシ",
+      "nameEn": "Tsurumaru Tsuyoshi",
+      "voiceJa": "青山吉能",
+      "source": "https://umamusume.jp/character/tsurumarutsuyoshi"
+    },
+    {
+      "characterId": "mejiro-bright",
+      "officialId": "mejirobright",
+      "kind": "main",
+      "nameJa": "メジロブライト",
+      "nameEn": "Mejiro Bright",
+      "voiceJa": "大西綺華",
+      "source": "https://umamusume.jp/character/mejirobright"
+    },
+    {
+      "characterId": "daring-tact",
+      "officialId": "daringtact",
+      "kind": "main",
+      "nameJa": "デアリングタクト",
+      "nameEn": "Daring Tact",
+      "voiceJa": "羊宮妃那",
+      "source": "https://umamusume.jp/character/daringtact"
+    },
+    {
+      "characterId": "sakura-laurel",
+      "officialId": "sakuralaurel",
+      "kind": "main",
+      "nameJa": "サクラローレル",
+      "nameEn": "Sakura Laurel",
+      "voiceJa": "真野美月",
+      "source": "https://umamusume.jp/character/sakuralaurel"
+    },
+    {
+      "characterId": "narita-top-road",
+      "officialId": "naritatoproad",
+      "kind": "main",
+      "nameJa": "ナリタトップロード",
+      "nameEn": "Narita Top Road",
+      "voiceJa": "中村カンナ",
+      "source": "https://umamusume.jp/character/naritatoproad"
+    },
+    {
+      "characterId": "yamanin-zephyr",
+      "officialId": "yamaninzephyr",
+      "kind": "main",
+      "nameJa": "ヤマニンゼファー",
+      "nameEn": "Yamanin Zephyr",
+      "voiceJa": "今泉りおな",
+      "source": "https://umamusume.jp/character/yamaninzephyr"
+    },
+    {
+      "characterId": "furioso",
+      "officialId": "furioso",
+      "kind": "main",
+      "nameJa": "フリオーソ",
+      "nameEn": "Furioso",
+      "voiceJa": "西連寺亜希",
+      "source": "https://umamusume.jp/character/furioso"
+    },
+    {
+      "characterId": "transcend",
+      "officialId": "transcend",
+      "kind": "main",
+      "nameJa": "トランセンド",
+      "nameEn": "Transcend",
+      "voiceJa": "塚田悠衣",
+      "source": "https://umamusume.jp/character/transcend"
+    },
+    {
+      "characterId": "espoir-city",
+      "officialId": "espoircity",
+      "kind": "main",
+      "nameJa": "エスポワールシチー",
+      "nameEn": "Espoir City",
+      "voiceJa": "亜咲花",
+      "source": "https://umamusume.jp/character/espoircity"
+    },
+    {
+      "characterId": "north-flight",
+      "officialId": "northflight",
+      "kind": "main",
+      "nameJa": "ノースフライト",
+      "nameEn": "North Flight",
+      "voiceJa": "指出毬亜",
+      "source": "https://umamusume.jp/character/northflight"
+    },
+    {
+      "characterId": "symboli-kris-s",
+      "officialId": "symbolikriss",
+      "kind": "main",
+      "nameJa": "シンボリクリスエス",
+      "nameEn": "Symboli Kris S",
+      "voiceJa": "春川芽生",
+      "source": "https://umamusume.jp/character/symbolikriss"
+    },
+    {
+      "characterId": "tanino-gimlet",
+      "officialId": "taninogimlet",
+      "kind": "main",
+      "nameJa": "タニノギムレット",
+      "nameEn": "Tanino Gimlet",
+      "voiceJa": "松岡美里",
+      "source": "https://umamusume.jp/character/taninogimlet"
+    },
+    {
+      "characterId": "daiichi-ruby",
+      "officialId": "daiichiruby",
+      "kind": "main",
+      "nameJa": "ダイイチルビー",
+      "nameEn": "Daiichi Ruby",
+      "voiceJa": "礒部花凜",
+      "source": "https://umamusume.jp/character/daiichiruby"
+    },
+    {
+      "characterId": "mejiro-ramonu",
+      "officialId": "mejiroramonu",
+      "kind": "main",
+      "nameJa": "メジロラモーヌ",
+      "nameEn": "Mejiro Ramonu",
+      "voiceJa": "東山奈央",
+      "source": "https://umamusume.jp/character/mejiroramonu"
+    },
+    {
+      "characterId": "aston-machan",
+      "officialId": "astonmachan",
+      "kind": "main",
+      "nameJa": "アストンマーチャン",
+      "nameEn": "Aston Machan",
+      "voiceJa": "井上ほの花",
+      "source": "https://umamusume.jp/character/astonmachan"
+    },
+    {
+      "characterId": "satono-crown",
+      "officialId": "satonocrown",
+      "kind": "main",
+      "nameJa": "サトノクラウン",
+      "nameEn": "Satono Crown",
+      "voiceJa": "鈴代紗弓",
+      "source": "https://umamusume.jp/character/satonocrown"
+    },
+    {
+      "characterId": "cheval-grand",
+      "officialId": "chevalgrand",
+      "kind": "main",
+      "nameJa": "シュヴァルグラン",
+      "nameEn": "Cheval Grand",
+      "voiceJa": "夏吉ゆうこ",
+      "source": "https://umamusume.jp/character/chevalgrand"
+    },
+    {
+      "characterId": "verxina",
+      "officialId": "verxina",
+      "kind": "main",
+      "nameJa": "ヴィルシーナ",
+      "nameEn": "Verxina",
+      "voiceJa": "奥野香耶",
+      "source": "https://umamusume.jp/character/verxina"
+    },
+    {
+      "characterId": "vivlos",
+      "officialId": "vivlos",
+      "kind": "main",
+      "nameJa": "ヴィブロス",
+      "nameEn": "Vivlos",
+      "voiceJa": "伊藤彩沙",
+      "source": "https://umamusume.jp/character/vivlos"
+    },
+    {
+      "characterId": "dantsu-flame",
+      "officialId": "dantsuflame",
+      "kind": "main",
+      "nameJa": "ダンツフレーム",
+      "nameEn": "Dantsu Flame",
+      "voiceJa": "福嶋晴菜",
+      "source": "https://umamusume.jp/character/dantsuflame"
+    },
+    {
+      "characterId": "k-s-miracle",
+      "officialId": "ksmiracle",
+      "kind": "main",
+      "nameJa": "ケイエスミラクル",
+      "nameEn": "K.S.Miracle",
+      "voiceJa": "佐藤日向",
+      "source": "https://umamusume.jp/character/ksmiracle"
+    },
+    {
+      "characterId": "jungle-pocket",
+      "officialId": "junglepocket",
+      "kind": "main",
+      "nameJa": "ジャングルポケット",
+      "nameEn": "Jungle Pocket",
+      "voiceJa": "藤本侑里",
+      "source": "https://umamusume.jp/character/junglepocket"
+    },
+    {
+      "characterId": "believe",
+      "officialId": "believe",
+      "kind": "main",
+      "nameJa": "ビリーヴ",
+      "nameEn": "Believe",
+      "voiceJa": "秋山実咲",
+      "source": "https://umamusume.jp/character/believe"
+    },
+    {
+      "characterId": "no-reason",
+      "officialId": "noreason",
+      "kind": "main",
+      "nameJa": "ノーリーズン",
+      "nameEn": "No Reason",
+      "voiceJa": "河野ひより",
+      "source": "https://umamusume.jp/character/noreason"
+    },
+    {
+      "characterId": "still-in-love",
+      "officialId": "stillinlove",
+      "kind": "main",
+      "nameJa": "スティルインラブ",
+      "nameEn": "Still in Love",
+      "voiceJa": "宮下早紀",
+      "source": "https://umamusume.jp/character/stillinlove"
+    },
+    {
+      "characterId": "copano-rickey",
+      "officialId": "copanorickey",
+      "kind": "main",
+      "nameJa": "コパノリッキー",
+      "nameEn": "Copano Rickey",
+      "voiceJa": "稲垣好",
+      "source": "https://umamusume.jp/character/copanorickey"
+    },
+    {
+      "characterId": "hokko-tarumae",
+      "officialId": "hokkotarumae",
+      "kind": "main",
+      "nameJa": "ホッコータルマエ",
+      "nameEn": "Hokko Tarumae",
+      "voiceJa": "菊池紗矢香",
+      "source": "https://umamusume.jp/character/hokkotarumae"
+    },
+    {
+      "characterId": "wonder-acute",
+      "officialId": "wonderacute",
+      "kind": "main",
+      "nameJa": "ワンダーアキュート",
+      "nameEn": "Wonder Acute",
+      "voiceJa": "須藤叶希",
+      "source": "https://umamusume.jp/character/wonderacute"
+    },
+    {
+      "characterId": "samson-big",
+      "officialId": "samsonbig",
+      "kind": "main",
+      "nameJa": "サムソンビッグ",
+      "nameEn": "Samson Big",
+      "voiceJa": "根本京里",
+      "source": "https://umamusume.jp/character/samsonbig"
+    },
+    {
+      "characterId": "sounds-of-earth",
+      "officialId": "soundsofearth",
+      "kind": "main",
+      "nameJa": "サウンズオブアース",
+      "nameEn": "Sounds of Earth",
+      "voiceJa": "MAKIKO",
+      "source": "https://umamusume.jp/character/soundsofearth"
+    },
+    {
+      "characterId": "royce-and-royce",
+      "officialId": "royceandroyce",
+      "kind": "main",
+      "nameJa": "ロイスアンドロイス",
+      "nameEn": "Royce and Royce",
+      "voiceJa": "田辺留依",
+      "source": "https://umamusume.jp/character/royceandroyce"
+    },
+    {
+      "characterId": "katsuragi-ace",
+      "officialId": "katsuragiace",
+      "kind": "main",
+      "nameJa": "カツラギエース",
+      "nameEn": "Katsuragi Ace",
+      "voiceJa": "藤原夏海",
+      "source": "https://umamusume.jp/character/katsuragiace"
+    },
+    {
+      "characterId": "neo-universe",
+      "officialId": "neouniverse",
+      "kind": "main",
+      "nameJa": "ネオユニヴァース",
+      "nameEn": "Neo Universe",
+      "voiceJa": "白石晴香",
+      "source": "https://umamusume.jp/character/neouniverse"
+    },
+    {
+      "characterId": "hishi-miracle",
+      "officialId": "hishimiracle",
+      "kind": "main",
+      "nameJa": "ヒシミラクル",
+      "nameEn": "Hishi Miracle",
+      "voiceJa": "春日さくら",
+      "source": "https://umamusume.jp/character/hishimiracle"
+    },
+    {
+      "characterId": "tap-dance-city",
+      "officialId": "tapdancecity",
+      "kind": "main",
+      "nameJa": "タップダンスシチー",
+      "nameEn": "Tap Dance City",
+      "voiceJa": "篠田みなみ",
+      "source": "https://umamusume.jp/character/tapdancecity"
+    },
+    {
+      "characterId": "duramente",
+      "officialId": "duramente",
+      "kind": "main",
+      "nameJa": "ドゥラメンテ",
+      "nameEn": "Duramente",
+      "voiceJa": "秋奈",
+      "source": "https://umamusume.jp/character/duramente"
+    },
+    {
+      "characterId": "line-craft",
+      "officialId": "rheinkraft",
+      "kind": "main",
+      "nameJa": "ラインクラフト",
+      "nameEn": "Rhein Kraft",
+      "voiceJa": "小島菜々恵",
+      "source": "https://umamusume.jp/character/rheinkraft"
+    },
+    {
+      "characterId": "cesario",
+      "officialId": "cesario",
+      "kind": "main",
+      "nameJa": "シーザリオ",
+      "nameEn": "Cesario",
+      "voiceJa": "佐藤榛夏",
+      "source": "https://umamusume.jp/character/cesario"
+    },
+    {
+      "characterId": "air-messiah",
+      "officialId": "airmessiah",
+      "kind": "main",
+      "nameJa": "エアメサイア",
+      "nameEn": "Air Messiah",
+      "voiceJa": "根本優奈",
+      "source": "https://umamusume.jp/character/airmessiah"
+    },
+    {
+      "characterId": "daring-heart",
+      "officialId": "daringheart",
+      "kind": "main",
+      "nameJa": "デアリングハート",
+      "nameEn": "Daring Heart",
+      "voiceJa": "希水しお",
+      "source": "https://umamusume.jp/character/daringheart"
+    },
+    {
+      "characterId": "fusaichi-pandora",
+      "officialId": "fusaichipandora",
+      "kind": "main",
+      "nameJa": "フサイチパンドラ",
+      "nameEn": "Fusaichi Pandora",
+      "voiceJa": "佳原萌枝",
+      "source": "https://umamusume.jp/character/fusaichipandora"
+    },
+    {
+      "characterId": "buena-vista",
+      "officialId": "buenavista",
+      "kind": "main",
+      "nameJa": "ブエナビスタ",
+      "nameEn": "Buena Vista",
+      "voiceJa": "和泉風花",
+      "source": "https://umamusume.jp/character/buenavista"
+    },
+    {
+      "characterId": "orfevre",
+      "officialId": "orfevre",
+      "kind": "main",
+      "nameJa": "オルフェーヴル",
+      "nameEn": "Orfevre",
+      "voiceJa": "日笠陽子",
+      "source": "https://umamusume.jp/character/orfevre"
+    },
+    {
+      "characterId": "gentildonna",
+      "officialId": "gentildonna",
+      "kind": "main",
+      "nameJa": "ジェンティルドンナ",
+      "nameEn": "Gentildonna",
+      "voiceJa": "芹澤優",
+      "source": "https://umamusume.jp/character/gentildonna"
+    },
+    {
+      "characterId": "win-variation",
+      "officialId": "winvariation",
+      "kind": "main",
+      "nameJa": "ウインバリアシオン",
+      "nameEn": "Win Variation",
+      "voiceJa": "月城日花",
+      "source": "https://umamusume.jp/character/winvariation"
+    },
+    {
+      "characterId": "admire-groove",
+      "officialId": "admiregroove",
+      "kind": "main",
+      "nameJa": "アドマイヤグルーヴ",
+      "nameEn": "Admire Groove",
+      "voiceJa": "鈴木日菜",
+      "source": "https://umamusume.jp/character/admiregroove"
+    },
+    {
+      "characterId": "dream-journey",
+      "officialId": "dreamjourney",
+      "kind": "main",
+      "nameJa": "ドリームジャーニー",
+      "nameEn": "Dream Journey",
+      "voiceJa": "吉岡茉祐",
+      "source": "https://umamusume.jp/character/dreamjourney"
+    },
+    {
+      "characterId": "calstone-light-o",
+      "officialId": "calstonelighto",
+      "kind": "main",
+      "nameJa": "カルストンライトオ",
+      "nameEn": "Calstone Light O",
+      "voiceJa": "望月ゆみこ",
+      "source": "https://umamusume.jp/character/calstonelighto"
+    },
+    {
+      "characterId": "durandal",
+      "officialId": "durandal",
+      "kind": "main",
+      "nameJa": "デュランダル",
+      "nameEn": "Durandal",
+      "voiceJa": "野木奏",
+      "source": "https://umamusume.jp/character/durandal"
+    },
+    {
+      "characterId": "genuine",
+      "officialId": "genuine",
+      "kind": "main",
+      "nameJa": "ジェニュイン",
+      "nameEn": "Genuine",
+      "voiceJa": "福島美里衣",
+      "source": "https://umamusume.jp/character/genuine"
+    },
+    {
+      "characterId": "bubble-gum-fellow",
+      "officialId": "bubblegumfellow",
+      "kind": "main",
+      "nameJa": "バブルガムフェロー",
+      "nameEn": "Bubble Gum Fellow",
+      "voiceJa": "神谷早矢佳",
+      "source": "https://umamusume.jp/character/bubblegumfellow"
+    },
+    {
+      "characterId": "sakura-chitose-o",
+      "officialId": "sakurachitoseo",
+      "kind": "main",
+      "nameJa": "サクラチトセオー",
+      "nameEn": "Sakura Chitose O",
+      "voiceJa": "明智璃子",
+      "source": "https://umamusume.jp/character/sakurachitoseo"
+    },
+    {
+      "characterId": "fenomeno",
+      "officialId": "fenomeno",
+      "kind": "main",
+      "nameJa": "フェノーメノ",
+      "nameEn": "Fenomeno",
+      "voiceJa": "日比優理香",
+      "source": "https://umamusume.jp/character/fenomeno"
+    },
+    {
+      "characterId": "blast-onepiece",
+      "officialId": "blastonepiece",
+      "kind": "main",
+      "nameJa": "ブラストワンピース",
+      "nameEn": "Blast Onepiece",
+      "voiceJa": "紫月杏朱彩",
+      "source": "https://umamusume.jp/character/blastonepiece"
+    },
+    {
+      "characterId": "almond-eye",
+      "officialId": "almondeye",
+      "kind": "main",
+      "nameJa": "アーモンドアイ",
+      "nameEn": "Almond Eye",
+      "voiceJa": "石原夏織",
+      "source": "https://umamusume.jp/character/almondeye"
+    },
+    {
+      "characterId": "lucky-lilac",
+      "officialId": "luckylilac",
+      "kind": "main",
+      "nameJa": "ラッキーライラック",
+      "nameEn": "Lucky Lilac",
+      "voiceJa": "中島由貴",
+      "source": "https://umamusume.jp/character/luckylilac"
+    },
+    {
+      "characterId": "gran-alegria",
+      "officialId": "granalegria",
+      "kind": "main",
+      "nameJa": "グランアレグリア",
+      "nameEn": "Gran Alegria",
+      "voiceJa": "夏目妃菜",
+      "source": "https://umamusume.jp/character/granalegria"
+    },
+    {
+      "characterId": "loves-only-you",
+      "officialId": "lovesonlyyou",
+      "kind": "main",
+      "nameJa": "ラヴズオンリーユー",
+      "nameEn": "Loves Only You",
+      "voiceJa": "久保田未夢",
+      "source": "https://umamusume.jp/character/lovesonlyyou"
+    },
+    {
+      "characterId": "chrono-genesis",
+      "officialId": "chronogenesis",
+      "kind": "main",
+      "nameJa": "クロノジェネシス",
+      "nameEn": "Chrono Genesis",
+      "voiceJa": "真名瀬日和",
+      "source": "https://umamusume.jp/character/chronogenesis"
+    },
+    {
+      "characterId": "curren-bouquet-dor",
+      "officialId": "currenbouquetdor",
+      "kind": "main",
+      "nameJa": "カレンブーケドール",
+      "nameEn": "Curren Bouquetd'or",
+      "voiceJa": "小田杏樹",
+      "source": "https://umamusume.jp/character/currenbouquetdor"
+    },
+    {
+      "characterId": "stay-gold",
+      "officialId": "staygold",
+      "kind": "main",
+      "nameJa": "ステイゴールド",
+      "nameEn": "Stay Gold",
+      "voiceJa": "松田颯水",
+      "source": "https://umamusume.jp/character/staygold"
+    },
+    {
+      "characterId": "red-desire",
+      "officialId": "reddesire",
+      "kind": "main",
+      "nameJa": "レッドディザイア",
+      "nameEn": "Red Desire",
+      "voiceJa": "関根瞳",
+      "source": "https://umamusume.jp/character/reddesire"
+    },
+    {
+      "characterId": "kiseki",
+      "officialId": "kiseki",
+      "kind": "main",
+      "nameJa": "キセキ",
+      "nameEn": "Kiseki",
+      "voiceJa": "星希成奏",
+      "source": "https://umamusume.jp/character/kiseki"
+    },
+    {
+      "characterId": "forever-young",
+      "officialId": "foreveryoung",
+      "kind": "main",
+      "nameJa": "フォーエバーヤング",
+      "nameEn": "Forever Young",
+      "voiceJa": "海弓シュリ",
+      "source": "https://umamusume.jp/character/foreveryoung"
+    },
+    {
+      "characterId": "marche-lorraine",
+      "officialId": "marchelorraine",
+      "kind": "main",
+      "nameJa": "マルシュロレーヌ",
+      "nameEn": "Marche Lorraine",
+      "voiceJa": "近貞月乃",
+      "source": "https://umamusume.jp/character/marchelorraine"
+    },
+    {
+      "characterId": "epiphaneia",
+      "officialId": "epiphaneia",
+      "kind": "main",
+      "nameJa": "エピファネイア",
+      "nameEn": "Epiphaneia",
+      "voiceJa": "千賀光莉",
+      "source": "https://umamusume.jp/character/epiphaneia"
+    },
+    {
+      "characterId": "logotype",
+      "officialId": "logotype",
+      "kind": "main",
+      "nameJa": "ロゴタイプ",
+      "nameEn": "Logotype",
+      "voiceJa": "髙橋美空",
+      "source": "https://umamusume.jp/character/logotype"
+    },
+    {
+      "characterId": "victoire-pisa",
+      "officialId": "victoirepisa",
+      "kind": "main",
+      "nameJa": "ヴィクトワールピサ",
+      "nameEn": "Victoire Pisa",
+      "voiceJa": "嶋野花",
+      "source": "https://umamusume.jp/character/victoirepisa"
+    },
+    {
+      "characterId": "rose-kingdom",
+      "officialId": "rosekingdom",
+      "kind": "main",
+      "nameJa": "ローズキングダム",
+      "nameEn": "Rose Kingdom",
+      "voiceJa": "菊池ゆりな",
+      "source": "https://umamusume.jp/character/rosekingdom"
+    },
+    {
+      "characterId": "rulership",
+      "officialId": "rulership",
+      "kind": "main",
+      "nameJa": "ルーラーシップ",
+      "nameEn": "Rulership",
+      "voiceJa": "海野水玉",
+      "source": "https://umamusume.jp/character/rulership"
+    },
+    {
+      "characterId": "efforia",
+      "officialId": "efforia",
+      "kind": "main",
+      "nameJa": "エフフォーリア",
+      "nameEn": "Efforia",
+      "voiceJa": "香里有佐",
+      "source": "https://umamusume.jp/character/efforia"
+    },
+    {
+      "characterId": "titleholder",
+      "officialId": "titleholder",
+      "kind": "main",
+      "nameJa": "タイトルホルダー",
+      "nameEn": "Titleholder",
+      "voiceJa": "華成結",
+      "source": "https://umamusume.jp/character/titleholder"
+    },
+    {
+      "characterId": "phalaenopsis",
+      "officialId": "phalaenopsis",
+      "kind": "main",
+      "nameJa": "ファレノプシス",
+      "nameEn": "Phalaenopsis",
+      "voiceJa": "浅見春那",
+      "source": "https://umamusume.jp/character/phalaenopsis"
+    },
+    {
+      "characterId": "happy-meek",
+      "officialId": "happymeek",
+      "kind": "support",
+      "nameJa": "ハッピーミーク",
+      "nameEn": "Happy Meek",
+      "voiceJa": "吉咲みゆ",
+      "source": "https://umamusume.jp/character/happymeek"
+    },
+    {
+      "characterId": "bitter-glasse",
+      "officialId": "bitterglasse",
+      "kind": "support",
+      "nameJa": "ビターグラッセ",
+      "nameEn": "Bitter Glasse",
+      "voiceJa": "島田愛野",
+      "source": "https://umamusume.jp/character/bitterglasse"
+    },
+    {
+      "characterId": "little-cocon",
+      "officialId": "littlecocon",
+      "kind": "support",
+      "nameJa": "リトルココン",
+      "nameEn": "Little Cocon",
+      "voiceJa": "白砂沙帆",
+      "source": "https://umamusume.jp/character/littlecocon"
+    },
+    {
+      "characterId": "venus-paques",
+      "officialId": "venuspaques",
+      "kind": "support",
+      "nameJa": "ヴェニュスパーク",
+      "nameEn": "Venus Paques",
+      "voiceJa": "折原日菜",
+      "source": "https://umamusume.jp/character/venuspaques"
+    },
+    {
+      "characterId": "rigantona",
+      "officialId": "rigantona",
+      "kind": "support",
+      "nameJa": "リガントーナ",
+      "nameEn": "Rigantona",
+      "voiceJa": "井料愛良",
+      "source": "https://umamusume.jp/character/rigantona"
+    },
+    {
+      "characterId": "sonon-elfie",
+      "officialId": "sononelfie",
+      "kind": "support",
+      "nameJa": "ソノンエルフィー",
+      "nameEn": "Sonon Elfie",
+      "voiceJa": "小清水亜美",
+      "source": "https://umamusume.jp/character/sononelfie"
+    },
+    {
+      "characterId": "light-hello",
+      "officialId": "lighthello",
+      "kind": "support",
+      "nameJa": "ライトハロー",
+      "nameEn": "Light Hello",
+      "voiceJa": "植田佳奈",
+      "source": "https://umamusume.jp/character/lighthello"
+    },
+    {
+      "characterId": "darley-arabian",
+      "officialId": "darleyarabian",
+      "kind": "support",
+      "nameJa": "ダーレーアラビアン",
+      "nameEn": "Darley Arabian",
+      "voiceJa": "進藤尚美",
+      "source": "https://umamusume.jp/character/darleyarabian"
+    },
+    {
+      "characterId": "godolphin-barb",
+      "officialId": "godolphinbarb",
+      "kind": "support",
+      "nameJa": "ゴドルフィンバルブ",
+      "nameEn": "Godolphin Barb",
+      "voiceJa": "佐藤聡美",
+      "source": "https://umamusume.jp/character/godolphinbarb"
+    },
+    {
+      "characterId": "byerley-turk",
+      "officialId": "byerleyturk",
+      "kind": "support",
+      "nameJa": "バイアリーターク",
+      "nameEn": "Byerley Turk",
+      "voiceJa": "斎賀みつき",
+      "source": "https://umamusume.jp/character/byerleyturk"
+    },
+    {
+      "characterId": "sugar-lights",
+      "officialId": "sugarlights",
+      "kind": "support",
+      "nameJa": "シュガーライツ",
+      "nameEn": "Sugar Lights",
+      "voiceJa": "石川由依",
+      "source": "https://umamusume.jp/character/sugarlights"
+    },
+    {
+      "characterId": "saint-lite",
+      "officialId": "saintlite",
+      "kind": "support",
+      "nameJa": "セントライト",
+      "nameEn": "Saint Lite",
+      "voiceJa": "能登麻美子",
+      "source": "https://umamusume.jp/character/saintlite"
+    },
+    {
+      "characterId": "speed-symboli",
+      "officialId": "speedsymboli",
+      "kind": "support",
+      "nameJa": "スピードシンボリ",
+      "nameEn": "Speed Symboli",
+      "voiceJa": "沢城みゆき",
+      "source": "https://umamusume.jp/character/speedsymboli"
+    },
+    {
+      "characterId": "haiseiko",
+      "officialId": "haiseiko",
+      "kind": "support",
+      "nameJa": "ハイセイコー",
+      "nameEn": "Haiseiko",
+      "voiceJa": "丹下桜",
+      "source": "https://umamusume.jp/character/haiseiko"
+    },
+    {
+      "characterId": "tucker-bryne",
+      "officialId": "tuckerbryne",
+      "kind": "support",
+      "nameJa": "タッカーブライン",
+      "nameEn": "Tucker Bryne",
+      "voiceJa": "小林ゆう",
+      "source": "https://umamusume.jp/character/tuckerbryne"
+    },
+    {
+      "characterId": "yunohana-bloom",
+      "officialId": "yunohanabloom",
+      "kind": "support",
+      "nameJa": "ユノハナブルーム",
+      "nameEn": "Yunohana Bloom",
+      "voiceJa": "豊崎愛生",
+      "source": "https://umamusume.jp/character/yunohanabloom"
+    },
+    {
+      "characterId": "casino-drive",
+      "officialId": "casinodrive",
+      "kind": "support",
+      "nameJa": "カジノドライヴ",
+      "nameEn": "Casino Drive",
+      "voiceJa": "愛美",
+      "source": "https://umamusume.jp/character/casinodrive"
+    }
+  ],
+  "storyCharacterIds": [
+    "belno-light",
+    "fujimasa-march",
+    "norn-ace",
+    "rudy-lemono",
+    "mini-the-lady",
+    "dicta-striker",
+    "toni-bianca",
+    "obey-your-master",
+    "moonlight-lunacy",
+    "michelle-my-baby",
+    "ellerslie-pride"
+  ],
+  "excluded": [
+    {
+      "officialId": "hayakawatazuna",
+      "nameJa": "駿川たづな",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "akikawayayoi",
+      "nameJa": "秋川やよい",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "otonashietsuko",
+      "nameJa": "乙名史悦子",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "kiryuinaoi",
+      "nameJa": "桐生院葵",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "anshinzawasasami",
+      "nameJa": "安心沢刺々美",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "kashimotoriko",
+      "nameJa": "樫本理子",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "satakemei",
+      "nameJa": "佐岳メイ",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "tsurugiryoka",
+      "nameJa": "都留岐涼花",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "hoshinakiyoko",
+      "nameJa": "保科健子",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "akasakamisato",
+      "nameJa": "赤坂美聡",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    },
+    {
+      "officialId": "hosoejunko",
+      "nameJa": "細江純子",
+      "reason": "Human staff or not explicitly confirmed as an Umamusume; no inference from hidden ears or fan theories."
+    }
+  ]
+}

@@ -1,0 +1,3471 @@
+{
+  "verifiedAt": "2026-10-16",
+  "records": [
+    {
+      "characterId": "admire-groove",
+      "race": "eliza",
+      "year": 2003,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "admire-groove",
+      "race": "eliza",
+      "year": 2004,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "admire-vega",
+      "race": "derby",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "agnes-digital",
+      "race": "akiten",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "agnes-digital",
+      "race": "feb",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/feb/result/feb2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "agnes-digital",
+      "race": "mile",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "agnes-digital",
+      "race": "yasuda",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "agnes-tachyon",
+      "race": "satsuki",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "air-groove",
+      "race": "akiten",
+      "year": 1997,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "air-groove",
+      "race": "oaks",
+      "year": 1996,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks1996.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "air-messiah",
+      "race": "shuka",
+      "year": 2005,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "air-shakur",
+      "race": "kikka",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "air-shakur",
+      "race": "satsuki",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "akiten",
+      "year": 2019,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "akiten",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "jc",
+      "year": 2018,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2018.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "jc",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "oaks",
+      "year": 2018,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2018.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "ouka",
+      "year": 2018,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2018.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "shuka",
+      "year": 2018,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2018.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "victoria",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/victoria/result/victoria2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "aston-machan",
+      "race": "sprint",
+      "year": 2007,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2007.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "bamboo-memory",
+      "race": "sprint",
+      "year": 1990,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1990.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "bamboo-memory",
+      "race": "yasuda",
+      "year": 1989,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1989.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "believe",
+      "race": "sprint",
+      "year": 2002,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "believe",
+      "race": "takamatsu",
+      "year": 2003,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takamatsu/result/takamatsu2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "biwa-hayahide",
+      "race": "haruten",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "biwa-hayahide",
+      "race": "kikka",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "biwa-hayahide",
+      "race": "takara",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "blast-onepiece",
+      "race": "arima",
+      "year": 2018,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2018.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "bubble-gum-fellow",
+      "race": "afs",
+      "year": 1995,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "bubble-gum-fellow",
+      "race": "akiten",
+      "year": 1996,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1996.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "buena-vista",
+      "race": "akiten",
+      "year": 2010,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "buena-vista",
+      "race": "hjf",
+      "year": 2008,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/hjf/result/hjf2008.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "buena-vista",
+      "race": "jc",
+      "year": 2011,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "buena-vista",
+      "race": "oaks",
+      "year": 2009,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "buena-vista",
+      "race": "ouka",
+      "year": 2009,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "buena-vista",
+      "race": "victoria",
+      "year": 2010,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/victoria/result/victoria2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "calstone-light-o",
+      "race": "sprint",
+      "year": 2004,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "cesario",
+      "race": "oaks",
+      "year": 2005,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "cheval-grand",
+      "race": "jc",
+      "year": 2017,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "chrono-genesis",
+      "race": "arima",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "chrono-genesis",
+      "race": "shuka",
+      "year": 2019,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "chrono-genesis",
+      "race": "takara",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "chrono-genesis",
+      "race": "takara",
+      "year": 2021,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "copano-rickey",
+      "race": "feb",
+      "year": 2014,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/feb/result/feb2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "copano-rickey",
+      "race": "feb",
+      "year": 2015,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/feb/result/feb2015.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "curren-chan",
+      "race": "sprint",
+      "year": 2011,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "curren-chan",
+      "race": "takamatsu",
+      "year": 2012,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takamatsu/result/takamatsu2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daiichi-ruby",
+      "race": "sprint",
+      "year": 1991,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daiichi-ruby",
+      "race": "yasuda",
+      "year": 1991,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daitaku-helios",
+      "race": "mile",
+      "year": 1991,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daitaku-helios",
+      "race": "mile",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daiwa-scarlet",
+      "race": "arima",
+      "year": 2008,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2008.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daiwa-scarlet",
+      "race": "eliza",
+      "year": 2007,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2007.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daiwa-scarlet",
+      "race": "ouka",
+      "year": 2007,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2007.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daiwa-scarlet",
+      "race": "shuka",
+      "year": 2007,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2007.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "dantsu-flame",
+      "race": "takara",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-tact",
+      "race": "oaks",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-tact",
+      "race": "ouka",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-tact",
+      "race": "shuka",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "dream-journey",
+      "race": "afs",
+      "year": 2006,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs2006.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "dream-journey",
+      "race": "arima",
+      "year": 2009,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "dream-journey",
+      "race": "takara",
+      "year": 2009,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "duramente",
+      "race": "derby",
+      "year": 2015,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2015.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "duramente",
+      "race": "satsuki",
+      "year": 2015,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2015.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "durandal",
+      "race": "mile",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "durandal",
+      "race": "mile",
+      "year": 2004,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "durandal",
+      "race": "sprint",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "efforia",
+      "race": "akiten",
+      "year": 2021,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "efforia",
+      "race": "arima",
+      "year": 2021,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "efforia",
+      "race": "satsuki",
+      "year": 2021,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "eishin-flash",
+      "race": "akiten",
+      "year": 2012,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "eishin-flash",
+      "race": "derby",
+      "year": 2010,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "el-condor-pasa",
+      "race": "jc",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "el-condor-pasa",
+      "race": "nmc",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/nmc/result/nmc1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "epiphaneia",
+      "race": "jc",
+      "year": 2014,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "epiphaneia",
+      "race": "kikka",
+      "year": 2013,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "espoir-city",
+      "race": "feb",
+      "year": 2010,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/feb/result/feb2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "espoir-city",
+      "race": "jcd",
+      "year": 2009,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jcd/result/jcd2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "fenomeno",
+      "race": "haruten",
+      "year": 2013,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "fenomeno",
+      "race": "haruten",
+      "year": 2014,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "fine-motion",
+      "race": "eliza",
+      "year": 2002,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "fine-motion",
+      "race": "shuka",
+      "year": 2002,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "fuji-kiseki",
+      "race": "afs",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "fusaichi-pandora",
+      "race": "eliza",
+      "year": 2006,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2006.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gentildonna",
+      "race": "arima",
+      "year": 2014,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gentildonna",
+      "race": "jc",
+      "year": 2012,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gentildonna",
+      "race": "jc",
+      "year": 2013,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gentildonna",
+      "race": "oaks",
+      "year": 2012,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gentildonna",
+      "race": "ouka",
+      "year": 2012,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gentildonna",
+      "race": "shuka",
+      "year": 2012,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "genuine",
+      "race": "mile",
+      "year": 1996,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile1996.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "genuine",
+      "race": "satsuki",
+      "year": 1995,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-city",
+      "race": "hjf",
+      "year": 1986,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/hjf/result/hjf1986.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-ship",
+      "race": "arima",
+      "year": 2012,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-ship",
+      "race": "haruten",
+      "year": 2015,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2015.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-ship",
+      "race": "kikka",
+      "year": 2012,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-ship",
+      "race": "satsuki",
+      "year": 2012,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-ship",
+      "race": "takara",
+      "year": 2013,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-ship",
+      "race": "takara",
+      "year": 2014,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gran-alegria",
+      "race": "mile",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gran-alegria",
+      "race": "mile",
+      "year": 2021,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gran-alegria",
+      "race": "ouka",
+      "year": 2019,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gran-alegria",
+      "race": "sprint",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gran-alegria",
+      "race": "victoria",
+      "year": 2021,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/victoria/result/victoria2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gran-alegria",
+      "race": "yasuda",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "grass-wonder",
+      "race": "afs",
+      "year": 1997,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "grass-wonder",
+      "race": "arima",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "grass-wonder",
+      "race": "arima",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "grass-wonder",
+      "race": "takara",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "hishi-akebono",
+      "race": "sprint",
+      "year": 1995,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "hishi-amazon",
+      "race": "eliza",
+      "year": 1994,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "hishi-amazon",
+      "race": "hjf",
+      "year": 1993,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/hjf/result/hjf1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "hishi-miracle",
+      "race": "haruten",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "hishi-miracle",
+      "race": "kikka",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "hishi-miracle",
+      "race": "takara",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "hokko-tarumae",
+      "race": "jcd",
+      "year": 2014,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jcd/result/jcd2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "inari-one",
+      "race": "arima",
+      "year": 1989,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1989.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "inari-one",
+      "race": "haruten",
+      "year": 1989,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1989.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "inari-one",
+      "race": "takara",
+      "year": 1989,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1989.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ines-fujin",
+      "race": "afs",
+      "year": 1989,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs1989.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ines-fujin",
+      "race": "derby",
+      "year": 1990,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1990.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "jungle-pocket",
+      "race": "derby",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "jungle-pocket",
+      "race": "jc",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "katsuragi-ace",
+      "race": "jc",
+      "year": 1984,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc1984.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "katsuragi-ace",
+      "race": "takara",
+      "year": 1984,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1984.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kawakami-princess",
+      "race": "oaks",
+      "year": 2006,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2006.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kawakami-princess",
+      "race": "shuka",
+      "year": 2006,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2006.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "king-halo",
+      "race": "takamatsu",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takamatsu/result/takamatsu2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kiseki",
+      "race": "kikka",
+      "year": 2017,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kitasan-black",
+      "race": "akiten",
+      "year": 2017,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kitasan-black",
+      "race": "arima",
+      "year": 2017,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kitasan-black",
+      "race": "haruten",
+      "year": 2016,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2016.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kitasan-black",
+      "race": "haruten",
+      "year": 2017,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kitasan-black",
+      "race": "jc",
+      "year": 2016,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2016.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kitasan-black",
+      "race": "kikka",
+      "year": 2015,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2015.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kitasan-black",
+      "race": "osaka",
+      "year": 2017,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/osaka/result/osaka2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "logotype",
+      "race": "afs",
+      "year": 2012,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "logotype",
+      "race": "satsuki",
+      "year": 2013,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "logotype",
+      "race": "yasuda",
+      "year": 2016,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda2016.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "loves-only-you",
+      "race": "oaks",
+      "year": 2019,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "lucky-lilac",
+      "race": "eliza",
+      "year": 2019,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "lucky-lilac",
+      "race": "eliza",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "lucky-lilac",
+      "race": "hjf",
+      "year": 2017,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/hjf/result/hjf2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "lucky-lilac",
+      "race": "osaka",
+      "year": 2020,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/osaka/result/osaka2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "manhattan-cafe",
+      "race": "arima",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "manhattan-cafe",
+      "race": "haruten",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "manhattan-cafe",
+      "race": "kikka",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "marvelous-sunday",
+      "race": "takara",
+      "year": 1997,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "matikanefukukitaru",
+      "race": "kikka",
+      "year": 1997,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mayano-top-gun",
+      "race": "arima",
+      "year": 1995,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mayano-top-gun",
+      "race": "haruten",
+      "year": 1997,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mayano-top-gun",
+      "race": "kikka",
+      "year": 1995,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mayano-top-gun",
+      "race": "takara",
+      "year": 1996,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1996.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "meisho-doto",
+      "race": "takara",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-bright",
+      "race": "haruten",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-dober",
+      "race": "eliza",
+      "year": 1998,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-dober",
+      "race": "eliza",
+      "year": 1999,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-dober",
+      "race": "hjf",
+      "year": 1996,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/hjf/result/hjf1996.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-dober",
+      "race": "oaks",
+      "year": 1997,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-dober",
+      "race": "shuka",
+      "year": 1997,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-mcqueen",
+      "race": "haruten",
+      "year": 1991,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-mcqueen",
+      "race": "haruten",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-mcqueen",
+      "race": "kikka",
+      "year": 1990,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1990.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-mcqueen",
+      "race": "takara",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-palmer",
+      "race": "arima",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-palmer",
+      "race": "takara",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-ramonu",
+      "race": "eliza",
+      "year": 1986,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza1986.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-ramonu",
+      "race": "oaks",
+      "year": 1986,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks1986.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-ramonu",
+      "race": "ouka",
+      "year": 1986,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka1986.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-ryan",
+      "race": "takara",
+      "year": 1991,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mihono-bourbon",
+      "race": "afs",
+      "year": 1991,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mihono-bourbon",
+      "race": "derby",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mihono-bourbon",
+      "race": "satsuki",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mr-cb",
+      "race": "akiten",
+      "year": 1984,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1984.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mr-cb",
+      "race": "derby",
+      "year": 1983,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1983.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mr-cb",
+      "race": "kikka",
+      "year": 1983,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1983.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mr-cb",
+      "race": "satsuki",
+      "year": 1983,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1983.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nakayama-festa",
+      "race": "takara",
+      "year": 2010,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "narita-brian",
+      "race": "afs",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "narita-brian",
+      "race": "arima",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "narita-brian",
+      "race": "derby",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "narita-brian",
+      "race": "kikka",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "narita-brian",
+      "race": "satsuki",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "narita-taishin",
+      "race": "satsuki",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "narita-top-road",
+      "race": "kikka",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "neo-universe",
+      "race": "derby",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "neo-universe",
+      "race": "satsuki",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nishino-flower",
+      "race": "hjf",
+      "year": 1991,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/hjf/result/hjf1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nishino-flower",
+      "race": "ouka",
+      "year": 1992,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nishino-flower",
+      "race": "sprint",
+      "year": 1992,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "no-reason",
+      "race": "satsuki",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "north-flight",
+      "race": "mile",
+      "year": 1994,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "north-flight",
+      "race": "yasuda",
+      "year": 1994,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "oguri-cap",
+      "race": "arima",
+      "year": 1988,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "oguri-cap",
+      "race": "arima",
+      "year": 1990,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1990.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "oguri-cap",
+      "race": "mile",
+      "year": 1989,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile1989.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "oguri-cap",
+      "race": "yasuda",
+      "year": 1990,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1990.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "orfevre",
+      "race": "arima",
+      "year": 2011,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "orfevre",
+      "race": "arima",
+      "year": 2013,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "orfevre",
+      "race": "derby",
+      "year": 2011,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "orfevre",
+      "race": "kikka",
+      "year": 2011,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "orfevre",
+      "race": "satsuki",
+      "year": 2011,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "orfevre",
+      "race": "takara",
+      "year": 2012,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "phalaenopsis",
+      "race": "eliza",
+      "year": 2000,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "phalaenopsis",
+      "race": "ouka",
+      "year": 1998,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "phalaenopsis",
+      "race": "shuka",
+      "year": 1998,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "red-desire",
+      "race": "shuka",
+      "year": 2009,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "line-craft",
+      "race": "nmc",
+      "year": 2005,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/nmc/result/nmc2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "line-craft",
+      "race": "ouka",
+      "year": 2005,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rice-shower",
+      "race": "haruten",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rice-shower",
+      "race": "haruten",
+      "year": 1995,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rice-shower",
+      "race": "kikka",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rose-kingdom",
+      "race": "afs",
+      "year": 2009,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rose-kingdom",
+      "race": "jc",
+      "year": 2010,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sakura-bakushin-o",
+      "race": "sprint",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sakura-bakushin-o",
+      "race": "sprint",
+      "year": 1994,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sakura-chitose-o",
+      "race": "akiten",
+      "year": 1995,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sakura-chiyono-o",
+      "race": "afs",
+      "year": 1987,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/afs/result/afs1987.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sakura-chiyono-o",
+      "race": "derby",
+      "year": 1988,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sakura-laurel",
+      "race": "arima",
+      "year": 1996,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1996.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sakura-laurel",
+      "race": "haruten",
+      "year": 1996,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1996.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "satono-crown",
+      "race": "takara",
+      "year": 2017,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "satono-diamond",
+      "race": "arima",
+      "year": 2016,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2016.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "satono-diamond",
+      "race": "kikka",
+      "year": 2016,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2016.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "seeking-the-pearl",
+      "race": "nmc",
+      "year": 1997,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/nmc/result/nmc1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "seiun-sky",
+      "race": "kikka",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "seiun-sky",
+      "race": "satsuki",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "shinko-windy",
+      "race": "feb",
+      "year": 1997,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/feb/result/feb1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "silence-suzuka",
+      "race": "takara",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sirius-symboli",
+      "race": "derby",
+      "year": 1985,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1985.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "special-week",
+      "race": "akiten",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "special-week",
+      "race": "derby",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "special-week",
+      "race": "haruten",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "special-week",
+      "race": "jc",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "still-in-love",
+      "race": "oaks",
+      "year": 2003,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "still-in-love",
+      "race": "ouka",
+      "year": 2003,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "still-in-love",
+      "race": "shuka",
+      "year": 2003,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "super-creek",
+      "race": "akiten",
+      "year": 1989,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1989.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "super-creek",
+      "race": "haruten",
+      "year": 1990,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1990.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "super-creek",
+      "race": "kikka",
+      "year": 1988,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sweep-tosho",
+      "race": "eliza",
+      "year": 2005,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sweep-tosho",
+      "race": "shuka",
+      "year": 2004,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sweep-tosho",
+      "race": "takara",
+      "year": 2005,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-kris-s",
+      "race": "akiten",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-kris-s",
+      "race": "akiten",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-kris-s",
+      "race": "arima",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-kris-s",
+      "race": "arima",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "race": "arima",
+      "year": 1984,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1984.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "race": "arima",
+      "year": 1985,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1985.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "race": "derby",
+      "year": 1984,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1984.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "race": "haruten",
+      "year": 1985,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1985.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "race": "jc",
+      "year": 1985,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc1985.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "race": "kikka",
+      "year": 1984,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka1984.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "symboli-rudolf",
+      "race": "satsuki",
+      "year": 1984,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1984.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "taiki-shuttle",
+      "race": "mile",
+      "year": 1997,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "taiki-shuttle",
+      "race": "mile",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/mile/result/mile1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "taiki-shuttle",
+      "race": "sprint",
+      "year": 1997,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1997.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "taiki-shuttle",
+      "race": "yasuda",
+      "year": 1998,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1998.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tamamo-cross",
+      "race": "akiten",
+      "year": 1988,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tamamo-cross",
+      "race": "haruten",
+      "year": 1988,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tamamo-cross",
+      "race": "takara",
+      "year": 1988,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tanino-gimlet",
+      "race": "derby",
+      "year": 2002,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2002.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tap-dance-city",
+      "race": "jc",
+      "year": 2003,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2003.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tap-dance-city",
+      "race": "takara",
+      "year": 2004,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "titleholder",
+      "race": "haruten",
+      "year": 2022,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2022.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "titleholder",
+      "race": "kikka",
+      "year": 2021,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "titleholder",
+      "race": "takara",
+      "year": 2022,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2022.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "race": "akiten",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "race": "arima",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "race": "haruten",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "race": "haruten",
+      "year": 2001,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2001.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "race": "jc",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "race": "satsuki",
+      "year": 1999,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1999.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "t-m-opera-o",
+      "race": "takara",
+      "year": 2000,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2000.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tokai-teio",
+      "race": "arima",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tokai-teio",
+      "race": "derby",
+      "year": 1991,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tokai-teio",
+      "race": "jc",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tokai-teio",
+      "race": "satsuki",
+      "year": 1991,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tosen-jordan",
+      "race": "akiten",
+      "year": 2011,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "transcend",
+      "race": "feb",
+      "year": 2011,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/feb/result/feb2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "transcend",
+      "race": "jcd",
+      "year": 2010,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jcd/result/jcd2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "transcend",
+      "race": "jcd",
+      "year": 2011,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jcd/result/jcd2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "verxina",
+      "race": "victoria",
+      "year": 2013,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/victoria/result/victoria2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "verxina",
+      "race": "victoria",
+      "year": 2014,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/victoria/result/victoria2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "victoire-pisa",
+      "race": "arima",
+      "year": 2010,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "victoire-pisa",
+      "race": "satsuki",
+      "year": 2010,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vivlos",
+      "race": "shuka",
+      "year": 2016,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2016.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "akiten",
+      "year": 2008,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2008.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "derby",
+      "year": 2007,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2007.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "hjf",
+      "year": 2006,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/hjf/result/hjf2006.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "jc",
+      "year": 2009,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "victoria",
+      "year": 2009,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/victoria/result/victoria2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "yasuda",
+      "year": 2008,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda2008.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "yasuda",
+      "year": 2009,
+      "place": 1,
+      "sex": "牝",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "winning-ticket",
+      "race": "derby",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yaeno-muteki",
+      "race": "akiten",
+      "year": 1990,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1990.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yaeno-muteki",
+      "race": "satsuki",
+      "year": 1988,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yamanin-zephyr",
+      "race": "akiten",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yamanin-zephyr",
+      "race": "yasuda",
+      "year": 1992,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yamanin-zephyr",
+      "race": "yasuda",
+      "year": 1993,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "zenno-rob-roy",
+      "race": "akiten",
+      "year": 2004,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "zenno-rob-roy",
+      "race": "arima",
+      "year": 2004,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "zenno-rob-roy",
+      "race": "jc",
+      "year": 2004,
+      "place": 1,
+      "sex": "牡",
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2004.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "almond-eye",
+      "race": "akiten",
+      "year": 2019,
+      "parents": {
+        "mother": "fusaichi-pandora"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "buena-vista",
+      "race": "akiten",
+      "year": 2010,
+      "parents": {
+        "father": "special-week"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daiwa-scarlet",
+      "race": "arima",
+      "year": 2008,
+      "parents": {
+        "father": "agnes-tachyon"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2008.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-tact",
+      "race": "oaks",
+      "year": 2020,
+      "parents": {
+        "father": "epiphaneia"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2020.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "dream-journey",
+      "race": "arima",
+      "year": 2009,
+      "parents": {
+        "father": "stay-gold"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "duramente",
+      "race": "derby",
+      "year": 2015,
+      "parents": {
+        "mother": "admire-groove"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2015.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "efforia",
+      "race": "akiten",
+      "year": 2021,
+      "parents": {
+        "father": "epiphaneia"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2021.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "epiphaneia",
+      "race": "jc",
+      "year": 2014,
+      "parents": {
+        "father": "symboli-kris-s",
+        "mother": "cesario"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "fenomeno",
+      "race": "haruten",
+      "year": 2013,
+      "parents": {
+        "father": "stay-gold"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "gold-ship",
+      "race": "arima",
+      "year": 2012,
+      "parents": {
+        "father": "stay-gold"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "kiseki",
+      "race": "kikka",
+      "year": 2017,
+      "parents": {
+        "father": "rulership"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2017.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "lucky-lilac",
+      "race": "eliza",
+      "year": 2019,
+      "parents": {
+        "father": "orfevre"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/eliza/result/eliza2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nakayama-festa",
+      "race": "takara",
+      "year": 2010,
+      "parents": {
+        "father": "stay-gold"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "orfevre",
+      "race": "arima",
+      "year": 2011,
+      "parents": {
+        "father": "stay-gold"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "red-desire",
+      "race": "shuka",
+      "year": 2009,
+      "parents": {
+        "father": "manhattan-cafe"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2009.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "titleholder",
+      "race": "haruten",
+      "year": 2022,
+      "parents": {
+        "father": "duramente"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2022.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tosen-jordan",
+      "race": "akiten",
+      "year": 2011,
+      "parents": {
+        "father": "jungle-pocket"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "victoire-pisa",
+      "race": "arima",
+      "year": 2010,
+      "parents": {
+        "father": "neo-universe"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2010.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "vodka",
+      "race": "akiten",
+      "year": 2008,
+      "parents": {
+        "father": "tanino-gimlet"
+      },
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2008.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yukino-bijin",
+      "race": "ouka",
+      "year": 1993,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yukino-bijin",
+      "race": "oaks",
+      "year": 1993,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "biko-pegasus",
+      "race": "sprint",
+      "year": 1994,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "biko-pegasus",
+      "race": "sprint",
+      "year": 1995,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint1995.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nice-nature",
+      "race": "arima",
+      "year": 1991,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1991.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nice-nature",
+      "race": "arima",
+      "year": 1992,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1992.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nice-nature",
+      "race": "arima",
+      "year": 1993,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ikuno-dictus",
+      "race": "yasuda",
+      "year": 1993,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ikuno-dictus",
+      "race": "takara",
+      "year": 1993,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara1993.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-ardan",
+      "race": "derby",
+      "year": 1988,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby1988.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sounds-of-earth",
+      "race": "kikka",
+      "year": 2014,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2014.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sounds-of-earth",
+      "race": "arima",
+      "year": 2015,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2015.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "sounds-of-earth",
+      "race": "jc",
+      "year": 2016,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2016.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "royce-and-royce",
+      "race": "akiten",
+      "year": 1994,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "royce-and-royce",
+      "race": "jc",
+      "year": 1994,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc1994.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "win-variation",
+      "race": "derby",
+      "year": 2011,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "win-variation",
+      "race": "kikka",
+      "year": 2011,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2011.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "win-variation",
+      "race": "arima",
+      "year": 2013,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2013.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "curren-bouquet-dor",
+      "race": "oaks",
+      "year": 2019,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "curren-bouquet-dor",
+      "race": "shuka",
+      "year": 2019,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "curren-bouquet-dor",
+      "race": "jc",
+      "year": 2019,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2019.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-heart",
+      "race": "nmc",
+      "year": 2005,
+      "place": 2,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/nmc/result/nmc2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-heart",
+      "race": "ouka",
+      "year": 2005,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2005.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rulership",
+      "race": "jc",
+      "year": 2012,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/jc/result/jc2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rulership",
+      "race": "arima",
+      "year": 2012,
+      "place": 3,
+      "source": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2012.html",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "biko-pegasus",
+      "race": "セントウルS",
+      "year": 1995,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1400m",
+      "source": "https://www.jbis.or.jp/race/result/19951001/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "biko-pegasus",
+      "race": "京成杯",
+      "year": 1994,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1600m",
+      "source": "https://www.jbis.or.jp/race/result/19940109/106/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "k-s-miracle",
+      "race": "スワンS",
+      "year": 1991,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "1400m",
+      "source": "https://www.jbis.or.jp/race/result/19911026/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nice-nature",
+      "race": "高松宮杯",
+      "year": 1994,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19940710/107/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nice-nature",
+      "race": "鳴尾記念",
+      "year": 1991,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2500m",
+      "source": "https://www.jbis.or.jp/race/result/19911208/109/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nice-nature",
+      "race": "京都新聞杯",
+      "year": 1991,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2200m",
+      "source": "https://www.jbis.or.jp/race/result/19911013/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "nice-nature",
+      "race": "小倉記念",
+      "year": 1991,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19910825/110/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ikuno-dictus",
+      "race": "オールカマー",
+      "year": 1992,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2200m",
+      "source": "https://www.jbis.or.jp/race/result/19920920/106/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ikuno-dictus",
+      "race": "小倉記念",
+      "year": 1992,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19920830/110/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ikuno-dictus",
+      "race": "金鯱賞",
+      "year": 1992,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1800m",
+      "source": "https://www.jbis.or.jp/race/result/19920621/107/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "ikuno-dictus",
+      "race": "京阪杯",
+      "year": 1991,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19910512/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tsurumaru-tsuyoshi",
+      "race": "京都大賞典",
+      "year": 1999,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2400m",
+      "source": "https://www.jbis.or.jp/race/result/19991010/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "tsurumaru-tsuyoshi",
+      "race": "朝日ChC",
+      "year": 1999,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19990912/109/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-heart",
+      "race": "府中牝馬S",
+      "year": 2007,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1800m",
+      "source": "https://www.jbis.or.jp/race/result/20071014/105/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-heart",
+      "race": "クイーンS",
+      "year": 2006,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1800m",
+      "source": "https://www.jbis.or.jp/race/result/20060813/101/09/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "daring-heart",
+      "race": "府中牝馬S",
+      "year": 2006,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1800m",
+      "source": "https://www.jbis.or.jp/race/result/20061015/105/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "samson-big",
+      "race": "きさらぎ賞",
+      "year": 1994,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19940206/109/10/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "mejiro-ardan",
+      "race": "高松宮杯",
+      "year": 1989,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19890709/107/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "twin-turbo",
+      "race": "オールカマー",
+      "year": 1993,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2200m",
+      "source": "https://www.jbis.or.jp/race/result/19930919/106/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "twin-turbo",
+      "race": "七夕賞",
+      "year": 1993,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19930711/103/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "twin-turbo",
+      "race": "Rたんぱ賞",
+      "year": 1991,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1800m",
+      "source": "https://www.jbis.or.jp/race/result/19910630/103/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "win-variation",
+      "race": "日経賞",
+      "year": 2014,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2500m",
+      "source": "https://www.jbis.or.jp/race/result/20140329/106/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "win-variation",
+      "race": "青葉賞",
+      "year": 2011,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2400m",
+      "source": "https://www.jbis.or.jp/race/result/20110430/105/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rulership",
+      "race": "香港Qエリザベス二世C",
+      "year": 2012,
+      "place": 1,
+      "grade": "GⅠ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/horse/0001042049/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rulership",
+      "race": "AJCC",
+      "year": 2012,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2200m",
+      "source": "https://www.jbis.or.jp/race/result/20120122/106/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rulership",
+      "race": "金鯱賞",
+      "year": 2011,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/20110528/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rulership",
+      "race": "日経新春杯",
+      "year": 2011,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2400m",
+      "source": "https://www.jbis.or.jp/race/result/20110116/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "rulership",
+      "race": "鳴尾記念",
+      "year": 2010,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "1800m",
+      "source": "https://www.jbis.or.jp/race/result/20101204/109/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "stay-gold",
+      "race": "香港ヴァーズ",
+      "year": 2001,
+      "place": 1,
+      "grade": "GⅠ",
+      "distance": "2400m",
+      "source": "https://www.jbis.or.jp/horse/0000286968/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "stay-gold",
+      "race": "ドバイシーマクラシック",
+      "year": 2001,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2400m",
+      "source": "https://www.jbis.or.jp/horse/0000286968/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "stay-gold",
+      "race": "日経新春杯",
+      "year": 2001,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2400m",
+      "source": "https://www.jbis.or.jp/race/result/20010114/108/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "stay-gold",
+      "race": "目黒記念",
+      "year": 2000,
+      "place": 1,
+      "grade": "GⅡ",
+      "distance": "2500m",
+      "source": "https://www.jbis.or.jp/race/result/20000520/105/11/",
+      "verifiedAt": "2026-10-16"
+    },
+    {
+      "characterId": "yukino-bijin",
+      "race": "クイーンS",
+      "year": 1993,
+      "place": 1,
+      "grade": "GⅢ",
+      "distance": "2000m",
+      "source": "https://www.jbis.or.jp/race/result/19931003/106/11/",
+      "verifiedAt": "2026-10-16"
+    }
+  ]
+}

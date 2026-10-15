@@ -7,8 +7,9 @@
   "records":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["characterId","categories","clues"],"properties":{
    "characterId":{"type":"string","pattern":"^[a-z0-9-]+$"},"categories":{"$ref":"#/$defs/categories"},
    "clues":{"type":"array","minItems":1,"items":{"type":"object","additionalProperties":false,"required":["id","categories","dimension","text","sources"],"properties":{
-    "id":{"type":"string","minLength":1},"categories":{"$ref":"#/$defs/categories"},"dimension":{"enum":["profile","horse-record","story","epithet"]},"text":{"$ref":"#/$defs/localized"},"sources":{"type":"array","minItems":1,"items":{"type":"string","minLength":1}}
-   }}}
+    "id":{"type":"string","minLength":1},"categories":{"$ref":"#/$defs/categories"},"dimension":{"enum":["profile","horse-record","story","epithet","music","horse-life","official-program"]},"text":{"$ref":"#/$defs/localized"},"sources":{"type":"array","minItems":1,"items":{"type":"string","format":"uri","pattern":"^https?://"}},
+    "factKey":{"type":"string","pattern":"^[a-z0-9][a-z0-9-]*$"},"verifiedAt":{"type":"string","format":"date"},"asOf":{"type":"string","format":"date"}
+   },"allOf":[{"if":{"properties":{"dimension":{"const":"horse-life"}},"required":["dimension"]},"then":{"required":["asOf","verifiedAt"]}}]}}
   }}}
  },
  "$defs":{

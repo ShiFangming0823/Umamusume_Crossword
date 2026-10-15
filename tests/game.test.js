@@ -9,7 +9,7 @@ const base=levels.find((e)=>e.id==='beginner-1-en'), advanced=levels.find((e)=>e
 const solution=(level)=>Object.fromEntries(level.entries.flatMap((e)=>entryCells(e).map((key,i)=>[key,[...e.answer][i]])));
 
 test('all eight levels validate, with 11 across and 11 down and three clues each',()=>{
-  assert.equal(levels.length,8);assert.equal(characters.length,97);
+  assert.equal(levels.length,8);assert.equal(characters.length,173);
   for(const level of levels){
     assert.equal(level.entries.filter((e)=>e.direction==='across').length,11);
     assert.equal(level.entries.filter((e)=>e.direction==='down').length,11);

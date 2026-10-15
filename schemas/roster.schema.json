@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewed official Umamusume roster",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "verifiedAt", "source", "officialCharacters", "storyCharacterIds", "excluded"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "verifiedAt": { "type": "string", "format": "date" },
+    "source": { "const": "https://umamusume.jp/character" },
+    "officialCharacters": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["characterId", "officialId", "kind", "nameJa", "nameEn", "voiceJa", "source"],
+        "properties": {
+          "characterId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "officialId": { "type": "string", "pattern": "^[a-z0-9]+$" },
+          "kind": { "enum": ["main", "support"] },
+          "nameJa": { "type": "string", "minLength": 1 },
+          "nameEn": { "type": "string", "minLength": 1 },
+          "voiceJa": { "type": "string", "minLength": 1 },
+          "source": { "type": "string", "format": "uri", "pattern": "^https://umamusume\\.jp/character/" }
+        }
+      }
+    },
+    "storyCharacterIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+    "excluded": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["officialId", "nameJa", "reason"],
+        "properties": {
+          "officialId": { "type": "string", "pattern": "^[a-z0-9]+$" },
+          "nameJa": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

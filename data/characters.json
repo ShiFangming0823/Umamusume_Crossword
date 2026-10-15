@@ -35,7 +35,9 @@
         "en": "Twin Turbo",
         "ja": "ツインターボ"
       },
-      "aliases": [],
+      "aliases": [
+        "雙渦輪"
+      ],
       "source": "https://umamusume.jp/character/twinturbo"
     },
     {
@@ -59,7 +61,7 @@
         "ja": "マンハッタンカフェ"
       },
       "aliases": [
-        "曼城茶座"
+        "曼哈頓咖啡"
       ],
       "source": "https://umamusume.jp/character/manhattancafe"
     },
@@ -71,7 +73,8 @@
         "ja": "トウカイテイオー"
       },
       "aliases": [
-        "東海帝王"
+        "東海帝王",
+        "東海帝皇"
       ],
       "source": "https://umamusume.jp/character/tokaiteio"
     },
@@ -83,8 +86,7 @@
         "ja": "サイレンススズカ"
       },
       "aliases": [
-        "無聲鈴鹿",
-        "无声铃鹿"
+        "無聲鈴鹿"
       ],
       "source": "https://umamusume.jp/character/silencesuzuka"
     },
@@ -142,10 +144,7 @@
         "en": "Vodka",
         "ja": "ウオッカ"
       },
-      "aliases": [
-        "伏特加",
-        "ウオッカ"
-      ],
+      "aliases": [],
       "source": "https://umamusume.jp/character/vodka"
     },
     {
@@ -157,7 +156,8 @@
       },
       "aliases": [
         "櫻花進王",
-        "樱花爆进王"
+        "樱花爆进王",
+        "櫻花驀進王"
       ],
       "source": "https://umamusume.jp/character/sakurabakushino"
     },
@@ -182,7 +182,8 @@
       },
       "aliases": [
         "春麗",
-        "春丽"
+        "春丽",
+        "春烏菈菈"
       ],
       "source": "https://umamusume.jp/character/haruurara"
     },
@@ -215,9 +216,7 @@
         "en": "Yukino Bijin",
         "ja": "ユキノビジン"
       },
-      "aliases": [
-        "雪之美人"
-      ],
+      "aliases": [],
       "source": "https://umamusume.jp/character/yukinobijin"
     },
     {
@@ -239,9 +238,7 @@
         "en": "Oguri Cap",
         "ja": "オグリキャップ"
       },
-      "aliases": [
-        "小栗帽"
-      ],
+      "aliases": [],
       "source": "https://umamusume.jp/character/oguricap"
     },
     {
@@ -296,9 +293,7 @@
         "en": "Ikuno Dictus",
         "ja": "イクノディクタス"
       },
-      "aliases": [
-        "生野狄杜斯"
-      ],
+      "aliases": [],
       "source": "https://umamusume.jp/character/ikunodictus"
     },
     {
@@ -332,9 +327,7 @@
         "en": "Zenno Rob Roy",
         "ja": "ゼンノロブロイ"
       },
-      "aliases": [
-        "荒漠英雄"
-      ],
+      "aliases": [],
       "source": "https://umamusume.jp/character/zennorobroy"
     },
     {
@@ -357,7 +350,8 @@
         "ja": "セイウンスカイ"
       },
       "aliases": [
-        "星雲天空"
+        "星雲天空",
+        "青雲天空"
       ],
       "source": "https://umamusume.jp/character/seiunsky"
     },
@@ -381,7 +375,8 @@
         "ja": "ツルマルツヨシ"
       },
       "aliases": [
-        "鶴丸剛志"
+        "鶴丸剛志",
+        "鶴丸強志"
       ],
       "source": "https://umamusume.jp/character/tsurumarutsuyoshi"
     },
@@ -402,7 +397,9 @@
         "en": "Yaeno Muteki",
         "ja": "ヤエノムテキ"
       },
-      "aliases": [],
+      "aliases": [
+        "八重無敵"
+      ],
       "source": "https://umamusume.jp/character/yaenomuteki"
     },
     {
@@ -413,7 +410,8 @@
         "ja": "アイネスフウジン"
       },
       "aliases": [
-        "艾尼斯風神"
+        "艾尼斯風神",
+        "艾尼風神"
       ],
       "source": "https://umamusume.jp/character/inesfujin"
     },
@@ -434,7 +432,9 @@
         "en": "Sakura Chiyono O",
         "ja": "サクラチヨノオー"
       },
-      "aliases": [],
+      "aliases": [
+        "櫻花千代王"
+      ],
       "source": "https://umamusume.jp/character/sakurachiyonoo"
     },
     {
@@ -444,7 +444,9 @@
         "en": "Air Groove",
         "ja": "エアグルーヴ"
       },
-      "aliases": [],
+      "aliases": [
+        "氣槽"
+      ],
       "source": "https://umamusume.jp/character/airgroove"
     },
     {
@@ -475,7 +477,7 @@
         "ja": "マルゼンスキー"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/maruzensky"
     },
     {
       "id": "taiki-shuttle",
@@ -487,7 +489,7 @@
       "aliases": [
         "大樹快車"
       ],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/taikishuttle"
     },
     {
       "id": "hishi-amazon",
@@ -496,8 +498,10 @@
         "en": "Hishi Amazon",
         "ja": "ヒシアマゾン"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "菱亞馬遜"
+      ],
+      "source": "https://umamusume.jp/character/hishiamazon"
     },
     {
       "id": "el-condor-pasa",
@@ -509,7 +513,7 @@
       "aliases": [
         "神鷹"
       ],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/elcondorpasa"
     },
     {
       "id": "t-m-opera-o",
@@ -522,7 +526,7 @@
         "好歌劇",
         "TM Opera O"
       ],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/tmoperao"
     },
     {
       "id": "symboli-rudolf",
@@ -534,7 +538,7 @@
       "aliases": [
         "魯道夫象徵"
       ],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/symbolirudolf"
     },
     {
       "id": "agnes-digital",
@@ -543,8 +547,10 @@
         "en": "Agnes Digital",
         "ja": "アグネスデジタル"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "愛麗數碼"
+      ],
+      "source": "https://umamusume.jp/character/agnesdigital"
     },
     {
       "id": "fine-motion",
@@ -553,8 +559,10 @@
         "en": "Fine Motion",
         "ja": "ファインモーション"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "美妙姿勢"
+      ],
+      "source": "https://umamusume.jp/character/finemotion"
     },
     {
       "id": "biwa-hayahide",
@@ -564,7 +572,7 @@
         "ja": "ビワハヤヒデ"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/biwahayahide"
     },
     {
       "id": "mayano-top-gun",
@@ -573,8 +581,10 @@
         "en": "Mayano Top Gun",
         "ja": "マヤノトップガン"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "重砲"
+      ],
+      "source": "https://umamusume.jp/character/mayanotopgun"
     },
     {
       "id": "mihono-bourbon",
@@ -584,7 +594,7 @@
         "ja": "ミホノブルボン"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/mihonobourbon"
     },
     {
       "id": "mejiro-ryan",
@@ -594,9 +604,10 @@
         "ja": "メジロライアン"
       },
       "aliases": [
-        "目白賴恩"
+        "目白賴恩",
+        "目白雷恩"
       ],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/mejiroryan"
     },
     {
       "id": "admire-vega",
@@ -605,8 +616,10 @@
         "en": "Admire Vega",
         "ja": "アドマイヤベガ"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "愛慕織姬"
+      ],
+      "source": "https://umamusume.jp/character/admirevega"
     },
     {
       "id": "winning-ticket",
@@ -615,8 +628,10 @@
         "en": "Winning Ticket",
         "ja": "ウイニングチケット"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "勝利獎券"
+      ],
+      "source": "https://umamusume.jp/character/winningticket"
     },
     {
       "id": "air-shakur",
@@ -625,8 +640,10 @@
         "en": "Air Shakur",
         "ja": "エアシャカール"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "空中神宮"
+      ],
+      "source": "https://umamusume.jp/character/airshakur"
     },
     {
       "id": "eishin-flash",
@@ -635,8 +652,10 @@
         "en": "Eishin Flash",
         "ja": "エイシンフラッシュ"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "榮進閃耀"
+      ],
+      "source": "https://umamusume.jp/character/eishinflash"
     },
     {
       "id": "curren-chan",
@@ -645,8 +664,10 @@
         "en": "Curren Chan",
         "ja": "カレンチャン"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "真機伶"
+      ],
+      "source": "https://umamusume.jp/character/currenchan"
     },
     {
       "id": "kawakami-princess",
@@ -656,7 +677,7 @@
         "ja": "カワカミプリンセス"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/kawakamiprincess"
     },
     {
       "id": "gold-city",
@@ -665,8 +686,10 @@
         "en": "Gold City",
         "ja": "ゴールドシチー"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "黃金城市"
+      ],
+      "source": "https://umamusume.jp/character/goldcity"
     },
     {
       "id": "sweep-tosho",
@@ -675,8 +698,10 @@
         "en": "Sweep Tosho",
         "ja": "スイープトウショウ"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "東商變革"
+      ],
+      "source": "https://umamusume.jp/character/sweeptosho"
     },
     {
       "id": "super-creek",
@@ -685,8 +710,10 @@
         "en": "Super Creek",
         "ja": "スーパークリーク"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "超級小溪"
+      ],
+      "source": "https://umamusume.jp/character/supercreek"
     },
     {
       "id": "smart-falcon",
@@ -695,8 +722,10 @@
         "en": "Smart Falcon",
         "ja": "スマートファルコン"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "醒目飛鷹"
+      ],
+      "source": "https://umamusume.jp/character/smartfalcon"
     },
     {
       "id": "tosen-jordan",
@@ -705,8 +734,10 @@
         "en": "Tosen Jordan",
         "ja": "トーセンジョーダン"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "島川喬登"
+      ],
+      "source": "https://umamusume.jp/character/tosenjordan"
     },
     {
       "id": "narita-taishin",
@@ -715,8 +746,10 @@
         "en": "Narita Taishin",
         "ja": "ナリタタイシン"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "成田大進"
+      ],
+      "source": "https://umamusume.jp/character/naritataishin"
     },
     {
       "id": "nishino-flower",
@@ -726,7 +759,7 @@
         "ja": "ニシノフラワー"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/nishinoflower"
     },
     {
       "id": "marvelous-sunday",
@@ -735,8 +768,10 @@
         "en": "Marvelous Sunday",
         "ja": "マーベラスサンデー"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "美麗週日"
+      ],
+      "source": "https://umamusume.jp/character/marveloussunday"
     },
     {
       "id": "mejiro-dober",
@@ -746,7 +781,7 @@
         "ja": "メジロドーベル"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/mejirodober"
     },
     {
       "id": "matikanetannhauser",
@@ -755,8 +790,10 @@
         "en": "Matikanetannhauser",
         "ja": "マチカネタンホイザ"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "待兼唐懷瑟"
+      ],
+      "source": "https://umamusume.jp/character/matikanetannhauser"
     },
     {
       "id": "daitaku-helios",
@@ -765,8 +802,10 @@
         "en": "Daitaku Helios",
         "ja": "ダイタクヘリオス"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "大德太陽"
+      ],
+      "source": "https://umamusume.jp/character/daitakuhelios"
     },
     {
       "id": "satono-diamond",
@@ -778,7 +817,7 @@
       "aliases": [
         "里見光鑽"
       ],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/satonodiamond"
     },
     {
       "id": "kitasan-black",
@@ -790,7 +829,7 @@
       "aliases": [
         "北部玄駒"
       ],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/kitasanblack"
     },
     {
       "id": "sirius-symboli",
@@ -799,8 +838,10 @@
         "en": "Sirius Symboli",
         "ja": "シリウスシンボリ"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "天狼星象徵"
+      ],
+      "source": "https://umamusume.jp/character/siriussymboli"
     },
     {
       "id": "mejiro-ardan",
@@ -809,8 +850,10 @@
         "en": "Mejiro Ardan",
         "ja": "メジロアルダン"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "目白阿爾丹"
+      ],
+      "source": "https://umamusume.jp/character/mejiroardan"
     },
     {
       "id": "daring-tact",
@@ -819,8 +862,10 @@
         "en": "Daring Tact",
         "ja": "デアリングタクト"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "謀勇兼備"
+      ],
+      "source": "https://umamusume.jp/character/daringtact"
     },
     {
       "id": "sakura-laurel",
@@ -829,8 +874,10 @@
         "en": "Sakura Laurel",
         "ja": "サクラローレル"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "櫻花桂冠"
+      ],
+      "source": "https://umamusume.jp/character/sakuralaurel"
     },
     {
       "id": "narita-top-road",
@@ -840,7 +887,7 @@
         "ja": "ナリタトップロード"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/naritatoproad"
     },
     {
       "id": "yamanin-zephyr",
@@ -849,8 +896,10 @@
         "en": "Yamanin Zephyr",
         "ja": "ヤマニンゼファー"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "山人西風"
+      ],
+      "source": "https://umamusume.jp/character/yamaninzephyr"
     },
     {
       "id": "north-flight",
@@ -859,8 +908,10 @@
         "en": "North Flight",
         "ja": "ノースフライト"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "北方飛翔"
+      ],
+      "source": "https://umamusume.jp/character/northflight"
     },
     {
       "id": "symboli-kris-s",
@@ -869,8 +920,10 @@
         "en": "Symboli Kris S",
         "ja": "シンボリクリスエス"
       },
-      "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "aliases": [
+        "克莉斯耶絲象徵"
+      ],
+      "source": "https://umamusume.jp/character/symbolikriss"
     },
     {
       "id": "tanino-gimlet",
@@ -880,7 +933,7 @@
         "ja": "タニノギムレット"
       },
       "aliases": [],
-      "source": "https://umamusume.jp/character"
+      "source": "https://umamusume.jp/character/taninogimlet"
     },
     {
       "id": "cesario",
@@ -890,9 +943,10 @@
         "ja": "シーザリオ"
       },
       "aliases": [
-        "西沙里奧"
+        "西沙里奧",
+        "西薩里奧"
       ],
-      "source": "https://note.com/show248379/n/n81d9ed620aa4"
+      "source": "https://umamusume.jp/character/cesario"
     },
     {
       "id": "duramente",
@@ -904,7 +958,7 @@
       "aliases": [
         "大鳴大放"
       ],
-      "source": "https://note.com/show248379/n/n81d9ed620aa4"
+      "source": "https://umamusume.jp/character/duramente"
     },
     {
       "id": "line-craft",
@@ -914,9 +968,11 @@
         "ja": "ラインクラフト"
       },
       "aliases": [
-        "萊茵力量"
+        "萊茵力量",
+        "萊茵實力",
+        "Rhein Kraft"
       ],
-      "source": "https://note.com/show248379/n/n81d9ed620aa4"
+      "source": "https://umamusume.jp/character/rheinkraft"
     },
     {
       "id": "daring-heart",
@@ -925,8 +981,10 @@
         "en": "Daring Heart",
         "ja": "デアリングハート"
       },
-      "aliases": [],
-      "source": "https://note.com/show248379/n/n81d9ed620aa4"
+      "aliases": [
+        "勇敢之心"
+      ],
+      "source": "https://umamusume.jp/character/daringheart"
     },
     {
       "id": "buena-vista",
@@ -936,7 +994,7 @@
         "ja": "ブエナビスタ"
       },
       "aliases": [],
-      "source": "https://note.com/show248379/n/n81d9ed620aa4"
+      "source": "https://umamusume.jp/character/buenavista"
     },
     {
       "id": "belno-light",
@@ -1037,7 +1095,7 @@
         "Mr CB",
         "Mister CB"
       ],
-      "source": "https://umamusu.wiki/Mr._C.B."
+      "source": "https://umamusume.jp/character/mrcb"
     },
     {
       "id": "toni-bianca",
@@ -1116,6 +1174,905 @@
         "艾勒斯利榮耀"
       ],
       "source": "https://umamusu.wiki/Ellerslie_Pride"
+    },
+    {
+      "id": "furioso",
+      "names": {
+        "zh-CN": "狂热激昂",
+        "en": "Furioso",
+        "ja": "フリオーソ"
+      },
+      "aliases": [
+        "狂熱激昂"
+      ],
+      "source": "https://umamusume.jp/character/furioso"
+    },
+    {
+      "id": "transcend",
+      "names": {
+        "zh-CN": "创升",
+        "en": "Transcend",
+        "ja": "トランセンド"
+      },
+      "aliases": [
+        "超越",
+        "創升"
+      ],
+      "source": "https://umamusume.jp/character/transcend"
+    },
+    {
+      "id": "espoir-city",
+      "names": {
+        "zh-CN": "希望城市",
+        "en": "Espoir City",
+        "ja": "エスポワールシチー"
+      },
+      "aliases": [
+        "希望之城"
+      ],
+      "source": "https://umamusume.jp/character/espoircity"
+    },
+    {
+      "id": "daiichi-ruby",
+      "names": {
+        "zh-CN": "第一红宝石",
+        "en": "Daiichi Ruby",
+        "ja": "ダイイチルビー"
+      },
+      "aliases": [
+        "第一红宝",
+        "第一紅寶"
+      ],
+      "source": "https://umamusume.jp/character/daiichiruby"
+    },
+    {
+      "id": "mejiro-ramonu",
+      "names": {
+        "zh-CN": "目白山峰",
+        "en": "Mejiro Ramonu",
+        "ja": "メジロラモーヌ"
+      },
+      "aliases": [
+        "目白拉茉奴"
+      ],
+      "source": "https://umamusume.jp/character/mejiroramonu"
+    },
+    {
+      "id": "aston-machan",
+      "names": {
+        "zh-CN": "奥斯顿真弓",
+        "en": "Aston Machan",
+        "ja": "アストンマーチャン"
+      },
+      "aliases": [
+        "真弓快车",
+        "奧斯頓真弓"
+      ],
+      "source": "https://umamusume.jp/character/astonmachan"
+    },
+    {
+      "id": "satono-crown",
+      "names": {
+        "zh-CN": "里见皇冠",
+        "en": "Satono Crown",
+        "ja": "サトノクラウン"
+      },
+      "aliases": [
+        "里見皇冠"
+      ],
+      "source": "https://umamusume.jp/character/satonocrown"
+    },
+    {
+      "id": "cheval-grand",
+      "names": {
+        "zh-CN": "高尚骏逸",
+        "en": "Cheval Grand",
+        "ja": "シュヴァルグラン"
+      },
+      "aliases": [
+        "高尚駿逸"
+      ],
+      "source": "https://umamusume.jp/character/chevalgrand"
+    },
+    {
+      "id": "verxina",
+      "names": {
+        "zh-CN": "极峰",
+        "en": "Verxina",
+        "ja": "ヴィルシーナ"
+      },
+      "aliases": [
+        "極峰"
+      ],
+      "source": "https://umamusume.jp/character/verxina"
+    },
+    {
+      "id": "vivlos",
+      "names": {
+        "zh-CN": "强击",
+        "en": "Vivlos",
+        "ja": "ヴィブロス"
+      },
+      "aliases": [
+        "比布鲁斯",
+        "比布魯斯"
+      ],
+      "source": "https://umamusume.jp/character/vivlos"
+    },
+    {
+      "id": "dantsu-flame",
+      "names": {
+        "zh-CN": "缎通烈焰",
+        "en": "Dantsu Flame",
+        "ja": "ダンツフレーム"
+      },
+      "aliases": [
+        "緞通烈焰"
+      ],
+      "source": "https://umamusume.jp/character/dantsuflame"
+    },
+    {
+      "id": "k-s-miracle",
+      "names": {
+        "zh-CN": "喜嘉奇迹",
+        "en": "K.S.Miracle",
+        "ja": "ケイエスミラクル"
+      },
+      "aliases": [
+        "凯斯奇迹",
+        "喜嘉奇蹟"
+      ],
+      "source": "https://umamusume.jp/character/ksmiracle"
+    },
+    {
+      "id": "jungle-pocket",
+      "names": {
+        "zh-CN": "丛林口袋",
+        "en": "Jungle Pocket",
+        "ja": "ジャングルポケット"
+      },
+      "aliases": [
+        "叢林口袋"
+      ],
+      "source": "https://umamusume.jp/character/junglepocket"
+    },
+    {
+      "id": "believe",
+      "names": {
+        "zh-CN": "信念",
+        "en": "Believe",
+        "ja": "ビリーヴ"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/believe"
+    },
+    {
+      "id": "no-reason",
+      "names": {
+        "zh-CN": "无需理由",
+        "en": "No Reason",
+        "ja": "ノーリーズン"
+      },
+      "aliases": [
+        "无须理由",
+        "無需理由"
+      ],
+      "source": "https://umamusume.jp/character/noreason"
+    },
+    {
+      "id": "still-in-love",
+      "names": {
+        "zh-CN": "爱如往昔",
+        "en": "Still in Love",
+        "ja": "スティルインラブ"
+      },
+      "aliases": [
+        "情迷往昔",
+        "愛如往昔"
+      ],
+      "source": "https://umamusume.jp/character/stillinlove"
+    },
+    {
+      "id": "copano-rickey",
+      "names": {
+        "zh-CN": "小林历奇",
+        "en": "Copano Rickey",
+        "ja": "コパノリッキー"
+      },
+      "aliases": [
+        "小林歷奇"
+      ],
+      "source": "https://umamusume.jp/character/copanorickey"
+    },
+    {
+      "id": "hokko-tarumae",
+      "names": {
+        "zh-CN": "北港火山",
+        "en": "Hokko Tarumae",
+        "ja": "ホッコータルマエ"
+      },
+      "aliases": [
+        "北幸樽前"
+      ],
+      "source": "https://umamusume.jp/character/hokkotarumae"
+    },
+    {
+      "id": "wonder-acute",
+      "names": {
+        "zh-CN": "奇锐骏",
+        "en": "Wonder Acute",
+        "ja": "ワンダーアキュート"
+      },
+      "aliases": [
+        "奇銳駿"
+      ],
+      "source": "https://umamusume.jp/character/wonderacute"
+    },
+    {
+      "id": "samson-big",
+      "names": {
+        "zh-CN": "参孙巨人",
+        "en": "Samson Big",
+        "ja": "サムソンビッグ"
+      },
+      "aliases": [
+        "SamsonBig"
+      ],
+      "source": "https://umamusume.jp/character/samsonbig"
+    },
+    {
+      "id": "sounds-of-earth",
+      "names": {
+        "zh-CN": "万籁争鸣",
+        "en": "Sounds of Earth",
+        "ja": "サウンズオブアース"
+      },
+      "aliases": [
+        "萬籟爭鳴"
+      ],
+      "source": "https://umamusume.jp/character/soundsofearth"
+    },
+    {
+      "id": "royce-and-royce",
+      "names": {
+        "zh-CN": "莱斯莱斯",
+        "en": "Royce and Royce",
+        "ja": "ロイスアンドロイス"
+      },
+      "aliases": [
+        "罗伊斯罗伊斯",
+        "萊斯萊斯"
+      ],
+      "source": "https://umamusume.jp/character/royceandroyce"
+    },
+    {
+      "id": "katsuragi-ace",
+      "names": {
+        "zh-CN": "葛城王牌",
+        "en": "Katsuragi Ace",
+        "ja": "カツラギエース"
+      },
+      "aliases": [
+        "葛城荣主",
+        "葛城榮主"
+      ],
+      "source": "https://umamusume.jp/character/katsuragiace"
+    },
+    {
+      "id": "neo-universe",
+      "names": {
+        "zh-CN": "新宇宙",
+        "en": "Neo Universe",
+        "ja": "ネオユニヴァース"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/neouniverse"
+    },
+    {
+      "id": "hishi-miracle",
+      "names": {
+        "zh-CN": "菱钻奇宝",
+        "en": "Hishi Miracle",
+        "ja": "ヒシミラクル"
+      },
+      "aliases": [
+        "菱奇迹",
+        "菱奇蹟"
+      ],
+      "source": "https://umamusume.jp/character/hishimiracle"
+    },
+    {
+      "id": "tap-dance-city",
+      "names": {
+        "zh-CN": "踢踏城市",
+        "en": "Tap Dance City",
+        "ja": "タップダンスシチー"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/tapdancecity"
+    },
+    {
+      "id": "air-messiah",
+      "names": {
+        "zh-CN": "空中弥赛亚",
+        "en": "Air Messiah",
+        "ja": "エアメサイア"
+      },
+      "aliases": [
+        "空中彌賽亞"
+      ],
+      "source": "https://umamusume.jp/character/airmessiah"
+    },
+    {
+      "id": "fusaichi-pandora",
+      "names": {
+        "zh-CN": "房一潘多拉",
+        "en": "Fusaichi Pandora",
+        "ja": "フサイチパンドラ"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/fusaichipandora"
+    },
+    {
+      "id": "orfevre",
+      "names": {
+        "zh-CN": "黄金巨匠",
+        "en": "Orfevre",
+        "ja": "オルフェーヴル"
+      },
+      "aliases": [
+        "黃金巨匠"
+      ],
+      "source": "https://umamusume.jp/character/orfevre"
+    },
+    {
+      "id": "gentildonna",
+      "names": {
+        "zh-CN": "贵妇人",
+        "en": "Gentildonna",
+        "ja": "ジェンティルドンナ"
+      },
+      "aliases": [
+        "貴婦人"
+      ],
+      "source": "https://umamusume.jp/character/gentildonna"
+    },
+    {
+      "id": "win-variation",
+      "names": {
+        "zh-CN": "凯旋芭蕾",
+        "en": "Win Variation",
+        "ja": "ウインバリアシオン"
+      },
+      "aliases": [
+        "凱旋芭蕾"
+      ],
+      "source": "https://umamusume.jp/character/winvariation"
+    },
+    {
+      "id": "admire-groove",
+      "names": {
+        "zh-CN": "爱慕律动",
+        "en": "Admire Groove",
+        "ja": "アドマイヤグルーヴ"
+      },
+      "aliases": [
+        "爱慕气槽"
+      ],
+      "source": "https://umamusume.jp/character/admiregroove"
+    },
+    {
+      "id": "dream-journey",
+      "names": {
+        "zh-CN": "梦之旅",
+        "en": "Dream Journey",
+        "ja": "ドリームジャーニー"
+      },
+      "aliases": [
+        "夢之旅"
+      ],
+      "source": "https://umamusume.jp/character/dreamjourney"
+    },
+    {
+      "id": "calstone-light-o",
+      "names": {
+        "zh-CN": "浮岩光王",
+        "en": "Calstone Light O",
+        "ja": "カルストンライトオ"
+      },
+      "aliases": [
+        "直线番长"
+      ],
+      "source": "https://umamusume.jp/character/calstonelighto"
+    },
+    {
+      "id": "durandal",
+      "names": {
+        "zh-CN": "杜兰达尔",
+        "en": "Durandal",
+        "ja": "デュランダル"
+      },
+      "aliases": [
+        "圣剑",
+        "杜蘭達爾"
+      ],
+      "source": "https://umamusume.jp/character/durandal"
+    },
+    {
+      "id": "genuine",
+      "names": {
+        "zh-CN": "真诚",
+        "en": "Genuine",
+        "ja": "ジェニュイン"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/genuine"
+    },
+    {
+      "id": "bubble-gum-fellow",
+      "names": {
+        "zh-CN": "泡泡糖小子",
+        "en": "Bubble Gum Fellow",
+        "ja": "バブルガムフェロー"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/bubblegumfellow"
+    },
+    {
+      "id": "sakura-chitose-o",
+      "names": {
+        "zh-CN": "樱花千岁王",
+        "en": "Sakura Chitose O",
+        "ja": "サクラチトセオー"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/sakurachitoseo"
+    },
+    {
+      "id": "fenomeno",
+      "names": {
+        "zh-CN": "超常骏骥",
+        "en": "Fenomeno",
+        "ja": "フェノーメノ"
+      },
+      "aliases": [
+        "超常駿驥"
+      ],
+      "source": "https://umamusume.jp/character/fenomeno"
+    },
+    {
+      "id": "blast-onepiece",
+      "names": {
+        "zh-CN": "防暴装束",
+        "en": "Blast Onepiece",
+        "ja": "ブラストワンピース"
+      },
+      "aliases": [
+        "疾风装束",
+        "疾風裝束"
+      ],
+      "source": "https://umamusume.jp/character/blastonepiece"
+    },
+    {
+      "id": "almond-eye",
+      "names": {
+        "zh-CN": "杏目",
+        "en": "Almond Eye",
+        "ja": "アーモンドアイ"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/almondeye"
+    },
+    {
+      "id": "lucky-lilac",
+      "names": {
+        "zh-CN": "旺紫丁",
+        "en": "Lucky Lilac",
+        "ja": "ラッキーライラック"
+      },
+      "aliases": [
+        "幸运欧丁香",
+        "幸運歐丁香"
+      ],
+      "source": "https://umamusume.jp/character/luckylilac"
+    },
+    {
+      "id": "gran-alegria",
+      "names": {
+        "zh-CN": "放声欢呼",
+        "en": "Gran Alegria",
+        "ja": "グランアレグリア"
+      },
+      "aliases": [
+        "放聲歡呼"
+      ],
+      "source": "https://umamusume.jp/character/granalegria"
+    },
+    {
+      "id": "loves-only-you",
+      "names": {
+        "zh-CN": "唯独爱你",
+        "en": "Loves Only You",
+        "ja": "ラヴズオンリーユー"
+      },
+      "aliases": [
+        "唯獨愛你"
+      ],
+      "source": "https://umamusume.jp/character/lovesonlyyou"
+    },
+    {
+      "id": "chrono-genesis",
+      "names": {
+        "zh-CN": "创世驹",
+        "en": "Chrono Genesis",
+        "ja": "クロノジェネシス"
+      },
+      "aliases": [
+        "时代创世",
+        "時代創世"
+      ],
+      "source": "https://umamusume.jp/character/chronogenesis"
+    },
+    {
+      "id": "curren-bouquet-dor",
+      "names": {
+        "zh-CN": "机伶金花",
+        "en": "Curren Bouquetd'or",
+        "ja": "カレンブーケドール"
+      },
+      "aliases": [
+        "卡莲花束"
+      ],
+      "source": "https://umamusume.jp/character/currenbouquetdor"
+    },
+    {
+      "id": "stay-gold",
+      "names": {
+        "zh-CN": "黄金旅程",
+        "en": "Stay Gold",
+        "ja": "ステイゴールド"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/staygold"
+    },
+    {
+      "id": "red-desire",
+      "names": {
+        "zh-CN": "红色欲望",
+        "en": "Red Desire",
+        "ja": "レッドディザイア"
+      },
+      "aliases": [
+        "赤色欲望"
+      ],
+      "source": "https://umamusume.jp/character/reddesire"
+    },
+    {
+      "id": "kiseki",
+      "names": {
+        "zh-CN": "神业",
+        "en": "Kiseki",
+        "ja": "キセキ"
+      },
+      "aliases": [
+        "奇迹"
+      ],
+      "source": "https://umamusume.jp/character/kiseki"
+    },
+    {
+      "id": "forever-young",
+      "names": {
+        "zh-CN": "青春永驻",
+        "en": "Forever Young",
+        "ja": "フォーエバーヤング"
+      },
+      "aliases": [
+        "永远年轻"
+      ],
+      "source": "https://umamusume.jp/character/foreveryoung"
+    },
+    {
+      "id": "marche-lorraine",
+      "names": {
+        "zh-CN": "洛林军歌",
+        "en": "Marche Lorraine",
+        "ja": "マルシュロレーヌ"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/marchelorraine"
+    },
+    {
+      "id": "epiphaneia",
+      "names": {
+        "zh-CN": "神威启示",
+        "en": "Epiphaneia",
+        "ja": "エピファネイア"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/epiphaneia"
+    },
+    {
+      "id": "logotype",
+      "names": {
+        "zh-CN": "标志名驹",
+        "en": "Logotype",
+        "ja": "ロゴタイプ"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/logotype"
+    },
+    {
+      "id": "victoire-pisa",
+      "names": {
+        "zh-CN": "比萨胜驹",
+        "en": "Victoire Pisa",
+        "ja": "ヴィクトワールピサ"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/victoirepisa"
+    },
+    {
+      "id": "rose-kingdom",
+      "names": {
+        "zh-CN": "玫瑰帝国",
+        "en": "Rose Kingdom",
+        "ja": "ローズキングダム"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/rosekingdom"
+    },
+    {
+      "id": "rulership",
+      "names": {
+        "zh-CN": "统治地位",
+        "en": "Rulership",
+        "ja": "ルーラーシップ"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/rulership"
+    },
+    {
+      "id": "efforia",
+      "names": {
+        "zh-CN": "乐透心",
+        "en": "Efforia",
+        "ja": "エフフォーリア"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/efforia"
+    },
+    {
+      "id": "titleholder",
+      "names": {
+        "zh-CN": "领衔",
+        "en": "Titleholder",
+        "ja": "タイトルホルダー"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/titleholder"
+    },
+    {
+      "id": "phalaenopsis",
+      "names": {
+        "zh-CN": "蝴蝶兰",
+        "en": "Phalaenopsis",
+        "ja": "ファレノプシス"
+      },
+      "aliases": [],
+      "source": "https://umamusume.jp/character/phalaenopsis"
+    },
+    {
+      "id": "happy-meek",
+      "names": {
+        "zh-CN": "快乐温顺",
+        "en": "Happy Meek",
+        "ja": "ハッピーミーク"
+      },
+      "aliases": [
+        "快乐米可",
+        "快樂溫順"
+      ],
+      "source": "https://umamusume.jp/character/happymeek"
+    },
+    {
+      "id": "bitter-glasse",
+      "names": {
+        "zh-CN": "微苦糖渍",
+        "en": "Bitter Glasse",
+        "ja": "ビターグラッセ"
+      },
+      "aliases": [
+        "苦糖浆",
+        "微苦糖漬"
+      ],
+      "source": "https://umamusume.jp/character/bitterglasse"
+    },
+    {
+      "id": "little-cocon",
+      "names": {
+        "zh-CN": "小巧圆茧",
+        "en": "Little Cocon",
+        "ja": "リトルココン"
+      },
+      "aliases": [
+        "小小蚕茧",
+        "小巧圓繭"
+      ],
+      "source": "https://umamusume.jp/character/littlecocon"
+    },
+    {
+      "id": "venus-paques",
+      "names": {
+        "zh-CN": "金星复活节",
+        "en": "Venus Paques",
+        "ja": "ヴェニュスパーク"
+      },
+      "aliases": [
+        "金星復活節"
+      ],
+      "source": "https://umamusume.jp/character/venuspaques"
+    },
+    {
+      "id": "rigantona",
+      "names": {
+        "zh-CN": "伟大女王",
+        "en": "Rigantona",
+        "ja": "リガントーナ"
+      },
+      "aliases": [
+        "里甘特娜",
+        "偉大女王"
+      ],
+      "source": "https://umamusume.jp/character/rigantona"
+    },
+    {
+      "id": "sonon-elfie",
+      "names": {
+        "zh-CN": "索侬爱尔菲",
+        "en": "Sonon Elfie",
+        "ja": "ソノンエルフィー"
+      },
+      "aliases": [
+        "索侬艾尔菲",
+        "索儂愛爾菲"
+      ],
+      "source": "https://umamusume.jp/character/sononelfie"
+    },
+    {
+      "id": "light-hello",
+      "names": {
+        "zh-CN": "明亮光晕",
+        "en": "Light Hello",
+        "ja": "ライトハロー"
+      },
+      "aliases": [
+        "轻柔致意",
+        "明亮光暈"
+      ],
+      "source": "https://umamusume.jp/character/lighthello"
+    },
+    {
+      "id": "darley-arabian",
+      "names": {
+        "zh-CN": "达利阿拉伯",
+        "en": "Darley Arabian",
+        "ja": "ダーレーアラビアン"
+      },
+      "aliases": [
+        "達利阿拉伯"
+      ],
+      "source": "https://umamusume.jp/character/darleyarabian"
+    },
+    {
+      "id": "godolphin-barb",
+      "names": {
+        "zh-CN": "高多芬柏布",
+        "en": "Godolphin Barb",
+        "ja": "ゴドルフィンバルブ"
+      },
+      "aliases": [
+        "高多芬阿拉伯"
+      ],
+      "source": "https://umamusume.jp/character/godolphinbarb"
+    },
+    {
+      "id": "byerley-turk",
+      "names": {
+        "zh-CN": "拜耶尔土耳其",
+        "en": "Byerley Turk",
+        "ja": "バイアリーターク"
+      },
+      "aliases": [
+        "拜耶爾土耳其"
+      ],
+      "source": "https://umamusume.jp/character/byerleyturk"
+    },
+    {
+      "id": "sugar-lights",
+      "names": {
+        "zh-CN": "蜜糖灯光",
+        "en": "Sugar Lights",
+        "ja": "シュガーライツ"
+      },
+      "aliases": [
+        "砂糖光辉",
+        "蜜糖燈光"
+      ],
+      "source": "https://umamusume.jp/character/sugarlights"
+    },
+    {
+      "id": "saint-lite",
+      "names": {
+        "zh-CN": "圣烈特",
+        "en": "Saint Lite",
+        "ja": "セントライト"
+      },
+      "aliases": [
+        "圣莱特",
+        "聖烈特"
+      ],
+      "source": "https://umamusume.jp/character/saintlite"
+    },
+    {
+      "id": "speed-symboli",
+      "names": {
+        "zh-CN": "速度象征",
+        "en": "Speed Symboli",
+        "ja": "スピードシンボリ"
+      },
+      "aliases": [
+        "速度象徵"
+      ],
+      "source": "https://umamusume.jp/character/speedsymboli"
+    },
+    {
+      "id": "haiseiko",
+      "names": {
+        "zh-CN": "俳成功",
+        "en": "Haiseiko",
+        "ja": "ハイセイコー"
+      },
+      "aliases": [
+        "海赛高",
+        "海塞克"
+      ],
+      "source": "https://umamusume.jp/character/haiseiko"
+    },
+    {
+      "id": "tucker-bryne",
+      "names": {
+        "zh-CN": "塔可拜茵",
+        "en": "Tucker Bryne",
+        "ja": "タッカーブライン"
+      },
+      "aliases": [
+        "塔克布莱恩"
+      ],
+      "source": "https://umamusume.jp/character/tuckerbryne"
+    },
+    {
+      "id": "yunohana-bloom",
+      "names": {
+        "zh-CN": "汤之花绽放",
+        "en": "Yunohana Bloom",
+        "ja": "ユノハナブルーム"
+      },
+      "aliases": [
+        "尤诺哈娜布鲁姆"
+      ],
+      "source": "https://umamusume.jp/character/yunohanabloom"
+    },
+    {
+      "id": "casino-drive",
+      "names": {
+        "zh-CN": "赌场大道",
+        "en": "Casino Drive",
+        "ja": "カジノドライヴ"
+      },
+      "aliases": [
+        "卡西诺大道"
+      ],
+      "source": "https://umamusume.jp/character/casinodrive"
     }
   ]
 }
