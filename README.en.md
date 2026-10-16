@@ -8,7 +8,7 @@ A randomized browser crossword using Umamusume character names. The frontend use
 
 - Four collections: Starter, Advanced, Epithets and Cinderella Gray, selected with four separate buttons. Each game samples runners, generates a connected grid, then draws a clue per runner. There is no fixed-level selector.
 - Chinese, English and Japanese interface and clues; independently selectable English-letter or katakana answers.
-- Large grids have 10 across and 10 down; small grids have 6 each. Desktop and mobile default to large and small respectively, with manual override. Cells can be resized and grids scrolled horizontally.
+- Large grids have 10 across and 10 down; small grids have 6 each. Desktop and mobile default to large and small respectively, with manual override. Cells can be resized and grids scrolled horizontally. The scrolling viewport stays within the content width, so a wide grid does not expand the page or shrink its text.
 - Assisted mode marks correct words and shows trilingual names, with unlimited lookup and answer viewing. Challenge mode hides correctness for unrevealed words, allows three searches and three distinct answer reveals; revealed words are filled, marked green and locked.
 - Either mode can end early and reveal the solution. Settings and single-answer help do not pause time. Changing interface language or mode preserves state; applying a different collection, script or size, or generating a new game, resets it.
 - Local PNG export supports blank grids, current entries and post-game solutions. Current-language clues, game URL and an offline QR code are included; playing time and status are optional.
