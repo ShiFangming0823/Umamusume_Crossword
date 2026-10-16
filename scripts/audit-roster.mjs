@@ -54,6 +54,7 @@ export function validateRosterCoverage(snapshot, characters, bank) {
     if (!character || character.names.ja !== row.nameJa
       || ![character.names.en, ...character.aliases].includes(row.nameEn) || !row.voiceJa) throw new Error('Roster name mismatch.');
   }
+  const ordinaryIds = new Set(ids);
   for (const id of snapshot.storyCharacterIds) {
     if (ids.has(id) || !characters.some(c => c.id === id)
       || !bank.records.some(r => r.characterId === id && r.categories.includes('cinderella'))) throw new Error('Invalid story roster member.');
@@ -67,7 +68,7 @@ export function validateRosterCoverage(snapshot, characters, bank) {
   if (characters.length !== ids.size || characters.some(c => !ids.has(c.id))) throw new Error('Unclassified roster member.');
   for (const category of ['beginner', 'advanced']) {
     const candidates = bank.records.filter(r => r.categories.includes(category));
-    if (candidates.length !== ids.size || candidates.some(r => !ids.has(r.characterId))) throw new Error(`Incomplete ${category} roster.`);
+    if (candidates.length !== ordinaryIds.size || candidates.some(r => !ordinaryIds.has(r.characterId))) throw new Error(`Incomplete ${category} roster: only reviewed official main/support characters are allowed.`);
   }
   return snapshot;
 }

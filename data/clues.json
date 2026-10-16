@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "notes": {
-    "zh-CN": "2026-10-16核对官方名单。普通题覆盖所有已列明的主要及剧情辅助马娘，提示为独立事实，近况注明资料日期。",
-    "en": "Official roster checked on 2026-10-16. Ordinary pools cover listed main and supporting Umamusume; current-life clues state their reference date.",
-    "ja": "2026-10-16に公式名簿を確認。通常問題は掲載済みの主要・補助ウマ娘を網羅し、近況には資料の日付を付ける。"
+    "zh-CN": "普通题仅含官方主要及辅助马娘；灰姑娘原创角色仅在剧情题组。入门每局赛绩与个人曲提示合计最多3条，优先人设和剧情。",
+    "en": "Ordinary pools contain official main/support runners; Cinderella originals stay in the story collection. Starter prioritizes profiles and story, with at most three race-record/music clues combined per game.",
+    "ja": "通常問題は公式の主要・補助ウマ娘のみ。シングレ独自キャラクターは物語問題集に限定。入門は人物設定・物語を優先し、競走成績とソロ曲のヒントは合計3問まで。"
   },
   "records": [
     {
@@ -1828,7 +1828,9 @@
         {
           "id": "mejiro-mcqueen-cinderella-musaka-recruitment",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -1846,7 +1848,9 @@
         {
           "id": "mejiro-mcqueen-cinderella-new-three-kikuka-winner",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -2522,7 +2526,9 @@
         {
           "id": "oguri-cap-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -2541,7 +2547,9 @@
         {
           "id": "oguri-cap-cinderella-mothers-knee-care",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -2560,7 +2568,9 @@
         {
           "id": "oguri-cap-cinderella-gold-junior-transfer",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -2579,7 +2589,9 @@
         {
           "id": "oguri-cap-cinderella-no-classic-registration",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -2598,7 +2610,9 @@
         {
           "id": "oguri-cap-cinderella-mile-jc-back-to-back",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -2617,7 +2631,9 @@
         {
           "id": "oguri-cap-cinderella-last-run-revival",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -2636,7 +2652,9 @@
         {
           "id": "oguri-cap-cinderella-kitahara-midnight-question",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3120,7 +3138,9 @@
         {
           "id": "tamamo-cross-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3139,7 +3159,9 @@
         {
           "id": "tamamo-cross-cinderella-wrong-train-kasamatsu",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3158,7 +3180,9 @@
         {
           "id": "tamamo-cross-cinderella-akitsu-takarazuka",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3178,7 +3202,9 @@
         {
           "id": "tamamo-cross-cinderella-surprise-forward-tactic",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3197,7 +3223,9 @@
         {
           "id": "tamamo-cross-cinderella-retirement-announcement",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3760,7 +3788,9 @@
         {
           "id": "bamboo-memory-cinderella-nase-father-trainee",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3777,7 +3807,9 @@
         {
           "id": "bamboo-memory-cinderella-mile-photo-finish",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3795,7 +3827,9 @@
         {
           "id": "bamboo-memory-cinderella-dirt-developed-form",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -3813,7 +3847,9 @@
         {
           "id": "bamboo-memory-cinderella-swan-recording",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4463,7 +4499,9 @@
         {
           "id": "yaeno-muteki-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4483,7 +4521,9 @@
         {
           "id": "yaeno-muteki-cinderella-challenge-letter",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4501,7 +4541,9 @@
         {
           "id": "yaeno-muteki-cinderella-twelve-length-dirt-win",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4521,7 +4563,9 @@
         {
           "id": "yaeno-muteki-cinderella-kikka-creek-opponent",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4540,7 +4584,9 @@
         {
           "id": "yaeno-muteki-cinderella-final-autumn-tenno-win",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4792,7 +4838,9 @@
         {
           "id": "inari-one-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4811,7 +4859,9 @@
         {
           "id": "inari-one-cinderella-face-no-more-defeat",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4831,7 +4881,9 @@
         {
           "id": "inari-one-cinderella-mainichi-head-to-head",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4849,7 +4901,9 @@
         {
           "id": "inari-one-cinderella-second-arima-record",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4868,7 +4922,9 @@
         {
           "id": "inari-one-cinderella-sister-and-bo-trainers",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -4986,7 +5042,9 @@
         {
           "id": "sakura-chiyono-o-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5005,7 +5063,9 @@
         {
           "id": "sakura-chiyono-o-cinderella-idol-ineligibility",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5023,7 +5083,9 @@
         {
           "id": "sakura-chiyono-o-cinderella-satsuki-third",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5397,7 +5459,9 @@
         {
           "id": "mejiro-ardan-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5416,7 +5480,9 @@
         {
           "id": "mejiro-ardan-cinderella-injury-comeback",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5435,7 +5501,9 @@
         {
           "id": "mejiro-ardan-cinderella-ramonu-shadow",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5454,7 +5522,9 @@
         {
           "id": "mejiro-ardan-cinderella-last-autumn-runner-up",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5475,17 +5545,13 @@
     {
       "characterId": "mini-the-lady",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "mini-the-lady-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5505,9 +5571,7 @@
         {
           "id": "mini-the-lady-cinderella-second-in-class",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5527,17 +5591,13 @@
     {
       "characterId": "fujimasa-march",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "fujimasa-march-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5557,9 +5617,7 @@
         {
           "id": "fujimasa-march-cinderella-mount-kinka-promise",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5578,9 +5636,7 @@
         {
           "id": "fujimasa-march-cinderella-telephone-japans-best",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5598,9 +5654,7 @@
         {
           "id": "fujimasa-march-cinderella-gifu-crown-comeback",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5620,9 +5674,7 @@
         {
           "id": "fujimasa-march-cinderella-walk-dancer-roommate",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5642,17 +5694,13 @@
     {
       "characterId": "michelle-my-baby",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "michelle-my-baby-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5670,9 +5718,7 @@
         {
           "id": "michelle-my-baby-cinderella-basketball-demo",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5690,9 +5736,7 @@
         {
           "id": "michelle-my-baby-cinderella-first-jc-fourth",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -5791,7 +5835,9 @@
         {
           "id": "gold-city-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5809,7 +5855,9 @@
         {
           "id": "gold-city-cinderella-shampoo-question",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5828,7 +5876,9 @@
         {
           "id": "gold-city-cinderella-opening-derby-runner",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5965,7 +6015,9 @@
         {
           "id": "mr-cb-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -5983,7 +6035,9 @@
         {
           "id": "mr-cb-cinderella-hannibal-popsicle",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6004,17 +6058,13 @@
     {
       "characterId": "toni-bianca",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "toni-bianca-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6033,9 +6083,7 @@
         {
           "id": "toni-bianca-cinderella-fracture-fifth",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6054,9 +6102,7 @@
         {
           "id": "toni-bianca-cinderella-hospital-flowers",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6075,9 +6121,7 @@
         {
           "id": "toni-bianca-cinderella-second-jc-spectator",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6301,7 +6345,9 @@
         {
           "id": "symboli-rudolf-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6320,7 +6366,9 @@
         {
           "id": "symboli-rudolf-cinderella-derby-petition",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6339,7 +6387,9 @@
         {
           "id": "symboli-rudolf-cinderella-maruzensky-adviser",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6360,17 +6410,13 @@
     {
       "characterId": "obey-your-master",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "obey-your-master-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6389,9 +6435,7 @@
         {
           "id": "obey-your-master-cinderella-belno-spy-game",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6409,9 +6453,7 @@
         {
           "id": "obey-your-master-cinderella-training-room-video",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6430,9 +6472,7 @@
         {
           "id": "obey-your-master-cinderella-defending-jc-third",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6453,17 +6493,13 @@
     {
       "characterId": "dicta-striker",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "dicta-striker-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6482,9 +6518,7 @@
         {
           "id": "dicta-striker-cinderella-hakodate-record",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6504,9 +6538,7 @@
         {
           "id": "dicta-striker-cinderella-bullet-shot-zone",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6525,9 +6557,7 @@
         {
           "id": "dicta-striker-cinderella-trainer-kouchi",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6546,9 +6576,7 @@
         {
           "id": "dicta-striker-cinderella-classroom-black-ale",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6665,7 +6693,9 @@
         {
           "id": "maruzensky-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6684,7 +6714,9 @@
         {
           "id": "maruzensky-cinderella-chukyo-rudolf-companion",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6705,17 +6737,13 @@
     {
       "characterId": "norn-ace",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "norn-ace-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6734,9 +6762,7 @@
         {
           "id": "norn-ace-cinderella-storage-room-eviction",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6755,9 +6781,7 @@
         {
           "id": "norn-ace-cinderella-oguri-plush",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6776,9 +6800,7 @@
         {
           "id": "norn-ace-cinderella-race-sand-apology",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -6933,7 +6955,9 @@
         {
           "id": "super-creek-cinderella-original",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6952,7 +6976,9 @@
         {
           "id": "super-creek-cinderella-arima-disqualification",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6971,7 +6997,9 @@
         {
           "id": "super-creek-cinderella-kyoto-return",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -6990,7 +7018,9 @@
         {
           "id": "super-creek-cinderella-second-autumn-tenno-win",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -7009,7 +7039,9 @@
         {
           "id": "super-creek-cinderella-last-spring-tenno",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -7030,17 +7062,13 @@
     {
       "characterId": "moonlight-lunacy",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "moonlight-lunacy-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7058,9 +7086,7 @@
         {
           "id": "moonlight-lunacy-cinderella-next-jc-observer",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7080,17 +7106,13 @@
     {
       "characterId": "belno-light",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "belno-light-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7109,9 +7131,7 @@
         {
           "id": "belno-light-cinderella-support-transfer-exam",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7130,9 +7150,7 @@
         {
           "id": "belno-light-cinderella-foreign-team-investigation",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7151,9 +7169,7 @@
         {
           "id": "belno-light-cinderella-supporters-declaration",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7172,9 +7188,7 @@
         {
           "id": "belno-light-cinderella-postscript-assistant",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7195,17 +7209,13 @@
     {
       "characterId": "rudy-lemono",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "rudy-lemono-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7223,9 +7233,7 @@
         {
           "id": "rudy-lemono-cinderella-norn-handkerchief",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7246,17 +7254,13 @@
     {
       "characterId": "ellerslie-pride",
       "categories": [
-        "beginner",
-        "advanced",
         "cinderella"
       ],
       "clues": [
         {
           "id": "ellerslie-pride-cinderella-original",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7274,9 +7278,7 @@
         {
           "id": "ellerslie-pride-cinderella-gold-city-fangirl",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -7294,9 +7296,7 @@
         {
           "id": "ellerslie-pride-cinderella-folkqueen-senior",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -8628,7 +8628,9 @@
         {
           "id": "mejiro-ryan-cinderella-aka-en-do-partner",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -8646,7 +8648,9 @@
         {
           "id": "mejiro-ryan-cinderella-oguri-last-rival",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -10503,7 +10507,9 @@
         {
           "id": "sirius-symboli-cinderella-paddock-dance-accident",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -10523,7 +10529,9 @@
         {
           "id": "sirius-symboli-cinderella-europe-return",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -10541,7 +10549,9 @@
         {
           "id": "sirius-symboli-cinderella-mainichi-second",
           "categories": [
-            "cinderella"
+            "cinderella",
+            "beginner",
+            "advanced"
           ],
           "dimension": "story",
           "text": {
@@ -18638,17 +18648,13 @@
     {
       "characterId": "black-ale",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "black-ale-cinderella-pegasus-streak-ended",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18667,9 +18673,7 @@
         {
           "id": "black-ale-cinderella-sand-play-insult",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18688,9 +18692,7 @@
         {
           "id": "black-ale-cinderella-polite-language-promise",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18709,9 +18711,7 @@
         {
           "id": "black-ale-cinderella-fans-treated-kindly",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18732,17 +18732,13 @@
     {
       "characterId": "meikun-tsukasa",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "meikun-tsukasa-cinderella-musaka-hairpins",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18760,9 +18756,7 @@
         {
           "id": "meikun-tsukasa-cinderella-reliable-honors-senior",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18782,17 +18776,13 @@
     {
       "characterId": "kraft-univer",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "kraft-univer-cinderella-musaka-freckled-senior",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18810,9 +18800,7 @@
         {
           "id": "kraft-univer-cinderella-gothic-race-outfit",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18830,9 +18818,7 @@
         {
           "id": "kraft-univer-cinderella-stump-rescuer",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18852,17 +18838,13 @@
     {
       "characterId": "god-hannibal",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "god-hannibal-cinderella-ice-cream-not-jersey",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18880,9 +18862,7 @@
         {
           "id": "god-hannibal-cinderella-stuck-in-stump",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18900,9 +18880,7 @@
         {
           "id": "god-hannibal-cinderella-kaiju-bug-net",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18920,9 +18898,7 @@
         {
           "id": "god-hannibal-cinderella-cb-popsicle-gift",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18942,17 +18918,13 @@
     {
       "characterId": "akitsu-teio",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "akitsu-teio-cinderella-takarazuka-defeat",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18971,9 +18943,7 @@
         {
           "id": "akitsu-teio-cinderella-hakama-front-runner",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -18993,17 +18963,13 @@
     {
       "characterId": "dynamu-heroine",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "dynamu-heroine-cinderella-paddock-kick-victim",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19022,9 +18988,7 @@
         {
           "id": "dynamu-heroine-cinderella-environment-sensitive",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19042,9 +19006,7 @@
         {
           "id": "dynamu-heroine-cinderella-autumn-bib-five",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19066,17 +19028,13 @@
     {
       "characterId": "lord-royal",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "lord-royal-cinderella-nosebleed-scratch",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19095,9 +19053,7 @@
         {
           "id": "lord-royal-cinderella-autumn-leading-third",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19116,9 +19072,7 @@
         {
           "id": "lord-royal-cinderella-imaginary-throne",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19138,17 +19092,13 @@
     {
       "characterId": "yamano-thousand",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "yamano-thousand-cinderella-tokai-derby-winner",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19166,9 +19116,7 @@
         {
           "id": "yamano-thousand-cinderella-gifu-rematch",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19190,17 +19138,13 @@
     {
       "characterId": "face-no-more",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "face-no-more-cinderella-reverse-transfer",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19218,9 +19162,7 @@
         {
           "id": "face-no-more-cinderella-inari-wrong-names",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19237,9 +19179,7 @@
         {
           "id": "face-no-more-cinderella-watching-inari-tv",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19258,17 +19198,13 @@
     {
       "characterId": "folkqueen",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "folkqueen-cinderella-health-spa-mentor",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19286,9 +19222,7 @@
         {
           "id": "folkqueen-cinderella-not-a-second-ellerslie",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19306,9 +19240,7 @@
         {
           "id": "folkqueen-cinderella-jc-world-record",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19326,9 +19258,7 @@
         {
           "id": "folkqueen-cinderella-heterochromia-jc",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19347,17 +19277,13 @@
     {
       "characterId": "thief-crow",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "thief-crow-cinderella-world-record-invader",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19375,9 +19301,7 @@
         {
           "id": "thief-crow-cinderella-eve-pacing-duel",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19395,9 +19319,7 @@
         {
           "id": "thief-crow-cinderella-postrace-eve-friendship",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19417,17 +19339,13 @@
     {
       "characterId": "eve-binti",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "eve-binti-cinderella-british-front-runner",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19445,9 +19363,7 @@
         {
           "id": "eve-binti-cinderella-two-thousand-meter-logic",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19465,9 +19381,7 @@
         {
           "id": "eve-binti-cinderella-pink-jc-racer",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19487,17 +19401,13 @@
     {
       "characterId": "carries-room",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "carries-room-cinderella-british-arc-winner",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19515,9 +19425,7 @@
         {
           "id": "carries-room-cinderella-shy-prince",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19537,17 +19445,13 @@
     {
       "characterId": "mill-wakaba",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "mill-wakaba-cinderella-borrowed-horns",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19564,9 +19468,7 @@
         {
           "id": "mill-wakaba-cinderella-takarazuka-monster-defeat",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19584,9 +19486,7 @@
         {
           "id": "mill-wakaba-cinderella-milk-cider",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19603,9 +19503,7 @@
         {
           "id": "mill-wakaba-cinderella-ten-length-debut-overshadowed",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19623,9 +19521,7 @@
         {
           "id": "mill-wakaba-cinderella-after-last-arima",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19645,17 +19541,13 @@
     {
       "characterId": "bright-rock",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "bright-rock-cinderella-milk-supporter",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19672,9 +19564,7 @@
         {
           "id": "bright-rock-cinderella-younger-of-three-friends",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19691,9 +19581,7 @@
         {
           "id": "bright-rock-cinderella-last-jc-fourth",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19713,17 +19601,13 @@
     {
       "characterId": "walk-dancer",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "walk-dancer-cinderella-march-roommate",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19740,9 +19624,7 @@
         {
           "id": "walk-dancer-cinderella-debut-field-roommate",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19761,17 +19643,13 @@
     {
       "characterId": "merry-beauty",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "merry-beauty-cinderella-opening-derby-six-lengths",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19789,9 +19667,7 @@
         {
           "id": "merry-beauty-cinderella-hakodate-record-runner-up",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19812,17 +19688,13 @@
     {
       "characterId": "long-live-free",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "long-live-free-cinderella-paddock-medical-help",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19841,9 +19713,7 @@
         {
           "id": "long-live-free-cinderella-spring-second",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19862,17 +19732,13 @@
     {
       "characterId": "shirogane-adieu",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "shirogane-adieu-cinderella-arima-interference-victim",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19890,9 +19756,7 @@
         {
           "id": "shirogane-adieu-cinderella-named-in-anime",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19913,17 +19777,13 @@
     {
       "characterId": "massive-viking",
       "categories": [
-        "cinderella",
-        "beginner",
-        "advanced"
+        "cinderella"
       ],
       "clues": [
         {
           "id": "massive-viking-cinderella-seven-starts-five-wins",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {
@@ -19942,9 +19802,7 @@
         {
           "id": "massive-viking-cinderella-autumn-pirate-bib-four",
           "categories": [
-            "cinderella",
-            "beginner",
-            "advanced"
+            "cinderella"
           ],
           "dimension": "story",
           "text": {

@@ -28,7 +28,13 @@ test('same seed reproduces a grid, different seeds change it, and recent clues a
  const next=puzzle({seed:124});assert.notDeepEqual(first.grid,next.grid);assert.notDeepEqual(first.entries.map(e=>e.characterId).sort(),next.entries.map(e=>e.characterId).sort());
  const previousClues=Object.fromEntries(first.entries.map(e=>[e.characterId,e.clueId]));
  const refreshed=puzzle({previousClues});assert.deepEqual(first.grid,refreshed.grid);
- for(const e of refreshed.entries)assert.notEqual(e.clueId,previousClues[e.characterId]);
+ const clueById=new Map(bank.records.flatMap(r=>r.clues).map(c=>[c.id,c]));
+ const auxiliary=c=>['horse-record','music'].includes(c.dimension);
+ for(const e of refreshed.entries)if(e.clueId===previousClues[e.characterId]){
+  assert.equal(refreshed.entries.filter(x=>auxiliary(clueById.get(x.clueId))).length,3);
+  const alternatives=bank.records.find(r=>r.characterId===e.characterId).clues.filter(c=>c.categories.includes('beginner')&&c.id!==e.clueId);
+  assert.ok(alternatives.length&&alternatives.every(auxiliary));
+ }
 });
 test('bad settings and undersized pools fail clearly; no disconnected fallback is returned',()=>{
  for(const settings of [{difficulty:'easy'},{boardSize:'huge'},{answerLanguage:'zh-CN'},{seed:-1},{seed:1.2}])assert.throws(()=>puzzle(settings));

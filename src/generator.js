@@ -1,8 +1,9 @@
 import { normalizeAnswer, validateLevel } from './game.js';
+import { selectPuzzleClues } from './clue-policy.js';
 
 export const CATEGORIES = ['beginner', 'advanced', 'epithets', 'cinderella'];
 export const SIZES = { small: 6, large: 10 };
-export const GENERATOR_VERSION = 1;
+export const GENERATOR_VERSION = 2;
 export function seededRandom(seed) {
   let state = seed >>> 0;
   return () => { state += 0x6D2B79F5; let t = state; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; };
@@ -81,15 +82,11 @@ export function generatePuzzle({ bank, characters, difficulty, answerLanguage, b
       const rows = Math.max(...entries.map(e => e.row + (e.direction === 'down' ? e.answer.length : 1)));
       const columns = Math.max(...entries.map(e => e.column + (e.direction === 'across' ? e.answer.length : 1)));
       const layout = Array.from({length:rows}, () => Array(columns).fill('#'));
+      const selectedClues = selectPuzzleClues(shuffle(entries, random), difficulty, previousClues, random);
       let number = 0, lastStart = '';
       const result = entries.map(e => {
         const start = key(e.row, e.column); if (start !== lastStart) { number++; lastStart = start; }
-        const clues = e.record.clues.filter(c => c.categories?.includes(difficulty) ?? true);
-        const fresh = clues.filter(c => c.id !== previousClues[e.characterId]);
-        const choices=fresh.length?fresh:clues;
-        const weight=c=>difficulty==='beginner'?(c.dimension==='horse-record'?1:3):difficulty==='advanced'?(c.dimension==='horse-record'?3:1):1;
-        let draw=random()*choices.reduce((n,c)=>n+weight(c),0),selected=choices.at(-1);
-        for(const clue of choices){draw-=weight(clue);if(draw<0){selected=clue;break;}}
+        const selected = selectedClues.get(e.characterId);
         for (let i = 0; i < e.answer.length; i++) layout[e.row + (e.direction === 'down' ? i : 0)][e.column + (e.direction === 'across' ? i : 0)] = '.';
         return { id:`${number}-${e.direction}`, number, direction:e.direction, row:e.row, column:e.column, characterId:e.characterId, answer:e.answer, clues:selected.text, clueId:selected.id };
       });

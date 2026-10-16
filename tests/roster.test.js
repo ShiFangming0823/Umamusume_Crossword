@@ -12,14 +12,15 @@ import { boardSubmission } from '../src/random-protocol.js';
 
 const { bank, characters, roster } = await checkData();
 
-test('both ordinary pools cover the reviewed main, supporting and original story rosters', () => {
+test('ordinary pools cover official main/support runners and exclude Cinderella originals', () => {
   assert.equal(roster.officialCharacters.filter(r => r.kind === 'main').length, 145);
   assert.equal(roster.officialCharacters.filter(r => r.kind === 'support').length, 17);
   assert.equal(roster.storyCharacterIds.length, 31);
   assert.equal(characters.length, 193);
   for (const category of ['beginner', 'advanced']) {
-    assert.equal(bank.records.filter(r => r.categories.includes(category)).length, 193);
-    assert.deepEqual(new Set(randomPool.categories[category]), new Set(characters.map(c => c.id)));
+    assert.equal(bank.records.filter(r => r.categories.includes(category)).length, 162);
+    assert.deepEqual(new Set(randomPool.categories[category]), new Set(roster.officialCharacters.map(c => c.characterId)));
+    for (const id of roster.storyCharacterIds) assert.ok(!randomPool.categories[category].includes(id));
   }
   assert.ok(characters.some(c => c.id === 'phalaenopsis'));
   assert.ok(characters.some(c => c.id === 'casino-drive'));
@@ -27,6 +28,9 @@ test('both ordinary pools cover the reviewed main, supporting and original story
   const incomplete = structuredClone(bank);
   incomplete.records.find(r => r.characterId === 'casino-drive').categories = ['advanced'];
   assert.throws(() => validateRosterCoverage(roster, characters, incomplete), /Incomplete beginner/);
+  const leaked = structuredClone(bank);
+  leaked.records.find(r => r.characterId === 'fujimasa-march').categories.push('beginner');
+  assert.throws(() => validateRosterCoverage(roster, characters, leaked), /Incomplete beginner/);
 });
 
 test('expanded names work in both answer scripts, including punctuation and search aliases', () => {
@@ -48,7 +52,7 @@ test('all candidates appear across varied generated games and expanded boards pa
       p.entries.forEach(e => appeared.add(e.characterId));
       validateRandomBoard({ difficulty: p.difficulty, boardSize: p.boardSize, board: boardSubmission(p) }, randomPool);
     }
-    assert.equal(appeared.size, 193, `Missing candidates in ${answerLanguage}`);
+    assert.deepEqual(appeared, new Set(roster.officialCharacters.map(c => c.characterId)), `Wrong candidates in ${answerLanguage}`);
   }
 });
 

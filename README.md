@@ -23,7 +23,7 @@
 | 命令 | 用途 |
 | --- | --- |
 | npm run dev | 源码预览，默认 http://localhost:5173/ |
-| npm run check:data | 离线校验角色、全名单覆盖、随机提示库及历史题库 |
+| npm run check:data | 离线校验角色、官方候选覆盖、随机提示库及历史题库 |
 | npm run audit:roster | 联网核对官方新增、改名、分类及配音变更；只读，不自动收录 |
 | npm test | 游戏规则、随机棋盘、三语文案、统计与真实 SQLite 回归测试 |
 | npm run benchmark | 测量四题组 × 两文字 × 两尺寸的生成速度 |
@@ -41,7 +41,7 @@ Windows PowerShell 可使用 npm.cmd。开发与产物预览共用默认端口�
 | src/main.js | DOM、输入法与粘贴、焦点、设置及会话编排 |
 | src/game.js | 无 DOM 的会话状态、计时、模式、配额、判定、搜索与棋盘校验 |
 | src/catalog.js、src/clue-bank.js | 加载及校验当前角色和提示库 |
-| src/generator.js、src/generator-worker.js | 有界随机重启排盘与后台线程入口 |
+| src/generator.js、src/generator-worker.js、src/clue-policy.js | 有界随机重启排盘、后台线程及提示权重与配额 |
 | src/i18n.js、src/random-i18n.js | 三语界面文案和插值 |
 | src/export.js、src/vendor/ | Canvas PNG 导出与离线二维码 |
 | data/characters.json、data/clues.json | 标准名字、别名、按角色与题组管理的三语提示及来源 |
@@ -56,7 +56,7 @@ GameSession 不依赖 DOM，时钟可以注入。completed 表示本局结束；
 
 ## 题库维护
 
-截至 2026-10-16，入门、进阶候选池均为 193 位：145 位官方主要马娘、17 位明确为马娘的剧情辅助角色、31 位已审校漫画原创角色。全库 999 条三语提示，普通题各有 859 条可用提示。芦毛灰姑娘现有46位候选、150条剧情提示，覆盖笠松篇到漫画最终章。普通和剧情角色提供多条提示；二つ名保持来源中的真实称号，有两种称号时同时展示，不编造称号变体。入门和进阶可共享角色，但提示按题组范围与维度权重抽取。
+截至 2026-10-16，名字词典共193位；入门、进阶候选池均为162位，包含145位官方主要马娘和17位明确为马娘的剧情辅助角色。31位灰姑娘原创角色仅在灰姑娘题组参与抽题，仍可通过名字查询找到。全库 999 条三语提示，普通题各有819条可用提示，其中55条为涉及官方马娘的灰姑娘剧情提示。芦毛灰姑娘现有46位候选、150条剧情提示，覆盖笠松篇到漫画最终章。普通和剧情角色提供多条提示；二つ名保持来源中的真实称号，有两种称号时同时展示，不编造称号变体。入门和进阶共享官方候选，但提示按题组范围与维度权重抽取。入门每局原型马具体赛绩（horse-record）与个人曲（music）提示合计最多3条，大小棋盘及两种填答文字均适用；优先抽取人设、关系及剧情。每位入门角色至少保留一条profile或story提示，配额优先于避开上次提示。进阶不限制这两类提示的数量。
 
 新增内容时维护 characters.json、clues.json 和人工审校的 roster.json 名单快照，保持稳定 characterId 与提示 id。每条提示补齐 zh-CN、en、ja、适用题组、维度、来源，人工核对事实与对应唯一性。禁止只用「很努力」「擅长跑步」等泛化描述。新增提示应有可锁定角色的比赛年份、明确关系、独有称号或具体剧情等证据；音乐注明唱片与歌唱者，官方多人企划另加角色区分信息。新提示记录 factKey 和 verifiedAt，近况还需 asOf 与正文日期。
 
@@ -66,7 +66,7 @@ GameSession 不依赖 DOM，时钟可以注入。completed 表示本局结束；
 
 手动更正名字只改 names 和 aliases，保留稳定 id；提示正文中的称呼需另行同步。删除角色时同时移除 clues.json 的角色记录、roster.json 的分类引用；灰姑娘还需同步 cinderella-roster.json 和场景引用文件，并保留退出理由。仅删除名字会产生悬空引用，校验会列出缺失的角色 ID。修改前可将线索库复制为 data/clues.json.日期时间.bak；data/ 下的 .bak 文件不提交，也不复制到发布产物。
 
-灰姑娘题库的审校名单与暂缓项见 `data/cinderella-roster.json`，逐条话数／篇章引用在 `docs/evidence/cinderella-scenes.json`，离线校验会检查两者与运行题库一致。历史22题固定棋盘保持不变；新增原创马娘也进入普通候选池和三语名字查询。
+灰姑娘题库的审校名单与暂缓项见 `data/cinderella-roster.json`，逐条话数／篇章引用在 `docs/evidence/cinderella-scenes.json`，离线校验会检查两者与运行题库一致。历史22题固定棋盘保持不变；灰姑娘原创马娘仅进入灰姑娘候选池和三语名字查询。
 
 ## 统计与升级
 

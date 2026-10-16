@@ -22,7 +22,7 @@ Use Node.js 24. No npm dependency installation is required; the QR encoder is ve
 | Command | Purpose |
 | --- | --- |
 | npm run dev | Source preview at http://localhost:5173/ |
-| npm run check:data | Offline validation of names, full-roster coverage, clues and legacy fixtures |
+| npm run check:data | Offline validation of names, official-roster coverage, clues and legacy fixtures |
 | npm run audit:roster | Read-only online comparison of official additions, names, categories and voice credits |
 | npm test | Rules, generated grids, localization, API and real SQLite regressions |
 | npm run benchmark | Measure all 16 collection/script/size combinations |
@@ -34,7 +34,7 @@ PowerShell can use npm.cmd. Both preview commands default to port 5173; use PORT
 
 ## Architecture
 
-main.js coordinates DOM, input methods, focus, settings and GameSession. game.js contains DOM-free rules, normalization, search, timing, allowances and board validation. catalog.js and clue-bank.js load and validate the JSON bank. generator.js performs bounded randomized restart search; generator-worker.js runs it off the main thread. i18n.js and random-i18n.js provide interface translations. export.js draws printable PNGs with the vendored offline QR encoder.
+main.js coordinates DOM, input methods, focus, settings and GameSession. game.js contains DOM-free rules, normalization, search, timing, allowances and board validation. catalog.js and clue-bank.js load and validate the JSON bank. clue-policy.js owns clue weights and quotas. generator.js performs bounded randomized restart search; generator-worker.js runs it off the main thread. i18n.js and random-i18n.js provide interface translations. export.js draws printable PNGs with the vendored offline QR encoder.
 
 The generator samples without replacement and checks matching crossings, word boundaries, side adjacency, connectivity and direction quotas. Scoring favors compact grids. Maximum edges are 30 cells for small grids and 40 for large ones. A busy button appears immediately, with delayed loading feedback after 400ms. The checked-in development-machine benchmark completed 800 generations with no failures and group means around 3–20ms; this excludes Worker startup and does not describe mobile performance.
 
@@ -42,7 +42,7 @@ GameSession accepts an injected clock. completed means the session ended; succes
 
 ## Data maintenance
 
-characters.json owns standard trilingual names and aliases. clues.json associates stable character IDs with categorized, sourced, trilingual clue records. As checked on 2026-10-16, Starter and Advanced each cover 193 runners: 145 official main characters, 17 confirmed supporting Umamusume and 31 reviewed manga originals. The bank has 999 trilingual records, including 859 eligible clues in each ordinary collection. Cinderella Gray now has 46 candidates and 150 story clues, covering Kasamatsu through the manga finale. Ordinary and story clues offer alternatives; epithet clues retain authentic titles, including both game and towel titles when available. Starter and Advanced may share runners, but use category-scoped clues and different dimension weights.
+characters.json owns standard trilingual names and aliases. clues.json associates stable character IDs with categorized, sourced, trilingual clue records. As checked on 2026-10-16, The dictionary contains 193 runners. Starter and Advanced each cover 162 official runners: 145 main characters and 17 confirmed supporting Umamusume. The 31 Cinderella originals remain in their dedicated collection and name lookup. The bank has 999 trilingual records, including 819 eligible clues in each ordinary collection. Cinderella Gray now has 46 candidates and 150 story clues, covering Kasamatsu through the manga finale. Ordinary and story clues offer alternatives; epithet clues retain authentic titles, including both game and towel titles when available. Both ordinary collections use the same official roster, with category-scoped clues and different dimension weights. Starter prioritizes profiles, relationships and story; horse-record and music clues have a combined maximum of three per game, for both sizes and scripts. Each Starter runner needs a profile/story fallback. The quota takes precedence over avoiding the previous clue; Advanced has no such cap.
 
 Maintain the reviewed roster.json snapshot alongside the names and clues. Add all zh-CN, en and ja text, a stable clue ID, categories, dimension and sources. New facts include factKey and verifiedAt; current-life clues also require asOf and a visible reference date. Generic traits such as working hard or running well cannot stand alone. Use identifying race years, relationships, titles or specific scenes. Song clues identify the album and solo credit; multiplayer-program clues need an additional distinguishing fact. Review factual accuracy and uniqueness manually: a duplicate-text check cannot establish semantic uniqueness. English answers remove punctuation/spaces and become uppercase; katakana preserves small kana and long-vowel marks. Cinderella Gray originals use their fictional character names rather than real-horse counterparts.
 
@@ -50,7 +50,7 @@ The eight old fixed grids remain historical fixtures and are not loaded during p
 
 For name corrections, edit names and aliases while keeping the stable id; update names mentioned in clue text separately. Removing a runner also requires removing its clues.json record and roster.json references. For Cinderella Gray, update cinderella-roster.json and scene evidence, recording the removal reason. Missing-name errors list affected IDs. Back up the bank as data/clues.json.TIMESTAMP.bak before editing; .bak files under data/ are excluded from Git and release builds.
 
-The reviewed Cinderella identities and deferred entries live in `data/cinderella-roster.json`; per-clue chapter/episode references live in `docs/evidence/cinderella-scenes.json`. Offline checks enforce consistency with the playable bank. The original 22-entry fixed grids remain unchanged. New original characters also join the ordinary pools and trilingual lookup.
+The reviewed Cinderella identities and deferred entries live in `data/cinderella-roster.json`; per-clue chapter/episode references live in `docs/evidence/cinderella-scenes.json`. Offline checks enforce consistency with the playable bank. The original 22-entry fixed grids remain unchanged. Original characters remain available in Cinderella Gray and trilingual lookup.
 
 ## Statistics and upgrades
 

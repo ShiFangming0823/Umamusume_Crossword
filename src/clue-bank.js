@@ -1,5 +1,6 @@
 import { CATEGORIES, SIZES } from './generator.js';
 import { LANGUAGES } from './game.js';
+import { isBeginnerPrimary } from './clue-policy.js';
 export const CLUE_DIMENSIONS = ['profile', 'horse-record', 'story', 'epithet', 'music', 'horse-life', 'official-program'];
 const validDate = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)
   && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
@@ -31,6 +32,9 @@ export function validateClueBank(bank, characters) {
       }
     }
     for(const c of record.categories)if(record.clues.filter(h=>h.categories.includes(c)).length<(c==='epithets'?1:2))throw new Error('Insufficient clue variety');
+    if (record.categories.includes('beginner') && !record.clues.some(clue => clue.categories.includes('beginner') && isBeginnerPrimary(clue))) {
+      throw new Error(`Beginner profile or story clue required: ${record.characterId}`);
+    }
   }
   for(const c of CATEGORIES)if(bank.records.filter(r=>r.categories.includes(c)).length<SIZES.large*2)throw new Error(`Not enough candidates: ${c}`);
   return bank;
