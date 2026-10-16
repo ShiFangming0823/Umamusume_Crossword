@@ -1,4 +1,5 @@
 import { loadCatalog } from './catalog.js';
+import { bindCellActivation } from './cell-interaction.js';
 import { SIZES } from './generator.js';
 import { downloadPuzzle } from './export.js';
 import { GameSession, cellKey, entryCells, normalizeAnswer, feedbackFor, formatTime, LANGUAGES } from './game.js';
@@ -177,8 +178,9 @@ function renderGame() {
   const locked = session?.revealedCells || new Set();
   for (const [key, cell] of containers) {
     const input = inputs.get(key);
-    input.value = session?.values[key] || '';
-    input.readOnly = Boolean(session?.completed) || locked.has(key);
+    const value = session?.values[key] || '', readOnly = Boolean(session?.completed) || locked.has(key);
+    if (input.value !== value) input.value = value;
+    if (input.readOnly !== readOnly) input.readOnly = readOnly;
     cell.classList.toggle('active-word', selected.has(key)); cell.classList.toggle('selected',key===activeKey);
     cell.classList.toggle('correct',greenCells.has(key));
     cell.classList.toggle('solution',solutionView());
@@ -261,11 +263,11 @@ function activate(entry,key,focus = true) {
   }
   if (focus&&session&&!session.completed) { inputs.get(key)?.focus({preventScroll:true}); const cell=containers.get(key),scroll=$('board').parentElement; if(cell){const x=cell.offsetLeft-$('board').offsetLeft;if(x<scroll.scrollLeft)scroll.scrollLeft=x;else if(x+cell.offsetWidth>scroll.scrollLeft+scroll.clientWidth)scroll.scrollLeft=x+cell.offsetWidth-scroll.clientWidth;} }
 }
-function chooseCell(key,toggle = false) {
+function chooseCell(key,toggle = false,focus = false) {
   const options=members.get(key); if (!options) return;
   let entry=options.find((e)=>e.direction===active.direction)||options[0];
   if (toggle&&options.length===2) entry=options.find((e)=>e.id!==active.id)||entry;
-  activate(entry,key,false);
+  activate(entry,key,focus);
 }
 function stepInWord(amount) {
   const keys=entryCells(active), next=keys[keys.indexOf(activeKey)+amount]; if (next) activate(active,next);
@@ -331,8 +333,8 @@ function buildBoard(level,enabled = false) {
     input.autocapitalize=level.answerLanguage==='en'?'characters':'off';input.inputMode='text';input.lang=level.answerLanguage==='ja'?'ja':'en';
     input.setAttribute('aria-label',t('cellLabel',{row:r+1,column:c+1}));input.setAttribute('enterkeyhint','next');input.disabled=!enabled;input.tabIndex=-1;
     let composing=false, compositionAnchor=null, suppressCompositionEcho=false;
-    input.addEventListener('focus',()=>{if(activeKey!==key)chooseCell(key);});
-    input.addEventListener('pointerdown',()=>chooseCell(key,activeKey===key));input.addEventListener('keydown',handleKey);
+    bindCellActivation(input, { isActive:()=>activeKey===key, select:(toggle,focus)=>chooseCell(key,toggle,focus) });
+    input.addEventListener('keydown',handleKey);
     input.addEventListener('paste',(event)=>{event.preventDefault();insertText(event.clipboardData.getData('text'));});
     input.addEventListener('beforeinput',(event)=>{
       if(composing||event.isComposing||event.inputType.includes('Composition'))return;
@@ -365,7 +367,9 @@ function launch(level,mode) {
   runHandle=analytics.begin(session); refreshStatistics();
   buildBoard(level,true);renderGame();renderSearch();
   for(const id of ['lookup','choose-level','restart','download-puzzle'])$(id).disabled=false;
-  activate(active,activeKey);$('clue-list').scrollTop=0;announce(t('startedAnnouncement'));
+  // Async generation is not a keyboard-opening gesture on phones/tablets.
+  activate(active,activeKey,matchMedia('(hover: hover) and (pointer: fine)').matches);
+  $('clue-list').scrollTop=0;announce(t('startedAnnouncement'));
 }
 function applyMode(mode) {
   $('answer-dialog').close();

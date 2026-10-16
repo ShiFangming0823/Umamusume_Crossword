@@ -48,6 +48,7 @@
 - 两种模式可提前结束并公布全部答案。设置、搜索、单题帮助与导出不暂停计时。
 - completed 只表示已结束，成功看 finishReason === 'solved'，'revealed' 是提前结束。
 - 保留键盘、粘贴、交叉格方向切换与输入法组合输入。复用已有归一化，不增设不一致的规则。
+- 触屏格子激活由src/cell-interaction.js处理，click内同步聚焦，pointerdown只记录先前选中状态；不要异步focus、阻止触屏滚动或让focus事件重复切换交叉方向。触屏开局不预先异步聚焦；重绘不反复写相同value/readOnly。测试覆盖首次点格、原生focus后click、再次点交叉格、pointercancel及无指针辅助操作；真实软键盘须实机复测，不将桌面焦点验证称作已验证系统键盘。
 
 ## 随机题库
 

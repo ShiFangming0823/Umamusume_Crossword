@@ -50,6 +50,7 @@ h1 span { color:#739062; }
 .cell-number { position:absolute; top:1px; left:2px; font:clamp(6px,.6vw,9px) Arial,sans-serif; color:#52654b; pointer-events:none; z-index:1; line-height:1; }
 .cell input { width:100%; height:100%; padding:5px 0 0; margin:0; border:0; border-radius:0; outline:0; background:transparent; color:var(--ink); text-align:center; text-transform:uppercase; caret-color:transparent; font:600 clamp(10px,1.12vw,17px) "Segoe UI",sans-serif; -webkit-appearance:none; }
 .cell input::selection { background:transparent; }
+.cell input { -webkit-user-select:text; user-select:text; }
 .cell input:disabled { opacity:1; }
 .active-clue { margin-top:18px; display:flex; align-items:center; gap:12px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:14px 0; min-height:72px; }
 .clue-badge { font-size:13px; line-height:1.7; color:var(--white); background:var(--green); padding:5px 7px; border-radius:5px; white-space:nowrap; }
