@@ -6,4 +6,5 @@ Thumbs.db
 .dev.vars
 worker/dashboard/
 .worker-build/
+data/*.bak
 

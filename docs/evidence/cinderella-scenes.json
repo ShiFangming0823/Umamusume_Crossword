@@ -1799,28 +1799,6 @@
       ]
     },
     {
-      "clueId": "luna-swallow-cinderella-opening-derby-second",
-      "characterId": "luna-swallow",
-      "scene": {
-        "medium": "manga",
-        "reference": "第1R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Luna_Swallow"
-      ]
-    },
-    {
-      "clueId": "luna-swallow-cinderella-all-comers-return",
-      "characterId": "luna-swallow",
-      "scene": {
-        "medium": "manga",
-        "reference": "第82R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Luna_Swallow"
-      ]
-    },
-    {
       "clueId": "long-live-free-cinderella-paddock-medical-help",
       "characterId": "long-live-free",
       "scene": {
@@ -1870,29 +1848,6 @@
       ]
     },
     {
-      "clueId": "shirley-sky-cinderella-first-jc-early-leader",
-      "characterId": "shirley-sky",
-      "scene": {
-        "medium": "manga",
-        "reference": "第52-58R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Shirley_Sky"
-      ]
-    },
-    {
-      "clueId": "shirley-sky-cinderella-british-cape-outfit",
-      "characterId": "shirley-sky",
-      "scene": {
-        "medium": "manga",
-        "reference": "第51-58R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Shirley_Sky",
-        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
-      ]
-    },
-    {
       "clueId": "massive-viking-cinderella-seven-starts-five-wins",
       "characterId": "massive-viking",
       "scene": {
@@ -1916,80 +1871,6 @@
         "https://umamusu.wiki/Massive_Viking",
         "https://plaza.rakuten.co.jp/nightknoker0/diary/202506290002/",
         "https://anime-cinderellagray.com/story/?ep=12"
-      ]
-    },
-    {
-      "clueId": "top-shunbetsu-cinderella-autumn-late-start",
-      "characterId": "top-shunbetsu",
-      "scene": {
-        "medium": "anime",
-        "reference": "第12话"
-      },
-      "sources": [
-        "https://umamusu.wiki/Top_Shunbetsu",
-        "https://thetv.jp/news/detail/1273120/",
-        "https://ameblo.jp/beemihf/entry-12716513583.html",
-        "https://anime-cinderellagray.com/story/?ep=12"
-      ]
-    },
-    {
-      "clueId": "top-shunbetsu-cinderella-front-runner-fades",
-      "characterId": "top-shunbetsu",
-      "scene": {
-        "medium": "manga",
-        "reference": "第36-43R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Top_Shunbetsu",
-        "https://note.com/darkrockbiter/n/nd88b293738c4"
-      ]
-    },
-    {
-      "clueId": "be-true-on-pulse-cinderella-third-jc-winner",
-      "characterId": "be-true-on-pulse",
-      "scene": {
-        "medium": "manga",
-        "reference": "第192R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Be_True_On_Pulse",
-        "https://arthanblog.com/ucg-c22/"
-      ]
-    },
-    {
-      "clueId": "be-true-on-pulse-cinderella-folkqueen-recommendation",
-      "characterId": "be-true-on-pulse",
-      "scene": {
-        "medium": "manga",
-        "reference": "第192R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Be_True_On_Pulse",
-        "https://note.com/xnbmlbxkkl/n/nde55c2ec5a52",
-        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
-      ]
-    },
-    {
-      "clueId": "clarizza-cinderella-german-jc-representative",
-      "characterId": "clarizza",
-      "scene": {
-        "medium": "manga",
-        "reference": "第51-58R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Clarizza",
-        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
-      ]
-    },
-    {
-      "clueId": "clarizza-cinderella-gold-city-following-place",
-      "characterId": "clarizza",
-      "scene": {
-        "medium": "manga",
-        "reference": "第52-58R"
-      },
-      "sources": [
-        "https://umamusu.wiki/Clarizza"
       ]
     },
     {

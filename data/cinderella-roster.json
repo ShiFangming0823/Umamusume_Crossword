@@ -711,18 +711,6 @@
       ]
     },
     {
-      "characterId": "luna-swallow",
-      "kind": "original",
-      "nameJa": "ルナスワロー",
-      "sources": [
-        "https://umamusu.wiki/Luna_Swallow"
-      ],
-      "clueIds": [
-        "luna-swallow-cinderella-opening-derby-second",
-        "luna-swallow-cinderella-all-comers-return"
-      ]
-    },
-    {
       "characterId": "long-live-free",
       "kind": "original",
       "nameJa": "ロングリヴフリー",
@@ -751,19 +739,6 @@
       ]
     },
     {
-      "characterId": "shirley-sky",
-      "kind": "original",
-      "nameJa": "シャーリースカイ",
-      "sources": [
-        "https://umamusu.wiki/Shirley_Sky",
-        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
-      ],
-      "clueIds": [
-        "shirley-sky-cinderella-first-jc-early-leader",
-        "shirley-sky-cinderella-british-cape-outfit"
-      ]
-    },
-    {
       "characterId": "massive-viking",
       "kind": "original",
       "nameJa": "マッシヴバイキング",
@@ -777,50 +752,6 @@
       "clueIds": [
         "massive-viking-cinderella-seven-starts-five-wins",
         "massive-viking-cinderella-autumn-pirate-bib-four"
-      ]
-    },
-    {
-      "characterId": "top-shunbetsu",
-      "kind": "original",
-      "nameJa": "トップシュンベツ",
-      "sources": [
-        "https://umamusu.wiki/Top_Shunbetsu",
-        "https://thetv.jp/news/detail/1273120/",
-        "https://ameblo.jp/beemihf/entry-12716513583.html",
-        "https://anime-cinderellagray.com/story/?ep=12",
-        "https://note.com/darkrockbiter/n/nd88b293738c4"
-      ],
-      "clueIds": [
-        "top-shunbetsu-cinderella-autumn-late-start",
-        "top-shunbetsu-cinderella-front-runner-fades"
-      ]
-    },
-    {
-      "characterId": "be-true-on-pulse",
-      "kind": "original",
-      "nameJa": "ビートゥルーオンパルス",
-      "sources": [
-        "https://umamusu.wiki/Be_True_On_Pulse",
-        "https://arthanblog.com/ucg-c22/",
-        "https://note.com/xnbmlbxkkl/n/nde55c2ec5a52",
-        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
-      ],
-      "clueIds": [
-        "be-true-on-pulse-cinderella-third-jc-winner",
-        "be-true-on-pulse-cinderella-folkqueen-recommendation"
-      ]
-    },
-    {
-      "characterId": "clarizza",
-      "kind": "original",
-      "nameJa": "クラリッザ",
-      "sources": [
-        "https://umamusu.wiki/Clarizza",
-        "https://w.atwiki.jp/aniwotawiki/pages/52919.html"
-      ],
-      "clueIds": [
-        "clarizza-cinderella-german-jc-representative",
-        "clarizza-cinderella-gold-city-following-place"
       ]
     }
   ],
@@ -974,6 +905,36 @@
       "nameJa": "",
       "reason": "本作对应登场名是ダイナムヒロイン，不用推定原型名字替代作品中的角色名字。",
       "source": "https://umamusu.wiki/Dyna_Actress"
+    },
+    {
+      "nameEn": "Luna Swallow",
+      "nameJa": "ルナスワロー",
+      "reason": "维护者于2026-10-16主动移出随机候选池；该角色与提示已备份，本条不表示否认作品登场。",
+      "source": "https://umamusu.wiki/Luna_Swallow"
+    },
+    {
+      "nameEn": "Shirley Sky",
+      "nameJa": "シャーリースカイ",
+      "reason": "维护者于2026-10-16主动移出随机候选池；该角色与提示已备份，本条不表示否认作品登场。",
+      "source": "https://umamusu.wiki/Shirley_Sky"
+    },
+    {
+      "nameEn": "Top Shunbetsu",
+      "nameJa": "トップシュンベツ",
+      "reason": "维护者于2026-10-16主动移出随机候选池；该角色与提示已备份，本条不表示否认作品登场。",
+      "source": "https://umamusu.wiki/Top_Shunbetsu"
+    },
+    {
+      "nameEn": "Be True On Pulse",
+      "nameJa": "ビートゥルーオンパルス",
+      "reason": "维护者于2026-10-16主动移出随机候选池；该角色与提示已备份，本条不表示否认作品登场。",
+      "source": "https://umamusu.wiki/Be_True_On_Pulse"
+    },
+    {
+      "nameEn": "Clarizza",
+      "nameJa": "クラリッザ",
+      "reason": "维护者于2026-10-16主动移出随机候选池；该角色与提示已备份，本条不表示否认作品登场。",
+      "source": "https://umamusu.wiki/Clarizza"
     }
   ]
 }

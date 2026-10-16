@@ -10,8 +10,10 @@ const sourceURL = value => {
 export function validateClueBank(bank, characters) {
   if(bank.schemaVersion!==1||!Array.isArray(bank.records))throw new Error('Invalid clue bank');
   const known=new Set(characters.map(c=>c.id)),seen=new Set(),ids=new Set(),texts=new Map();
+  const unknown = [...new Set(bank.records.filter(record => !known.has(record.characterId)).map(record => record.characterId))];
+  if (unknown.length) throw new Error(`Unknown clue-bank character(s): ${unknown.join(', ')}. Each characterId in data/clues.json must exist in data/characters.json.`);
   for(const record of bank.records){
-    if(!known.has(record.characterId)||seen.has(record.characterId))throw new Error('Unknown or duplicate clue-bank character');seen.add(record.characterId);
+    if(seen.has(record.characterId))throw new Error(`Duplicate clue-bank character: ${record.characterId}`);seen.add(record.characterId);
     if(!record.categories?.length||record.categories.some(c=>!CATEGORIES.includes(c))||!record.clues?.length)throw new Error('Invalid clue-bank categories');
     const facts = new Set();
     for(const clue of record.clues){

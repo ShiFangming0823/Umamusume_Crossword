@@ -1,5 +1,5 @@
 import { loadCatalog } from './catalog.js';
-import { CATEGORIES, SIZES } from './generator.js';
+import { SIZES } from './generator.js';
 import { downloadPuzzle } from './export.js';
 import { GameSession, cellKey, entryCells, normalizeAnswer, feedbackFor, formatTime, LANGUAGES } from './game.js';
 import { translate } from './i18n.js';
@@ -79,12 +79,9 @@ function selectedScope() { return {random:true,difficulty:draft.difficulty,board
 const statsKey=level=>level.difficulty+':'+level.boardSize;
 function renderSetup() {
   if(!bank)return;
-  $('difficulty-slider').value=CATEGORIES.indexOf(draft.difficulty);
-  $('difficulty-slider').setAttribute('aria-valuetext',t(draft.difficulty));
   document.querySelectorAll('[data-category]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.category===draft.difficulty));b.disabled=generating;});
   document.querySelectorAll('input[name="answer-script"]').forEach(r=>{r.checked=r.value===draft.answerLanguage;r.disabled=generating;});
   document.querySelectorAll('input[name="board-size"]').forEach(r=>{r.checked=r.value===draft.boardSize;r.disabled=generating;});
-  $('difficulty-slider').disabled=generating;
   document.querySelectorAll('input[name="mode"]').forEach(r=>{r.checked=r.value===draft.mode;r.disabled=generating;});
   $('level-description').textContent=t('setupDescription');
   $('level-summary').textContent=t('randomSummary',{n:SIZES[draft.boardSize]});
@@ -393,7 +390,6 @@ function renderSearch() {
 }
 
 for(const id of ['ui-language','setup-language'])$(id).addEventListener('change',(event)=>setLanguage(event.target.value));
-$('difficulty-slider').addEventListener('input',event=>{draft.difficulty=CATEGORIES[Number(event.target.value)];renderSetup();});
 document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{draft.difficulty=button.dataset.category;renderSetup();}));
 for(const [name,field] of [['answer-script','answerLanguage'],['board-size','boardSize']])document.querySelectorAll('input[name="'+name+'"]').forEach(r=>r.addEventListener('change',()=>{draft[field]=r.value;renderSetup();}));
 document.querySelectorAll('input[name="mode"]').forEach((radio)=>radio.addEventListener('change',()=>{draft.mode=radio.value;}));

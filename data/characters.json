@@ -73,6 +73,7 @@
         "ja": "トウカイテイオー"
       },
       "aliases": [
+        "东海帝皇",
         "東海帝王",
         "東海帝皇"
       ],
@@ -345,11 +346,12 @@
     {
       "id": "seiun-sky",
       "names": {
-        "zh-CN": "星云天空",
+        "zh-CN": "青云天空",
         "en": "Seiun Sky",
         "ja": "セイウンスカイ"
       },
       "aliases": [
+        "星云天空",
         "星雲天空",
         "青雲天空"
       ],
@@ -376,7 +378,8 @@
       },
       "aliases": [
         "鶴丸剛志",
-        "鶴丸強志"
+        "鶴丸強志",
+        "鹤丸强志"
       ],
       "source": "https://umamusume.jp/character/tsurumarutsuyoshi"
     },
@@ -577,11 +580,12 @@
     {
       "id": "mayano-top-gun",
       "names": {
-        "zh-CN": "重炮",
+        "zh-CN": "摩耶重炮",
         "en": "Mayano Top Gun",
         "ja": "マヤノトップガン"
       },
       "aliases": [
+        "重炮",
         "重砲"
       ],
       "source": "https://umamusume.jp/character/mayanotopgun"
@@ -711,7 +715,10 @@
         "ja": "スーパークリーク"
       },
       "aliases": [
-        "超級小溪"
+        "超級小溪",
+        "超级溪流",
+        "超级小川",
+        "超级小海湾"
       ],
       "source": "https://umamusume.jp/character/supercreek"
     },
@@ -791,6 +798,7 @@
         "ja": "マチカネタンホイザ"
       },
       "aliases": [
+        "待兼唐怀瑟",
         "待兼唐懷瑟"
       ],
       "source": "https://umamusume.jp/character/matikanetannhauser"
@@ -851,7 +859,8 @@
         "ja": "メジロアルダン"
       },
       "aliases": [
-        "目白阿爾丹"
+        "目白阿爾丹",
+        "目白雅丹"
       ],
       "source": "https://umamusume.jp/character/mejiroardan"
     },
@@ -897,6 +906,7 @@
         "ja": "ヤマニンゼファー"
       },
       "aliases": [
+        "山人西风",
         "山人西風"
       ],
       "source": "https://umamusume.jp/character/yamaninzephyr"
@@ -921,6 +931,7 @@
         "ja": "シンボリクリスエス"
       },
       "aliases": [
+        "克里斯耶斯象征",
         "克莉斯耶絲象徵"
       ],
       "source": "https://umamusume.jp/character/symbolikriss"
@@ -932,7 +943,9 @@
         "en": "Tanino Gimlet",
         "ja": "タニノギムレット"
       },
-      "aliases": [],
+      "aliases": [
+        "谷野美酒"
+      ],
       "source": "https://umamusume.jp/character/taninogimlet"
     },
     {
@@ -977,13 +990,11 @@
     {
       "id": "daring-heart",
       "names": {
-        "zh-CN": "果敢之心",
+        "zh-CN": "勇敢之心",
         "en": "Daring Heart",
         "ja": "デアリングハート"
       },
-      "aliases": [
-        "勇敢之心"
-      ],
+      "aliases": [],
       "source": "https://umamusume.jp/character/daringheart"
     },
     {
@@ -1004,6 +1015,7 @@
         "ja": "ベルノライト"
       },
       "aliases": [
+        "双铃莱特",
         "贝尔诺光",
         "貝爾諾之光",
         "贝尔诺莱特",
@@ -1048,6 +1060,7 @@
         "ja": "ルディレモーノ"
       },
       "aliases": [
+        "鲁迪勒摩",
         "鲁迪雷莫诺",
         "鲁迪",
         "Ruddy Lemono"
@@ -1178,11 +1191,12 @@
     {
       "id": "furioso",
       "names": {
-        "zh-CN": "狂热激昂",
+        "zh-CN": "狂怒乐章",
         "en": "Furioso",
         "ja": "フリオーソ"
       },
       "aliases": [
+        "狂热激昂",
         "狂熱激昂"
       ],
       "source": "https://umamusume.jp/character/furioso"
@@ -1302,11 +1316,12 @@
     {
       "id": "dantsu-flame",
       "names": {
-        "zh-CN": "缎通烈焰",
+        "zh-CN": "烈焰快驹",
         "en": "Dantsu Flame",
         "ja": "ダンツフレーム"
       },
       "aliases": [
+        "缎通烈焰",
         "緞通烈焰"
       ],
       "source": "https://umamusume.jp/character/dantsuflame"
@@ -1327,11 +1342,13 @@
     {
       "id": "jungle-pocket",
       "names": {
-        "zh-CN": "丛林口袋",
+        "zh-CN": "森林宝穴",
         "en": "Jungle Pocket",
         "ja": "ジャングルポケット"
       },
       "aliases": [
+        "森林口袋",
+        "丛林口袋",
         "叢林口袋"
       ],
       "source": "https://umamusume.jp/character/junglepocket"
@@ -1349,11 +1366,12 @@
     {
       "id": "no-reason",
       "names": {
-        "zh-CN": "无需理由",
+        "zh-CN": "莫名其妙",
         "en": "No Reason",
         "ja": "ノーリーズン"
       },
       "aliases": [
+        "无需理由",
         "无须理由",
         "無需理由"
       ],
@@ -1411,11 +1429,12 @@
     {
       "id": "samson-big",
       "names": {
-        "zh-CN": "参孙巨人",
+        "zh-CN": "大森逊",
         "en": "Samson Big",
         "ja": "サムソンビッグ"
       },
       "aliases": [
+        "参孙巨人",
         "SamsonBig"
       ],
       "source": "https://umamusume.jp/character/samsonbig"
@@ -1484,11 +1503,13 @@
     {
       "id": "tap-dance-city",
       "names": {
-        "zh-CN": "踢踏城市",
+        "zh-CN": "跳舞城",
         "en": "Tap Dance City",
         "ja": "タップダンスシチー"
       },
-      "aliases": [],
+      "aliases": [
+        "踢踏城市"
+      ],
       "source": "https://umamusume.jp/character/tapdancecity"
     },
     {
@@ -1576,11 +1597,12 @@
     {
       "id": "calstone-light-o",
       "names": {
-        "zh-CN": "浮岩光王",
+        "zh-CN": "金镇之光",
         "en": "Calstone Light O",
         "ja": "カルストンライトオ"
       },
       "aliases": [
+        "浮岩光王",
         "直线番长"
       ],
       "source": "https://umamusume.jp/character/calstonelighto"
@@ -1588,11 +1610,12 @@
     {
       "id": "durandal",
       "names": {
-        "zh-CN": "杜兰达尔",
+        "zh-CN": "多旺达",
         "en": "Durandal",
         "ja": "デュランダル"
       },
       "aliases": [
+        "杜兰达尔",
         "圣剑",
         "杜蘭達爾"
       ],
@@ -1611,7 +1634,7 @@
     {
       "id": "bubble-gum-fellow",
       "names": {
-        "zh-CN": "泡泡糖小子",
+        "zh-CN": "吹波糖",
         "en": "Bubble Gum Fellow",
         "ja": "バブルガムフェロー"
       },
@@ -1738,7 +1761,7 @@
     {
       "id": "red-desire",
       "names": {
-        "zh-CN": "红色欲望",
+        "zh-CN": "红色梦想",
         "en": "Red Desire",
         "ja": "レッドディザイア"
       },
@@ -1864,12 +1887,12 @@
     {
       "id": "happy-meek",
       "names": {
-        "zh-CN": "快乐温顺",
+        "zh-CN": "快乐米可",
         "en": "Happy Meek",
         "ja": "ハッピーミーク"
       },
       "aliases": [
-        "快乐米可",
+        "快乐温顺",
         "快樂溫順"
       ],
       "source": "https://umamusume.jp/character/happymeek"
@@ -1877,20 +1900,20 @@
     {
       "id": "bitter-glasse",
       "names": {
-        "zh-CN": "微苦糖渍",
+        "zh-CN": "苦涩糖衣",
         "en": "Bitter Glasse",
         "ja": "ビターグラッセ"
       },
       "aliases": [
         "苦糖浆",
-        "微苦糖漬"
+        "微苦糖渍"
       ],
       "source": "https://umamusume.jp/character/bitterglasse"
     },
     {
       "id": "little-cocon",
       "names": {
-        "zh-CN": "小巧圆茧",
+        "zh-CN": "小小圆茧",
         "en": "Little Cocon",
         "ja": "リトルココン"
       },
@@ -1941,13 +1964,13 @@
     {
       "id": "light-hello",
       "names": {
-        "zh-CN": "明亮光晕",
+        "zh-CN": "光辉致意",
         "en": "Light Hello",
         "ja": "ライトハロー"
       },
       "aliases": [
         "轻柔致意",
-        "明亮光暈"
+        "明亮光晕"
       ],
       "source": "https://umamusume.jp/character/lighthello"
     },
@@ -1966,13 +1989,11 @@
     {
       "id": "godolphin-barb",
       "names": {
-        "zh-CN": "高多芬柏布",
+        "zh-CN": "高多芬阿拉伯",
         "en": "Godolphin Barb",
         "ja": "ゴドルフィンバルブ"
       },
-      "aliases": [
-        "高多芬阿拉伯"
-      ],
+      "aliases": [],
       "source": "https://umamusume.jp/character/godolphinbarb"
     },
     {
@@ -2028,13 +2049,13 @@
     {
       "id": "haiseiko",
       "names": {
-        "zh-CN": "俳成功",
+        "zh-CN": "海赛克",
         "en": "Haiseiko",
         "ja": "ハイセイコー"
       },
       "aliases": [
         "海赛高",
-        "海塞克"
+        "俳成功"
       ],
       "source": "https://umamusume.jp/character/haiseiko"
     },
@@ -2138,47 +2159,49 @@
     {
       "id": "dynamu-heroine",
       "names": {
-        "zh-CN": "达伊纳姆女主角",
+        "zh-CN": "黛娜女角",
         "en": "Dynamu Heroine",
         "ja": "ダイナムヒロイン"
       },
       "aliases": [
+        "黛娜女优",
         "达伊纳女主角",
-        "黛娜女主角"
+        "黛娜女主角",
+        "活力女角"
       ],
       "source": "https://anime-cinderellagray.com/character/?type=1&i=6"
     },
     {
       "id": "lord-royal",
       "names": {
-        "zh-CN": "皇家领主",
+        "zh-CN": "皇家王者",
         "en": "Lord Royal",
         "ja": "ロードロイヤル"
       },
-      "aliases": [],
+      "aliases": [
+        "皇家领主"
+      ],
       "source": "https://anime-cinderellagray.com/character/?type=1&i=7"
     },
     {
       "id": "yamano-thousand",
       "names": {
-        "zh-CN": "山野千里",
-        "en": "Yamano Thousand",
+        "zh-CN": "山野南方",
+        "en": "Yamano Southern",
         "ja": "ヤマノサウザン"
       },
-      "aliases": [
-        "山野南方"
-      ],
+      "aliases": [],
       "source": "https://anime-cinderellagray.com/character/?type=1&i=8"
     },
     {
       "id": "face-no-more",
       "names": {
-        "zh-CN": "不再掩饰",
-        "en": "Face No More",
+        "zh-CN": "信仰不再",
+        "en": "Faith No More",
         "ja": "フェイスノーモア"
       },
       "aliases": [
-        "费斯诺摩尔"
+        "飞临绝顶"
       ],
       "source": "https://umamusu.wiki/Face_No_More"
     },
@@ -2198,11 +2221,12 @@
     {
       "id": "thief-crow",
       "names": {
-        "zh-CN": "窃贼乌鸦",
+        "zh-CN": "海盗鸦鹰",
         "en": "Thief Crow",
         "ja": "シーフクロー"
       },
       "aliases": [
+        "窃贼乌鸦",
         "盗贼乌鸦",
         "竊賊烏鴉"
       ],
@@ -2211,23 +2235,23 @@
     {
       "id": "eve-binti",
       "names": {
-        "zh-CN": "伊芙宾蒂",
+        "zh-CN": "伊布宾奇",
         "en": "Eve Binti",
         "ja": "イブビンティ"
       },
-      "aliases": [
-        "伊芙賓蒂"
-      ],
+      "aliases": [],
       "source": "https://umamusu.wiki/Eve_Binti"
     },
     {
       "id": "carries-room",
       "names": {
-        "zh-CN": "凯莉之屋",
+        "zh-CN": "凯丽房间",
         "en": "Carrie's Room",
         "ja": "キャリーズルーム"
       },
       "aliases": [
+        "凯莉房间",
+        "凯莉之屋",
         "Carries Room",
         "凱莉之屋"
       ],
@@ -2236,7 +2260,7 @@
     {
       "id": "mill-wakaba",
       "names": {
-        "zh-CN": "米尔若叶",
+        "zh-CN": "磨坊若叶",
         "en": "Mill Wakaba",
         "ja": "ミルワカバ"
       },
@@ -2249,11 +2273,12 @@
     {
       "id": "bright-rock",
       "names": {
-        "zh-CN": "光明岩石",
+        "zh-CN": "白耀岩石",
         "en": "Bright Rock",
         "ja": "ブライトロック"
       },
       "aliases": [
+        "光明岩石",
         "亮岩",
         "布莱特洛克"
       ],
@@ -2262,117 +2287,66 @@
     {
       "id": "walk-dancer",
       "names": {
-        "zh-CN": "漫步舞者",
+        "zh-CN": "行路舞者",
         "en": "Walk Dancer",
         "ja": "ウォークダンサー"
       },
-      "aliases": [],
+      "aliases": [
+        "街头舞者",
+        "徒步舞者"
+      ],
       "source": "https://umamusu.wiki/Walk_Dancer"
     },
     {
       "id": "merry-beauty",
       "names": {
-        "zh-CN": "愉快美貌",
+        "zh-CN": "愉快美人",
         "en": "Merry Beauty",
         "ja": "メリービューティー"
       },
       "aliases": [
-        "欢乐美貌"
+        "愉快佳人"
       ],
       "source": "https://umamusu.wiki/Merry_Beauty"
     },
     {
-      "id": "luna-swallow",
-      "names": {
-        "zh-CN": "月亮飞燕",
-        "en": "Luna Swallow",
-        "ja": "ルナスワロー"
-      },
-      "aliases": [
-        "月亮飛燕"
-      ],
-      "source": "https://umamusu.wiki/Luna_Swallow"
-    },
-    {
       "id": "long-live-free",
       "names": {
-        "zh-CN": "自由长存",
+        "zh-CN": "持续奔跑",
         "en": "Long Live Free",
         "ja": "ロングリヴフリー"
       },
       "aliases": [
-        "自由長存"
+        "自由长存",
+        "自由螺旋",
+        "自由万岁",
+        "长期奔跑",
+        "恒久自由",
+        "自由常在"
       ],
       "source": "https://umamusu.wiki/Long_Live_Free"
     },
     {
       "id": "shirogane-adieu",
       "names": {
-        "zh-CN": "白银告别",
+        "zh-CN": "白银辞别",
         "en": "Shirogane Adieu",
         "ja": "シロガネアデュー"
       },
       "aliases": [
-        "白銀告別"
+        "白银告别"
       ],
       "source": "https://umamusu.wiki/Shirogane_Adieu"
     },
     {
-      "id": "shirley-sky",
-      "names": {
-        "zh-CN": "莎莉天空",
-        "en": "Shirley Sky",
-        "ja": "シャーリースカイ"
-      },
-      "aliases": [],
-      "source": "https://umamusu.wiki/Shirley_Sky"
-    },
-    {
       "id": "massive-viking",
       "names": {
-        "zh-CN": "巨硕维京",
+        "zh-CN": "勇猛维京",
         "en": "Massive Viking",
         "ja": "マッシヴバイキング"
       },
-      "aliases": [
-        "巨碩維京"
-      ],
-      "source": "https://umamusu.wiki/Massive_Viking"
-    },
-    {
-      "id": "top-shunbetsu",
-      "names": {
-        "zh-CN": "顶峰春别",
-        "en": "Top Shunbetsu",
-        "ja": "トップシュンベツ"
-      },
-      "aliases": [
-        "頂峰春別"
-      ],
-      "source": "https://umamusu.wiki/Top_Shunbetsu"
-    },
-    {
-      "id": "be-true-on-pulse",
-      "names": {
-        "zh-CN": "真诚脉动",
-        "en": "Be True On Pulse",
-        "ja": "ビートゥルーオンパルス"
-      },
-      "aliases": [
-        "Be True on Pulse",
-        "真誠脈動"
-      ],
-      "source": "https://umamusu.wiki/Be_True_On_Pulse"
-    },
-    {
-      "id": "clarizza",
-      "names": {
-        "zh-CN": "克拉莉莎",
-        "en": "Clarizza",
-        "ja": "クラリッザ"
-      },
       "aliases": [],
-      "source": "https://umamusu.wiki/Clarizza"
+      "source": "https://umamusu.wiki/Massive_Viking"
     }
   ]
 }

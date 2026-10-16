@@ -9,11 +9,11 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 5.46,
-      "p95Ms": 12.03,
-      "maxMs": 22.48,
+      "meanMs": 6.72,
+      "p95Ms": 14.02,
+      "maxMs": 17.94,
       "maxAttempts": 2,
-      "maxRows": 29,
+      "maxRows": 30,
       "maxColumns": 30
     },
     {
@@ -22,12 +22,12 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 15.78,
-      "p95Ms": 32.24,
-      "maxMs": 37.07,
-      "maxAttempts": 1,
+      "meanMs": 19.95,
+      "p95Ms": 38.21,
+      "maxMs": 59.25,
+      "maxAttempts": 2,
       "maxRows": 39,
-      "maxColumns": 40
+      "maxColumns": 37
     },
     {
       "difficulty": "beginner",
@@ -35,12 +35,12 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 3.62,
-      "p95Ms": 10.32,
-      "maxMs": 15.67,
-      "maxAttempts": 6,
-      "maxRows": 28,
-      "maxColumns": 25
+      "meanMs": 3.87,
+      "p95Ms": 8.53,
+      "maxMs": 12.7,
+      "maxAttempts": 4,
+      "maxRows": 27,
+      "maxColumns": 27
     },
     {
       "difficulty": "beginner",
@@ -48,12 +48,12 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 10.66,
-      "p95Ms": 23.93,
-      "maxMs": 39.07,
-      "maxAttempts": 4,
-      "maxRows": 35,
-      "maxColumns": 35
+      "meanMs": 10.5,
+      "p95Ms": 22.95,
+      "maxMs": 28.12,
+      "maxAttempts": 2,
+      "maxRows": 39,
+      "maxColumns": 36
     },
     {
       "difficulty": "advanced",
@@ -61,11 +61,11 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 4.85,
-      "p95Ms": 9.09,
-      "maxMs": 12.18,
+      "meanMs": 5.34,
+      "p95Ms": 12.67,
+      "maxMs": 14.26,
       "maxAttempts": 2,
-      "maxRows": 29,
+      "maxRows": 30,
       "maxColumns": 30
     },
     {
@@ -74,12 +74,12 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 15.59,
-      "p95Ms": 32.34,
-      "maxMs": 34.55,
-      "maxAttempts": 1,
+      "meanMs": 18.97,
+      "p95Ms": 38.37,
+      "maxMs": 59.83,
+      "maxAttempts": 2,
       "maxRows": 39,
-      "maxColumns": 40
+      "maxColumns": 37
     },
     {
       "difficulty": "advanced",
@@ -87,12 +87,12 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 3.44,
-      "p95Ms": 10.63,
-      "maxMs": 13.56,
-      "maxAttempts": 6,
-      "maxRows": 28,
-      "maxColumns": 25
+      "meanMs": 3.25,
+      "p95Ms": 7.1,
+      "maxMs": 9.82,
+      "maxAttempts": 4,
+      "maxRows": 27,
+      "maxColumns": 27
     },
     {
       "difficulty": "advanced",
@@ -100,12 +100,12 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 10.56,
-      "p95Ms": 23.76,
-      "maxMs": 38.03,
-      "maxAttempts": 4,
-      "maxRows": 35,
-      "maxColumns": 35
+      "meanMs": 9.84,
+      "p95Ms": 23.4,
+      "maxMs": 24.85,
+      "maxAttempts": 2,
+      "maxRows": 39,
+      "maxColumns": 36
     },
     {
       "difficulty": "epithets",
@@ -113,9 +113,9 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 4.69,
-      "p95Ms": 9.96,
-      "maxMs": 17.94,
+      "meanMs": 5.29,
+      "p95Ms": 12.61,
+      "maxMs": 19.9,
       "maxAttempts": 2,
       "maxRows": 30,
       "maxColumns": 30
@@ -126,9 +126,9 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 19.08,
-      "p95Ms": 52.93,
-      "maxMs": 59.39,
+      "meanMs": 20.35,
+      "p95Ms": 58.61,
+      "maxMs": 64.11,
       "maxAttempts": 2,
       "maxRows": 37,
       "maxColumns": 39
@@ -139,9 +139,9 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 2.88,
-      "p95Ms": 7.14,
-      "maxMs": 8.68,
+      "meanMs": 3.19,
+      "p95Ms": 8.18,
+      "maxMs": 9.08,
       "maxAttempts": 3,
       "maxRows": 29,
       "maxColumns": 27
@@ -152,9 +152,9 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 9.16,
-      "p95Ms": 26.19,
-      "maxMs": 37,
+      "meanMs": 9.87,
+      "p95Ms": 28.05,
+      "maxMs": 40.17,
       "maxAttempts": 4,
       "maxRows": 36,
       "maxColumns": 31
@@ -165,10 +165,10 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 3.76,
-      "p95Ms": 6.52,
-      "maxMs": 9.83,
-      "maxAttempts": 1,
+      "meanMs": 4.63,
+      "p95Ms": 9.03,
+      "maxMs": 10.24,
+      "maxAttempts": 2,
       "maxRows": 30,
       "maxColumns": 30
     },
@@ -178,12 +178,12 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 14.49,
-      "p95Ms": 24.21,
-      "maxMs": 73.72,
-      "maxAttempts": 3,
-      "maxRows": 39,
-      "maxColumns": 37
+      "meanMs": 15.35,
+      "p95Ms": 30.35,
+      "maxMs": 41.65,
+      "maxAttempts": 2,
+      "maxRows": 40,
+      "maxColumns": 39
     },
     {
       "difficulty": "cinderella",
@@ -191,12 +191,12 @@
       "boardSize": "small",
       "trials": 50,
       "failures": 0,
-      "meanMs": 2.78,
+      "meanMs": 2.96,
       "p95Ms": 6.87,
-      "maxMs": 7.46,
-      "maxAttempts": 3,
-      "maxRows": 30,
-      "maxColumns": 26
+      "maxMs": 9.77,
+      "maxAttempts": 4,
+      "maxRows": 24,
+      "maxColumns": 28
     },
     {
       "difficulty": "cinderella",
@@ -204,12 +204,12 @@
       "boardSize": "large",
       "trials": 50,
       "failures": 0,
-      "meanMs": 9.86,
-      "p95Ms": 27.22,
-      "maxMs": 30.76,
-      "maxAttempts": 3,
-      "maxRows": 35,
-      "maxColumns": 39
+      "meanMs": 11.92,
+      "p95Ms": 31.23,
+      "maxMs": 42.59,
+      "maxAttempts": 4,
+      "maxRows": 33,
+      "maxColumns": 31
     }
   ]
 }

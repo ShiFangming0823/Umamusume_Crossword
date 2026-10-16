@@ -9,7 +9,7 @@ const base=levels.find((e)=>e.id==='beginner-1-en'), advanced=levels.find((e)=>e
 const solution=(level)=>Object.fromEntries(level.entries.flatMap((e)=>entryCells(e).map((key,i)=>[key,[...e.answer][i]])));
 
 test('all eight levels validate, with 11 across and 11 down and three clues each',()=>{
-  assert.equal(levels.length,8);assert.equal(characters.length,198);
+  assert.equal(levels.length,8);assert.equal(characters.length,193);
   for(const level of levels){
     assert.equal(level.entries.filter((e)=>e.direction==='across').length,11);
     assert.equal(level.entries.filter((e)=>e.direction==='down').length,11);
@@ -62,7 +62,7 @@ test('epithet puzzles use the same 22 characters and all three clues in both ans
   assert.equal(en.answerLanguage,'en');assert.equal(ja.answerLanguage,'ja');
   assert.deepEqual(new Set(en.entries.map((e)=>e.characterId)),new Set(ja.entries.map((e)=>e.characterId)));
   for(const e of en.entries)assert.deepEqual(e.clues,ja.entries.find((x)=>x.characterId===e.characterId).clues);
-  for(const name of ['西沙里奥','大鸣大放','莱茵力量','果敢之心','迷人景致'])assert.ok(searchCharacters(characters,name).length);
+  for(const name of ['西沙里奥','大鸣大放','莱茵力量','勇敢之心','迷人景致'])assert.ok(searchCharacters(characters,name).length);
 });
 
 test('Cinderella Gray boards share 22 story clues, including original characters rather than real-horse names',async()=>{

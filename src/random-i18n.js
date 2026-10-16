@@ -2,7 +2,7 @@ export const randomMessages = {
  'zh-CN': {
   beginner:'入门级',advanced:'进阶级',epithets:'二つ名',cinderella:'芦毛灰姑娘',
   setupTitle:'选好题组，随机开一局。',setupDescription:'随机抽取角色、生成交叉棋盘，再为每位角色抽一条提示。',
-  difficultyHelp:'滑动选择难度或主题',start:'随机生成并开始',startNew:'清空盘面，随机生成新局',playAgain:'再随机来一局',restart:'换一张随机棋盘',
+  difficultyHelp:'选择一个题组',start:'随机生成并开始',startNew:'清空盘面，随机生成新局',playAgain:'再随机来一局',restart:'换一张随机棋盘',
   restartTitle:'重新随机开一局？',restartCopy:'当前填写内容与时间会清空，重新抽取角色、棋盘及提示。',restartConfirm:'生成新棋盘',
   resetNotice:'应用不同题组、填答文字或棋盘尺寸，会清空盘面并重新计时。',preserveNotice:'只切换界面语言或游玩模式，保留盘面、计时及已用帮助次数。',
   boardSize:'棋盘尺寸',smallBoard:'小棋盘',largeBoard:'大棋盘',smallHelp:'横竖各 6 题 · 手机推荐',largeHelp:'横竖各 10 题 · 电脑推荐',
@@ -16,7 +16,7 @@ export const randomMessages = {
  en:{
   beginner:'Starter',advanced:'Advanced',epithets:'Epithets',cinderella:'Cinderella Gray',
   setupTitle:'Choose a collection. Get a new puzzle.',setupDescription:'Random runners, a newly connected grid, and a clue drawn for each runner.',
-  difficultyHelp:'Slide to choose a difficulty or theme',start:'Generate & play',startNew:'Clear board & generate a new game',playAgain:'Try another random puzzle',restart:'New random grid',
+  difficultyHelp:'Choose a collection',start:'Generate & play',startNew:'Clear board & generate a new game',playAgain:'Try another random puzzle',restart:'New random grid',
   restartTitle:'Generate a new game?',restartCopy:'This clears your letters and timer, then draws new runners, a new layout and clues.',restartConfirm:'Generate new grid',
   resetNotice:'Applying a different collection, answer script or board size resets the board and timer.',preserveNotice:'Changing only the interface language or play mode preserves the board, timer and used help.',
   boardSize:'Board size',smallBoard:'Small',largeBoard:'Large',smallHelp:'6 across + 6 down · phone friendly',largeHelp:'10 across + 10 down · desktop friendly',
@@ -30,7 +30,7 @@ export const randomMessages = {
  ja:{
   beginner:'入門',advanced:'発展',epithets:'二つ名',cinderella:'シンデレラグレイ',
   setupTitle:'問題集を選んで、ランダムに一局。',setupDescription:'ウマ娘を抽選し、交差する盤面を生成。各ウマ娘のヒントも選びます。',
-  difficultyHelp:'スライダーで難度・テーマを選択',start:'ランダム生成して開始',startNew:'盤面を消して新しい問題を生成',playAgain:'別のランダム問題へ',restart:'新しいランダム盤面',
+  difficultyHelp:'問題集を1つ選択',start:'ランダム生成して開始',startNew:'盤面を消して新しい問題を生成',playAgain:'別のランダム問題へ',restart:'新しいランダム盤面',
   restartTitle:'新しい問題を生成しますか？',restartCopy:'入力と時間をリセットし、ウマ娘・盤面・ヒントを選び直します。',restartConfirm:'新しい盤面を生成',
   resetNotice:'問題集・解答の文字・盤面サイズを変えて適用すると、盤面と時間をリセットします。',preserveNotice:'画面の言語やモードだけの変更では、盤面・時間・使用済みのヘルプ回数を保持します。',
   boardSize:'盤面サイズ',smallBoard:'小さい盤面',largeBoard:'大きい盤面',smallHelp:'ヨコ6問・タテ6問 · スマホ向け',largeHelp:'ヨコ10問・タテ10問 · PC向け',

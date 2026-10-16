@@ -15,10 +15,10 @@ const { bank, characters, roster } = await checkData();
 test('both ordinary pools cover the reviewed main, supporting and original story rosters', () => {
   assert.equal(roster.officialCharacters.filter(r => r.kind === 'main').length, 145);
   assert.equal(roster.officialCharacters.filter(r => r.kind === 'support').length, 17);
-  assert.equal(roster.storyCharacterIds.length, 36);
-  assert.equal(characters.length, 198);
+  assert.equal(roster.storyCharacterIds.length, 31);
+  assert.equal(characters.length, 193);
   for (const category of ['beginner', 'advanced']) {
-    assert.equal(bank.records.filter(r => r.categories.includes(category)).length, 198);
+    assert.equal(bank.records.filter(r => r.categories.includes(category)).length, 193);
     assert.deepEqual(new Set(randomPool.categories[category]), new Set(characters.map(c => c.id)));
   }
   assert.ok(characters.some(c => c.id === 'phalaenopsis'));
@@ -48,7 +48,7 @@ test('all candidates appear across varied generated games and expanded boards pa
       p.entries.forEach(e => appeared.add(e.characterId));
       validateRandomBoard({ difficulty: p.difficulty, boardSize: p.boardSize, board: boardSubmission(p) }, randomPool);
     }
-    assert.equal(appeared.size, 198, `Missing candidates in ${answerLanguage}`);
+    assert.equal(appeared.size, 193, `Missing candidates in ${answerLanguage}`);
   }
 });
 

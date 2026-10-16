@@ -15,15 +15,21 @@ const records=bank.records.filter(r=>r.categories.includes('cinderella'));
 const clues=records.flatMap(r=>r.clues.filter(c=>c.categories.includes('cinderella')));
 
 test('Cinderella expansion has reviewed story identities and the same English/kana server pool',()=>{
-  assert.equal(records.length,51);assert.equal(clues.length,160);
+  assert.equal(records.length,46);assert.equal(clues.length,150);
   assert.equal(cinderellaRoster.characters.filter(c=>c.kind==='main').length,15);
-  assert.equal(cinderellaRoster.characters.filter(c=>c.kind==='original').length,36);
+  assert.equal(cinderellaRoster.characters.filter(c=>c.kind==='original').length,31);
   assert.deepEqual(new Set(randomPool.categories.cinderella),new Set(records.map(r=>r.characterId)));
   for(const id of ['black-ale','meikun-tsukasa','kraft-univer','god-hannibal','akitsu-teio','sirius-symboli',
     'dynamu-heroine','lord-royal','yamano-thousand','folkqueen','mill-wakaba','bamboo-memory','mejiro-ryan','mejiro-mcqueen']){
     assert.ok(records.some(r=>r.characterId===id),`Missing story candidate ${id}`);
   }
   for(const id of ['dyna-actress','mejiro-durren','neo-universe','line-craft'])assert.ok(!records.some(r=>r.characterId===id));
+  for(const id of ['luna-swallow','shirley-sky','top-shunbetsu','be-true-on-pulse','clarizza']){
+    assert.ok(!characters.some(c=>c.id===id));
+    assert.ok(!bank.records.some(r=>r.characterId===id));
+    assert.ok(!evidence.records.some(r=>r.characterId===id));
+    for(const ids of Object.values(randomPool.categories))assert.ok(!ids.includes(id));
+  }
   assert.ok(!characters.some(c=>c.names.en==='Jo Kitahara'));
 });
 
@@ -55,12 +61,14 @@ test('Cinderella source validation rejects missing members, mismatched sources a
 });
 
 test('new story names normalize in both scripts and preserve the requested existing Chinese names',()=>{
-  for(const id of ['folkqueen','thief-crow','carries-room','be-true-on-pulse','shirogane-adieu']){
+  for(const id of ['folkqueen','thief-crow','carries-room','face-no-more','yamano-thousand','shirogane-adieu']){
     const c=characters.find(c=>c.id===id);
     assert.match(normalizeAnswer(c.names.en,'en'),/^[A-Z]+$/);
     assert.match(normalizeAnswer(c.names.ja,'ja'),/^[ァ-ヿー]+$/);
     for(const name of Object.values(c.names))assert.ok(searchCharacters(characters,name).some(row=>row.id===id));
   }
+  assert.equal(characters.find(c=>c.id==='face-no-more').names.en,'Faith No More');
+  assert.equal(characters.find(c=>c.id==='yamano-thousand').names.en,'Yamano Southern');
   for(const [id,name]of [['dicta-striker','狄杜射手'],['belno-light','崭新光辉'],['michelle-my-baby','米歇尔宝贝'],
     ['moonlight-lunacy','月光狂气'],['obey-your-master','听命汝主'],['ellerslie-pride','艾勒斯利荣耀']]){
     assert.equal(characters.find(c=>c.id===id).names['zh-CN'],name);
