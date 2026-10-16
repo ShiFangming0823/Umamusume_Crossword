@@ -91,6 +91,7 @@ function renderSetup() {
   const changed=!session||['difficulty','answerLanguage','boardSize'].some(k=>draft[k]!==session.level[k]);
   $('start-button-label').textContent=t(generating?'generating':!session?'start':changed||forceRestart?'startNew':'apply');
   $('cancel-setup').hidden=!session;$('cancel-setup').disabled=generating;
+  $('setup-statistics-scope').textContent=t(draft.difficulty)+' · '+t(draft.boardSize==='small'?'smallBoard':'largeBoard');
   void loadStatistics(selectedScope(),'setup-statistics');
 }
 async function generateGame() {
@@ -135,6 +136,7 @@ function paintStatistics(element, result = { status: 'loading' }) {
   }
 }
 async function loadStatistics(level, elementId, force = false) {
+  if (elementId === 'setup-statistics' && (!setup.open || !$('setup-statistics-details').open)) return;
   const element = $(elementId); if (!element) return;
   const request = String(++statisticsRequest); element.dataset.request = request;
   const scopeKey=statsKey(level);element.dataset.level=scopeKey;element.dataset.scope=JSON.stringify({random:true,difficulty:level.difficulty,boardSize:level.boardSize});paintStatistics(element,force?undefined:statistics.get(scopeKey));
@@ -151,6 +153,7 @@ void analytics.flush();
 
 function openSetup(replay = false) {
   finish.close();
+  $('setup-statistics-details').open = false;
   forceRestart = replay;
   const level = currentLevel();
   if (level) draft = { difficulty:level.difficulty, answerLanguage:level.answerLanguage,boardSize:level.boardSize,mode:currentMode() };
@@ -395,6 +398,9 @@ function renderSearch() {
 
 for(const id of ['ui-language','setup-language'])$(id).addEventListener('change',(event)=>setLanguage(event.target.value));
 document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{draft.difficulty=button.dataset.category;renderSetup();}));
+$('setup-statistics-details').addEventListener('toggle',()=>{
+  if(bank && $('setup-statistics-details').open)void loadStatistics(selectedScope(),'setup-statistics');
+});
 for(const [name,field] of [['answer-script','answerLanguage'],['board-size','boardSize']])document.querySelectorAll('input[name="'+name+'"]').forEach(r=>r.addEventListener('change',()=>{draft[field]=r.value;renderSetup();}));
 document.querySelectorAll('input[name="mode"]').forEach((radio)=>radio.addEventListener('change',()=>{draft.mode=radio.value;}));
 $('start-form').addEventListener('submit',event=>{

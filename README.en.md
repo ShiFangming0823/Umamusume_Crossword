@@ -14,6 +14,7 @@ A randomized browser crossword using Umamusume character names. The frontend use
 - Local PNG export supports blank grids, current entries and post-game solutions. Current-language clues, game URL and an offline QR code are included; playing time and status are optional.
 - GitHub Issue and email contribution links appear in the game and result dialog.
 - Eight collection/size statistics buckets show starts, successful games and mean successful time. Answer scripts are combined; counts represent games, not unique visitors.
+- Setup statistics sit below the start button, collapsed by default and loaded when expanded for the selected collection/size. In-game statistics remain visible.
 
 ## Development
 

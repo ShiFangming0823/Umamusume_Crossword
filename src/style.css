@@ -165,6 +165,13 @@ h1 { max-width:850px; }
 .selection-note { padding:9px 12px; background:#fff3d7; color:#856625; font-size:13px; line-height:1.6; text-align:left; border-radius:6px; }
 .setup-actions { position:sticky; bottom:-28px; background:var(--white); padding:12px 0 8px; margin-top:4px; box-shadow:0 -9px 16px var(--white); z-index:2; }
 .statistics-panel { position:relative; margin:14px 0 20px; padding:16px 18px; border:1px solid var(--line); border-radius:10px; background:var(--white); }
+.setup-statistics-disclosure { margin-top:12px; border-top:1px solid var(--line); padding-top:12px; text-align:left; }
+.setup-statistics-disclosure summary { color:var(--green); font-size:14px; line-height:1.6; cursor:pointer; }
+.setup-statistics-disclosure summary:focus-visible { outline:3px solid #bd903a; outline-offset:3px; border-radius:4px; }
+.setup-statistics-disclosure summary::marker { color:var(--green); }
+.setup-statistics-disclosure summary small { display:block; color:var(--muted); font-size:12px; margin:3px 0 0 18px; }
+.setup-statistics-disclosure .statistics-panel { margin:10px 0 0; }
+.setup-dialog .setup-actions:has(.setup-statistics-disclosure[open]) { position:static; box-shadow:none; }
 .statistics-title { font-size:14px; color:var(--green); }
 .statistics-metrics { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin:12px 0; }
 .statistics-metrics div { min-width:0; }
